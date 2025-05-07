@@ -34,8 +34,8 @@
                <div class="col-lg-12">
                   <div class="services-details">
                      <div class="services-details-section ml-95">
-                        <span style="color:rgba(240, 248, 255, 0.799);">Keyword Research</span>
-                        <h4 class="services-details-title" style="color:aliceblue;">Search volume and <br> keyword suggestions</h4>
+                        <span style="color:rgba(240, 248, 255, 0.799);">Our Services</span>
+                        <h4 class="services-details-title" style="color:aliceblue;">Security S</h4>
                      </div>
                      <div class="services-details-thumb mb-50">
                         <img src="assets/img/services/services-details-1.jpg" alt="">

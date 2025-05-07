@@ -1,73 +1,85 @@
 @extends('layouts.frontend')
 @section('title')
-    Home
+Cloud Solution
 @endsection
 @section('page-title')
-    User List
+User List
 @endsection
 @section('body')
 
-    <body>
-    @endsection
-    @section('content')
+<body>
+   @endsection
+   @section('content')
 
-      <!-- breadcrumb-area-start -->
-      <div class="breadcrumb-services-area services-details-bg scene breadcrumb-bg p-relative markiting-area markiting-wrap">
-         <div class="markiting-shape services-inner-banner-shape-wrap">
-            <img src="assets/img/services/social-media/services-social-media-bg.png" alt="">
-            <div class="services-inner-banner-shape">
-               <img class="services-inner-banner-shape-1" src="assets/img/cta/cta-inner-shape-1.png" alt="">
-               <img class="services-inner-banner-shape-2" src="assets/img/cta/cta-inner-shape-2.png" alt="">
-               <img class="services-inner-banner-shape-3" src="assets/img/cta/cta-inner-shape-3.png" alt="">
-               <img class="services-inner-banner-shape-4" src="assets/img/cta/cta-inner-shape-4.png" alt="">
-               <img class="services-inner-banner-shape-5" src="assets/img/cta/cta-inner-shape-5.png" alt="">
-               <img class="services-inner-banner-shape-6" src="assets/img/cta/cta-inner-shape-6.png" alt="">
-            </div>
+   <!-- breadcrumb-area-start -->
+   <div class="breadcrumb-services-area services-details-bg scene breadcrumb-bg p-relative markiting-area markiting-wrap">
+      <div class="markiting-shape services-inner-banner-shape-wrap">
+         <img src="assets/img/services/social-media/services-social-media-bg.png" alt="">
+         <div class="services-inner-banner-shape">
+            <img class="services-inner-banner-shape-1" src="assets/img/cta/cta-inner-shape-1.png" alt="">
+            <img class="services-inner-banner-shape-2" src="assets/img/cta/cta-inner-shape-2.png" alt="">
+            <img class="services-inner-banner-shape-3" src="assets/img/cta/cta-inner-shape-3.png" alt="">
+            <img class="services-inner-banner-shape-4" src="assets/img/cta/cta-inner-shape-4.png" alt="">
+            <img class="services-inner-banner-shape-5" src="assets/img/cta/cta-inner-shape-5.png" alt="">
+            <img class="services-inner-banner-shape-6" src="assets/img/cta/cta-inner-shape-6.png" alt="">
          </div>
       </div>
-      <!-- breadcrumb-services-area-end -->
+   </div>
+   <!-- breadcrumb-services-area-end -->
 
-      <!-- service-details-area-start -->
-      <section class="services-details-area services-details mb-90" style="margin-top: -7%;">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="services-details">
-                     <div class="services-details-section ml-95">
-                        <span style="color:rgba(240, 248, 255, 0.799);">Keyword Research</span>
-                        <h4 class="services-details-title" style="color:aliceblue;">Search volume and <br> keyword suggestions</h4>
-                     </div>
-                     <div class="services-details-thumb mb-50">
-                        <img src="assets/img/services/services-details-1.jpg" alt="">
-                     </div>
-                     <div class="services-details-wrap">
-                        <div class="row">
-                           <div class="col-lg-10 offset-lg-1">
-                              <div class="services-details-content">
-                                 <div class="services-details-content-box">
-                                    <span>The Big Oxmox advised her not to do so, because there were thousands of bad
-                                       Commas, wild Question marks and devious seminole.</span>
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an
-                                       almost unorthographic life One day however a small line of blind text by the name
-                                       of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-                                       advised her not to do so, because there were thousands of bad Commas, wild
-                                       Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She
-                                       packed her seven versalia, put her initial into the belt and made herself on the
-                                       way. </p>
-                                 </div>
-                                 <div class="services-details-list">
-                                    <span>Why is keyword research so important</span>
-                                    <ul class="services-details-list-item">
-                                       <li>creating an SEO friendly website architecture (search/hierarchy of
-                                          categories, search filters)</li>
-                                       <li>deciding on how much inventory should you have in stock (trending product
-                                          searches)</li>
-                                       <li>content ideas (adding new content themes, solving your audience’s biggest
-                                          pain points)</li>
-                                       <li>creating and improving your PPC campaigns</li>
-                                       <li>… and much more!</li>
-                                    </ul>
-                                 </div>
+   <!-- service-details-area-start -->
+   <section class="services-details-area services-details mb-90" style="margin-top: -7%;">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="services-details">
+                  <div class="services-details-section ml-95">
+                     <span style="color:rgba(240, 248, 255, 0.799);">Our Services</span>
+                     <h4 class="services-details-title" style="color:aliceblue;">Cloud Solutions</h4>
+                  </div>
+                  <div class="services-details-thumb mb-50">
+                     <img src="assets/img/services/services-details-1.jpg" alt="">
+                  </div>
+                  <div class="services-details-wrap">
+                     <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                           <div class="services-details-content">
+                              <div class="services-details-content-box">
+                                 <span>Cloud Solutions</span>
+                                 <p>This involves delivering computing services over the internet.
+                                    Instead of having physical servers, businesses can use cloud services
+                                    for storage, processing power, and software. Examples include Amazon Web
+                                    Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP). Businesses
+                                    might use the cloud to host their websites, store data, or run applications.
+                                    It's scalable, so companies can adjust their resources based on demand.
+
+                                    Cloud computing delivers on-demand computing resources
+                                    (storage, processing, software) over the internet, eliminating the need for traditional on-premise infrastructure.
+                                 </p>
+                              </div>
+                              <div class="services-details-list">
+                                 <span>Technical Architecture</span>
+                                 <ul class="services-details-list-item">
+                                    <li>Service Models: SaaS (Software as a Service), PaaS (Platform as a Service), and IaaS (Infrastructure as a Service).</li>
+                                    <li>Deployment Models: Public, Private, Hybrid, and Multi-cloud environments.</li>
+                                    <li>Security features include encryption, identity and access management (IAM), and compliance frameworks (SOC 2, ISO 27001).</li><br><br>
+
+                                    <span>Benefits for Business</span>
+
+                                    <li>Cost savings by shifting CAPEX to OPEX.</li>
+                                    <li>Scalability and flexibility to adapt to market demands.</li>
+                                    <li>Enhanced collaboration via cloud-native productivity tools.</li>
+                                    <li>Disaster recovery and business continuity.</li>
+
+                                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Examples: Microsoft Azure and AWS dominate enterprise cloud solutions.<br>
+                                    <br>
+                                    <span>Emerging Trends</span>
+
+                                    <li>Edge computing for latency-sensitive applications.</li>
+                                    <li>AIops for automated cloud infrastructure management.</li>
+                                    <li>Cloud security automation to mitigate evolving threats.
+                                    </li>
+                                 </ul>
                               </div>
                            </div>
                         </div>
@@ -76,10 +88,11 @@
                </div>
             </div>
          </div>
-      </section>
+      </div>
+   </section>
 
 
-      <section class="quality-services-area quality-services-bg pb-125 pt-95 mb-120">
+   <!-- <section class="quality-services-area quality-services-bg pb-125 pt-95 mb-120">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -323,110 +336,110 @@
                </div>
             </div>
          </div>
-      </section>
+      </section> -->
 
-     
 
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="portfolio-inner-2 text-center mb-50">
-               <h4 class="portfolio-inner-2-head">Follow us for more...</h4>
+
+   <div class="row">
+      <div class="col-lg-12">
+         <div class="portfolio-inner-2 text-center mb-50">
+            <h4 class="portfolio-inner-2-head">Follow us for more...</h4>
+         </div>
+      </div>
+   </div>
+
+   <div class="social-area social-inner-wrapper pb-85">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6">
+               <div class="tpsocial tpsocial-facebook mb-30">
+                  <div class="tpsocial-bg"></div>
+                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                     <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                        Follow us on Facebook for Small Busoness Updates
+                     </a>
+                     <span>
+                        <a href="#">
+                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="tpsocial tpsocial-insta mb-30">
+                  <div class="tpsocial-bg"></div>
+                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                     <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                        Follow us on Instagram for Small Business Inspiration
+                     </a>
+                     <span>
+                        <a href="#">
+                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="tpsocial tpsocial-pin mb-30">
+                  <div class="tpsocial-bg"></div>
+                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                     <a href="#">
+                        <i class="fa-brands fa-pinterest"></i> Get our Newsletter for Small Business Tips & News
+                     </a>
+                     <span>
+                        <a href="#">
+                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </a>
+                     </span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="tpsocial tpsocial-twitt mb-30">
+                  <div class="tpsocial-bg"></div>
+                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                     <a href="#">
+                        <i class="fa-brands fa-twitter"></i> Follow us on Twitter for Small Busoness Updates
+                     </a>
+                     <span>
+                        <a href="#">
+                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
+                        </a>
+                     </span>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
-
-      <div class="social-area social-inner-wrapper pb-85">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-6">
-                  <div class="tpsocial tpsocial-facebook mb-30">
-                     <div class="tpsocial-bg"></div>
-                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="#">
-                           <i class="fa-brands fa-facebook"></i>
-                           Follow us on Facebook for Small Busoness Updates
-                        </a>
-                        <span>
-                           <a href="#">
-                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </span>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6">
-                  <div class="tpsocial tpsocial-insta mb-30">
-                     <div class="tpsocial-bg"></div>
-                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="#">
-                           <i class="fa-brands fa-instagram"></i>
-                           Follow us on Instagram for Small Business Inspiration
-                        </a>
-                        <span>
-                           <a href="#">
-                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </span>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6">
-                  <div class="tpsocial tpsocial-pin mb-30">
-                     <div class="tpsocial-bg"></div>
-                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="#">
-                           <i class="fa-brands fa-pinterest"></i> Get our Newsletter for Small Business Tips & News
-                        </a>
-                        <span>
-                           <a href="#">
-                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </span>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-6">
-                  <div class="tpsocial tpsocial-twitt mb-30">
-                     <div class="tpsocial-bg"></div>
-                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="#">
-                           <i class="fa-brands fa-twitter"></i> Follow us on Twitter for Small Busoness Updates
-                        </a>
-                        <span>
-                           <a href="#">
-                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </span>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div> 
+   </div>
 
 
    @endsection
