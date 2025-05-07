@@ -460,77 +460,106 @@ User List
                <div class="tpservices">
                   <div class="tpservices-list">
                      <ul>
+
                         <li>
                            <div class="tpservices-wrapper">
                               <div class="tpservices-img mb-35">
-                                 <img src="assets/img/services/services-1-icon-1.png" alt="">
+                                 <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
-                                 <span>Social Marketing</span>
-                                 <h4 class="tpservices-title"><a href="seo-audit.html">Instant account activation <br> if instant
-                                       access.</a></h4>
+                                 <h4 class="tpservices-title"><a href="{{route('softwaredev')}}">Software Development</a></h4>
                               </div>
                            </div>
                         </li>
+
                         <li>
                            <div class="tpservices-wrapper tpservices-item2">
-                              <div class="tpservices-img mb-35">
-                                 <img src="assets/img/services/services-1-icon-2.png" alt="">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/2.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
-                                 <span>SEO Optimization</span>
-                                 <h4 class="tpservices-title"><a href="seo-audit.html">Services activation <br> if need
-                                       access.</a></h4>
+                                 <h4 class="tpservices-title"><a href="{{route('websitedev')}}">Website Development</a></h4>
                               </div>
                            </div>
                         </li>
+
                         <li>
                            <div class="tpservices-wrapper tpservices-item3">
-                              <div class="tpservices-img mb-35">
-                                 <img src="assets/img/services/services-1-icon-3.png" alt="">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/3.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
-                                 <span>One Page SEO</span>
-                                 <h4 class="tpservices-title"><a href="marketing-analysis.html">Account activation <br> if instant
-                                       access.</a></h4>
+                                 <h4 class="tpservices-title"><a href="{{route('dm')}}">Digital Marketing</a></h4>
                               </div>
                            </div>
                         </li>
+
                         <li>
                            <div class="tpservices-wrapper tpservices-item4">
-                              <div class="tpservices-img mb-35">
-                                 <img src="assets/img/services/services-1-icon-4.png" alt="">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/4.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
-                                 <span>Content Marketing</span>
-                                 <h4 class="tpservices-title"><a href="services-social-media.html">SEO account activation <br> if instant
-                                       access.</a></h4>
+                                 <h4 class="tpservices-title"><a href="{{route('cloudsol')}}">Cloud Solutions</a></h4>
                               </div>
                            </div>
                         </li>
+
                         <li>
                            <div class="tpservices-wrapper tpservices-item5">
-                              <div class="tpservices-img mb-35">
-                                 <img src="assets/img/services/services-1-icon-5.png" alt="">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/5.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
-                                 <span>Email Marketing</span>
-                                 <h4 class="tpservices-title"><a href="social-media-markiting.html">Email Marketing activation <br> if instant
-                                       access.</a></h4>
+                                 <h4 class="tpservices-title"><a href="{{route('pa')}}">Productivity App</a></h4>
                               </div>
                            </div>
                         </li>
+
                         <li>
                            <div class="tpservices-wrapper tpservices-item6">
-                              <div class="tpservices-img mb-35">
-                                 <img src="assets/img/services/services-1-icon-6.png" alt="">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/6.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
-                                 <span>Keyword Research</span>
-                                 <h4 class="tpservices-title"><a href="keyword-search.html">Keyword Research activation <br> if instant access.</a></h4>
+                                 <h4 class="tpservices-title"><a href="{{route('email')}}">Email and Collaboration</a></h4>
                               </div>
                            </div>
                         </li>
+
+                        <li>
+                           <div class="tpservices-wrapper tpservices-item3">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/7.png')}}" alt="" style="width:35%">
+                              </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('cs')}}">Security Solutions</a></h4>
+                              </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper tpservices-item2">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/8.png')}}" alt="" style="width:35%">
+                              </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('webhost')}}">Web Hosting</a></h4>
+                              </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper">
+                              <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/9.png')}}" alt="" style="width:35%">
+                              </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('manageservices')}}">Manage Services</a></h4>
+                              </div>
+                           </div>
+                        </li>
+
                      </ul>
                   </div>
                </div>
