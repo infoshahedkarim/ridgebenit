@@ -7,7 +7,7 @@
 
 <body>
 
-    <!-- <x-a-loader /> -->
+    
     <x-a-navbar />
 
     @yield('content')
