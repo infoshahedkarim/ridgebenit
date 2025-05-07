@@ -13,7 +13,7 @@ User List
 
    <!-- banner-area-start -->
    <section class="banner__area tpbanner-space scene tpbanner-shape-wrapper fix"
-      data-background="assets/img/banner/banner-1.png">
+      data-background="{{asset('assets/img/banner/banner-1.png')}}">
       <div class="tpbanner-shape-wrappers">
          <div class="container">
             <div class="row justify-content-center">
@@ -41,26 +41,26 @@ User List
          </div>
          <div class="tpbanner-shape  d-none d-lg-block">
             <div class="tpbanner-shape-one">
-               <img class="layer" data-depth="0.3" src="assets/img/shape/banner-plus.png" alt="">
+               <img class="layer" data-depth="0.3" src="{{asset('assets/img/shape/banner-plus.png')}}" alt="">
             </div>
             <div class="tpbanner-shape-three">
-               <img class="layer" data-depth="0.4" src="assets/img/shape/banner-dots.png" alt="">
+               <img class="layer" data-depth="0.4" src="{{asset('assets/img/shape/banner-dots.png')}}" alt="">
             </div>
             <div class="tpbanner-shape-four">
-               <img src="assets/img/shape/banner-archer.png" alt="">
+               <img src="{{asset('assets/img/shape/banner-archer.png')}}" alt="">
             </div>
             <div class="tpbanner-shape-five">
-               <img class="layer" data-depth="0.2" src="assets/img/shape/hero01.png" alt="">
+               <img class="layer" data-depth="0.2" src="{{asset('assets/img/shape/hero01.png')}}" alt="">
             </div>
             <div class="tpbanner-shape-six">
-               <img class="layer" data-depth="0.3" src="assets/img/shape/reactor.png" alt="">
+               <img class="layer" data-depth="0.3" src="{{asset('assets/img/shape/reactor.png')}}" alt="">
             </div>
          </div>
       </div>
       <div class="tpbanner-shape-wrappers tpbanner-shape-y scene-y">
          <div class="tpbanner-shape  d-none d-lg-block">
             <div class="tpbanner-shape-two">
-               <img class="layer" data-depth="0.6" src="assets/img/shape/hand.png" alt="">
+               <img class="layer" data-depth="0.6" src="{{asset('assets/img/shape/hand.png')}}" alt="">
             </div>
          </div>
       </div>
@@ -79,16 +79,16 @@ User List
          <div class="row align-items-center">
             <div class="col-xl-6 col-lg-5">
                <div class="tpchoose-thumb mt-30 p-relative mb-50">
-                  <img class="tpchoose-border-anim" src="assets/img/banner/choose-2.png" alt="">
+                  <img class="tpchoose-border-anim" src="{{asset('assets/img/banner/choose-2.png')}}" alt="">
                   <div class="tpchoose-shape">
                      <div class="tpchoose-shape-one d-none d-md-block">
-                        <img src="assets/img/shape/choose-shape-1.png" alt="">
+                        <img src="{{asset('assets/img/shape/choose-shape-1.png')}}" alt="">
                      </div>
                      <div class="tpchoose-shape-two">
-                        <img src="assets/img/shape/choose-shape-2.png" alt="">
+                        <img src="{{asset('assets/img/shape/choose-shape-2.png')}}" alt="">
                      </div>
                      <div class="tpchoose-shape-three">
-                        <img src="assets/img/shape/choose-shape-3.png" alt="">
+                        <img src="{{asset('assets/img/shape/choose-shape-3.png')}}" alt="">
                      </div>
                   </div>
                </div>
@@ -111,17 +111,17 @@ User List
                         </i>
                      </div>
                      <h2 class="tpsection__title mb-15">What makes Us <br> Different from Others</h2>
-                     <p>Migrating your rank tracking tool is like migrating from Google Analytics to another solution.
+                     <p>Our priority is delivering genuine results. You’ll experience meaningful growth, visible value, and true business success.
                      </p>
                   </div>
                   <div class="row gx-6">
                      <div class="col-lg-4 col-md-4 col-sm-6">
-                        <a href="about.html" class="tpchoose mb-30">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
-                              <span><img src="assets/img/icon/choose-icon-1.png" alt=""></span>
+                              <span><img src="{{asset('assets/img/icon/choose-icon-1.png')}}" alt=""></span>
                            </div>
                            <div class="tpchoose-text">
-                              <span class="tpchoose-title">Experts Consulting</span>
+                              <span class="tpchoose-title">Experienced Team</span>
                               <div class="tparrow-right">
                                  <i>
                                     <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
@@ -136,12 +136,12 @@ User List
                         </a>
                      </div>
                      <div class="col-lg-4 col-md-4 col-sm-6">
-                        <a href="about.html" class="tpchoose mb-30">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
-                              <span><img src="assets/img/icon/choose-icon-2.png" alt=""></span>
+                              <span><img src="{{asset('assets/img/icon/choose-icon-2.png')}}" alt=""></span>
                            </div>
                            <div class="tpchoose-text">
-                              <span class="tpchoose-title">Competitor Analysis</span>
+                              <span class="tpchoose-title">Data Protection</span>
                               <div class="tparrow-right">
                                  <i>
                                     <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
@@ -156,12 +156,12 @@ User List
                         </a>
                      </div>
                      <div class="col-lg-4 col-md-4 col-sm-6">
-                        <a href="about.html" class="tpchoose mb-30">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
-                              <span><img src="assets/img/icon/choose-icon-3.png" alt=""></span>
+                              <span><img src="{{asset('assets/img/icon/choose-icon-3.png')}}" alt=""></span>
                            </div>
                            <div class="tpchoose-text">
-                              <span class="tpchoose-title">Responsive Support</span>
+                              <span class="tpchoose-title">Creative Design</span>
                               <div class="tparrow-right">
                                  <i>
                                     <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
@@ -231,10 +231,10 @@ User List
             </div>
             <div class="tpanalysis-shape d-none d-lg-block">
                <div class="tpanalysis-shape-one">
-                  <img src="assets/img/shape/analysis-chart-1.png" alt="">
+                  <img src="{{asset('assets/img/shape/analysis-chart-1.png')}}" alt="">
                </div>
                <div class="tpanalysis-shape-two">
-                  <img src="assets/img/shape/analysis-chart-2.png" alt="">
+                  <img src="{{asset('assets/img/shape/analysis-chart-2.png')}}" alt="">
                </div>
             </div>
          </div>
@@ -343,7 +343,7 @@ User List
                   <h2 class="tpsection__title">Our Projects</h2>
                </div>
             </div>
-            <div class="col-lg-6 col-md-4">
+            <!-- <div class="col-lg-6 col-md-4">
                <div class="tpcase-arrow text-end">
                   <div class="tpcase-nav p-relative">
                      <button class="prev-slide prev-slide-case">
@@ -368,68 +368,139 @@ User List
                      </button>
                   </div>
                </div>
-            </div>
+            </div> -->
          </div>
       </div>
       <div class="container">
-         <div class="row tpcase-active">
-            <div class="col-lg-6">
-               <div class="tpcase">
-                  <div class="tpcase-thumb w-img">
-                     <img src="assets/img/services/case-1.jpg" alt="">
-                  </div>
-                  <div class="tpcase-content">
-                     <div class="tpcase-tag mb-15">
-                        <span>SEO Analysis</span>
-                        <span>Marketing</span>
+      <div class="row grid">
+               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+                  <div class="portfolio-inner-item-2 mb-40">
+                     <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%" >
                      </div>
-                     <h3 class="tpcase-title"><a href="portfolio-details.html">Online Media Management</a></h3>
+                     <div class="portfolio-inner-content-2">
+                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Ajwah Tech</a></div>
+                        <p>Fully Dynamic Ecommerces Website</p>
+                        <div class="portfolio-inner-tag-2">
+                           <a href="#">Digital Marketing</a>
+                           <a href="https://ajwahtech.com/">Website Design</a>
+                        </div>
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="col-lg-6">
-               <div class="tpcase">
-                  <div class="tpcase-thumb w-img">
-                     <img src="assets/img/services/case-2.jpg" alt="">
-                  </div>
-                  <div class="tpcase-content">
-                     <div class="tpcase-tag mb-15">
-                        <span>SEO Analysis</span>
-                        <span>Marketing</span>
+
+               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+                  <div class="portfolio-inner-item-2 mb-40">
+                     <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
                      </div>
-                     <h3 class="tpcase-title"><a href="portfolio-details.html">Twice Profit Than Before</a></h3>
+                     <div class="portfolio-inner-content-2">
+                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Cwown</a></div>
+                        <p>Fully Dynamic Ecommerces Website</p>
+                        <div class="portfolio-inner-tag-2">
+                           <a href="#">Digital Marketing</a>
+                           <a href="https://ajwahtech.com/">Website Design</a>
+                        </div>
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="col-lg-6">
-               <div class="tpcase">
-                  <div class="tpcase-thumb w-img">
-                     <img src="assets/img/services/case-3.jpg" alt="">
-                  </div>
-                  <div class="tpcase-content">
-                     <div class="tpcase-tag mb-15">
-                        <span>SEO Analysis</span>
-                        <span>Marketing</span>
+
+               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+                  <div class="portfolio-inner-item-2 mb-40">
+                     <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
                      </div>
-                     <h3 class="tpcase-title"><a href="portfolio-details.html">Social Engagement</a></h3>
+                     <div class="portfolio-inner-content-2">
+                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Fiber@home</a></div>
+                        <p>Fully Dynamic Ecommerces Website</p>
+                        <div class="portfolio-inner-tag-2">
+                           <a href="#">Digital Marketing</a>
+                           <a href="https://ajwahtech.com/">Website Design</a>
+                        </div>
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="col-lg-6">
-               <div class="tpcase">
-                  <div class="tpcase-thumb w-img">
-                     <img src="assets/img/services/case-4.jpg" alt="">
-                  </div>
-                  <div class="tpcase-content">
-                     <div class="tpcase-tag mb-15">
-                        <span>SEO Analysis</span>
-                        <span>Marketing</span>
+
+               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+                  <div class="portfolio-inner-item-2 mb-40">
+                     <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/homeland.jpeg')}}" alt="">
                      </div>
-                     <h3 class="tpcase-title"><a href="portfolio-details.html">Media Management</a></h3>
+                     <div class="portfolio-inner-content-2">
+                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Homeland Furniture</a></div>
+                        <p>Fully Dynamic Ecommerces Website</p>
+                        <div class="portfolio-inner-tag-2">
+                           <a href="#">Digital Marketing</a>
+                           <a href="https://ajwahtech.com/">Website Design</a>
+                        </div>
+                     </div>
                   </div>
                </div>
-            </div>
-         </div>
+
+               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+                  <div class="portfolio-inner-item-2 mb-40">
+                     <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/jibonjoyi.jpeg')}}" alt="">
+                     </div>
+                     <div class="portfolio-inner-content-2">
+                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Jibonjoyi</a></div>
+                        <p>Fully Dynamic Ecommerces Website</p>
+                        <div class="portfolio-inner-tag-2">
+                           <a href="#">Digital Marketing</a>
+                           <a href="https://ajwahtech.com/">Website Design</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+                  <div class="portfolio-inner-item-2 mb-40">
+                     <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
+                     </div>
+                     <div class="portfolio-inner-content-2">
+                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Magpie Holdings Ltd.</a></div>
+                        <p>Fully Dynamic Ecommerces Website</p>
+                        <div class="portfolio-inner-tag-2">
+                           <a href="#">Digital Marketing</a>
+                           <a href="https://ajwahtech.com/">Website Design</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+                  <div class="portfolio-inner-item-2 mb-40">
+                     <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/it.jpeg')}}" alt="">
+                     </div>
+                     <div class="portfolio-inner-content-2">
+                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Ridgeben IT Institute</a></div>
+                        <p>Fully Dynamic Ecommerces Website</p>
+                        <div class="portfolio-inner-tag-2">
+                           <a href="#">Digital Marketing</a>
+                           <a href="https://ajwahtech.com/">Website Design</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+                  <div class="portfolio-inner-item-2 mb-40">
+                     <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
+                     </div>
+                     <div class="portfolio-inner-content-2">
+                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Kinglet Furniture</a></div>
+                        <p>Fully Dynamic Ecommerces Website</p>
+                        <div class="portfolio-inner-tag-2">
+                           <a href="#">Digital Marketing</a>
+                           <a href="https://ajwahtech.com/">Website Design</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+      </div>
       </div>
    </section>
    <!-- case-area-end -->
@@ -574,7 +645,7 @@ User List
 <section class="funfact-area pb-80">
       <div class="container">
          <div class="tpfunfact p-relative">
-            <div class="tpfunfact-bg theme-bg-2" data-background="assets/img/shape/funfact-1.png">
+            <div class="tpfunfact-bg theme-bg-2" data-background="{{asset('assets/img/shape/funfact-1.png')}}">
                <div class="row">
                   <div class="col-lg-12">
                      <div class="tpsection__content feature-white-section text-center">
@@ -602,8 +673,8 @@ User List
                   </div>
                </div>
                <div class="tpfunfact-shape d-none d-md-block">
-                  <div class="tpfunfact-shape-one"><img src="assets/img/shape/funfact-2.png" alt=""></div>
-                  <div class="tpfunfact-shape-two"><img src="assets/img/shape/funfact-3.png" alt=""></div>
+                  <div class="tpfunfact-shape-one"><img src="{{asset('assets/img/shape/funfact-2.png')}}" alt=""></div>
+                  <div class="tpfunfact-shape-two"><img src="{{asset('assets/img/shape/funfact-3.png')}}" alt=""></div>
                </div>
             </div>
             <div class="tpfunfact-box">
@@ -613,8 +684,8 @@ User List
                         <span class="tpfunfact-title">Duration</span>
                         <h5 class="tpfunfact-count mb-15">Fastest<span> Delivery</span></h5>
                         <div class="tpfunfact-tag">
-                           <span><i><img src="assets/img/shape/funfact-icon-1.png" alt=""></i>7Days Challenges</span>
-                           <span><i><img src="assets/img/shape/funfact-icon-2.png" alt=""></i>10+ Frameworks</span>
+                           <span><i><img src="{{asset('assets/img/shape/funfact-icon-1.png')}}" alt=""></i>7Days Challenges</span>
+                           <span><i><img src="{{asset('assets/img/shape/funfact-icon-2.png')}}" alt=""></i>10+ Frameworks</span>
                         </div>
                      </div>
                   </div>
@@ -623,8 +694,8 @@ User List
                         <span class="tpfunfact-title">Success Volume</span>
                         <h5 class="tpfunfact-count mb-15">100+<span> Projects</span></h5>
                         <div class="tpfunfact-tag">
-                           <span><i><img src="assets/img/shape/funfact-icon-3.png" alt=""></i>13+ Countries Served</span>
-                           <span><i><img src="assets/img/shape/funfact-icon-4.png" alt=""></i>36TB Data</span>
+                           <span><i><img src="{{asset('assets/img/shape/funfact-icon-3.png')}}" alt=""></i>13+ Countries Served</span>
+                           <span><i><img src="{{asset('assets/img/shape/funfact-icon-4.png')}}" alt=""></i>36TB Data</span>
                         </div>
                      </div>
                   </div>
@@ -639,13 +710,13 @@ User List
    <!-- pricing-area-start -->
    <section class="pricing-area tp-price-parent pricing-shape-relative p-relative pt-40 pb-90">
       <div class="tpprice-shape-one d-none d-xl-block">
-         <img src="assets/img/shape/hand-shape.png" alt="triangle">
+         <img src="{{asset('assets/img/shape/hand-shape.png')}}" alt="triangle">
       </div>
       <div class="container">
          <div class="tppricing-wrapper">
             <div class="tppricing-shape">
                <div class="tppricing-shape-one d-none d-md-block">
-                  <img src="assets/img/shape/pricing-1-shape-1.png" alt="">
+                  <img src="{{asset('assets/img/shape/pricing-1-shape-1.png')}}" alt="">
                </div>
             </div>
             <div class="row">
@@ -678,7 +749,7 @@ User List
                      </div>
                      <div class="tpprice-shape">
                         <div class="tpprice-shape-two d-none d-lg-block">
-                           <img src="assets/img/shape/save.png" alt="triangle">
+                           <img src="{{asset('assets/img/shape/save.png')}}" alt="triangle">
                         </div>
                      </div>
                   </div>
@@ -692,7 +763,7 @@ User List
                                  <div class="tppricing mb-30">
                                     <div class="tppricing-head">
                                        <div class="tppricing-icon mb-30">
-                                          <i><img src="assets/img/icon/pricing-icon-1.png" alt=""></i>
+                                          <i><img src="{{asset('assets/img/icon/pricing-icon-1.png')}}" alt=""></i>
                                        </div>
                                        <h3 class="tppricing-title mb-50">Diamond Pack</h3>
                                     </div>
@@ -720,7 +791,7 @@ User List
                                  <div class="tppricing mb-30">
                                     <div class="tppricing-head">
                                        <div class="tppricing-icon mb-30">
-                                          <i><img src="assets/img/icon/pricing-icon-2.png" alt=""></i>
+                                          <i><img src="{{asset('assets/img/icon/pricing-icon-2.png')}}" alt=""></i>
                                        </div>
                                        <h3 class="tppricing-title mb-50">Gold Plan</h3>
                                     </div>
@@ -747,10 +818,10 @@ User List
                            </div>
                            <div class="tpprice-shape d-none d-lg-block">
                               <div class="tpprice-shape-two">
-                                 <img src="assets/img/shape/triangle.png" alt="triangle">
+                                 <img src="{{asset('assets/img/shape/triangle.png')}}" alt="triangle">
                               </div>
                               <div class="tpprice-shape-three">
-                                 <img src="assets/img/shape/smill.png" alt="triangle">
+                                 <img src="{{asset('assets/img/shape/smill.png')}}" alt="triangle">
                               </div>
                            </div>
                         </div>
@@ -762,7 +833,7 @@ User List
                                  <div class="tppricing mb-30">
                                     <div class="tppricing-head">
                                        <div class="tppricing-icon mb-30">
-                                          <i><img src="assets/img/icon/pricing-icon-1.png" alt=""></i>
+                                          <i><img src="{{asset('assets/img/icon/pricing-icon-1.png')}}" alt=""></i>
                                        </div>
                                        <h3 class="tppricing-title mb-50">Diamond Pack</h3>
                                     </div>
@@ -790,7 +861,7 @@ User List
                                  <div class="tppricing mb-30">
                                     <div class="tppricing-head">
                                        <div class="tppricing-icon mb-30">
-                                          <i><img src="assets/img/icon/pricing-icon-2.png" alt=""></i>
+                                          <i><img src="{{asset('assets/img/icon/pricing-icon-2.png')}}" alt=""></i>
                                        </div>
                                        <h3 class="tppricing-title mb-50">Gold Plan</h3>
                                     </div>
@@ -817,10 +888,10 @@ User List
                            </div>
                            <div class="tpprice-shape d-none d-lg-block">
                               <div class="tpprice-shape-two">
-                                 <img src="assets/img/shape/triangle.png" alt="triangle">
+                                 <img src="{{asset('assets/img/shape/triangle.png')}}" alt="triangle">
                               </div>
                               <div class="tpprice-shape-three">
-                                 <img src="assets/img/shape/smill.png" alt="triangle">
+                                 <img src="{{asset('assets/img/shape/smill.png')}}" alt="triangle">
                               </div>
                            </div>
                         </div>
@@ -840,7 +911,7 @@ User List
             <div class="col-lg-12">
                <div class="tpsection__content text-center mb-60">
                   <div class="tptestimonial-avatar-bg mb-15">
-                     <img src="assets/img/team/test-avatar-bg-1.png" alt="">
+                     <img src="{{asset('assets/img/team/test-avatar-bg-1.png')}}" alt="">
                   </div>
                   <h2 class="tpsection__title">Client love us & we love them</h2>
                   <p>Trusted by over 70+ clients worldwide</p>
@@ -853,7 +924,7 @@ User List
             <div class="tptestimonial-wrapper tptestimonial-active">
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="assets/img/team/humaiun.png" alt="">
+                     <img src="{{asset('assets/img/team/humaiun.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -879,7 +950,7 @@ User List
                </div>
                <!-- <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="assets/img/team/testimonial-2.png" alt="">
+                     <img src="{{asset('assets/img/team/testimonial-2.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -901,7 +972,7 @@ User List
                </div>
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="assets/img/team/testimonial-1.png" alt="">
+                     <img src="{{asset('assets/img/team/testimonial-1.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -923,7 +994,7 @@ User List
                </div>
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="assets/img/team/testimonial-2.png" alt="">
+                     <img src="{{asset('assets/img/team/testimonial-2.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -945,7 +1016,7 @@ User List
                </div>
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="assets/img/team/testimonial-1.png" alt="">
+                     <img src="{{asset('assets/img/team/testimonial-1.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -967,7 +1038,7 @@ User List
                </div>
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="assets/img/team/testimonial-2.png" alt="">
+                     <img src="{{asset('assets/img/team/testimonial-2.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -1060,7 +1131,7 @@ User List
             <div class="col-lg-4 col-md-6 col-sm-6">
                <div class="tpblog mb-30">
                   <div class="tpblog-thumb mb-25 fix">
-                     <a href="blog-details.html"><img src="assets/img/blog/blog-1-bg-1.jpg" alt=""></a>
+                     <a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-1-bg-1.jpg')}}')}}" alt=""></a>
                   </div>
                   <div class="tpblog-content">
                      <div class="tpblog-tag">
@@ -1070,7 +1141,7 @@ User List
                      <h3 class="tpblog-title"><a href="blog-details.html">Simple ways to Optimize your Website For SEO</a></h3>
                      <div class="tpblog-avatar d-flex align-items-center">
                         <div class="tpblog-avatar-thub mr-10">
-                           <img src="assets/img/blog/comments/blog-avatar-1.png" alt="">
+                           <img src="{{asset('assets/img/blog/comments/blog-avatar-1.png')}}" alt="">
                         </div>
                         <div class="tpblog-avatar-info">
                            <h5 class="tpblog-avatar-title">Nathalie Grossman</h5>
@@ -1083,7 +1154,7 @@ User List
             <div class="col-lg-4 col-md-6 col-sm-6">
                <div class="tpblog mb-30">
                   <div class="tpblog-thumb mb-25 fix">
-                     <a href="blog-details.html"><img src="assets/img/blog/blog-1-bg-2.jpg" alt=""></a>
+                     <a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-1-bg-2.jpg')}}" alt=""></a>
                   </div>
                   <div class="tpblog-content">
                      <div class="tpblog-tag">
@@ -1093,7 +1164,7 @@ User List
                      <h3 class="tpblog-title"><a href="blog-details.html">The Trend of Marketing With <br> Tiktok, Should or not?</a></h3>
                      <div class="tpblog-avatar d-flex align-items-center">
                         <div class="tpblog-avatar-thub mr-10">
-                           <img src="assets/img/blog/comments/blog-avatar-2.png" alt="">
+                           <img src="{{asset('assets/img/blog/comments/blog-avatar-2.png')}}" alt="">
                         </div>
                         <div class="tpblog-avatar-info">
                            <h5 class="tpblog-avatar-title">Jason Responsen</h5>
@@ -1106,7 +1177,7 @@ User List
             <div class="col-lg-4 col-md-6 col-sm-6">
                <div class="tpblog mb-30">
                   <div class="tpblog-thumb mb-25 fix">
-                     <a href="blog-details.html"><img src="assets/img/blog/blog-1-bg-3.jpg" alt=""></a>
+                     <a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-1-bg-3.jpg')}}" alt=""></a>
                   </div>
                   <div class="tpblog-content">
                      <div class="tpblog-tag">
@@ -1116,7 +1187,7 @@ User List
                      <h3 class="tpblog-title"><a href="blog-details.html">How to Increase Your ROI Through scientific SEM?</a></h3>
                      <div class="tpblog-avatar d-flex align-items-center">
                         <div class="tpblog-avatar-thub mr-10">
-                           <img src="assets/img/blog/comments/blog-avatar-3.png" alt="">
+                           <img src="{{asset('assets/img/blog/comments/blog-avatar-3.png')}}" alt="">
                         </div>
                         <div class="tpblog-avatar-info">
                            <h5 class="tpblog-avatar-title">Eleanor Fant</h5>
@@ -1254,10 +1325,10 @@ User List
                   </div>
                   <div class="tpcontact-shape d-none d-md-block">
                      <div class="tpcontact-shape-one" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img src="assets/img/shape/form-shape-1.png" alt="">
+                        <img src="{{asset('assets/img/shape/form-shape-1.png')}}" alt="">
                      </div>
                      <div class="tpcontact-shape-two" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img src="assets/img/shape/form-shape-2.png" alt="">
+                        <img src="{{asset('assets/img/shape/form-shape-2.png')}}" alt="">
                      </div>
                   </div>
                </div>

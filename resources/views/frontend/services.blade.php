@@ -53,92 +53,139 @@
       <!-- about-area-end -->
 
       <!-- services-area-start -->
-      <section class="services-area pb-110">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="tpservices">
-                     <div class="tpservices-list">
-                        <ul>
-                           <li>
-                              <div class="tpservices-wrapper">
-                                 <div class="tpservices-img mb-35">
-                                    <img src="assets/img/services/services-1-icon-1.png" alt="">
-                                 </div>
-                                 <div class="tpservices-content">
-                                    <span>Social Marketing</span>
-                                    <h4 class="tpservices-title"><a href="seo-audit.html">Instant account activation <br> if instant
-                                          access.</a></h4>
-                                 </div>
+   <section class="services-area pb-110">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="tpsection__content text-center mb-70">
+                  <div class="tpbanner__sub-title mb-15">
+                     <span>Our Services</span>
+                     <i>
+                        <svg width="126" height="37" viewBox="0 0 126 37" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                           <rect width="126" height="37" fill="url(#pattern4)" fill-opacity="0.08" />
+                           <defs>
+                              <pattern id="pattern4" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                 <use xlink:href="#image0_859_2751" transform="translate(-0.0507936) scale(0.00603175 0.0205405)" />
+                              </pattern>
+                              <image id="image0_859_2751" width="180" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg==" />
+                           </defs>
+                        </svg>
+                     </i>
+                  </div>
+                  <h2 class="tpsection__title mb-15">ROI-Oriented, Innovative and Sustainable</h2>
+                  <h2 class="tpsection__title mb-15">Digital Solutions</h2>
+               </div>
+               <div class="tpservices">
+                  <div class="tpservices-list">
+                     <ul>
+
+                        <li>
+                           <div class="tpservices-wrapper">
+                              <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:35%">
                               </div>
-                           </li>
-                           <li>
-                              <div class="tpservices-wrapper tpservices-item2">
-                                 <div class="tpservices-img mb-35">
-                                    <img src="assets/img/services/services-1-icon-2.png" alt="">
-                                 </div>
-                                 <div class="tpservices-content">
-                                    <span>SEO Optimization</span>
-                                    <h4 class="tpservices-title"><a href="seo-audit.html">Services activation <br> if need
-                                          access.</a></h4>
-                                 </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('softwaredev')}}">Software Development</a></h4>
                               </div>
-                           </li>
-                           <li>
-                              <div class="tpservices-wrapper tpservices-item3">
-                                 <div class="tpservices-img mb-35">
-                                    <img src="assets/img/services/services-1-icon-3.png" alt="">
-                                 </div>
-                                 <div class="tpservices-content">
-                                    <span>One Page SEO</span>
-                                    <h4 class="tpservices-title"><a href="marketing-analysis.html">Account activation <br> if instant
-                                          access.</a></h4>
-                                 </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper tpservices-item2">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/2.png')}}" alt="" style="width:35%">
                               </div>
-                           </li>
-                           <li>
-                              <div class="tpservices-wrapper tpservices-item4">
-                                 <div class="tpservices-img mb-35">
-                                    <img src="assets/img/services/services-1-icon-4.png" alt="">
-                                 </div>
-                                 <div class="tpservices-content">
-                                    <span>Content Marketing</span>
-                                    <h4 class="tpservices-title"><a href="services-social-media.html">SEO account activation <br> if instant
-                                          access.</a></h4>
-                                 </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('websitedev')}}">Website Development</a></h4>
                               </div>
-                           </li>
-                           <li>
-                              <div class="tpservices-wrapper tpservices-item5">
-                                 <div class="tpservices-img mb-35">
-                                    <img src="assets/img/services/services-1-icon-5.png" alt="">
-                                 </div>
-                                 <div class="tpservices-content">
-                                    <span>Email Marketing</span>
-                                    <h4 class="tpservices-title"><a href="social-media-markiting.html">Email Marketing activation <br> if instant
-                                          access.</a></h4>
-                                 </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper tpservices-item3">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/3.png')}}" alt="" style="width:35%">
                               </div>
-                           </li>
-                           <li>
-                              <div class="tpservices-wrapper tpservices-item6">
-                                 <div class="tpservices-img mb-35">
-                                    <img src="assets/img/services/services-1-icon-6.png" alt="">
-                                 </div>
-                                 <div class="tpservices-content">
-                                    <span>Keyword Research</span>
-                                    <h4 class="tpservices-title"><a href="keyword-search.html">Keyword Research activation <br> if instant access.</a></h4>
-                                 </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('dm')}}">Digital Marketing</a></h4>
                               </div>
-                           </li>
-                        </ul>
-                     </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper tpservices-item4">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/4.png')}}" alt="" style="width:35%">
+                              </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('cloudsol')}}">Cloud Solutions</a></h4>
+                              </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper tpservices-item5">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/5.png')}}" alt="" style="width:35%">
+                              </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('pa')}}">Productivity App</a></h4>
+                              </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper tpservices-item6">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/6.png')}}" alt="" style="width:35%">
+                              </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('email')}}">Email and Collaboration</a></h4>
+                              </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper tpservices-item3">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/7.png')}}" alt="" style="width:35%">
+                              </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('cs')}}">Security Solutions</a></h4>
+                              </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper tpservices-item2">
+                           <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/8.png')}}" alt="" style="width:35%">
+                              </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('webhost')}}">Web Hosting</a></h4>
+                              </div>
+                           </div>
+                        </li>
+
+                        <li>
+                           <div class="tpservices-wrapper">
+                              <div class="tpservices-img mb-35">
+                                 <img src="{{asset('assets/icon/9.png')}}" alt="" style="width:35%">
+                              </div>
+                              <div class="tpservices-content">
+                                 <h4 class="tpservices-title"><a href="{{route('manageservices')}}">Manage Services</a></h4>
+                              </div>
+                           </div>
+                        </li>
+
+                     </ul>
                   </div>
                </div>
             </div>
          </div>
-      </section>
-      <!-- services-area-end -->
+      </div>
+   </section>
+   <!-- services-area-end -->
 
 
  <!-- pricing-area-start -->
@@ -367,8 +414,8 @@
                <div class="col-lg-5">
                   <div class="seo-5 mt-30 mb-40">
                      <div class="section-3 mb-40">
-                        <span class="section-3-sub-title">Best SEO results?</span>
-                        <div class="section-3-title">Optimize your website easier</div>
+                        <span class="section-3-sub-title">Why we are the BEST?</span>
+                        <div class="section-3-title">We have– years  of experience</div>
                      </div>
                      <ul class="seo-5-list mb-50">
                         <li>
@@ -377,8 +424,9 @@
                                  <i class="fa-sharp fa-solid fa-circle-check"></i>
                               </div>
                               <div class="seo-5-list-text">
-                                 <h4 class="title">Performance</h4>
-                                 <p>Slow pages,too-large CSS or HTML</p>
+                                 <h4 class="title">Experienced Team</h4>
+                                 <p>You are in the hands of professional developers, designers, and SEO experts who work together to deliver results.
+                                 </p>
                               </div>
                            </div>
                         </li>
@@ -388,8 +436,8 @@
                                  <i class="fa-sharp fa-solid fa-circle-check"></i>
                               </div>
                               <div class="seo-5-list-text">
-                                 <h4 class="title">Localization</h4>
-                                 <p>All issues with hrefiang,language</p>
+                                 <h4 class="title">Creative Design</h4>
+                                 <p>We create lasting impressions through thoughtful design. Our goal is to focus on what matters most and make the design appealing to clients.</p>
                               </div>
                            </div>
                         </li>
@@ -399,14 +447,37 @@
                                  <i class="fa-sharp fa-solid fa-circle-check"></i>
                               </div>
                               <div class="seo-5-list-text">
-                                 <h4 class="title">Content quality</h4>
-                                 <p>Unconsolidated duplicate page</p>
+                                 <h4 class="title">Data Protection</h4>
+                                 <p>We strongly protect your data with proper security measures and monitoring, keeping it safe and private while you focus on your business. </p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="seo-5-list-item d-flex">
+                              <div class="seo-5-list-icon">
+                                 <i class="fa-sharp fa-solid fa-circle-check"></i>
+                              </div>
+                              <div class="seo-5-list-text">
+                                 <h4 class="title">Business Growth</h4>
+                                 <p>Grow your business with a great website, app, and improved search rankings. We help you to enhance visitors, engagement, and sales.
+                                 </p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="seo-5-list-item d-flex">
+                              <div class="seo-5-list-icon">
+                                 <i class="fa-sharp fa-solid fa-circle-check"></i>
+                              </div>
+                              <div class="seo-5-list-text">
+                                 <h4 class="title">Ongoing Support</h4>
+                                 <p>Our team is always here to provide professional support, assisting you with updates at every step of the process.</p>
                               </div>
                            </div>
                         </li>
                      </ul>
                      <div class="seo-5-btn">
-                        <a href="services.html" class="light-blue-btn">Learn More</a>
+                        <a href="{{route('about')}}" class="light-blue-btn">Learn More</a>
                      </div>
                   </div>
                </div>
