@@ -382,7 +382,7 @@ User List
                         <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Ajwah Tech</a></div>
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
-                           <a href="#">Digital Marketing</a>
+                           <a href="#">ERP</a>
                            <a href="https://ajwahtech.com/">Website Design</a>
                         </div>
                      </div>
@@ -414,7 +414,7 @@ User List
                         <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Fiber@home</a></div>
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
-                           <a href="#">Digital Marketing</a>
+                           <a href="#">HRM Software</a>
                            <a href="https://ajwahtech.com/">Website Design</a>
                         </div>
                      </div>
@@ -430,8 +430,9 @@ User List
                         <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Homeland Furniture</a></div>
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
-                           <a href="#">Digital Marketing</a>
                            <a href="https://ajwahtech.com/">Website Design</a>
+                           <a href="#">AMS</a>
+                           
                         </div>
                      </div>
                   </div>
@@ -462,7 +463,7 @@ User List
                         <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Magpie Holdings Ltd.</a></div>
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
-                           <a href="#">Digital Marketing</a>
+                           <a href="#">AMS, HRM</a>
                            <a href="https://ajwahtech.com/">Website Design</a>
                         </div>
                      </div>
@@ -708,7 +709,7 @@ User List
 
 
    <!-- pricing-area-start -->
-   <section class="pricing-area tp-price-parent pricing-shape-relative p-relative pt-40 pb-90">
+   <!-- <section class="pricing-area tp-price-parent pricing-shape-relative p-relative pt-40 pb-90">
       <div class="tpprice-shape-one d-none d-xl-block">
          <img src="{{asset('assets/img/shape/hand-shape.png')}}" alt="triangle">
       </div>
@@ -901,7 +902,7 @@ User List
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
    <!-- pricing-area-end -->
 
    <!-- testimonial-area-start -->

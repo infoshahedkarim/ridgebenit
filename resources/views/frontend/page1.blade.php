@@ -79,7 +79,7 @@
       </section>
 
 
-      <section class="quality-services-area quality-services-bg pb-125 pt-95 mb-120">
+      <!-- <section class="quality-services-area quality-services-bg pb-125 pt-95 mb-120">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -323,21 +323,16 @@
                </div>
             </div>
          </div>
-      </section>
-
-     
-
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="portfolio-inner-2 text-center mb-50">
-               <h4 class="portfolio-inner-2-head">Follow us for more...</h4>
-            </div>
-         </div>
-      </div>
+      </section> -->
 
       <div class="social-area social-inner-wrapper pb-85">
          <div class="container">
             <div class="row">
+            <div class="col-lg-12">
+         <div class="portfolio-inner-2 text-center mb-50">
+            <h4 class="portfolio-inner-2-head">Follow us for more...</h4>
+         </div>
+      </div>
                <div class="col-lg-6">
                   <div class="tpsocial tpsocial-facebook mb-30">
                      <div class="tpsocial-bg"></div>
@@ -383,11 +378,11 @@
                   </div>
                </div>
                <div class="col-lg-6">
-                  <div class="tpsocial tpsocial-pin mb-30">
+                  <div class="tpsocial tpsocial-facebook mb-30">
                      <div class="tpsocial-bg"></div>
                      <div class="tpsocial-text d-flex align-items-center justify-content-between">
                         <a href="#">
-                           <i class="fa-brands fa-pinterest"></i> Get our Newsletter for Small Business Tips & News
+                           <i class="fa-brands fa-linkedin"></i> Get our Newsletter for Small Business Tips & News
                         </a>
                         <span>
                            <a href="#">
