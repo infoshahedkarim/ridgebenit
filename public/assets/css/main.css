@@ -8473,7 +8473,7 @@ blockquote cite::before {
   }
 }
 .tpbanner__title {
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 700;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -20826,7 +20826,7 @@ div.price-open {
   padding-top: 180px;
   padding-bottom: 325px;
   position: relative;
-  background: #5a91ff ;
+  background: #e4ecf8 ;
   z-index: 1;
 }
 .markiting-shape {

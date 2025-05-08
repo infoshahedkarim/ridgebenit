@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\RidgeController;
+
 
 
 
@@ -140,3 +142,8 @@ Route::get('/user', [AdminController::class, 'index']);
 Route::get('/admin', [AdminController::class, 'admin'])->name('backend.index')->middleware(['auth','admin']);
 
 
+Route::get('/page-services', function () {
+    return view('back.services');
+})->name('back.services');
+Route::post('/add-services',[RidgeController::class, 'store'])->name('back.store');
+Route::get('/check-slug/{slug}', [RidgeController::class, 'checkSlug']);

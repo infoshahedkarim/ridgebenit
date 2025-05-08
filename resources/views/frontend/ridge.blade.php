@@ -399,7 +399,7 @@ User List
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
                            <a href="#">Digital Marketing</a>
-                           <a href="https://ajwahtech.com/">Website Design</a>
+                           <a href="https://crownbanquetingsuite.com/">Website Design</a>
                         </div>
                      </div>
                   </div>
@@ -415,7 +415,7 @@ User List
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
                            <a href="#">HRM Software</a>
-                           <a href="https://ajwahtech.com/">Website Design</a>
+                           <a href="https://www.fiberathome.net/">Website Design</a>
                         </div>
                      </div>
                   </div>
@@ -430,7 +430,7 @@ User List
                         <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Homeland Furniture</a></div>
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
-                           <a href="https://ajwahtech.com/">Website Design</a>
+                           <a href="https://homelandfurniturebd.com/">Website Design</a>
                            <a href="#">AMS</a>
                            
                         </div>
@@ -448,7 +448,7 @@ User List
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
                            <a href="#">Digital Marketing</a>
-                           <a href="https://ajwahtech.com/">Website Design</a>
+                           <a href="https://jj.c3bit.com/">Website Design</a>
                         </div>
                      </div>
                   </div>
@@ -464,7 +464,7 @@ User List
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
                            <a href="#">AMS, HRM</a>
-                           <a href="https://ajwahtech.com/">Website Design</a>
+                           <a href="https://magpieholdingsltd.com/">Website Design</a>
                         </div>
                      </div>
                   </div>
@@ -480,7 +480,7 @@ User List
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
                            <a href="#">Digital Marketing</a>
-                           <a href="https://ajwahtech.com/">Website Design</a>
+                           <a href="http://ridgebenitinstitute.com/">Website Design</a>
                         </div>
                      </div>
                   </div>
@@ -496,7 +496,7 @@ User List
                         <p>Fully Dynamic Ecommerces Website</p>
                         <div class="portfolio-inner-tag-2">
                            <a href="#">Digital Marketing</a>
-                           <a href="https://ajwahtech.com/">Website Design</a>
+                           <a href="https://kingletbd.com/">Website Design</a>
                         </div>
                      </div>
                   </div>
