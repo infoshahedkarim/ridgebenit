@@ -73,7 +73,7 @@ User List
       <div class="container">
 
          <div class="portfolio-inner-2 text-center mb-50">
-            <h2 class="portfolio-inner-2-head gradient-text1">11+ Years Experiences</h2>
+            <h2 class="portfolio-inner-2-head" style="color: #004a87">11+ Years Experiences</h2>
          </div>
 
          <div class="row align-items-center">

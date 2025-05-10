@@ -10,8 +10,9 @@ use Illuminate\Support\Facades\Storage;
 
 class RidgeController extends Controller
 {
-    public function addservices(){
-        return view ('back.services');
+    public function show(){
+        $services = Service::all();
+        return view('back.show-services',['services'=>$services]);
     }
 
     public function checkSlug($slug)
@@ -45,11 +46,17 @@ class RidgeController extends Controller
             $iconName = Str::slug($request->title) . '_icon_' . time() . '.' . $icon->getClientOriginalExtension();
             $icon->move(public_path('storage'), $iconName);
         }
+        else {
+            $iconName = null;
+        }
 
         if ($request->hasFile('banner')) {
             $banner = $request->file('banner');
             $bannerName = Str::slug($request->title) . '_banner_' . time() . '.' . $banner->getClientOriginalExtension();
             $banner->move(public_path('storage'), $bannerName);
+        }
+        else {
+            $bannerName = null;
         }
 
         // Save to database
@@ -66,6 +73,69 @@ class RidgeController extends Controller
         return redirect()->back()->with('error', 'Error saving service: ' . $e->getMessage());
     }
 }
+
+public function edit($slug){
+    $services = Service::where('slug', $slug)->firstOrFail(); // Fetch product by slug
+        return view('back.edit-services', compact('services'));
+
+}
+public function update(Request $request, $slug)
+{
+    $services = Service::where('slug', $slug)->firstOrFail();
+
+    $request->validate([
+        'title' => 'required',
+        'slug' => 'required|unique:services,slug,' . $services->id . ',id',
+        'icon' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
+        'banner' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
+        'des' => 'required',
+    ]);
+
+    if ($request->hasFile('icon')) {
+        $icon = $request->file('icon');
+        $iconName = Str::slug($request->title) . '_icon_' . time() . '.' . $icon->getClientOriginalExtension();
+        $icon->move(public_path('storage'), $iconName);
+        if ($services->icon && file_exists(public_path('storage/' . $services->icon))) {
+            unlink(public_path('storage/' . $services->icon));
+        }
+    } else {
+        $iconName = $services->icon;
+    }
+
+    if ($request->hasFile('banner')) {
+        $banner = $request->file('banner');
+        $bannerName = Str::slug($request->title) . '_banner_' . time() . '.' . $banner->getClientOriginalExtension();
+        $banner->move(public_path('storage'), $bannerName);
+        if ($services->banner && file_exists(public_path('storage/' . $services->banner))) {
+            unlink(public_path('storage/' . $services->banner));
+        }
+    } else {
+        $bannerName = $services->banner;
+    }
+
+    try {
+        $services->update([
+            'title' => $request->title,
+            'slug' => $request->slug,
+            'icon' => $iconName,
+            'banner' => $bannerName,
+            'des' => $request->des,
+        ]);
+
+        return redirect()->route('back.show')->with('success', 'Service updated successfully!');
+    } catch (\Exception $e) {
+        return redirect()->back()->with('error', 'Error saving service: ' . $e->getMessage());
+    }
+}
+
+
+public function delete(Service $services){
+
+    $services->delete();
+    return redirect(route('back.show'))->with('success','product deleted successfully');
+}
+
+
 
 
 

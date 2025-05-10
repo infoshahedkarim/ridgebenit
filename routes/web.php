@@ -143,7 +143,11 @@ Route::get('/admin', [AdminController::class, 'admin'])->name('backend.index')->
 
 
 Route::get('/page-services', function () {
-    return view('back.services');
+    return view('back.add-services');
 })->name('back.services');
 Route::post('/add-services',[RidgeController::class, 'store'])->name('back.store');
+Route::get('/show-services',[RidgeController::class, 'show'])->name('back.show');
+Route::get('/services/{slug}/edit', [RidgeController::class,'edit'])->name('services.edit');
+Route::put('/services/{slug}/update', [RidgeController::class,'update'])->name('services.update');
+Route::delete('/services/{services}/delete', [RidgeController::class,'delete'])->name('services.delete');
 Route::get('/check-slug/{slug}', [RidgeController::class, 'checkSlug']);

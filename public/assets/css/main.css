@@ -22981,8 +22981,3 @@ div.price-open {
 }
 
 
-.gradient-text1 {
-  background: linear-gradient(to bottom, #004a87 0%, transparent 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
