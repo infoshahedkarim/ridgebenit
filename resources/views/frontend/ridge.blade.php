@@ -183,7 +183,7 @@ User List
    </section>
    <!-- choose-area-end -->
 
-   
+
 
 
    <!-- analysis-area-start -->
@@ -372,136 +372,136 @@ User List
          </div>
       </div>
       <div class="container">
-      <div class="row grid">
-               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-                  <div class="portfolio-inner-item-2 mb-40">
-                     <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%" >
-                     </div>
-                     <div class="portfolio-inner-content-2">
-                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Ajwah Tech</a></div>
-                        <p>Fully Dynamic Ecommerces Website</p>
-                        <div class="portfolio-inner-tag-2">
-                           <a href="#">ERP</a>
-                           <a href="https://ajwahtech.com/">Website Design</a>
-                        </div>
+         <div class="row grid">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Ajwah Tech</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">ERP</a>
+                        <a href="https://ajwahtech.com/">Website Design</a>
                      </div>
                   </div>
                </div>
+            </div>
 
-               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-                  <div class="portfolio-inner-item-2 mb-40">
-                     <div class="portfolio-inner-thumb-2">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
-                     </div>
-                     <div class="portfolio-inner-content-2">
-                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Cwown</a></div>
-                        <p>Fully Dynamic Ecommerces Website</p>
-                        <div class="portfolio-inner-tag-2">
-                           <a href="#">Digital Marketing</a>
-                           <a href="https://crownbanquetingsuite.com/">Website Design</a>
-                        </div>
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Cwown</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="https://crownbanquetingsuite.com/">Website Design</a>
                      </div>
                   </div>
                </div>
+            </div>
 
-               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-                  <div class="portfolio-inner-item-2 mb-40">
-                     <div class="portfolio-inner-thumb-2">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
-                     </div>
-                     <div class="portfolio-inner-content-2">
-                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Fiber@home</a></div>
-                        <p>Fully Dynamic Ecommerces Website</p>
-                        <div class="portfolio-inner-tag-2">
-                           <a href="#">HRM Software</a>
-                           <a href="https://www.fiberathome.net/">Website Design</a>
-                        </div>
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Fiber@home</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">HRM Software</a>
+                        <a href="https://www.fiberathome.net/">Website Design</a>
                      </div>
                   </div>
                </div>
+            </div>
 
-               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-                  <div class="portfolio-inner-item-2 mb-40">
-                     <div class="portfolio-inner-thumb-2">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/homeland.jpeg')}}" alt="">
-                     </div>
-                     <div class="portfolio-inner-content-2">
-                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Homeland Furniture</a></div>
-                        <p>Fully Dynamic Ecommerces Website</p>
-                        <div class="portfolio-inner-tag-2">
-                           <a href="https://homelandfurniturebd.com/">Website Design</a>
-                           <a href="#">AMS</a>
-                           
-                        </div>
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Homeland Furniture</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="https://homelandfurniturebd.com/">Website Design</a>
+                        <a href="#">AMS</a>
+
                      </div>
                   </div>
                </div>
+            </div>
 
-               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-                  <div class="portfolio-inner-item-2 mb-40">
-                     <div class="portfolio-inner-thumb-2">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/jibonjoyi.jpeg')}}" alt="">
-                     </div>
-                     <div class="portfolio-inner-content-2">
-                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Jibonjoyi</a></div>
-                        <p>Fully Dynamic Ecommerces Website</p>
-                        <div class="portfolio-inner-tag-2">
-                           <a href="#">Digital Marketing</a>
-                           <a href="https://jj.c3bit.com/">Website Design</a>
-                        </div>
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Jibonjoyi</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="https://jj.c3bit.com/">Website Design</a>
                      </div>
                   </div>
                </div>
+            </div>
 
-               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-                  <div class="portfolio-inner-item-2 mb-40">
-                     <div class="portfolio-inner-thumb-2">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
-                     </div>
-                     <div class="portfolio-inner-content-2">
-                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Magpie Holdings Ltd.</a></div>
-                        <p>Fully Dynamic Ecommerces Website</p>
-                        <div class="portfolio-inner-tag-2">
-                           <a href="#">AMS, HRM</a>
-                           <a href="https://magpieholdingsltd.com/">Website Design</a>
-                        </div>
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Magpie Holdings Ltd.</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">AMS, HRM</a>
+                        <a href="https://magpieholdingsltd.com/">Website Design</a>
                      </div>
                   </div>
                </div>
+            </div>
 
-               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-                  <div class="portfolio-inner-item-2 mb-40">
-                     <div class="portfolio-inner-thumb-2">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/it.jpeg')}}" alt="">
-                     </div>
-                     <div class="portfolio-inner-content-2">
-                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Ridgeben IT Institute</a></div>
-                        <p>Fully Dynamic Ecommerces Website</p>
-                        <div class="portfolio-inner-tag-2">
-                           <a href="#">Digital Marketing</a>
-                           <a href="http://ridgebenitinstitute.com/">Website Design</a>
-                        </div>
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Ridgeben IT Institute</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="http://ridgebenitinstitute.com/">Website Design</a>
                      </div>
                   </div>
                </div>
+            </div>
 
-               <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-                  <div class="portfolio-inner-item-2 mb-40">
-                     <div class="portfolio-inner-thumb-2">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
-                     </div>
-                     <div class="portfolio-inner-content-2">
-                        <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Kinglet Furniture</a></div>
-                        <p>Fully Dynamic Ecommerces Website</p>
-                        <div class="portfolio-inner-tag-2">
-                           <a href="#">Digital Marketing</a>
-                           <a href="https://kingletbd.com/">Website Design</a>
-                        </div>
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Kinglet Furniture</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="https://kingletbd.com/">Website Design</a>
                      </div>
                   </div>
                </div>
-      </div>
+            </div>
+         </div>
       </div>
    </section>
    <!-- case-area-end -->
@@ -546,7 +546,7 @@ User List
 
                         <li>
                            <div class="tpservices-wrapper tpservices-item2">
-                           <div class="tpservices-img mb-35">
+                              <div class="tpservices-img mb-35">
                                  <img src="{{asset('assets/icon/2.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
@@ -557,7 +557,7 @@ User List
 
                         <li>
                            <div class="tpservices-wrapper tpservices-item3">
-                           <div class="tpservices-img mb-35">
+                              <div class="tpservices-img mb-35">
                                  <img src="{{asset('assets/icon/3.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
@@ -568,7 +568,7 @@ User List
 
                         <li>
                            <div class="tpservices-wrapper tpservices-item4">
-                           <div class="tpservices-img mb-35">
+                              <div class="tpservices-img mb-35">
                                  <img src="{{asset('assets/icon/4.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
@@ -579,7 +579,7 @@ User List
 
                         <li>
                            <div class="tpservices-wrapper tpservices-item5">
-                           <div class="tpservices-img mb-35">
+                              <div class="tpservices-img mb-35">
                                  <img src="{{asset('assets/icon/5.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
@@ -590,7 +590,7 @@ User List
 
                         <li>
                            <div class="tpservices-wrapper tpservices-item6">
-                           <div class="tpservices-img mb-35">
+                              <div class="tpservices-img mb-35">
                                  <img src="{{asset('assets/icon/6.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
@@ -601,7 +601,7 @@ User List
 
                         <li>
                            <div class="tpservices-wrapper tpservices-item3">
-                           <div class="tpservices-img mb-35">
+                              <div class="tpservices-img mb-35">
                                  <img src="{{asset('assets/icon/7.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
@@ -612,7 +612,7 @@ User List
 
                         <li>
                            <div class="tpservices-wrapper tpservices-item2">
-                           <div class="tpservices-img mb-35">
+                              <div class="tpservices-img mb-35">
                                  <img src="{{asset('assets/icon/8.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
@@ -642,8 +642,8 @@ User List
    <!-- services-area-end -->
 
 
-<!-- funfact-area-start -->
-<section class="funfact-area pb-80">
+   <!-- funfact-area-start -->
+   <section class="funfact-area pb-80">
       <div class="container">
          <div class="tpfunfact p-relative">
             <div class="tpfunfact-bg theme-bg-2" data-background="{{asset('assets/img/shape/funfact-1.png')}}">
@@ -704,7 +704,7 @@ User List
             </div>
          </div>
       </div>
-</section>
+   </section>
    <!-- funfact-area-end -->
 
 
@@ -937,12 +937,12 @@ User List
                            </svg>
                         </i>
                      </div>
-                     <p>Partnering with Ridgeben IT Solutions has 
-								greatly improved our e-commerce website. Their expert 
-								guidance and solutions led to a polished design and smooth
-								 functionality. We were impressed by their professionalism and 
-								 adaptability to last-minute changes. Thanks to Ridgeben, our online 
-								 store is set for continued success.</p>
+                     <p>Partnering with Ridgeben IT Solutions has
+                        greatly improved our e-commerce website. Their expert
+                        guidance and solutions led to a polished design and smooth
+                        functionality. We were impressed by their professionalism and
+                        adaptability to last-minute changes. Thanks to Ridgeben, our online
+                        store is set for continued success.</p>
                      <div class="tptestimonial-avatar-info">
                         <h5 class="tptestimonial-avatar-title">Md. Humaiun Khan</h5>
                         <span>Chairman Homeland Furniture</span>
@@ -1289,37 +1289,51 @@ User List
                <div class="p-relative">
                   <div class="tpcontact-form p-relative ml-30">
                      <h4 class="tpcontact-form-title mb-35">Send a message</h4>
-                     <form action="#">
+                     <form id="contactForm" action="{{route('email.store')}}" method="POST">
+                        @csrf
+
+                        @if(session('success'))
+                        <div class="alert alert-success">
+                           {{session('success')}}
+                        </div>
+                        @endif
+
+                        <div id="form-response"></div>
+
                         <div class="tpcontact-from-wrapper">
                            <div class="row gx-6">
                               <div class="col-lg-6">
                                  <div class="tpcontact-form-input mb-20">
-                                    <input type="text" placeholder="Full Name">
+                                    <input type="text" name="name" id="name" value="{{old('name')}}" placeholder="Full Name">
+                                    @error('name')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
                                  </div>
                               </div>
                               <div class="col-lg-6">
                                  <div class="tpcontact-form-input mb-20">
-                                    <input type="email" placeholder="Email Address">
+                                    <input type="text" name="phone" id="phone" value="{{old('phone')}}" placeholder="Phone No.">
+                                    @error('phone')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
                                  </div>
                               </div>
-                              <div class="col-lg-6">
+                              <div class="col-lg-12">
                                  <div class="tpcontact-form-input mb-20">
-                                    <input type="text" placeholder="Phone Number">
-                                 </div>
-                              </div>
-                              <div class="col-lg-6">
-                                 <div class="tpcontact-form-input mb-20">
-                                    <input type="text" placeholder="Website">
+                                    <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="Email Address">
+                                    @error('email')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
                                  </div>
                               </div>
                               <div class="col-lg-12">
                                  <div class="tpcontact-form-textarea tpcontact-form-input mb-25">
-                                    <textarea placeholder="Message" name="Message"></textarea>
+                                    <textarea id="msg" value="{{old('msg')}}" placeholder="Message" name="msg"></textarea>
                                  </div>
                               </div>
                            </div>
                            <div class="tpcontact-form-submit">
-                              <button>Send Message</button>
+                              <button type="submit">Send Message</button>
                            </div>
                         </div>
                      </form>
@@ -1337,6 +1351,45 @@ User List
          </div>
       </div>
    </section>
-   <!-- contact-area-end -->
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+   $(document).ready(function () {
+      $('#contactForm').on('submit', function (e) {
+         e.preventDefault();
+
+         // Clear old messages
+         $('#form-response').html('');
+
+         $.ajax({
+            url: "{{ route('email.store') }}",
+            method: "POST",
+            data: $(this).serialize(),
+            headers: {
+               'X-CSRF-TOKEN': $('input[name="_token"]').val()
+            },
+            success: function (res) {
+               $('#form-response').html('<div class="alert alert-success">Thanks for contacting us!</div>');
+               $('#contactForm')[0].reset();
+            },
+            error: function (xhr) {
+               if (xhr.status === 422) {
+                  let errors = xhr.responseJSON.errors;
+                  let errorHtml = '<div class="alert alert-danger"><ul>';
+                  $.each(errors, function (key, value) {
+                     errorHtml += '<li>' + value[0] + '</li>';
+                  });
+                  errorHtml += '</ul></div>';
+                  $('#form-response').html(errorHtml);
+               } else {
+                  $('#form-response').html('<div class="alert alert-danger">An error occurred. Please try again.</div>');
+               }
+            }
+         });
+      });
+   });
+</script>
+
+
+
 
    @endsection

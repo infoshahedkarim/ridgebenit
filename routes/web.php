@@ -150,4 +150,20 @@ Route::get('/show-services',[RidgeController::class, 'show'])->name('back.show')
 Route::get('/services/{slug}/edit', [RidgeController::class,'edit'])->name('services.edit');
 Route::put('/services/{slug}/update', [RidgeController::class,'update'])->name('services.update');
 Route::delete('/services/{services}/delete', [RidgeController::class,'delete'])->name('services.delete');
+
+
 Route::get('/check-slug/{slug}', [RidgeController::class, 'checkSlug']);
+Route::get('/checks-slug/{slug}', [RidgeController::class, 'checkSlug1']);
+
+
+Route::get('/add-products', function () {
+    return view('back.add-products');
+})->name('back.products');
+Route::post('/page-products',[RidgeController::class, 'pstore'])->name('back.pstore');
+Route::get('/show-products',[RidgeController::class, 'pshow'])->name('back.sphow');
+Route::get('/products/{slug}/edit', [RidgeController::class,'pedit'])->name('products.edit');
+Route::put('/products/{slug}/update', [RidgeController::class,'pupdate'])->name('products.update');
+Route::delete('/products/{products}/delete', [RidgeController::class,'pdelete'])->name('products.delete');
+
+
+Route::post('/send-mail',[RidgeController::class, 'getmsg'])->name('email.store');

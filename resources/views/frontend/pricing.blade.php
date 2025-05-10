@@ -118,37 +118,51 @@ User List
                   <div class="p-relative">
                      <div class="tpcontact-form p-relative ml-30">
                         <h4 class="tpcontact-form-title mb-35">Send a message</h4>
-                        <form action="#">
+                        <form id="contactForm" action="{{route('email.store')}}" method="POST">
+                           @csrf
+
+                           @if(session('success'))
+                           <div class="alert alert-success">
+                              {{session('success')}}
+                           </div>
+                           @endif
+
+                           <div id="form-response"></div>
+
                            <div class="tpcontact-from-wrapper">
                               <div class="row gx-6">
                                  <div class="col-lg-6">
                                     <div class="tpcontact-form-input mb-20">
-                                       <input type="text" placeholder="Full Name">
+                                       <input type="text" name="name" id="name" value="{{old('name')}}" placeholder="Full Name">
+                                       @error('name')
+                                       <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                       @enderror
                                     </div>
                                  </div>
                                  <div class="col-lg-6">
                                     <div class="tpcontact-form-input mb-20">
-                                       <input type="email" placeholder="Email Address">
+                                       <input type="text" name="phone" id="phone" value="{{old('phone')}}" placeholder="Phone No.">
+                                       @error('phone')
+                                       <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                       @enderror
                                     </div>
                                  </div>
-                                 <div class="col-lg-6">
+                                 <div class="col-lg-12">
                                     <div class="tpcontact-form-input mb-20">
-                                       <input type="text" placeholder="Phone Number">
-                                    </div>
-                                 </div>
-                                 <div class="col-lg-6">
-                                    <div class="tpcontact-form-input mb-20">
-                                       <input type="text" placeholder="Website">
+                                       <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="Email Address">
+                                       @error('email')
+                                       <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                       @enderror
                                     </div>
                                  </div>
                                  <div class="col-lg-12">
                                     <div class="tpcontact-form-textarea tpcontact-form-input mb-25">
-                                       <textarea placeholder="Message" name="Message"></textarea>
+                                       <textarea id="msg" value="{{old('msg')}}" placeholder="Message" name="msg"></textarea>
                                     </div>
                                  </div>
                               </div>
                               <div class="tpcontact-form-submit">
-                                 <button>Send Message</button>
+                                 <button type="submit">Send Message</button>
                               </div>
                            </div>
                         </form>
@@ -185,7 +199,7 @@ User List
          document.getElementById("appointment-section").style.display = "none";
       });
 
-      // Optional: close modal when clicking outside the form box
+      
       window.addEventListener("click", function(e) {
          const modal = document.getElementById("appointment-section");
          const content = modal.querySelector("div");
@@ -193,17 +207,17 @@ User List
             modal.style.display = "none";
          }
       });
-      // Show the appointment section when "Book an Appointment" is clicked
+      
       document.getElementById('show-appointment').addEventListener('click', function() {
          document.getElementById('appointment-section').style.display = 'block';
       });
 
-      // Hide it when clicking the red X
+      
       document.getElementById('close-appointment').addEventListener('click', function() {
          document.getElementById('appointment-section').style.display = 'none';
       });
 
-      // Hide it when clicking outside the section (but not on the section itself)
+      
       document.addEventListener('click', function(e) {
          var popup = document.getElementById('appointment-section');
          var button = document.getElementById('show-appointment');
@@ -214,6 +228,44 @@ User List
          ) {
             popup.style.display = 'none';
          }
+      });
+   </script>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script>
+      $(document).ready(function() {
+         $('#contactForm').on('submit', function(e) {
+            e.preventDefault();
+
+            // Clear old messages
+            $('#form-response').html('');
+
+            $.ajax({
+               url: "{{ route('email.store') }}",
+               method: "POST",
+               data: $(this).serialize(),
+               headers: {
+                  'X-CSRF-TOKEN': $('input[name="_token"]').val()
+               },
+               success: function(res) {
+                  $('#form-response').html('<div class="alert alert-success">Thanks for contacting us!</div>');
+                  $('#contactForm')[0].reset();
+               },
+               error: function(xhr) {
+                  if (xhr.status === 422) {
+                     let errors = xhr.responseJSON.errors;
+                     let errorHtml = '<div class="alert alert-danger"><ul>';
+                     $.each(errors, function(key, value) {
+                        errorHtml += '<li>' + value[0] + '</li>';
+                     });
+                     errorHtml += '</ul></div>';
+                     $('#form-response').html(errorHtml);
+                  } else {
+                     $('#form-response').html('<div class="alert alert-danger">An error occurred. Please try again.</div>');
+                  }
+               }
+            });
+         });
       });
    </script>
 
