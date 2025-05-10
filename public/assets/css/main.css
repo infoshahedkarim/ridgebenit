@@ -22980,4 +22980,24 @@ div.price-open {
   transform: translateY(-2px);
 }
 
+.landing-page{
+  margin-top: -5%;
+}
+
+.landing-1{
+  margin-top: 4%;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .landing-page > * {
+    margin-top: -8%;
+  }
+
+}
+@media (max-width: 767px) {
+  .landing-1 {
+    margin-top: 15%;
+  }
+}
+
 

@@ -39,7 +39,7 @@ Route::get('/casestudy-detail', function () {
     return view('frontend.casestudy-details');
 })->name('casestudy-detail');
 
-Route::get('/pricing', function () {
+Route::get('/ridgeben', function () {
     return view('frontend.pricing');
 })->name('pricing');
 
@@ -142,10 +142,10 @@ Route::get('/user', [AdminController::class, 'index']);
 Route::get('/admin', [AdminController::class, 'admin'])->name('backend.index')->middleware(['auth','admin']);
 
 
-Route::get('/page-services', function () {
+Route::get('/add-services', function () {
     return view('back.add-services');
 })->name('back.services');
-Route::post('/add-services',[RidgeController::class, 'store'])->name('back.store');
+Route::post('/page-services',[RidgeController::class, 'store'])->name('back.store');
 Route::get('/show-services',[RidgeController::class, 'show'])->name('back.show');
 Route::get('/services/{slug}/edit', [RidgeController::class,'edit'])->name('services.edit');
 Route::put('/services/{slug}/update', [RidgeController::class,'update'])->name('services.update');
