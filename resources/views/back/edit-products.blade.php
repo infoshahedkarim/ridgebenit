@@ -31,7 +31,7 @@
 @endif
 
 
-        <form action="{{route('products.update', $produtcs->slug)}}" method="POST" enctype="multipart/form-data">
+        <form action="{{route('products.update', $products->slug)}}" method="POST" enctype="multipart/form-data">
             @csrf
             @method('PUT')
             <div>

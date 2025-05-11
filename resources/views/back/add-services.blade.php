@@ -94,7 +94,7 @@
             let exists = true;
 
             while (exists) {
-                const response = await fetch(`/check-slug/${slug}`);
+                const response = await fetch(`{{ url('/check-slug') }}/${slug}`);
                 const data = await response.json();
 
                 exists = data.exists;

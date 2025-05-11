@@ -8432,21 +8432,21 @@ blockquote cite::before {
   }
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .tpbanner-shape-five {
-    left: 135px;
-    bottom: 125px;
+  .tpbanner-shpe-five {
+    left: 100px;
+    bottom: 30%;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tpbanner-shape-five {
     left: 20px;
-    bottom: 60%;
+    bottom: 50%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tpbanner-shape-five {
     left: 1%;
-    bottom: 62%;
+    bottom: 50%;
   }
 }
 .tpbanner-shape-six {
@@ -17851,7 +17851,7 @@ div.price-open {
 }
 
 .mission-content {
-  background: linear-gradient(147.1deg, #FCF0EE 9.5%, #F8C9C1 87.42%);
+  background: linear-gradient(147.1deg, #aadaff 9.5%, #004a87 87.42%);
   border-radius: 6px;
   padding: 60px 70px 48px 70px;
 }
@@ -17901,7 +17901,7 @@ div.price-open {
   margin-left: 48px;
   margin-right: 122px;
   margin-top: -50px;
-  background: linear-gradient(160.77deg, #D8FFEF 9.28%, #7DDAB3 89.34%);
+  background: linear-gradient(160.77deg, #d7d2ff 9.28%, #aadaff 89.34%);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .mission-two .mission-content {

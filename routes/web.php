@@ -153,7 +153,8 @@ Route::delete('/services/{services}/delete', [RidgeController::class,'delete'])-
 
 
 Route::get('/check-slug/{slug}', [RidgeController::class, 'checkSlug']);
-Route::get('/checks-slug/{slug}', [RidgeController::class, 'checkSlug1']);
+Route::get('/slug-check/{slug}', [RidgeController::class, 'slugCheck']);
+
 
 
 Route::get('/add-products', function () {

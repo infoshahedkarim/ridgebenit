@@ -69,7 +69,7 @@ User List
 
 
    <!-- choose-area-start -->
-   <section class="choose-area tpchoose-bottom pt-120 pb-120">
+   <section class="choose-area tpchoose-bottom pt-120">
       <div class="container">
 
          <div class="portfolio-inner-2 text-center mb-50">
@@ -77,23 +77,7 @@ User List
          </div>
 
          <div class="row align-items-center">
-            <div class="col-xl-6 col-lg-5">
-               <div class="tpchoose-thumb mt-30 p-relative mb-50">
-                  <img class="tpchoose-border-anim" src="{{asset('assets/img/banner/choose-2.png')}}" alt="">
-                  <div class="tpchoose-shape">
-                     <div class="tpchoose-shape-one d-none d-md-block">
-                        <img src="{{asset('assets/img/shape/choose-shape-1.png')}}" alt="">
-                     </div>
-                     <div class="tpchoose-shape-two">
-                        <img src="{{asset('assets/img/shape/choose-shape-2.png')}}" alt="">
-                     </div>
-                     <div class="tpchoose-shape-three">
-                        <img src="{{asset('assets/img/shape/choose-shape-3.png')}}" alt="">
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-xl-6 col-lg-7">
+            <div class="col-xl-12 col-lg-12">
                <div class="tpchoose-wrapper mb-30">
                   <div class="tpsection__content mb-50">
                      <div class="tpbanner__sub-title mb-15">
@@ -115,13 +99,14 @@ User List
                      </p>
                   </div>
                   <div class="row gx-6">
-                     <div class="col-lg-4 col-md-4 col-sm-6">
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                         <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
                               <span><img src="{{asset('assets/img/icon/choose-icon-1.png')}}" alt=""></span>
                            </div>
                            <div class="tpchoose-text">
-                              <span class="tpchoose-title">Experienced Team</span>
+                              <span class="tpchoose-title">Performance-Driven Results</span>
+                              <p>Every strategy we deliver is ROI-focused, built to drive growth and measurable results.</p>
                               <div class="tparrow-right">
                                  <i>
                                     <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
@@ -135,13 +120,14 @@ User List
                            </div>
                         </a>
                      </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6">
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                         <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
                               <span><img src="{{asset('assets/img/icon/choose-icon-2.png')}}" alt=""></span>
                            </div>
                            <div class="tpchoose-text">
-                              <span class="tpchoose-title">Data Protection</span>
+                              <span class="tpchoose-title">Device-Ready Design</span>
+                              <p>Our responsive designs adapt perfectly, ensuring flawless performance on all devices.</p>
                               <div class="tparrow-right">
                                  <i>
                                     <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
@@ -155,13 +141,14 @@ User List
                            </div>
                         </a>
                      </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6">
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                         <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
                               <span><img src="{{asset('assets/img/icon/choose-icon-3.png')}}" alt=""></span>
                            </div>
                            <div class="tpchoose-text">
-                              <span class="tpchoose-title">Creative Design</span>
+                              <span class="tpchoose-title">Ironclad Data Security</span>
+                              <p>Your data is protected with enterprise-grade security and 24/7 real-time monitoring.</p>
                               <div class="tparrow-right">
                                  <i>
                                     <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
@@ -175,6 +162,75 @@ User List
                            </div>
                         </a>
                      </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
+                           <div class="tpchoose-icon mb-25">
+                              <span><img src="{{asset('assets/img/icon/choose-icon-3.png')}}" alt=""></span>
+                           </div>
+                           <div class="tpchoose-text">
+                              <span class="tpchoose-title">Search-Optimized Visibility</span>
+                              <p>Boost your visibility and ranking with optimized content and smart SEO strategies.</p>
+                              <div class="tparrow-right">
+                                 <i>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
+                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </i>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
+                           <div class="tpchoose-icon mb-25">
+                              <span><img src="{{asset('assets/img/icon/choose-icon-3.png')}}" alt=""></span>
+                           </div>
+                           <div class="tpchoose-text">
+                              <span class="tpchoose-title">Future-Ready Solutions</span>
+                              <p>Our solutions scale seamlessly—from agile startups to growing enterprise businesses.</p>
+                              <div class="tparrow-right">
+                                 <i>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
+                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </i>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+
+                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
+                           <div class="tpchoose-icon mb-25">
+                              <span><img src="{{asset('assets/img/icon/choose-icon-3.png')}}" alt=""></span>
+                           </div>
+                           <div class="tpchoose-text">
+                              <span class="tpchoose-title">Reliable Long-Term Support</span>
+                              <p>We’re dedicated to offering continuous support and strategic improvements.</p>
+                              <div class="tparrow-right">
+                                 <i>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
+                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </i>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+
+
+
                   </div>
                </div>
             </div>
@@ -320,193 +376,7 @@ User List
    </section> -->
    <!-- analysis-area-end -->
 
-   <!-- case-area-start -->
-   <section class="case-area pb-140 fix">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-6 col-md-8">
-               <div class="tpsection__wrapper mb-45">
-                  <div class="tpbanner__sub-title mb-15">
-                     <span>Have a look at</span>
-                     <i>
-                        <svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                           <rect width="150" height="40" fill="url(#pattern3)" fill-opacity="0.1" />
-                           <defs>
-                              <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                 <use xlink:href="#image0_859_3410" transform="translate(-0.0584971) scale(0.00611611 0.0203396)" />
-                              </pattern>
-                              <image id="image0_859_3410" width="180" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg==" />
-                           </defs>
-                        </svg>
-                     </i>
-                  </div>
-                  <h2 class="tpsection__title">Our Projects</h2>
-               </div>
-            </div>
-            <!-- <div class="col-lg-6 col-md-4">
-               <div class="tpcase-arrow text-end">
-                  <div class="tpcase-nav p-relative">
-                     <button class="prev-slide prev-slide-case">
-                        <span>
-                           <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none"
-                              viewBox="0 0 8 14">
-                              <path fill-rule="evenodd"
-                                 d="M7.707.293a1 1 0 0 1 0 1.414L2.414 7l5.293 5.293a1 1 0 0 1-1.414 1.414l-6-6a1 1 0 0 1 0-1.414l6-6a1 1 0 0 1 1.414 0z"
-                                 fill="#9f9fa9"></path>
-                           </svg>
-                        </span>
-                     </button>
-                     <button class="next-slide next-slide-case">
-                        <span>
-                           <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none"
-                              viewBox="0 0 8 14">
-                              <path fill-rule="evenodd"
-                                 d="M.293 13.707a1 1 0 0 1 0-1.414L5.586 7 .293 1.707A1 1 0 1 1 1.707.293l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414 0z"
-                                 fill="#9f9fa9"></path>
-                           </svg>
-                        </span>
-                     </button>
-                  </div>
-               </div>
-            </div> -->
-         </div>
-      </div>
-      <div class="container">
-         <div class="row grid">
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Ajwah Tech</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">ERP</a>
-                        <a href="https://ajwahtech.com/">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Cwown</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Digital Marketing</a>
-                        <a href="https://crownbanquetingsuite.com/">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Fiber@home</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">HRM Software</a>
-                        <a href="https://www.fiberathome.net/">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/homeland.jpeg')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Homeland Furniture</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="https://homelandfurniturebd.com/">Website Design</a>
-                        <a href="#">AMS</a>
-
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/jibonjoyi.jpeg')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Jibonjoyi</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Digital Marketing</a>
-                        <a href="https://jj.c3bit.com/">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Magpie Holdings Ltd.</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">AMS, HRM</a>
-                        <a href="https://magpieholdingsltd.com/">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/it.jpeg')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Ridgeben IT Institute</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Digital Marketing</a>
-                        <a href="http://ridgebenitinstitute.com/">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="portfolio-details.html">Kinglet Furniture</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Digital Marketing</a>
-                        <a href="https://kingletbd.com/">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- case-area-end -->
-
-   <!-- services-area-start -->
+      <!-- services-area-start -->
    <section class="services-area pb-110">
       <div class="container">
          <div class="row">
@@ -641,7 +511,7 @@ User List
    </section>
    <!-- services-area-end -->
 
-
+   
    <!-- funfact-area-start -->
    <section class="funfact-area pb-80">
       <div class="container">
@@ -651,7 +521,6 @@ User List
                   <div class="col-lg-12">
                      <div class="tpsection__content feature-white-section text-center">
                         <div class="tpbanner__sub-title mb-15">
-                           <span>Have a look...</span>
                            <i>
                               <svg width="150" height="36" viewBox="0 0 150 36" fill="none"
                                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -693,7 +562,7 @@ User List
                   <div class="col-lg-5">
                      <div class="tpfunfact-wrapper text-center mb-50">
                         <span class="tpfunfact-title">Success Volume</span>
-                        <h5 class="tpfunfact-count mb-15">100+<span> Projects</span></h5>
+                        <h5 class="tpfunfact-count mb-15">150+<span> Projects</span></h5>
                         <div class="tpfunfact-tag">
                            <span><i><img src="{{asset('assets/img/shape/funfact-icon-3.png')}}" alt=""></i>13+ Countries Served</span>
                            <span><i><img src="{{asset('assets/img/shape/funfact-icon-4.png')}}" alt=""></i>36TB Data</span>
@@ -706,6 +575,210 @@ User List
       </div>
    </section>
    <!-- funfact-area-end -->
+
+
+   <!-- case-area-start -->
+   <section class="case-area pb-140 fix">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6 col-md-8">
+               <div class="tpsection__wrapper mb-45">
+                  <div class="tpbanner__sub-title mb-15">
+                     <span>Have a look at</span>
+                     <i>
+                        <svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                           <rect width="150" height="40" fill="url(#pattern3)" fill-opacity="0.1" />
+                           <defs>
+                              <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                 <use xlink:href="#image0_859_3410" transform="translate(-0.0584971) scale(0.00611611 0.0203396)" />
+                              </pattern>
+                              <image id="image0_859_3410" width="180" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg==" />
+                           </defs>
+                        </svg>
+                     </i>
+                  </div>
+                  <h2 class="tpsection__title">Our Projects</h2>
+               </div>
+            </div>
+            <!-- <div class="col-lg-6 col-md-4">
+               <div class="tpcase-arrow text-end">
+                  <div class="tpcase-nav p-relative">
+                     <button class="prev-slide prev-slide-case">
+                        <span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none"
+                              viewBox="0 0 8 14">
+                              <path fill-rule="evenodd"
+                                 d="M7.707.293a1 1 0 0 1 0 1.414L2.414 7l5.293 5.293a1 1 0 0 1-1.414 1.414l-6-6a1 1 0 0 1 0-1.414l6-6a1 1 0 0 1 1.414 0z"
+                                 fill="#9f9fa9"></path>
+                           </svg>
+                        </span>
+                     </button>
+                     <button class="next-slide next-slide-case">
+                        <span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none"
+                              viewBox="0 0 8 14">
+                              <path fill-rule="evenodd"
+                                 d="M.293 13.707a1 1 0 0 1 0-1.414L5.586 7 .293 1.707A1 1 0 1 1 1.707.293l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414 0z"
+                                 fill="#9f9fa9"></path>
+                           </svg>
+                        </span>
+                     </button>
+                  </div>
+               </div>
+            </div> -->
+         </div>
+      </div>
+      <div class="container">
+         <div class="row grid">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://ajwahtech.com/">Ajwah Tech</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">SEO</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://crownbanquetingsuite.com/">Crown</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://www.fiberathome.net/">Fiber@home</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">SEO</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/homeland.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://homelandfurniturebd.com/">Homeland Furniture</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Website Design</a>
+                        <a href="#">AMS, HRM</a>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/jibonjoyi.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://jj.c3bit.com/">Jibonjoyi</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://magpieholdingsltd.com/">Magpie Holdings Ltd.</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">AMS, HRM</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/it.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="http://ridgebenitinstitute.com/">Ridgeben IT Institute</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">ERP</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/ctc.png')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+         </div>
+      </div>
+   </section>
+   <!-- case-area-end -->
 
 
    <!-- pricing-area-start -->

@@ -126,7 +126,213 @@
       </section>
       <!-- brand-area-end -->
 
-      <!-- process-area-start -->
+
+      <!-- counter-area-start -->
+      <div class="counter-area pb-120">
+         <div class="container">
+            <div class="counter-border">
+               <div class="row">
+                  <div class="col-lg-4 col-md-6">
+                     <div class="inner-counter">
+                        <div class="inner-counter-shape">
+                           <img src="assets/img/shape/counter-shape-1.png" alt="">
+                        </div>
+                        <div class="inner-counter-count d-flex align-items-center ml-45">
+                           <div class="inner-counter-list">
+                              <span data-purecounter-duration="1" data-purecounter-end="11"
+                                 class="purecounter">11</span>
+                              <i class="fa-regular fa-plus"></i>
+                           </div>
+                           <div class="inner-counter-info">
+                              <span>Years <br>
+                                 Of Experience</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="inner-counter ml-70">
+                        <div class="inner-counter-shape inner-counter-shape-2">
+                           <img src="assets/img/shape/counter-shape-2.png" alt="">
+                        </div>
+                        <div class="inner-counter-count d-flex align-items-center">
+                           <div class="inner-counter-list">
+                              <span data-purecounter-duration="1" data-purecounter-end="150" class="purecounter"></span>
+                              <i class="fa-regular fa-plus"></i>
+                           </div>
+                           <div class="inner-counter-info">
+                              <span>Project <br> Complete</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                     <div class="inner-counter d-flex justify-content-end">
+                        <div class="inner-counter-shape inner-counter-shape-3">
+                           <img src="assets/img/shape/counter-shape-3.png" alt="">
+                        </div>
+                        <div class="inner-counter-count d-flex align-items-center">
+                           <div class="inner-counter-list">
+                              <span data-purecounter-duration="1" data-purecounter-end="70"
+                                 class="purecounter">75</span>
+                              <i class="fa-regular fa-percent"></i>
+                           </div>
+                           <div class="inner-counter-info">
+                              <span>Repeated Clients</span>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- counter-area-end -->
+
+    
+          <!-- project-seo-area-start -->
+      <section class="project-area project-inner-height">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-7">
+                  <div class="seo-5-thumb p-relative mb-40">
+                     <div class="seo-5-main-bg">
+                        <img src="assets/img/bg/seo-5-bg-1.png" alt="">
+                     </div>
+                     <div class="seo-5-shape d-none d-md-block">
+                        <div class="seo-5-shape-one">
+                           <img src="assets/img/shape/seo-5-shape-1.png" alt="">
+                        </div>
+                        <div class="seo-5-shape-two">
+                           <img src="assets/img/shape/seo-5-shape-2.png" alt="">
+                        </div>
+                        <div class="seo-5-shape-three">
+                           <img src="assets/img/shape/seo-5-shape-3.png" alt="">
+                        </div>
+                        <div class="seo-5-shape-four">
+                           <img src="assets/img/shape/seo-5-shape-4.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-5">
+                  <div class="seo-5 mt-30 mb-40">
+                     <div class="section-3 mb-40">
+                        <span class="section-3-sub-title">Why we are the BEST?</span>
+                        <div class="section-3-title">We have– years  of experience</div>
+                     </div>
+                     <ul class="seo-5-list mb-50">
+                        <li>
+                           <div class="seo-5-list-item d-flex">
+                              <div class="seo-5-list-icon">
+                                 <i class="fa-sharp fa-solid fa-circle-check"></i>
+                              </div>
+                              <div class="seo-5-list-text">
+                                 <h4 class="title">Experienced Team</h4>
+                                 <p>You are in the hands of professional developers, designers, and SEO experts who work together to deliver results.
+                                 </p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="seo-5-list-item d-flex">
+                              <div class="seo-5-list-icon">
+                                 <i class="fa-sharp fa-solid fa-circle-check"></i>
+                              </div>
+                              <div class="seo-5-list-text">
+                                 <h4 class="title">Creative Design</h4>
+                                 <p>We create lasting impressions through thoughtful design. Our goal is to focus on what matters most and make the design appealing to clients.</p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="seo-5-list-item d-flex">
+                              <div class="seo-5-list-icon">
+                                 <i class="fa-sharp fa-solid fa-circle-check"></i>
+                              </div>
+                              <div class="seo-5-list-text">
+                                 <h4 class="title">Data Protection</h4>
+                                 <p>We strongly protect your data with proper security measures and monitoring, keeping it safe and private while you focus on your business. </p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="seo-5-list-item d-flex">
+                              <div class="seo-5-list-icon">
+                                 <i class="fa-sharp fa-solid fa-circle-check"></i>
+                              </div>
+                              <div class="seo-5-list-text">
+                                 <h4 class="title">Business Growth</h4>
+                                 <p>Grow your business with a great website, app, and improved search rankings. We help you to enhance visitors, engagement, and sales.
+                                 </p>
+                              </div>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="seo-5-list-item d-flex">
+                              <div class="seo-5-list-icon">
+                                 <i class="fa-sharp fa-solid fa-circle-check"></i>
+                              </div>
+                              <div class="seo-5-list-text">
+                                 <h4 class="title">Ongoing Support</h4>
+                                 <p>Our team is always here to provide professional support, assisting you with updates at every step of the process.</p>
+                              </div>
+                           </div>
+                        </li>
+                     </ul>
+                     <div class="seo-5-btn">
+                        <a href="{{route('about')}}" class="light-blue-btn">Learn More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- project-seo-area-end -->
+
+
+
+      <!-- mission-area-start -->
+      <div class="mission-area pb-60 pt-60" id="our-misson">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="mission-content ">
+                     <h4 class="about-inner-title">Our Mission</h4>
+                     <p style="color: #fff;">Empower businesses through our expertise.
+                     Our mission at Ridgeben IT is to empower businesses through our expertise. Our solutions are based on unique research. 
+                     We understand the importance of having a strong online presence in today's digital world, and we are committed to helping our clients achieve this goal.</p>
+                  </div>
+               </div>
+               <div class="col-lg-6">
+                  <div class="mission-shape p-relative d-none d-lg-block">
+                     <div class="mission-shape-1">
+                        <img src="assets/img/shape/smill.png" alt="triangle">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mission-two">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="mission-content">
+                        <h4 class="about-inner-title">Our Vision</h4>
+                        <p style="color: #000;">Taking our services to the top—because the world deserves the best!
+                        We offer solutions according to your specific needs. Our vision is to turn our client's visions into reality with hard work and dedication. 
+                        Our expertise lies in having a specialized team dedicated to your project.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- mission-area-end -->
+
+   
+
+  
+
+        <!-- process-area-start -->
       <section class="process__area">
          <div class="container">
             <div class="row">
@@ -219,184 +425,8 @@
       </section>
       <!-- process-area-end -->
 
-      <!-- mission-area-start -->
-      <div class="mission-area pb-120 pt-100" id="our-misson">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-6">
-                  <div class="mission-content ">
-                     <h4 class="about-inner-title">Our Mission</h4>
-                     <p>Empower businesses through our expertise.
-                     Our mission at Ridgeben IT is to empower businesses through our expertise. Our solutions are based on unique research. 
-                     We understand the importance of having a strong online presence in today's digital world, and we are committed to helping our clients achieve this goal.</p>
-                  </div>
-               </div>
-               <div class="col-lg-6">
-                  <div class="mission-shape p-relative d-none d-lg-block">
-                     <div class="mission-shape-1">
-                        <img src="assets/img/shape/smill.png" alt="triangle">
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="mission-two">
-               <div class="row">
-                  <div class="col-lg-4">
-                     <div class="mission-shape p-relative  d-none d-lg-block">
-                        <div class="mission-shape-2">
-                           <img src="assets/img/shape/mission-shape-1.png" alt="">
-                        </div>
-                        <div class="mission-shape-3">
-                           <img src="assets/img/shape/mission-shape-2.png" alt="">
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-8">
-                     <div class="mission-content">
-                        <h4 class="about-inner-title">Our Vision</h4>
-                        <p>Taking our services to the top—because the world deserves the best!
-                        We offer solutions according to your specific needs. Our vision is to turn our client's visions into reality with hard work and dedication. 
-                        Our expertise lies in having a specialized team dedicated to your project.</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- mission-area-end -->
-
-      <!-- counter-area-start -->
-      <div class="counter-area pb-120">
-         <div class="container">
-            <div class="counter-border">
-               <div class="row">
-                  <div class="col-lg-4 col-md-6">
-                     <div class="inner-counter">
-                        <div class="inner-counter-shape">
-                           <img src="assets/img/shape/counter-shape-1.png" alt="">
-                        </div>
-                        <div class="inner-counter-count d-flex align-items-center ml-45">
-                           <div class="inner-counter-list">
-                              <span data-purecounter-duration="1" data-purecounter-end="11"
-                                 class="purecounter">11</span>
-                              <i class="fa-regular fa-plus"></i>
-                           </div>
-                           <div class="inner-counter-info">
-                              <span>Years <br>
-                                 Of Experience</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="inner-counter ml-70">
-                        <div class="inner-counter-shape inner-counter-shape-2">
-                           <img src="assets/img/shape/counter-shape-2.png" alt="">
-                        </div>
-                        <div class="inner-counter-count d-flex align-items-center">
-                           <div class="inner-counter-list">
-                              <span data-purecounter-duration="1" data-purecounter-end="100" class="purecounter"></span>
-                              <i class="fa-regular fa-plus"></i>
-                           </div>
-                           <div class="inner-counter-info">
-                              <span>Project <br> Complite</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6">
-                     <div class="inner-counter d-flex justify-content-end">
-                        <div class="inner-counter-shape inner-counter-shape-3">
-                           <img src="assets/img/shape/counter-shape-3.png" alt="">
-                        </div>
-                        <div class="inner-counter-count d-flex align-items-center">
-                           <div class="inner-counter-list">
-                              <span data-purecounter-duration="1" data-purecounter-end="70"
-                                 class="purecounter">70</span>
-                              <i class="fa-regular fa-plus"></i>
-                           </div>
-                           <div class="inner-counter-info">
-                              <span>Satisfied Clients On <br> 13 Countries</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- counter-area-end -->
-
-
-     
-
-      <!-- funfact-area-start -->
-      <section class="funfact-area pb-80">
-         <div class="container">
-            <div class="tpfunfact p-relative">
-               <div class="tpfunfact-bg theme-bg-2" data-background="assets/img/shape/funfact-1.png">
-                  <div class="row">
-                     <div class="col-lg-12">
-                        <div class="tpsection__content feature-white-section text-center">
-                           <div class="tpbanner__sub-title mb-15">
-                              <span>Selected Projects</span>
-                              <i>
-                                 <svg width="150" height="36" viewBox="0 0 150 36" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <rect x="0.00012207" width="150" height="36" fill="url(#pattern0)"
-                                       fill-opacity="0.1" />
-                                    <defs>
-                                       <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1"
-                                          height="1">
-                                          <use xlink:href="#image0_853_2637"
-                                             transform="translate(-0.0507936) scale(0.00603175 0.0205405)" />
-                                       </pattern>
-                                       <image id="image0_853_2637" width="180" height="50"
-                                          xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAAXNSR0IArs4c6QAAA8JJREFUeF7tnVFO41AMRa9TkIoEIqyA7GA6O2ALs9JZynR2UFZAEB9TCYhHfokhlSrkTqdpXd38pG2cxjk+eXnJjwWJlqcnrTFHfQE0CjSWuthacCuKWgU1FDUEtX33U/v4/atzFbSiaC1EBS2Gzxh+V+CxbANWAqzs8xuwuruS8pnLaRCQ00gDcFlnHRaVoNEK90VSoDFpXeBTyXechwluopv8MOE7PHaKlVRo39ZY3t1JuVC4HJ7ApEKbtJeXaLoZFiapAPcqWLi4hz/dIx1hEN1kd+FVsJR3tNfXsjxSVmd52IMIvSGu4BtMXsXilEfZo1a3n+Isywiv+O3TGk5pdq/K3kI//dFmBjwIxd2dfnAPn9IM60eb6/sI//qKFac0nyDDQvuoiwoPNr8F8GAjb3kI43J0AuN5fBEeKOL7XN6mN68ztOf+EBsS+mWtv6BYHL1qTOC/EfA3NeVh1hZ/m9NPe579QB/b7YcOrT3obkvCL5ivErx8R62z7QOgdqhRbW4rb7B8Gd5k2Vd7a3Uzlx9b84gQevmjGoljDAlMReDmSrYOxrERmkJPVSceJ0iAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHAQqdo07MMkiAQgdBMSwHgZxCj/pvO+aNPtx7st/ostT38f7surTnf3P3wxKYTOiNdmHjhvCj5u9+quMm8B+nv0Z7Co0kraGo5TRuReatx/xCGFo716VXo6A++xbPh3V0p3/fT+i1/izNHK1/nZSmjqW3nQlp7Xvt87k3dNyFtjUpxRz1BdBsXAQmvjUtVdR2UfCOsAvVIXbom34zl+/b9g61dfuHw3KXIAHv0GsNKU3wSvu1CG6L8FKaUZ59x97xnb10xVU827qzu/wwcEYGTQodFO8Uwmwa5FMgG/krQWNdVcuI7xdAf+vspz/DtslyH08x+460RUY7/lR3dwo9WbWPeyB/JrAsbCq0TzY+zfT/iIyc+xxvl33/AiWjt0Jf7u62AAAAAElFTkSuQmCC" />
-                                    </defs>
-                                 </svg>
-                              </i>
-                           </div>
-                           <h2 class="tpsection-title tpsection-title-white mb-15">We Believe In Our Success</h2>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="tpfunfact-shape d-none d-md-block">
-                     <div class="tpfunfact-shape-one"><img src="assets/img/shape/funfact-2.png" alt=""></div>
-                     <div class="tpfunfact-shape-two"><img src="assets/img/shape/funfact-3.png" alt=""></div>
-                  </div>
-               </div>
-               <div class="tpfunfact-box">
-                  <div class="row justify-content-center">
-                     <div class="col-lg-5">
-                        <div class="tpfunfact-wrapper text-center mb-50">
-                           <span class="tpfunfact-title">Duration</span>
-                           <h5 class="tpfunfact-count mb-15">Fastest<span> Delivery</span></h5>
-                           <div class="tpfunfact-tag">
-                              <span><i><img src="assets/img/shape/funfact-icon-1.png" alt=""></i>7Days Challenges</span>
-                              <span><i><img src="assets/img/shape/funfact-icon-2.png" alt=""></i>10+ Frameworks</span>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-lg-5">
-                        <div class="tpfunfact-wrapper text-center mb-50">
-                           <span class="tpfunfact-title">Success Volume</span>
-                           <h5 class="tpfunfact-count mb-15">100+<span> Projects</span></h5>
-                           <div class="tpfunfact-tag">
-                              <span><i><img src="assets/img/shape/funfact-icon-3.png" alt=""></i>13+ Countries Served</span>
-                              <span><i><img src="assets/img/shape/funfact-icon-4.png" alt=""></i>36TB Data</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- funfact-area-end -->
-
       <!-- team-area-start -->
-      <!-- <section class="team-area pb-50">
+      <section class="team-area pb-50 pt-100">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -480,6 +510,6 @@
                </div>
             </div>
          </div>
-      </section> -->
+      </section>
       <!-- team-area-end -->
 @endsection

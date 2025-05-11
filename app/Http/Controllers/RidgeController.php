@@ -19,25 +19,31 @@ class RidgeController extends Controller
 
     public function checkSlug($slug)
     {
-        // Check if the slug exists in the database
-        $slugExists = Service::where('slug', $slug)->exists();
+        try {
+            $slugExists = Service::where('slug', $slug)->exists();
+            return response()->json(['exists' => $slugExists]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'error' => true,
+                'message' => $e->getMessage()
+            ], 500);
+        }
+    }
     
-        // Return a JSON response with the result
-        return response()->json([
-            'exists' => $slugExists
-        ]);
+    public function slugCheck($slug)
+    {
+        try {
+            $slugExists = Product::where('slug', $slug)->exists();
+            return response()->json(['exists' => $slugExists]);
+        } catch (\Exception $e) {
+            return response()->json([
+                'error' => true,
+                'message' => $e->getMessage()
+            ], 500);
+        }
     }
 
-    public function checkSlug1($slug)
-    {
-        // Check if the slug exists in the database
-        $slugExists = Product::where('slug', $slug)->exists();
     
-        // Return a JSON response with the result
-        return response()->json([
-            'exists' => $slugExists
-        ]);
-    }
 
     public function store(Request $request)
 {
@@ -187,7 +193,7 @@ public function getmsg(Request $request)
 
     public function pshow(){
         $products = Product::all();
-        return view('back.show-products',['products'=>$products]);
+        return view('back.show-products', compact('products'));
     }
 
 
