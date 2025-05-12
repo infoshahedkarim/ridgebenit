@@ -3,10 +3,13 @@
 
 <head>
     <meta charset="utf-8" />
-    <title> @yield('title') | Webadmin - Admin & Dashboard Template</title>
+    <title> @yield('title') | Ridgeben IT Solutions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
-    <meta content="Themesdesign" name="author" />
+    <meta name="description" content="Ridgeben IT Solutions(RITS) specializes in developing 
+    customized websites, mobile applications, and digital strategies for SMEs at competitive rates.">
+    <meta name="keywords" content="Ridgeben IT, Ridgebenit, ridgeben, ridgebenit, software development, 
+    software company, bangladeshi software company, digital marketing, logo design">
+    <meta name="author" content="@ridgebenitsolutions">
     <!-- App favicon -->
     <link rel="shortcut icon" href="{{ URL::asset('build/images/favicon.ico') }}">
 
