@@ -221,11 +221,11 @@ User List
                <div class="tpservices">
                   <div class="tpservices-list">
 
-                  @foreach($services as $service)
+                 
                      <ul>
-
+                        @foreach($services as $service)
                         <li>
-                           <div class="tpservices-wrapper">
+                           <div class="tpservices-wrapper tpservices-item2">
                               <div class="tpservices-img mb-35">
                                  <img src="{{ asset('storage/' . $service->icon) }}" alt="" style="width:35%">
                               </div>
@@ -322,9 +322,9 @@ User List
                               </div>
                            </div>
                         </li> -->
-
+                        @endforeach
                      </ul>
-                     @endforeach
+                     
                   </div>
                </div>
             </div>
