@@ -16,12 +16,12 @@
          <div class="markiting-shape services-inner-banner-shape-wrap">
             <img src="assets/img/services/social-media/services-social-media-bg.png" alt="">
             <div class="services-inner-banner-shape">
-               <img class="services-inner-banner-shape-1" src="assets/img/cta/cta-inner-shape-1.png" alt="">
-               <img class="services-inner-banner-shape-2" src="assets/img/cta/cta-inner-shape-2.png" alt="">
-               <img class="services-inner-banner-shape-3" src="assets/img/cta/cta-inner-shape-3.png" alt="">
-               <img class="services-inner-banner-shape-4" src="assets/img/cta/cta-inner-shape-4.png" alt="">
-               <img class="services-inner-banner-shape-5" src="assets/img/cta/cta-inner-shape-5.png" alt="">
-               <img class="services-inner-banner-shape-6" src="assets/img/cta/cta-inner-shape-6.png" alt="">
+               <img class="services-inner-banner-shape-1" src="{{asset('assets/img/cta/cta-inner-shape-1.png')}}" alt="">
+               <img class="services-inner-banner-shape-2" src="{{asset('assets/img/cta/cta-inner-shape-2.png')}}" alt="">
+               <img class="services-inner-banner-shape-3" src="{{asset('assets/img/cta/cta-inner-shape-3.png')}}" alt="">
+               <img class="services-inner-banner-shape-4" src="{{asset('assets/img/cta/cta-inner-shape-4.png')}}" alt="">
+               <img class="services-inner-banner-shape-5" src="{{asset('assets/img/cta/cta-inner-shape-5.png')}}" alt="">
+               <img class="services-inner-banner-shape-6" src="{{asset('assets/img/cta/cta-inner-shape-6.png')}}" alt="">
             </div>
          </div>
       </div>
@@ -45,28 +45,7 @@
                            <div class="col-lg-10 offset-lg-1">
                               <div class="services-details-content">
                                  <div class="services-details-content-box">
-                                    <span>The Big Oxmox advised her not to do so, because there were thousands of bad
-                                       Commas, wild Question marks and devious seminole.</span>
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an
-                                       almost unorthographic life One day however a small line of blind text by the name
-                                       of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-                                       advised her not to do so, because there were thousands of bad Commas, wild
-                                       Question Marks and devious Semikoli, but the Little Blind Text didn’t listen. She
-                                       packed her seven versalia, put her initial into the belt and made herself on the
-                                       way. </p>
-                                 </div>
-                                 <div class="services-details-list">
-                                    <span>Why is keyword research so important</span>
-                                    <ul class="services-details-list-item">
-                                       <li>creating an SEO friendly website architecture (search/hierarchy of
-                                          categories, search filters)</li>
-                                       <li>deciding on how much inventory should you have in stock (trending product
-                                          searches)</li>
-                                       <li>content ideas (adding new content themes, solving your audience’s biggest
-                                          pain points)</li>
-                                       <li>creating and improving your PPC campaigns</li>
-                                       <li>… and much more!</li>
-                                    </ul>
+                                    <p>{{$service->des}}</p>
                                  </div>
                               </div>
                            </div>
