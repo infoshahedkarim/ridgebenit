@@ -45,7 +45,7 @@
                            <div class="col-lg-10 offset-lg-1">
                               <div class="services-details-content">
                                  <div class="services-details-content-box">
-                                    <p>{!! $service->des !!}</p>
+                                    {!! $service->des !!}
                                  </div>
                               </div>
                            </div>
