@@ -25,7 +25,7 @@ User List
                         <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
 
                            <div class="tppricing-btn-two" style="text-align: center;">
-                              <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">About Us</a>
+                              <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Know More About Us</a>
                            </div>
 
                            <div class="tppricing-btn" style="text-align: center;">
