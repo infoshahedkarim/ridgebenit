@@ -51,7 +51,7 @@
                   <div class="col-lg-6">
                      <div class="about-inner-thumb">
                         <div class="about-inner-shape-1">
-                           <img src="assets/img/about/about-inner-1.jpg" alt="">
+                           <img src="assets/img/banner/girls.png" alt="">
                         </div>
                      </div>
                   </div>

@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Mail;
 
 class RidgeController extends Controller
 {
+    
+    
+    
+   
     public function show(){
         $services = Service::all();
         return view('back.show-services',['services'=>$services]);

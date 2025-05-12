@@ -77,6 +77,36 @@ User List
       </div>
    </section>
 
+   <div class="slider123 col-xl-12" style="display: flex;">
+        <div class="card123">
+            <img src="{{asset('assets/partners/1.jpg')}}" alt="Product 1" style="width: 50%;">
+        </div>
+        <div class="card123">
+            <img src="{{asset('assets/partners/2.webp')}}" alt="Product 2" style="width: 50%;">
+        </div>
+        <div class="card123">
+            <img src="{{asset('assets/partners/3.webp')}}" alt="Product 3" style="width: 50%;">
+        </div>
+        <div class="card123">
+            <img src="{{asset('assets/partners/4.png')}}" alt="Product 4" style="width: 50%;">
+        </div>
+        <div class="card123">
+            <img src="{{asset('assets/partners/5.png')}}" alt="Product 5" style="width: 50%;">
+        </div>
+        <div class="card123">
+            <img src="{{asset('assets/partners/6.png')}}" alt="Product 6" style="width: 50%;">
+        </div>
+        <div class="card123">
+            <img src="{{asset('assets/partners/7.png')}}" alt="Product 6" style="width: 50%;">
+        </div>
+        <div class="card123">
+            <img src="{{asset('assets/partners/8.webp')}}" alt="Product 6" style="width: 50%;">
+        </div>
+        <div class="card123">
+            <img src="{{asset('assets/partners/9.webp')}}" alt="Product 6" style="width: 50%;">
+        </div>
+    </div>
+
 
 
 
@@ -119,7 +149,7 @@ User List
             <div class="row align-items-center">
                <div class="col-xl-6 col-lg-5">
                   <div class="tpchoose-thumb mt-30 p-relative mb-50">
-                     <img class="tpchoose-border-anim" src="assets/img/banner/it_girl.png" alt="">
+                     <img class="tpchoose-border-anim" src="assets/img/banner/front.png" alt="">
                      <div class="tpchoose-shape">
                         <div class="tpchoose-shape-one d-none d-md-block">
                            <img src="assets/img/shape/choose-shape-1.png" alt="">
@@ -190,20 +220,22 @@ User List
                </div>
                <div class="tpservices">
                   <div class="tpservices-list">
+
+                  @foreach($services as $service)
                      <ul>
 
                         <li>
                            <div class="tpservices-wrapper">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:35%">
+                                 <img src="{{ asset('storage/' . $service->icon) }}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
-                                 <h4 class="tpservices-title"><a href="{{route('softwaredev')}}">Software Development</a></h4>
+                                 <h4 class="tpservices-title"><a href="{{route('page1', $service->slug)}}">{{$service->title}}</a></h4>
                               </div>
                            </div>
                         </li>
 
-                        <li>
+                        <!-- <li>
                            <div class="tpservices-wrapper tpservices-item2">
                               <div class="tpservices-img mb-35">
                                  <img src="{{asset('assets/icon/2.png')}}" alt="" style="width:35%">
@@ -289,9 +321,10 @@ User List
                                  <h4 class="tpservices-title"><a href="{{route('manageservices')}}">Manage Services</a></h4>
                               </div>
                            </div>
-                        </li>
+                        </li> -->
 
                      </ul>
+                     @endforeach
                   </div>
                </div>
             </div>
@@ -1441,5 +1474,35 @@ User List
          });
       });
    </script>
+
+     <script src="https://unpkg.com/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    $('.slider123').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+        arrows: false, // disabled arrows
+        autoplay: true,
+        autoplaySpeed: 1000,
+        variableWidth: false, 
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+</script>
+
 
    @endsection

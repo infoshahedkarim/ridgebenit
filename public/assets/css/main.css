@@ -23001,3 +23001,48 @@ div.price-open {
 }
 
 
+  .slider123 {
+            width: 100%;
+            margin: 20px auto;
+        }
+
+        .card123 {
+            width: 100%;
+            max-width: 320px;
+            margin: 0 auto;       
+            padding: 15px;
+            text-align: center;
+            background: #fff;
+            border-radius: 8px;
+        }
+
+
+        .card123 img {
+            width: 60%;
+            margin: 0 auto;
+            display: block;
+        }
+
+
+        .card-title123 {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .slick-slide123 {
+            padding: 0 5px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .card-wrapper123 {
+            width: 100%;
+            padding: 0 10px;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 768px) {
+            .slick-slide123 {
+                padding: 0 5px;
+            }
+        }
