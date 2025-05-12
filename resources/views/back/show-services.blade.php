@@ -35,6 +35,7 @@
                 <td>{{$service->id}}</td>
                 <td>{{$service->title}}</td>
                 <td>{{$service->slug}}</td>
+                <td>{{$service->short_text}}</td>
                 <td>@if($service->icon)
                     <img src="{{ asset('storage/' . $service->icon) }}" alt="{{ $service->name }}" width="150">
                 @else

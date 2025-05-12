@@ -22,6 +22,7 @@
                 <th>ID</th>
                 <th>Title</th>
                 <th>Meta tag</th>
+                <th>Short Text</th>
                 <th>Icon</th>
                 <th>Banner</th>
                 <th>Descriptions</th>
@@ -34,6 +35,7 @@
                 <td>{{$product->id}}</td>
                 <td>{{$product->title}}</td>
                 <td>{{$product->slug}}</td>
+                <td>{{$product->short_text}}</td>
                 <td>@if($product->icon)
                     <img src="{{ asset('storage/' . $product->icon) }}" alt="{{ $product->name }}" width="150">
                 @else

@@ -77,6 +77,10 @@ User List
       </div>
    </section>
 
+
+
+
+
    <!-- <section class="about-area p-relative pb-40">
          <div class="fix">
             <div class="container-fluid">
@@ -1437,8 +1441,5 @@ User List
          });
       });
    </script>
-
-
-
 
    @endsection

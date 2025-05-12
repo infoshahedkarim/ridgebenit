@@ -45,6 +45,10 @@
                 <label for="horizontal-firstname-input" class="col-form-label">Meta Tag</label>
                 <input id="slug" name="slug" type="text" class="form-control" placeholder="Add meta tag" readonly />
             </div>
+            <div>
+                <label>Short Description</label>
+                <input type="text" id="title" placeholder="Short Text" name="short_text" required>
+            </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label" for="image">Add Icon</label>
                 <input type="file" name="icon" id="image" accept="image/*" onchange="previewImage(event)">

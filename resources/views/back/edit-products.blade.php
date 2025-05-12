@@ -46,6 +46,10 @@
                 <label for="horizontal-firstname-input" class="col-form-label">Meta Tag</label>
                 <input id="slug" name="slug" type="text" class="form-control" value="{{$products->slug}}" placeholder="Add meta tag" readonly />
             </div>
+             <div>
+                <label>Short Description</label>
+                <input type="text" id="title" placeholder="Short Text" name="short_text" value="{{$products->short_text}}" required>
+            </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label" for="image">Add Icon</label>
                 <img src="{{ asset('storage/' . $products->icon) }}" alt="{{$products->title}}" width="100">
