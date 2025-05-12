@@ -1,13 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.master')
+@section('title')
+    Font Awesome 5
+@endsection
+@section('page-title')
+    Font Awesome 5
+@endsection
+@section('body')
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <body>
+    @endsection
+    @section('content')
 
-<body>
+
     <div>
         <h1>Add Products</h1>
 
@@ -182,7 +186,4 @@
         }
     </script>
 
-
-</body>
-
-</html>
+@endsection

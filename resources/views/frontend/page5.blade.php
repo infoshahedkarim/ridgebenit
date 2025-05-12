@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-Home
+ {{$product->title}}
 @endsection
 @section('page-title')
 User List
@@ -28,7 +28,7 @@ User List
             <div class="col-xl-10 col-lg-12">
                <div class="markiting-content">
                <span style="color:rgba(169, 215, 255, 0.8);">Our Products</span>
-               <h4 class="services-details-title" style="color: #004a87;">Search volume and <br> keyword suggestions</h4>
+               <h4 class="services-details-title" style="color: #004a87;">{{$product->title}}</h4>
                </div>
             </div>
          </div>
@@ -42,7 +42,7 @@ User List
          <div class="row">
             <div class="col-lg-12">
                <div class="markiting-bg">
-                  <img src="assets/img/services/social-media/services-social-media-bg-2.jpg" alt="">
+                  <img src="{{ asset('storage/' . $product->banner) }}" alt="">
                </div>
             </div>
          </div>
@@ -117,10 +117,10 @@ User List
                      <h4 class="services-inner-title"><a href="seo-audit.html">Growing <br> your business</a></h4>
                   </div>
                   <div class="services-inner-thumb">
-                     <img src="assets/img/services/social-media/services-inner-thumb-1.png" alt="">
+                     <img src="{{asset('assets/img/services/social-media/services-inner-thumb-1.png')}}" alt="">
                   </div>
                   <div class="services-inner-shape-1">
-                     <img src="assets/img/services/social-media/services-inner-shape-1.png" alt="">
+                     <img src="{{asset('assets/img/services/social-media/services-inner-shape-1.png')}}" alt="">
                   </div>
                </div>
             </div>
@@ -130,7 +130,7 @@ User List
                      <h4 class="services-inner-title"><a href="marketing-analysis.html">Speed <br> Optimization</a></h4>
                   </div>
                   <div class="services-inner-thumb">
-                     <img src="assets/img/services/social-media/services-inner-thumb-2.png" alt="">
+                     <img src="{{asset('assets/img/services/social-media/services-inner-thumb-2.png')}}" alt="">
                   </div>
                </div>
             </div>
@@ -140,7 +140,7 @@ User List
                      <h4 class="services-inner-title"><a href="social-media-markiting.html">Testing <br> Capabilities</a></h4>
                   </div>
                   <div class="services-inner-thumb">
-                     <img src="assets/img/services/social-media/services-inner-thumb-3.png" alt="">
+                     <img src="{{asset('assets/img/services/social-media/services-inner-thumb-3.png')}}" alt="">
                   </div>
                </div>
             </div>
@@ -223,101 +223,101 @@ User List
    
 
    <div class="social-area social-inner-wrapper pb-85">
-      <div class="container">
-         <div class="row">
-      <div class="col-lg-12">
+         <div class="container">
+            <div class="row">
+            <div class="col-lg-12">
          <div class="portfolio-inner-2 text-center mb-50">
             <h4 class="portfolio-inner-2-head">Follow us for more...</h4>
          </div>
-      </div>
-            <div class="col-lg-6">
-               <div class="tpsocial tpsocial-facebook mb-30">
-                  <div class="tpsocial-bg"></div>
-                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                     <a href="#">
-                        <i class="fa-brands fa-facebook"></i>
-                        Follow us on Facebook for Small Busoness Updates
-                     </a>
-                     <span>
-                        <a href="#">
-                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                 stroke-linejoin="round" />
-                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                 stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
+         </div>
+               <div class="col-lg-6">
+                  <div class="tpsocial tpsocial-facebook mb-30">
+                     <div class="tpsocial-bg"></div>
+                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                        <a href="https://www.facebook.com/ridgebenitsolution">
+                           <i class="fa-brands fa-facebook"></i>
+                           Follow us on Facebook for Business Updates
                         </a>
-                     </span>
+                        <span>
+                           <a href="#">
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                        </span>
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="col-lg-6">
-               <div class="tpsocial tpsocial-insta mb-30">
-                  <div class="tpsocial-bg"></div>
-                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                     <a href="#">
-                        <i class="fa-brands fa-instagram"></i>
-                        Follow us on Instagram for Small Business Inspiration
-                     </a>
-                     <span>
-                        <a href="#">
-                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                 stroke-linejoin="round" />
-                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                 stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
+               <div class="col-lg-6">
+                  <div class="tpsocial tpsocial-insta mb-30">
+                     <div class="tpsocial-bg"></div>
+                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                        <a href="https://www.instagram.com/ridgebenit">
+                           <i class="fa-brands fa-instagram"></i>
+                           Follow us on Instagram for Business Inspiration
                         </a>
-                     </span>
+                        <span>
+                           <a href="#">
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                        </span>
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="col-lg-6">
-               <div class="tpsocial tpsocial-facebook mb-30">
-                  <div class="tpsocial-bg"></div>
-                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                     <a href="#">
-                        <i class="fa-brands fa-linkedin"></i> Get our Newsletter for Small Business Tips & News
-                     </a>
-                     <span>
-                        <a href="#">
-                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                 stroke-linejoin="round" />
-                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                 stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
+               <div class="col-lg-6">
+                  <div class="tpsocial tpsocial-facebook mb-30">
+                     <div class="tpsocial-bg"></div>
+                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                        <a href="https://www.linkedin.com/company/ridgebenitsolution">
+                           <i class="fa-brands fa-linkedin"></i> Get our Newsletter for Business Tips & News
                         </a>
-                     </span>
+                        <span>
+                           <a href="#">
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                        </span>
+                     </div>
                   </div>
                </div>
-            </div>
-            <div class="col-lg-6">
-               <div class="tpsocial tpsocial-twitt mb-30">
-                  <div class="tpsocial-bg"></div>
-                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                     <a href="#">
-                        <i class="fa-brands fa-twitter"></i> Follow us on Twitter for Small Busoness Updates
-                     </a>
-                     <span>
-                        <a href="#">
-                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                 stroke-linejoin="round" />
-                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                 stroke-linecap="round" stroke-linejoin="round" />
-                           </svg>
+               <div class="col-lg-6">
+                  <div class="tpsocial tpsocial-twitt mb-30">
+                     <div class="tpsocial-bg"></div>
+                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                        <a href="https://x.com/Ridgeben_IT">
+                           <i class="fa-brands fa-twitter"></i> Follow us on Twitter for Business Updates
                         </a>
-                     </span>
+                        <span>
+                           <a href="#">
+                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                           </a>
+                        </span>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-   </div>
+      </div> 
 
    @endsection

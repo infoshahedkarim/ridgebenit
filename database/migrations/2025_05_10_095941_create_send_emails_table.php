@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('phone');
+            $table->string('booking_date');
+            $table->string('booking_time');
             $table->string('email');
             $table->text('msg');
             $table->timestamps();

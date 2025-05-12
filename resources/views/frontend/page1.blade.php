@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 @section('title')
-    Home
+    {{ $service->title }}
 @endsection
 @section('page-title')
     User List
@@ -35,10 +35,10 @@
                   <div class="services-details">
                      <div class="services-details-section ml-95">
                         <span style="color:rgba(169, 215, 255, 0.8);">Our Services</span>
-                        <h4 class="services-details-title" style="color: #004a87;">Search volume and <br> keyword suggestions</h4>
+                        <h4 class="services-details-title" style="color: #004a87;">{{ $service->title }}</h4>
                      </div>
                      <div class="services-details-thumb mb-50">
-                        <img src="assets/img/services/services-details-1.jpg" alt="">
+                        <img src="{{ asset('storage/' . $service->banner) }}" alt="">
                      </div>
                      <div class="services-details-wrap">
                         <div class="row">
@@ -332,14 +332,14 @@
          <div class="portfolio-inner-2 text-center mb-50">
             <h4 class="portfolio-inner-2-head">Follow us for more...</h4>
          </div>
-      </div>
+         </div>
                <div class="col-lg-6">
                   <div class="tpsocial tpsocial-facebook mb-30">
                      <div class="tpsocial-bg"></div>
                      <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="#">
+                        <a href="https://www.facebook.com/ridgebenitsolution">
                            <i class="fa-brands fa-facebook"></i>
-                           Follow us on Facebook for Small Busoness Updates
+                           Follow us on Facebook for Business Updates
                         </a>
                         <span>
                            <a href="#">
@@ -359,9 +359,9 @@
                   <div class="tpsocial tpsocial-insta mb-30">
                      <div class="tpsocial-bg"></div>
                      <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="#">
+                        <a href="https://www.instagram.com/ridgebenit">
                            <i class="fa-brands fa-instagram"></i>
-                           Follow us on Instagram for Small Business Inspiration
+                           Follow us on Instagram for Business Inspiration
                         </a>
                         <span>
                            <a href="#">
@@ -381,8 +381,8 @@
                   <div class="tpsocial tpsocial-facebook mb-30">
                      <div class="tpsocial-bg"></div>
                      <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="#">
-                           <i class="fa-brands fa-linkedin"></i> Get our Newsletter for Small Business Tips & News
+                        <a href="https://www.linkedin.com/company/ridgebenitsolution">
+                           <i class="fa-brands fa-linkedin"></i> Get our Newsletter for Business Tips & News
                         </a>
                         <span>
                            <a href="#">
@@ -402,8 +402,8 @@
                   <div class="tpsocial tpsocial-twitt mb-30">
                      <div class="tpsocial-bg"></div>
                      <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="#">
-                           <i class="fa-brands fa-twitter"></i> Follow us on Twitter for Small Busoness Updates
+                        <a href="https://x.com/Ridgeben_IT">
+                           <i class="fa-brands fa-twitter"></i> Follow us on Twitter for Business Updates
                         </a>
                         <span>
                            <a href="#">

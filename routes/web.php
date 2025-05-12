@@ -19,7 +19,7 @@ Route::get('/contact', function () {
     return view('frontend.contact');
 })->name('contact');
 
-Route::get('/services', function () {
+Route::get('/servicess', function () {
     return view('frontend.services');
 })->name('services');
 
@@ -43,9 +43,7 @@ Route::get('/ridgeben', function () {
     return view('frontend.pricing');
 })->name('pricing');
 
-Route::get('/page1', function () {
-    return view('frontend.page1');
-})->name('page1');
+
 Route::get('/page2', function () {
     return view('frontend.page2');
 })->name('page2');
@@ -55,9 +53,7 @@ Route::get('/page3', function () {
 Route::get('/page4', function () {
     return view('frontend.page4');
 })->name('page4');
-Route::get('/page5', function () {
-    return view('frontend.page5');
-})->name('page5');
+
 
 
 
@@ -139,7 +135,7 @@ Route::middleware([
 });
 
 Route::get('/user', [AdminController::class, 'index']);
-Route::get('/admin', [AdminController::class, 'admin'])->name('backend.index')->middleware(['auth','admin']);
+Route::get('/admin', [AdminController::class, 'admin'])->name('back.index')->middleware(['auth','admin']);
 
 
 Route::get('/add-services', function () {
@@ -152,6 +148,10 @@ Route::put('/services/{slug}/update', [RidgeController::class,'update'])->name('
 Route::delete('/services/{services}/delete', [RidgeController::class,'delete'])->name('services.delete');
 
 
+Route::get('/services/{slug}', [RidgeController::class, 'services'])->name('page1');
+Route::get('/products/{slug}', [RidgeController::class, 'products'])->name('page5');
+
+
 Route::get('/check-slug/{slug}', [RidgeController::class, 'checkSlug']);
 Route::get('/slug-check/{slug}', [RidgeController::class, 'slugCheck']);
 
@@ -161,7 +161,7 @@ Route::get('/add-products', function () {
     return view('back.add-products');
 })->name('back.products');
 Route::post('/page-products',[RidgeController::class, 'pstore'])->name('back.pstore');
-Route::get('/show-products',[RidgeController::class, 'pshow'])->name('back.sphow');
+Route::get('/show-products',[RidgeController::class, 'pshow'])->name('back.pshow');
 Route::get('/products/{slug}/edit', [RidgeController::class,'pedit'])->name('products.edit');
 Route::put('/products/{slug}/update', [RidgeController::class,'pupdate'])->name('products.update');
 Route::delete('/products/{products}/delete', [RidgeController::class,'pdelete'])->name('products.delete');

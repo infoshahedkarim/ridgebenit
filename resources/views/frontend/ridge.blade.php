@@ -25,11 +25,11 @@ User List
                         <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
 
                            <div class="tppricing-btn-two" style="text-align: center;">
-                              <a href="{{route('contact')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Contact Us</a>
+                              <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">About Us</a>
                            </div>
 
                            <div class="tppricing-btn" style="text-align: center;">
-                              <a href="{{route('services')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">See Our Services</a>
+                              <a href="#free-consult" class="tp-btn-blue" style="display: inline-block; text-align: center;">Book a Free Consultant</a>
                            </div>
 
                         </div>
@@ -69,314 +69,99 @@ User List
 
 
    <!-- choose-area-start -->
-   <section class="choose-area tpchoose-bottom pt-120">
+   <section class="choose-area tpchoose-bottom pt-80">
       <div class="container">
-
          <div class="portfolio-inner-2 text-center mb-50">
             <h2 class="portfolio-inner-2-head" style="color: #004a87">11+ Years Experiences</h2>
          </div>
-
-         <div class="row align-items-center">
-            <div class="col-xl-12 col-lg-12">
-               <div class="tpchoose-wrapper mb-30">
-                  <div class="tpsection__content mb-50">
-                     <div class="tpbanner__sub-title mb-15">
-                        <span>Why Choose us</span>
-                        <i>
-                           <svg width="130" height="42" viewBox="0 0 130 42" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                              <rect y="0.941895" width="130" height="40.9551" fill="url(#pattern6)" fill-opacity="0.08" />
-                              <defs>
-                                 <pattern id="pattern6" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                    <use xlink:href="#image0_868_3547" transform="translate(-0.0587762 0.0123052) scale(0.00611916 0.0198269)" />
-                                 </pattern>
-                                 <image id="image0_868_3547" width="180" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg==" />
-                              </defs>
-                           </svg>
-                        </i>
-                     </div>
-                     <h2 class="tpsection__title mb-15">What makes Us <br> Different from Others</h2>
-                     <p>Our priority is delivering genuine results. You’ll experience meaningful growth, visible value, and true business success.
-                     </p>
-                  </div>
-                  <div class="row gx-6">
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href="{{route('about')}}" class="tpchoose mb-30">
-                           <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/choose-icon-1.png')}}" alt=""></span>
-                           </div>
-                           <div class="tpchoose-text">
-                              <span class="tpchoose-title">Performance-Driven Results</span>
-                              <p>Every strategy we deliver is ROI-focused, built to drive growth and measurable results.</p>
-                              <div class="tparrow-right">
-                                 <i>
-                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
-                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-                                          stroke-linejoin="round" />
-                                    </svg>
-                                 </i>
-                              </div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href="{{route('about')}}" class="tpchoose mb-30">
-                           <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/choose-icon-2.png')}}" alt=""></span>
-                           </div>
-                           <div class="tpchoose-text">
-                              <span class="tpchoose-title">Device-Ready Design</span>
-                              <p>Our responsive designs adapt perfectly, ensuring flawless performance on all devices.</p>
-                              <div class="tparrow-right">
-                                 <i>
-                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
-                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-                                          stroke-linejoin="round" />
-                                    </svg>
-                                 </i>
-                              </div>
-                           </div>
-                        </a>
-                     </div>
-                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href="{{route('about')}}" class="tpchoose mb-30">
-                           <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/choose-icon-3.png')}}" alt=""></span>
-                           </div>
-                           <div class="tpchoose-text">
-                              <span class="tpchoose-title">Ironclad Data Security</span>
-                              <p>Your data is protected with enterprise-grade security and 24/7 real-time monitoring.</p>
-                              <div class="tparrow-right">
-                                 <i>
-                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
-                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-                                          stroke-linejoin="round" />
-                                    </svg>
-                                 </i>
-                              </div>
-                           </div>
-                        </a>
-                     </div>
-
-                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href="{{route('about')}}" class="tpchoose mb-30">
-                           <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/choose-icon-3.png')}}" alt=""></span>
-                           </div>
-                           <div class="tpchoose-text">
-                              <span class="tpchoose-title">Search-Optimized Visibility</span>
-                              <p>Boost your visibility and ranking with optimized content and smart SEO strategies.</p>
-                              <div class="tparrow-right">
-                                 <i>
-                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
-                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-                                          stroke-linejoin="round" />
-                                    </svg>
-                                 </i>
-                              </div>
-                           </div>
-                        </a>
-                     </div>
-
-                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href="{{route('about')}}" class="tpchoose mb-30">
-                           <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/choose-icon-3.png')}}" alt=""></span>
-                           </div>
-                           <div class="tpchoose-text">
-                              <span class="tpchoose-title">Future-Ready Solutions</span>
-                              <p>Our solutions scale seamlessly—from agile startups to growing enterprise businesses.</p>
-                              <div class="tparrow-right">
-                                 <i>
-                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
-                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-                                          stroke-linejoin="round" />
-                                    </svg>
-                                 </i>
-                              </div>
-                           </div>
-                        </a>
-                     </div>
-
-                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
-                        <a href="{{route('about')}}" class="tpchoose mb-30">
-                           <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/choose-icon-3.png')}}" alt=""></span>
-                           </div>
-                           <div class="tpchoose-text">
-                              <span class="tpchoose-title">Reliable Long-Term Support</span>
-                              <p>We’re dedicated to offering continuous support and strategic improvements.</p>
-                              <div class="tparrow-right">
-                                 <i>
-                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
-                                       xmlns="http://www.w3.org/2000/svg">
-                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
-                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
-                                          stroke-linejoin="round" />
-                                    </svg>
-                                 </i>
-                              </div>
-                           </div>
-                        </a>
-                     </div>
-
-
-
-                  </div>
-               </div>
-            </div>
-         </div>
       </div>
    </section>
-   <!-- choose-area-end -->
 
-
-
-
-   <!-- analysis-area-start -->
-   <!-- <section class="analysis__area pb-80">
-      <div class="container">
-         <div class="row">
-            <div class="col-lg-12">
-               <div class="tpsection__content text-center mb-70">
-                  <div class="tpbanner__sub-title mb-15">
-                     <span>SEO Agency of the Year</span>
-                     <i>
-                        <svg width="200" height="43" viewBox="0 0 200 43" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                           <rect width="200" height="42.2222" fill="url(#pattern2)" fill-opacity="0.06" />
-                           <defs>
-                              <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
-                                 <use xlink:href="#image0_929_1201" transform="translate(-0.0596774) scale(0.00612903 0.02)" />
-                              </pattern>
-                              <image id="image0_929_1201" width="180" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg==" />
-                           </defs>
-                        </svg>
-                     </i>
-                  </div>
-                  <h2 class="tpsection__title mb-25"><span>Expect great things</span> <br> from your SEO Agency</h2>
-                  <p>Believe it because you've seen it. Here are real numbers from just one <br> successful
-                     Victorious partner.</p>
-               </div>
-            </div>
-         </div>
-         <div class="tpanalysis-chart p-relatives pb-60">
-            <div class="row justify-content-center">
-               <div class="col-lg-8">
-                  <div class="tpanalysis-different">
-                     <label class="analisis-toggler  analisis-toggler--is-active" id="filt-monthly-seo">
-                        BEFORE SEO
-                     </label>
-                     <div class="analisis-toggle">
-                        <input type="checkbox" id="switcher-seo" class="analisis-check">
-                        <b class="analisis-switch"></b>
-                     </div>
-                     <label class="analisis-toggler" id="filt-yearly-seo">
-                        AFTER SEO
-                     </label>
-                  </div>
-               </div>
-            </div>
-            <div class="tpanalysis-shape d-none d-lg-block">
-               <div class="tpanalysis-shape-one">
-                  <img src="{{asset('assets/img/shape/analysis-chart-1.png')}}" alt="">
-               </div>
-               <div class="tpanalysis-shape-two">
-                  <img src="{{asset('assets/img/shape/analysis-chart-2.png')}}" alt="">
-               </div>
-            </div>
-         </div>
-         <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-12">
-               <div class="tpseo-analisis">
-                  <div id="monthly-seo" class="wrapper-full">
-                     <div class="tpanalysis__wrapper">
-                        <div class="row">
-                           <div class="col-lg-4 col-md-4">
-                              <div class="tpanalysis__catagory ml-20 mb-40">
-                                 <div class="tpanalysis__item">
-                                    <h3 class="tpanalysis__count mb-10">
-                                       <span data-purecounter-duration="1" data-purecounter-end="10265" class="purecounter">10,265</span>
-                                    </h3>
-                                    <p>Annual Organic Traffic</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4">
-                              <div class="tpanalysis__catagory text-center mb-40">
-                                 <div class="tpanalysis__item">
-                                    <h3 class="tpanalysis__count mb-10">
-                                       <span data-purecounter-duration="1" data-purecounter-end="8426" class="purecounter">8,426</span>
-                                    </h3>
-                                    <p>Ranking Keywords</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4">
-                              <div class="tpanalysis__catagory d-flex justify-content-end mr-25 mb-40">
-                                 <div class="tpanalysis__item">
-                                    <h3 class="tpanalysis__count mb-10">
-                                       <span data-purecounter-duration="1" data-purecounter-end="726" class="purecounter">726</span>%
-                                    </h3>
-                                    <p>Return on Investment</p>
-                                 </div>
-                              </div>
-                           </div>
+   <!-- <section class="about-area p-relative pb-40">
+         <div class="fix">
+            <div class="container-fluid">
+               <div class="row align-items-center">
+                  <div class="col-lg-12">
+                     <div class="about-inner-slide tpabout-inner-active" style="display: flex; gap: 5px;">
+                        <div class="about-inner-item">
+                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%;"> 
                         </div>
-                     </div>
-                  </div>
-                  <div id="hourly-seo" class="wrapper-full analisis-hide">
-                     <div class="tpanalysis__wrapper">
-                        <div class="row">
-                           <div class="col-lg-4 col-md-4">
-                              <div class="tpanalysis__catagory ml-20 mb-40">
-                                 <div class="tpanalysis__item">
-                                    <h3 class="tpanalysis__count mb-10">
-                                       <span data-purecounter-duration="1" data-purecounter-end="726" class="purecounter">10,265</span>
-                                    </h3>
-                                    <p>Annual Organic Traffic</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4">
-                              <div class="tpanalysis__catagory text-center mb-40">
-                                 <div class="tpanalysis__item">
-                                    <h3 class="tpanalysis__count mb-10">
-                                       <span data-purecounter-duration="1" data-purecounter-end="1026" class="purecounter">8,426</span>
-                                    </h3>
-                                    <p>Ranking Keywords</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4">
-                              <div class="tpanalysis__catagory d-flex justify-content-end mr-25 mb-40">
-                                 <div class="tpanalysis__item">
-                                    <h3 class="tpanalysis__count mb-10">
-                                       <span data-purecounter-duration="1" data-purecounter-end="488" class="purecounter">726</span>%
-                                    </h3>
-                                    <p>Return on Investment</p>
-                                 </div>
-                              </div>
-                           </div>
+                        <div class="about-inner-item">
+                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
+                        </div>
+                        <div class="about-inner-item">
+                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
+                        </div>
+                        <div class="about-inner-item">
+                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
+                        </div>
+                        <div class="about-inner-item">
+                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
+                        </div>
+                        <div class="about-inner-item">
+                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
-      </div>
-   </section> -->
-   <!-- analysis-area-end -->
+      </section> -->
 
-      <!-- services-area-start -->
+
+  <!-- choose-area-start -->
+      <section class="choose-area tpchoose-bottom pb-40">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-xl-6 col-lg-5">
+                  <div class="tpchoose-thumb mt-30 p-relative mb-50">
+                     <img class="tpchoose-border-anim" src="assets/img/banner/it_girl.png" alt="">
+                     <div class="tpchoose-shape">
+                        <div class="tpchoose-shape-one d-none d-md-block">
+                           <img src="assets/img/shape/choose-shape-1.png" alt="">
+                        </div>
+                        <div class="tpchoose-shape-two">
+                           <img src="assets/img/shape/choose-shape-2.png" alt="">
+                        </div>
+                        <div class="tpchoose-shape-three">
+                           <img src="assets/img/shape/choose-shape-3.png" alt="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-xl-6 col-lg-7">
+                  <div class="tpchoose-wrapper mb-30">
+                     <div class="tpsection__content mb-50">
+                        <div class="tpbanner__sub-title mb-15">
+                           <span>About Us</span>
+                           <i>
+                              <svg width="130" height="42" viewBox="0 0 130 42" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                 <rect y="0.941895" width="130" height="40.9551" fill="url(#pattern6)" fill-opacity="0.08"/>
+                                 <defs>
+                                 <pattern id="pattern6" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                 <use xlink:href="#image0_868_3547" transform="translate(-0.0587762 0.0123052) scale(0.00611916 0.0198269)"/>
+                                 </pattern>
+                                 <image id="image0_868_3547" width="180" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg=="/>
+                                 </defs>
+                              </svg>
+                           </i>
+                        </div>
+                        <h2 class="tpsection__title mb-15">We offer experiences,<br> more than services.</h2>
+                        <p>
+                           We are experts in developing professionally customized web solutions and providing digital solutions. 
+                           We have completed over 100 successful projects in seven countries, combining global insights with local knowledge. 
+                           In Ridgeben, We offer high-quality and expert solutions to enhance your online visibility. Moreover, a seamless process to ensure your business stands out.
+                        </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- choose-area-end -->
+
+
+   <!-- services-area-start -->
    <section class="services-area pb-110">
       <div class="container">
          <div class="row">
@@ -511,7 +296,7 @@ User List
    </section>
    <!-- services-area-end -->
 
-   
+
    <!-- funfact-area-start -->
    <section class="funfact-area pb-80">
       <div class="container">
@@ -578,7 +363,7 @@ User List
 
 
    <!-- case-area-start -->
-   <section class="case-area pb-140 fix">
+   <section class="case-area pb-60 fix">
       <div class="container">
          <div class="row">
             <div class="col-lg-6 col-md-8">
@@ -773,10 +558,15 @@ User List
                   </div>
                </div>
             </div>
-
-
          </div>
       </div>
+       <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
+
+                  <div class="tppricing-btn" style="text-align: center;">
+                     <a href="{{route('services')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">See More Projects</a>
+                  </div>
+
+            </div>
    </section>
    <!-- case-area-end -->
 
@@ -978,15 +768,175 @@ User List
    </section> -->
    <!-- pricing-area-end -->
 
+
+    <section class="choose-area tpchoose-bottom">
+      <div class="container">
+         <div class="row align-items-center">
+            <div class="col-xl-12 col-lg-12">
+               <div class="tpchoose-wrapper mb-30">
+                  <div class="tpsection__content mb-50">
+                     <div class="tpbanner__sub-title mb-15">
+                        <span>Why Choose us</span>
+                        <i>
+                           <svg width="130" height="42" viewBox="0 0 130 42" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                              <rect y="0.941895" width="130" height="40.9551" fill="url(#pattern6)" fill-opacity="0.08" />
+                              <defs>
+                                 <pattern id="pattern6" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                    <use xlink:href="#image0_868_3547" transform="translate(-0.0587762 0.0123052) scale(0.00611916 0.0198269)" />
+                                 </pattern>
+                                 <image id="image0_868_3547" width="180" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg==" />
+                              </defs>
+                           </svg>
+                        </i>
+                     </div>
+                     <h2 class="tpsection__title mb-15">What makes Us <br> Different from Others</h2>
+                     <p>Our priority is delivering genuine results. You’ll experience meaningful growth, visible value, and true business success.
+                     </p>
+                  </div>
+                  <div class="row gx-6">
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
+                           <div class="tpchoose-icon mb-25">
+                              <span><img src="{{asset('assets/img/icon/1.png')}}" alt="" style="width: 15%;"></span>
+                           </div>
+                           <div class="tpchoose-text">
+                              <span class="tpchoose-title">Performance-Driven Results</span>
+                              <p>Every strategy we deliver is ROI-focused, built to drive growth and measurable results.</p>
+                              <div class="tparrow-right">
+                                 <i>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
+                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </i>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
+                           <div class="tpchoose-icon mb-25">
+                              <span><img src="{{asset('assets/img/icon/2.png')}}" alt="" style="width: 15%;"></span>
+                           </div>
+                           <div class="tpchoose-text">
+                              <span class="tpchoose-title">Device-Ready Design</span>
+                              <p>Our responsive designs adapt perfectly, ensuring flawless performance on all devices.</p>
+                              <div class="tparrow-right">
+                                 <i>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
+                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </i>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
+                           <div class="tpchoose-icon mb-25">
+                              <span><img src="{{asset('assets/img/icon/3.png')}}" alt="" style="width: 15%;"></span>
+                           </div>
+                           <div class="tpchoose-text">
+                              <span class="tpchoose-title">Ironclad Data Security</span>
+                              <p>Your data is protected with enterprise-grade security and 24/7 real-time monitoring.</p>
+                              <div class="tparrow-right">
+                                 <i>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
+                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </i>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
+                           <div class="tpchoose-icon mb-25">
+                              <span><img src="{{asset('assets/img/icon/4.png')}}" alt="" style="width: 15%;"></span>
+                           </div>
+                           <div class="tpchoose-text">
+                              <span class="tpchoose-title">Search-Optimized Visibility</span>
+                              <p>Boost your visibility and ranking with optimized content and smart SEO strategies.</p>
+                              <div class="tparrow-right">
+                                 <i>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
+                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </i>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
+                           <div class="tpchoose-icon mb-25">
+                              <span><img src="{{asset('assets/img/icon/5.png')}}" alt="" style="width: 15%;"></span>
+                           </div>
+                           <div class="tpchoose-text">
+                              <span class="tpchoose-title">Future-Ready Solutions</span>
+                              <p>Our solutions scale seamlessly—from agile startups to growing enterprise businesses.</p>
+                              <div class="tparrow-right">
+                                 <i>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
+                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </i>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+
+                     <div class="col-lg-4 col-md-4 col-sm-6 col-6">
+                        <a href="{{route('about')}}" class="tpchoose mb-30">
+                           <div class="tpchoose-icon mb-25">
+                              <span><img src="{{asset('assets/img/icon/6.png')}}" alt="" style="width: 15%;"></span>
+                           </div>
+                           <div class="tpchoose-text">
+                              <span class="tpchoose-title">Reliable Long-Term Support</span>
+                              <p>We’re dedicated to offering continuous support and strategic improvements.</p>
+                              <div class="tparrow-right">
+                                 <i>
+                                    <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M0.930176 1L5.93018 6L0.930176 11" stroke="currentColor"
+                                          stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                          stroke-linejoin="round" />
+                                    </svg>
+                                 </i>
+                              </div>
+                           </div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
    <!-- testimonial-area-start -->
    <section class="textimonial-area pb-120 fix">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
                <div class="tpsection__content text-center mb-60">
-                  <div class="tptestimonial-avatar-bg mb-15">
-                     <img src="{{asset('assets/img/team/test-avatar-bg-1.png')}}" alt="">
-                  </div>
                   <h2 class="tpsection__title">Client love us & we love them</h2>
                   <p>Trusted by over 70+ clients worldwide</p>
                </div>
@@ -1011,20 +961,17 @@ User List
                         </i>
                      </div>
                      <p>Partnering with Ridgeben IT Solutions has
-                        greatly improved our e-commerce website. Their expert
-                        guidance and solutions led to a polished design and smooth
-                        functionality. We were impressed by their professionalism and
-                        adaptability to last-minute changes. Thanks to Ridgeben, our online
-                        store is set for continued success.</p>
+                        greatly improved our Furniture business through dynamic website. Thanks Ridgeben for their professionalism and
+                        adaptability to last-minute changes.</p>
                      <div class="tptestimonial-avatar-info">
                         <h5 class="tptestimonial-avatar-title">Md. Humaiun Khan</h5>
                         <span>Chairman Homeland Furniture</span>
                      </div>
                   </div>
                </div>
-               <!-- <div class="tptestimonial p-relative d-flex align-items-center">
+              <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="{{asset('assets/img/team/testimonial-2.png')}}" alt="">
+                     <img src="{{asset('assets/img/team/diran.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -1036,15 +983,15 @@ User List
                            </svg>
                         </i>
                      </div>
-                     <p>We help our clients succeed by creating brand identities, digital experiences, material that
-                        communicate clearly, achieve marketing goals!</p>
+                     <p>We are highly impressed with the website Ridgeben IT Solutions created for Kinglet BD. It's modern, 
+                        fast, and reflects our brand perfectly. Their team was efficient, responsive, and truly understood our goals.</p>
                      <div class="tptestimonial-avatar-info">
-                        <h5 class="tptestimonial-avatar-title">Robert Fox</h5>
-                        <span>CEO of Advisor Fuel</span>
+                        <h5 class="tptestimonial-avatar-title">Md. Diran Khan</h5>
+                        <span>CEO of Kinglet Furniture</span>
                      </div>
                   </div>
                </div>
-               <div class="tptestimonial p-relative d-flex align-items-center">
+                <!-- <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
                      <img src="{{asset('assets/img/team/testimonial-1.png')}}" alt="">
                   </div>
@@ -1277,7 +1224,7 @@ User List
    <!-- blog-area-end -->
 
    <!-- contact-area-start -->
-   <section class="contact-area theme-bg-3 pt-120 pb-120">
+   <section class="contact-area theme-bg-3 pt-120 pb-120" id="free-consult">
       <div class="container">
          <div class="row">
             <div class="col-lg-5">
@@ -1361,7 +1308,7 @@ User List
             <div class="col-lg-7">
                <div class="p-relative">
                   <div class="tpcontact-form p-relative ml-30">
-                     <h4 class="tpcontact-form-title mb-35">Send a message</h4>
+                     <h4 class="tpcontact-form-title mb-35">Book a Free Consultant</h4>
                      <form id="contactForm" action="{{route('email.store')}}" method="POST">
                         @csrf
 
@@ -1391,6 +1338,35 @@ User List
                                     @enderror
                                  </div>
                               </div>
+                              <div class="col-lg-6">
+                                 <div class="tpcontact-form-input mb-20">
+                                    <input type="date" name="booking_date" id="booking_date" min="{{ date('Y-m-d') }}" class="form-control" required>
+                                    @error('booking_date')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+                                 </div>
+                              </div>
+
+                              <div class="col-lg-6">
+                                 <div class="tpcontact-form-input mb-20">
+                                    <select name="booking_time" id="booking_time" class="form-control" style="height: 53px; padding: 0 20px;" required>
+                                       <option value="">Select Time Slot</option>
+                                       <option value="11:00">11:00 AM</option>
+                                       <option value="12:00">12:00 PM</option>
+                                       <option value="01:00">01:00 PM</option>
+                                       <option value="02:00">02:00 PM</option>
+                                       <option value="03:00">03:00 PM</option>
+                                       <option value="04:00">04:00 PM</option>
+                                       <option value="05:00">05:00 PM</option>
+                                       <option value="06:00">06:00 PM</option>
+                                    </select>
+                                    @error('booking_time')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+                                 </div>
+                              </div>
+
+
                               <div class="col-lg-12">
                                  <div class="tpcontact-form-input mb-20">
                                     <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="Email Address">
@@ -1425,42 +1401,42 @@ User List
       </div>
    </section>
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-   $(document).ready(function () {
-      $('#contactForm').on('submit', function (e) {
-         e.preventDefault();
+   <script>
+      $(document).ready(function() {
+         $('#contactForm').on('submit', function(e) {
+            e.preventDefault();
 
-         // Clear old messages
-         $('#form-response').html('');
+            // Clear old messages
+            $('#form-response').html('');
 
-         $.ajax({
-            url: "{{ route('email.store') }}",
-            method: "POST",
-            data: $(this).serialize(),
-            headers: {
-               'X-CSRF-TOKEN': $('input[name="_token"]').val()
-            },
-            success: function (res) {
-               $('#form-response').html('<div class="alert alert-success">Thanks for contacting us!</div>');
-               $('#contactForm')[0].reset();
-            },
-            error: function (xhr) {
-               if (xhr.status === 422) {
-                  let errors = xhr.responseJSON.errors;
-                  let errorHtml = '<div class="alert alert-danger"><ul>';
-                  $.each(errors, function (key, value) {
-                     errorHtml += '<li>' + value[0] + '</li>';
-                  });
-                  errorHtml += '</ul></div>';
-                  $('#form-response').html(errorHtml);
-               } else {
-                  $('#form-response').html('<div class="alert alert-danger">An error occurred. Please try again.</div>');
+            $.ajax({
+               url: "{{ route('email.store') }}",
+               method: "POST",
+               data: $(this).serialize(),
+               headers: {
+                  'X-CSRF-TOKEN': $('input[name="_token"]').val()
+               },
+               success: function(res) {
+                  $('#form-response').html('<div class="alert alert-success">Thanks for contacting us!</div>');
+                  $('#contactForm')[0].reset();
+               },
+               error: function(xhr) {
+                  if (xhr.status === 422) {
+                     let errors = xhr.responseJSON.errors;
+                     let errorHtml = '<div class="alert alert-danger"><ul>';
+                     $.each(errors, function(key, value) {
+                        errorHtml += '<li>' + value[0] + '</li>';
+                     });
+                     errorHtml += '</ul></div>';
+                     $('#form-response').html(errorHtml);
+                  } else {
+                     $('#form-response').html('<div class="alert alert-danger">An error occurred. Please try again.</div>');
+                  }
                }
-            }
+            });
          });
       });
-   });
-</script>
+   </script>
 
 
 

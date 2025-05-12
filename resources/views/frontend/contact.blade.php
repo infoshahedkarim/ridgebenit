@@ -108,37 +108,87 @@
                         </a>
                      </div>
                      <div class="contact-social">
-                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/ridgebenitsolution"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://x.com/Ridgeben_IT"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/company/ridgebenitsolution"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/ridgebenit"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://wa.me/8801898878819"><i class="fa-brands fa-whatsapp"></i></a>
                      </div>
                   </div>
                </div>
+
+
                <div class="offset-xl-1 col-xl-6 col-lg-6">
                   <div class="contact-form">
                      <h4 class="contact-form-title">Contact Us</h4>
-                     <form id="contact-form" action="assets/mail.php" method="POST">
-                        <div class="contact-form-input">
-                           <input name="name" type="text" placeholder="Full name">
+                     <form id="contactForm" action="{{route('email.store')}}" method="POST">
+
+                      @csrf
+
+                        @if(session('success'))
+                        <div class="alert alert-success">
+                           {{session('success')}}
                         </div>
+                        @endif
+
                         <div class="contact-form-input">
-                           <input name="email" type="email" placeholder="Your email">
+                             <input type="text" name="name" id="name" value="{{old('name')}}" placeholder="Full Name">
+                                    @error('name')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
                         </div>
+
                         <div class="contact-form-input">
-                           <input name="subject" type="text" placeholder="Subject">
+                            <input type="text" name="phone" id="phone" value="{{old('phone')}}" placeholder="Phone No.">
+                                    @error('phone')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
                         </div>
+
                         <div class="contact-form-input">
-                           <textarea name="message" placeholder="Your Comment" name="message"></textarea>
+                           <input type="date" name="booking_date" id="booking_date" min="{{ date('Y-m-d') }}" class="form-control" required>
+                                    @error('booking_date')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
                         </div>
+
+                        <div class="contact-form-input" style="margin-bottom: 5%;">
+                           <select name="booking_time" id="booking_time" class="form-control" style="height: 53px; padding: 0 20px;" required>
+                                       <option value="">Select Time Slot</option>
+                                       <option value="11:00">11:00 AM</option>
+                                       <option value="12:00">12:00 PM</option>
+                                       <option value="01:00">01:00 PM</option>
+                                       <option value="02:00">02:00 PM</option>
+                                       <option value="03:00">03:00 PM</option>
+                                       <option value="04:00">04:00 PM</option>
+                                       <option value="05:00">05:00 PM</option>
+                                       <option value="06:00">06:00 PM</option>
+                                    </select>
+                                    @error('booking_time')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+                        </div>
+
+                        <div class="contact-form-input">
+                            <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="Email Address">
+                                    @error('email')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+                        </div>
+
+                        <div class="contact-form-input">
+                           <textarea id="msg" value="{{old('msg')}}" placeholder="Message" name="msg"></textarea>
+                        </div>
+
                         <div class="contact-form-check d-flex align-items-center mb-25">
                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault01">
                            <label class="contact-form-label" for="flexCheckDefault01">By submitting, i’m agreed to the
                               Terms & Conditons</label>
                         </div>
-                        <div class="contact-form-btn">
-                           <a href="{{route('contact')}}" class="tp-btn">Send Message</a>
+                        <div class="tpcontact-form-submit">
+                           <button type="submit" class="">Send Message</button>
                         </div>
+                        <div id="form-response" style="margin-top: 5%;"></div>
                      </form>
                      <!-- <p class="ajax-response"></p> -->
                   </div>
@@ -147,6 +197,44 @@
          </div>
       </section>
       <!-- contact-area-end -->
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script>
+      $(document).ready(function() {
+         $('#contactForm').on('submit', function(e) {
+            e.preventDefault();
+
+            // Clear old messages
+            $('#form-response').html('');
+
+            $.ajax({
+               url: "{{ route('email.store') }}",
+               method: "POST",
+               data: $(this).serialize(),
+               headers: {
+                  'X-CSRF-TOKEN': $('input[name="_token"]').val()
+               },
+               success: function(res) {
+                  $('#form-response').html('<div class="alert alert-success">Thanks for contacting us!</div>');
+                  $('#contactForm')[0].reset();
+               },
+               error: function(xhr) {
+                  if (xhr.status === 422) {
+                     let errors = xhr.responseJSON.errors;
+                     let errorHtml = '<div class="alert alert-danger"><ul>';
+                     $.each(errors, function(key, value) {
+                        errorHtml += '<li>' + value[0] + '</li>';
+                     });
+                     errorHtml += '</ul></div>';
+                     $('#form-response').html(errorHtml);
+                  } else {
+                     $('#form-response').html('<div class="alert alert-danger">An error occurred. Please try again.</div>');
+                  }
+               }
+            });
+         });
+      });
+   </script>
 
       <!-- map-area-start -->
       <section class="map-area map-wrapper">

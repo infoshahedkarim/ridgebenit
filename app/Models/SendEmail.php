@@ -9,6 +9,8 @@ class SendEmail extends Model
     protected $fillable=[
         'name',
         'phone',
+        'booking_date',
+        'booking_time',
         'email',
         'msg',
     ];

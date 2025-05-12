@@ -20,20 +20,21 @@
                                         </li>
                                         <li><a href="{{route('about')}}">About</a></li>
                                         <li class="header-services has-dropdown has-mega-menu">
-                                            <a href="{{route('services')}}">Services</a>
+                                            <a href="">Services</a>
                                             <div class="tp-mega-menu tp-submenu submenu">
                                                 <div class="row">
                                                     <div class="col-xl-6">
                                                         <div class="tp-menu-banner">
                                                             <h5 class="tp-menu-banner-title">Services Overview</h5>
+                                                             @foreach ($services as $service)
                                                             <ul>
                                                                 <li>
-                                                                    <a href="{{route('softwaredev')}}">
-                                                                        <span> <img src="{{asset('assets/icon/1.png')}}" alt="" style="width: 15%;"> </span>
-                                                                        Software Development
+                                                                    <a href="{{route('page1', $service->slug)}}">
+                                                                        <span> <img src="{{ asset('storage/' . $service->icon) }}" alt="" style="width: 15%;"> </span>
+                                                                        {{$service->title}}
                                                                     </a>
                                                                 </li>
-                                                                <li>
+                                                                <!-- <li>
                                                                     <a href="{{route('websitedev')}}">
                                                                         <span> <img src="{{asset('assets/icon/2.png')}}" alt="" style="width: 15%;"> </span>
                                                                         Website Development
@@ -80,9 +81,10 @@
                                                                         <span> <img src="{{asset('assets/icon/9.png')}}" alt="" style="width: 15%;"> </span>
                                                                         Manage Services
                                                                     </a>
-                                                                </li>
+                                                                </li> -->
 
                                                             </ul>
+                                                            @endforeach
                                                         </div>
                                                     </div>
                                                     <div class="col-xl-6">
@@ -91,7 +93,7 @@
                                                                 <span>Ai Driven Digital Solutions</span>
                                                                 <h5 class="tp-menu-banner-title-2">The #1 Digital <br> Solution Provider <br> in the Bangladesh.</h5>
                                                                 <div class="tp-menu-banner-btn">
-                                                                    <a href="{{route('services')}}">
+                                                                    <a href="{{route('about')}}">
                                                                         Learn more
                                                                         <span>
                                                                             <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -111,20 +113,21 @@
                                             </div>
                                         </li>
                                         <li class="header-services has-dropdown has-mega-menu">
-                                            <a href="{{route('erp')}}">Product</a>
+                                            <a href="">Product</a>
                                             <div class="tp-mega-menu tp-submenu submenu">
                                                 <div class="row">
                                                     <div class="col-xl-6">
                                                         <div class="tp-menu-banner">
                                                             <h5 class="tp-menu-banner-title">Product Overview</h5>
+                                                            @foreach ($products as $product)
                                                             <ul>
                                                                 <li>
-                                                                    <a href="{{route('erp')}}">
-                                                                        <span> <img src="{{asset('assets/icon/10.png')}}" alt="" style="width: 15%;"> </span>
-                                                                        ERP Software
+                                                                    <a href="{{route('page5', $product->slug )}}">
+                                                                        <span> <img src="{{ asset('storage/' . $product->icon) }}" alt="" style="width: 15%;"> </span>
+                                                                        {{$product->title}}
                                                                     </a>
                                                                 </li>
-                                                                <li>
+                                                                {{-- <li>
                                                                     <a href="{{route('ams')}}">
                                                                         <span> <img src="{{asset('assets/icon/11.png')}}" alt="" style="width: 15%;"> </span>
                                                                         Account Software
@@ -148,9 +151,10 @@
                                                                         <span> <img src="{{asset('assets/icon/14.png')}}" alt="" style="width: 15%;"> </span>
                                                                         E-learning Management
                                                                     </a>
-                                                                </li>
+                                                                </li> --}}
 
                                                             </ul>
+                                                            @endforeach
                                                         </div>
                                                     </div>
                                                     <div class="col-xl-6">
@@ -159,7 +163,7 @@
                                                                 <span>Ai Driven Digital Solutions</span>
                                                                 <h5 class="tp-menu-banner-title-2">The #1 Digital <br> Solution Provider <br> in the Bangladesh.</h5>
                                                                 <div class="tp-menu-banner-btn">
-                                                                    <a href="{{route('services')}}">
+                                                                    <a href="{{route('about')}}">
                                                                         Learn more
                                                                         <span>
                                                                             <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">

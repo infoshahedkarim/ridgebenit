@@ -50,6 +50,7 @@ class RidgeController extends Controller
     $request->validate([
         'title' => 'required',
         'slug' => 'required|unique:services,slug',
+        'short_text' => 'required',
         'icon' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
         'banner' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
         'des' => 'required',  
@@ -82,6 +83,7 @@ class RidgeController extends Controller
         Service::create([
             'title' => $request->title,
             'slug' => $request->slug,
+            'short_text' => $request->short_text,
             'icon' => $iconName,
             'banner' => $bannerName,
             'des' => $request->des,
@@ -105,6 +107,7 @@ public function update(Request $request, $slug)
     $request->validate([
         'title' => 'required',
         'slug' => 'required|unique:services,slug,' . $services->id . ',id',
+        'short_text' => 'required',
         'icon' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
         'banner' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
         'des' => 'required',
@@ -136,6 +139,7 @@ public function update(Request $request, $slug)
         $services->update([
             'title' => $request->title,
             'slug' => $request->slug,
+            'short_text' => $request->short_text,
             'icon' => $iconName,
             'banner' => $bannerName,
             'des' => $request->des,
@@ -160,6 +164,8 @@ public function getmsg(Request $request)
         $request->validate([
             'name' => 'required',
             'phone' => 'required',
+            'booking_date' => 'required|date|after_or_equal:today',
+            'booking_time' => 'required|in:11:00,12:00,01:00,02:00,03:00,04:00,05:00,06:00',
             'email' => 'required|email',
             'msg' => 'required',
         ]);
@@ -170,6 +176,8 @@ public function getmsg(Request $request)
             . "Name: {$request->name}\n"
             . "Email: {$request->email}\n"
             . "Phone: {$request->phone}\n\n"
+            . "booking_date: {$request->booking_date}\n"
+            . "booking_time: {$request->booking_time}\n\n"
             . "Message:\n{$request->msg}";
 
         Mail::raw($emailBody, function ($message) use ($request) {
@@ -182,6 +190,8 @@ public function getmsg(Request $request)
         SendEmail::create([
             'name' => $request->name,
             'phone' => $request->phone,
+            'booking_date' => $request->booking_date,
+            'booking_time' => $request->booking_time,
             'email' => $request->email,
             'msg' => $request->msg,
         ]);
@@ -202,6 +212,7 @@ public function getmsg(Request $request)
     $request->validate([
         'title' => 'required',
         'slug' => 'required|unique:services,slug',
+        'short_text' => 'required',
         'icon' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
         'banner' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
         'des' => 'required',  
@@ -237,6 +248,7 @@ public function getmsg(Request $request)
         Product::create([
             'title' => $request->title,
             'slug' => $request->slug,
+            'short_text' => $request->short_text,
             'icon' => $iconName,
             'banner' => $bannerName,
             'des' => $request->des,
@@ -263,6 +275,7 @@ public function pupdate(Request $request, $slug)
     $request->validate([
         'title' => 'required',
         'slug' => 'required|unique:services,slug,' . $products->id . ',id',
+        'short_text' => 'required',
         'icon' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
         'banner' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
         'des' => 'required',
@@ -297,6 +310,7 @@ public function pupdate(Request $request, $slug)
         $products->update([
             'title' => $request->title,
             'slug' => $request->slug,
+            'short_text' => $request->short_text,
             'icon' => $iconName,
             'banner' => $bannerName,
             'des' => $request->des,
@@ -316,6 +330,22 @@ public function pdelete(Product $products){
 
     $products->delete();
     return redirect(route('back.show'))->with('success','Product deleted successfully');
+}
+
+
+public function services($slug)
+{
+    
+    $service = Service::where('slug', $slug)->firstOrFail();
+
+    return view('frontend.page1', compact('service'));
+}
+public function products($slug)
+{
+    
+    $product = Product::where('slug', $slug)->firstOrFail();
+
+    return view('frontend.page5', compact('product'));
 }
 
 
