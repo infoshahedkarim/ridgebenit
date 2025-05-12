@@ -40,19 +40,19 @@
             @method('PUT')
             <div>
                 <label>Title</label>
-                <input type="text" id="title" placeholder="Title" name="title" value="{{$products->title}}" onkeyup="generateSlug()" required>
+                <input type="text" id="title" placeholder="Title" name="title" value="{{$product->title}}" onkeyup="generateSlug()" required>
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label">Meta Tag</label>
-                <input id="slug" name="slug" type="text" class="form-control" value="{{$products->slug}}" placeholder="Add meta tag" readonly />
+                <input id="slug" name="slug" type="text" class="form-control" value="{{$product->slug}}" placeholder="Add meta tag" readonly />
             </div>
              <div>
                 <label>Short Description</label>
-                <input type="text" id="title" placeholder="Short Text" name="short_text" value="{{$products->short_text}}" required>
+                <input type="text" id="title" placeholder="Short Text" name="short_text" value="{{$product->short_text}}" required>
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label" for="image">Add Icon</label>
-                <img src="{{ asset('storage/' . $products->icon) }}" alt="{{$products->title}}" width="100">
+                <img src="{{ asset('storage/' . $product->icon) }}" alt="{{$product->title}}" width="100">
                 <input type="file" name="icon" id="image" accept="image/*" onchange="previewImage(event)">
                 <br>
                 <img id="imagePreview" src="" alt="Image Preview"
@@ -60,7 +60,7 @@
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label" for="image">Add Banner Image</label>
-                <img src="{{ asset('storage/' . $products->banner) }}" alt="{{$products->title}}" width="100">
+                <img src="{{ asset('storage/' . $product->banner) }}" alt="{{$product->title}}" width="100">
                 <input type="file" name="banner" id="image1" accept="image/*" onchange="previewImage1(event)">
                 <br>
                 <img id="imagePreview1" src="" alt="Image Preview1"
@@ -68,20 +68,20 @@
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label">Add Description</label>
-                <textarea id="detail" name="des" type="text" value="{{$products->des}}" class="ckeditor form-control"
+                <textarea id="detail" name="des" type="text" value="{{$product->des}}" class="ckeditor form-control"
                     placeholder="Add a details">{{$products->des}}</textarea>
             </div>
             <div>
                 <label>Point 1</label>
-                <input type="text" id="title" placeholder="Point 01" name="head1" value="{{$products->title}}">
+                <input type="text" id="title" placeholder="Point 01" name="head1" value="{{$product->title}}">
             </div>
             <div>
                 <label>Point 2</label>
-                <input type="text" id="title" placeholder="Point 02" name="head2" value="{{$products->title}}">
+                <input type="text" id="title" placeholder="Point 02" name="head2" value="{{$product->title}}">
             </div>
             <div>
                 <label>Point 3</label>
-                <input type="text" id="title" placeholder="Point 03" name="head3" value="{{$products->title}}">
+                <input type="text" id="title" placeholder="Point 03" name="head3" value="{{$product->title}}">
             </div>
             <div class="row mb-4" style="align-items: center;">
             <button type="submit" value="Save the data" class="btn btn-outline-success waves-effect waves-light">Save Changes</button>  

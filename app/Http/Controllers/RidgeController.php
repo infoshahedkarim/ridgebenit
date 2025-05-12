@@ -96,8 +96,8 @@ class RidgeController extends Controller
 }
 
 public function edit($slug){
-    $services = Service::where('slug', $slug)->firstOrFail(); // Fetch product by slug
-        return view('back.edit-services', compact('services'));
+    $service = Service::where('slug', $slug)->firstOrFail();
+        return view('back.edit-services', compact('service'));
 
 }
 public function update(Request $request, $slug)
@@ -264,8 +264,8 @@ public function getmsg(Request $request)
 }
 
 public function pedit($slug){
-    $products = Product::where('slug', $slug)->firstOrFail(); // Fetch product by slug
-        return view('back.edit-products', compact('products'));
+    $product = Product::where('slug', $slug)->firstOrFail(); // Fetch product by slug
+        return view('back.edit-products', compact('product'));
 
 }
 public function pupdate(Request $request, $slug)

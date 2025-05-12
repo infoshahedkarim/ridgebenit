@@ -40,19 +40,19 @@
             @method('PUT')
             <div>
                 <label>Title</label>
-                <input type="text" id="title" placeholder="Title" name="title" value="{{$services->title}}" onkeyup="generateSlug()" required>
+                <input type="text" id="title" placeholder="Title" name="title" value="{{$service->title}}" onkeyup="generateSlug()" required>
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label">Meta Tag</label>
-                <input id="slug" name="slug" type="text" class="form-control" value="{{$services->slug}}" placeholder="Add meta tag" readonly />
+                <input id="slug" name="slug" type="text" class="form-control" value="{{$service->slug}}" placeholder="Add meta tag" readonly />
             </div>
             <div>
                 <label>Short Description</label>
-                <input type="text" id="title" placeholder="Short Text" name="short_text" value="{{$products->short_text}}" required>
+                <input type="text" id="title" placeholder="Short Text" name="short_text" value="{{$service->short_text}}" required>
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label" for="image">Add Icon</label>
-                <img src="{{ asset('storage/' . $services->icon) }}" alt="{{$services->title}}" width="100">
+                <img src="{{ asset('storage/' . $service->icon) }}" alt="{{$service->title}}" width="100px">
                 <input type="file" name="icon" id="image" accept="image/*" onchange="previewImage(event)">
                 <br>
                 <img id="imagePreview" src="" alt="Image Preview"
@@ -60,7 +60,7 @@
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label" for="image">Add Banner Image</label>
-                <img src="{{ asset('storage/' . $services->banner) }}" alt="{{$services->title}}" width="100">
+                <img src="{{ asset('storage/' . $service->banner) }}" alt="{{$service->title}}" width="100px">
                 <input type="file" name="banner" id="image1" accept="image/*" onchange="previewImage1(event)">
                 <br>
                 <img id="imagePreview1" src="" alt="Image Preview1"
@@ -68,8 +68,8 @@
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label">Add Description</label>
-                <textarea id="detail" name="des" type="text" value="{{$services->des}}" class="ckeditor form-control"
-                    placeholder="Add a details">{{$services->des}}</textarea>
+                <textarea id="detail" name="des" type="text" value="{{$service->des}}" class="ckeditor form-control"
+                    placeholder="Add a details">{{$service->des}}</textarea>
             </div>
             <div class="row mb-4" style="align-items: center;">
             <button type="submit" value="Save the data" class="btn btn-outline-success waves-effect waves-light">Save Changes</button>  
