@@ -547,7 +547,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/ctc.png')}}" alt="">
+                     <img src="{{asset('assets/img/website/CTC.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
