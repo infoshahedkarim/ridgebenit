@@ -11,6 +11,9 @@
     @endsection
     @section('content')
 
+    @php use Illuminate\Support\Str; @endphp
+
+
     <div>
         <h1>All the Products</h1>
     </div>
@@ -48,7 +51,10 @@
                     <p>No Image Available</p>
                 @endif
                 </td>
-                <td>{!! $product->des ?? '' !!}</td>
+                <td>
+    {!! \Illuminate\Support\Str::words(strip_tags($product->des ?? ''), 30, '...') !!}
+</td>
+
 
                 <td>
                     <a href="{{route('products.edit', $product->slug)}}">Edit</a>

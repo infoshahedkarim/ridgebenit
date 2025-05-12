@@ -11,6 +11,9 @@
     @endsection
     @section('content')
 
+    @php use Illuminate\Support\Str; @endphp
+
+
 
      <div>
         <h1>All the Products</h1>
@@ -23,6 +26,7 @@
                 <th>ID</th>
                 <th>Title</th>
                 <th>Meta tag</th>
+                <th>Short Text</th>
                 <th>Icon</th>
                 <th>Banner</th>
                 <th>Descriptions</th>
@@ -48,7 +52,10 @@
                     <p>No Image Available</p>
                 @endif
                 </td>
-                <td>{!! $service->des ?? '' !!}</td>
+                <td>
+    {!! \Illuminate\Support\Str::words(strip_tags($service->des ?? ''), 30, '...') !!}
+</td>
+
 
                 <td>
                     <a href="{{route('services.edit', $service->slug)}}">Edit</a>
