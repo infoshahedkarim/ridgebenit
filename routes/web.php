@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\RidgeController;
+use App\Http\Controllers\BlogController;
 
 
 
@@ -23,13 +24,6 @@ Route::get('/servicess', function () {
     return view('frontend.services');
 })->name('services');
 
-Route::get('/blog', function () {
-    return view('frontend.blog');
-})->name('blog');
-
-Route::get('/blog-detail', function () {
-    return view('frontend.blog-details');
-})->name('blog-detail');
 
 Route::get('/casestudy', function () {
     return view('frontend.casestudy');
@@ -154,6 +148,7 @@ Route::get('/products/{slug}', [RidgeController::class, 'products'])->name('page
 
 Route::get('/check-slug/{slug}', [RidgeController::class, 'checkSlug']);
 Route::get('/slug-check/{slug}', [RidgeController::class, 'slugCheck']);
+Route::get('/blog-slug-check/{slug}', [BlogController::class, 'BlogSlug']);
 
 
 
@@ -173,6 +168,24 @@ Route::get('/show-feature',[RidgeController::class, 'fshow'])->name('back.fshow'
 Route::get('/feature/{slug}/edit', [RidgeController::class,'fedit'])->name('feature.edit');
 Route::put('/feature/{slug}/update', [RidgeController::class,'fupdate'])->name('feature.update');
 Route::delete('/feature/{feature}/delete', [RidgeController::class,'fdelete'])->name('feature.delete');
+
+
+
+
+Route::get('/back-blog',[BlogController::class, 'create'])->name('create.blog');
+Route::get('/add-blog',[BlogController::class, 'index'])->name('add.blog');
+Route::post('/added-blog',[BlogController::class, 'store'])->name('store.blog');
+Route::get('/show-blog',[BlogController::class, 'show'])->name('show.blog');
+Route::get('/blog',[BlogController::class, 'show-home'])->name('show-home.blog');
+Route::get('/blog/{slug}/edit', [BlogController::class,'edit'])->name('edit.blog');
+Route::get('/blog/{slug}', [BlogController::class,'edit'])->name('show-detail.blog');
+Route::put('/blog/{slug}/update', [BlogController::class,'update'])->name('update.blog');
+Route::delete('/blog/{blog}/delete', [BlogController::class,'delete'])->name('delete.blog');
+
+
+Route::get('/blog-detail', function () {
+    return view('frontend.blog-details');
+})->name('blog-detail');
 
 
 

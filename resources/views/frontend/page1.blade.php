@@ -1,52 +1,51 @@
 @extends('layouts.frontend')
 @section('title')
-    {{ $service->title }}
+{{ $service->title }}
 @endsection
 @section('page-title')
-    User List
+User List
 @endsection
 @section('body')
 
-    <body>
-    @endsection
-    @section('content')
+<body>
+   @endsection
+   @section('content')
 
-      <!-- breadcrumb-area-start -->
-      <div class="breadcrumb-services-area services-details-bg scene breadcrumb-bg p-relative markiting-area markiting-wrap">
-         <div class="markiting-shape services-inner-banner-shape-wrap">
-            <img src="assets/img/services/social-media/services-social-media-bg.png" alt="">
-            <div class="services-inner-banner-shape">
-               <img class="services-inner-banner-shape-1" src="{{asset('assets/img/cta/cta-inner-shape-1.png')}}" alt="">
-               <img class="services-inner-banner-shape-2" src="{{asset('assets/img/cta/cta-inner-shape-2.png')}}" alt="">
-               <img class="services-inner-banner-shape-3" src="{{asset('assets/img/cta/cta-inner-shape-3.png')}}" alt="">
-               <img class="services-inner-banner-shape-4" src="{{asset('assets/img/cta/cta-inner-shape-4.png')}}" alt="">
-               <img class="services-inner-banner-shape-5" src="{{asset('assets/img/cta/cta-inner-shape-5.png')}}" alt="">
-               <img class="services-inner-banner-shape-6" src="{{asset('assets/img/cta/cta-inner-shape-6.png')}}" alt="">
-            </div>
+   <!-- breadcrumb-area-start -->
+   <div class="breadcrumb-services-area services-details-bg scene breadcrumb-bg p-relative markiting-area markiting-wrap">
+      <div class="markiting-shape services-inner-banner-shape-wrap">
+         <img src="assets/img/services/social-media/services-social-media-bg.png" alt="">
+         <div class="services-inner-banner-shape">
+            <img class="services-inner-banner-shape-1" src="{{asset('assets/img/cta/cta-inner-shape-1.png')}}" alt="">
+            <img class="services-inner-banner-shape-2" src="{{asset('assets/img/cta/cta-inner-shape-2.png')}}" alt="">
+            <img class="services-inner-banner-shape-3" src="{{asset('assets/img/cta/cta-inner-shape-3.png')}}" alt="">
+            <img class="services-inner-banner-shape-4" src="{{asset('assets/img/cta/cta-inner-shape-4.png')}}" alt="">
+            <img class="services-inner-banner-shape-5" src="{{asset('assets/img/cta/cta-inner-shape-5.png')}}" alt="">
+            <img class="services-inner-banner-shape-6" src="{{asset('assets/img/cta/cta-inner-shape-6.png')}}" alt="">
          </div>
       </div>
-      <!-- breadcrumb-services-area-end -->
+   </div>
+   <!-- breadcrumb-services-area-end -->
 
-      <!-- service-details-area-start -->
-      <section class="services-details-area services-details mb-90" style="margin-top: -7%;">
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="services-details">
-                     <div class="services-details-section ml-95">
-                        <span style="color:rgba(169, 215, 255, 0.8);">Our Services</span>
-                        <h4 class="services-details-title" style="color: #004a87;">{{ $service->title }}</h4>
-                     </div>
-                     <div class="services-details-thumb mb-50">
-                        <img src="{{ asset('storage/' . $service->banner) }}" alt="">
-                     </div>
-                     <div class="services-details-wrap">
-                        <div class="row">
-                           <div class="col-lg-10 offset-lg-1">
-                              <div class="services-details-content">
-                                 <div class="services-details-content-box">
-                                    {!! $service->des !!}
-                                 </div>
+   <!-- service-details-area-start -->
+   <section class="services-details-area services-details mb-90" style="margin-top: -7%;">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="services-details">
+                  <div class="services-details-section ml-95">
+                     <span style="color:rgba(169, 215, 255, 0.8);">Our Services</span>
+                     <h4 class="services-details-title" style="color: #004a87;">{{ $service->title }}</h4>
+                  </div>
+                  <div class="services-details-thumb mb-50">
+                     <img src="{{ asset('storage/' . $service->banner) }}" alt="">
+                  </div>
+                  <div class="services-details-wrap">
+                     <div class="row">
+                        <div class="col-lg-10 offset-lg-1">
+                           <div class="services-details-content">
+                              <div class="services-details-content-box">
+                                 {!! $service->des !!}
                               </div>
                            </div>
                         </div>
@@ -55,10 +54,11 @@
                </div>
             </div>
          </div>
-      </section>
+      </div>
+   </section>
 
 
-      <!-- <section class="quality-services-area quality-services-bg pb-125 pt-95 mb-120">
+   <!-- <section class="quality-services-area quality-services-bg pb-125 pt-95 mb-120">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -305,34 +305,36 @@
       </section> -->
 
 
-      <!-- feature-area-start -->
-      <section class="feature-area p-relative pb-95">
-         <div class="feature-bg-shape"></div>
-         <div class="container">
-            <div class="row">
+   <!-- feature-area-start -->
+   <section class="feature-area p-relative pb-95">
+      <div class="feature-bg-shape"></div>
+      <div class="container">
+         <div class="row">
 
-             <div class="section-3 text-center mb-70">
-                <p>Looking for a quick way to pull data for multiple keywords.</p>
-               <div class="section-3-title mb-15">All in one SEO toolset</div>
-             </div>
-
-               <div class="col-lg-4 col-md-6">
-                  <div class="feature-5-item mb-55">
-                     <div class="feature-5-icon p-relative mb-40">
-                        <img src="{{asset('assets/img/shape/feature-5-icon-1.png')}}" alt="">
-                        <div class="feature-5-icon-shape">
-                           <img src="{{asset('assets/img/shape/feature-5-shape-1.png')}}" alt="">
-                        </div>
-                        <span></span>
-                     </div>
-                     <div class="feature-5-content">
-                        <h4 class="feature-5-content-title mb-50">Backlink checking & Monitoring</h4>
-                        <p style="margin-top:-5%">Shahed Boss</p>
-                     </div>
+            <div class="section-3 text-center mb-70">
+               <p>Looking for a quick way to pull data for multiple keywords.</p>
+               <div class="section-3-title mb-15">{{$ft->title}}</div>
+            </div>
+         </div>
+         @foreach($features as $feature)
+         <div class="col-lg-4 col-md-6">
+            <div class="feature-5-item mb-55">
+               <div class="feature-5-icon p-relative mb-40">
+                  <img src="{{asset('storage/' . $feature->icon)}}" alt="" style="width:20%">
+                  <div class="feature-5-icon-shape">
+                     <img src="{{asset('assets/img/shape/feature-5-shape-1.png')}}" alt="">
                   </div>
+                  <span></span>
                </div>
+               <div class="feature-5-content">
+                  <h4 class="feature-5-content-title mb-50">{{$feature->subtitle}}</h4>
+                  <p style="margin-top:-5%">{!! $feature->des !!}</p>
+               </div>
+            </div>
+         </div>
+         @endforeach
 
-               <div class="col-lg-4 col-md-6">
+         <!-- <div class="col-lg-4 col-md-6">
                   <div class="feature-5-item feature-5-item-2 mb-55">
                      <div class="feature-5-icon p-relative mb-40">
                         <img src="{{asset('assets/img/shape/feature-5-icon-2.png')}}" alt="">
@@ -362,111 +364,164 @@
                         <p style="margin-top:-5%">Shahed Boss</p>
                      </div>
                   </div>
+               </div> -->
+
+
+      </div>
+      </div>
+   </section>
+   <!-- feature-area-end -->
+
+
+
+   <!-- optimize-area-start -->
+   <section class="optimize-area optimize-wrapper pb-140">
+      <div class="container">
+         <div class="row align-items-center"> <!-- Center both col-lg-6 vertically -->
+            <div class="col-lg-6">
+               <div class="optimize-wrapperp" style="padding-top: 0;"> <!-- removed pt-35 -->
+                  <div class="section-wrapper mb-40">
+                     <span>Looking for best SEO results?</span>
+                     <h5 class="section-title-4 section-title-4-2">Organic Search <br> Engine Optimisation</h5>
+                  </div>
+                  <div class="expertise-wrapper">
+                     <div class="expertise-list">
+
+                        <div class="expertise-item" style="background: linear-gradient(135deg, #f0faff, #e0f7ff); padding: 15px; border-radius: 10px; display: flex; align-items: center; gap: 15px; margin-bottom: 3%;">
+                           <div class="icon" style="font-size: 30px; flex-shrink: 0;">⚡</div>
+                           <div class="content">
+                              <h4 style="margin: 0 0 5px 0;">Speed and Performance Optimization</h4>
+                              <p style="margin: 0;">We prioritize swift loading times and optimal website performance, crucial for enhancing
+                                 user experience and SEO rankings.</p>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>
                </div>
-               
-               
+            </div>
+            <div class="col-lg-6">
+               <div class="optimize-thumb text-end p-relative" style="padding-top: 0;"> <!-- removed pt-35 -->
+                  <div class="optimize-thumb-img">
+                     <img src="{{asset('assets/img/bg/optimize-bg.png')}}" alt="">
+                  </div>
+                  <div class="optimize-shape">
+                     <img src="{{asset('assets/img/bg/optimize-bg-2.png')}}" alt="" class="optimize-shape-1">
+                     <img src="{{asset('assets/img/shape/optimize-shape-2.png')}}" alt="" class="optimize-shape-2 d-none d-md-block" data-parallax='{"y": 50, "smoothness": 20}'>
+                     <img src="{{asset('assets/img/shape/optimize-shape-1.png')}}" alt="" class="optimize-shape-3 d-none d-md-block" data-parallax='{"y": 50, "smoothness": 20}'>
+                  </div>
+               </div>
             </div>
          </div>
-      </section>
-      <!-- feature-area-end -->
+      </div>
+   </section>
+
+   <!-- optimize-area-end -->
 
 
-      <!-- services-area-start -->
-      <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -7%;">
-         <div class="services-shape d-none d-xl-block">
-            <div class="services-shape-one">
-               <img src="assets/img/shape/services-2shape-1.png" alt="">
-            </div>
-            <div class="services-shape-two">
-               <img src="assets/img/shape/services-2shape-2.png" alt="">
+   <section class="expertise-section">
+
+
+
+   </section>
+
+
+   <!-- services-area-start -->
+   <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -7%;">
+      <div class="services-shape d-none d-xl-block">
+         <div class="services-shape-one">
+            <img src="assets/img/shape/services-2shape-1.png" alt="">
+         </div>
+         <div class="services-shape-two">
+            <img src="assets/img/shape/services-2shape-2.png" alt="">
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="row justify-content-center">
+               <div class="col-lg-8">
+                  <div class="tpsection-wrapper text-center mb-60">
+                     <h2 class="tpsection-title-two">
+                        <span class="big-shape2">
+                           Choose Us
+                           <svg width="246" height="24" viewBox="0 0 246 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M2.74431 14.6419C2.74431 14.6419 154.652 -4.65014 239.811 9.30024"
+                                 stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
+                              <path d="M3.00783 11.4374C3.00783 11.4374 157.737 -0.672988 242.581 17.053"
+                                 stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
+                           </svg>
+                        </span>
+                     </h2>
+                  </div>
+               </div>
             </div>
          </div>
-         <div class="container">
-            <div class="row">
-               <div class="row justify-content-center">
-                  <div class="col-lg-8">
-                     <div class="tpsection-wrapper text-center mb-60">
-                        <h2 class="tpsection-title-two">
-                           <span class="big-shape2">
-                              Choose Us
-                              <svg width="246" height="24" viewBox="0 0 246 24" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M2.74431 14.6419C2.74431 14.6419 154.652 -4.65014 239.811 9.30024"
-                                    stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
-                                 <path d="M3.00783 11.4374C3.00783 11.4374 157.737 -0.672988 242.581 17.053"
-                                    stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
-                              </svg>
-                           </span>
-                        </h2>
-                     </div>
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="services-two mb-30">
+                  <div class="services-two-bg"></div>
+                  <div class="services-two-icon">
+                     <img src="{{asset('assets/img/icon/services-icon-1.png')}}" alt="">
+                  </div>
+                  <div class="services-two-content">
+                     <h4 class="services-two-title">The Easiest Way to Improve Your Site Speed</h4>
+                     <span>SEO Strategy</span>
                   </div>
                </div>
             </div>
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="services-two mb-30">
-                     <div class="services-two-bg"></div>
-                     <div class="services-two-icon">
-                        <img src="{{asset('assets/img/icon/services-icon-1.png')}}" alt="">
-                     </div>
-                     <div class="services-two-content">
-                        <h4 class="services-two-title">The Easiest Way to Improve Your Site Speed</h4>
-                        <span>SEO Strategy</span>
-                     </div>
+
+            <div class="col-lg-12">
+               <div class="services-two mb-30">
+                  <div class="services-two-bg"></div>
+                  <div class="services-two-icon">
+                     <img src="{{asset('assets/img/icon/services-icon-2.png')}}" alt="">
+                  </div>
+                  <div class="services-two-content">
+
+                     <h4 class="services-two-title">Complete Site Speed Optimization Service</h4>
+                     <span>SEO Optimization</span>
                   </div>
                </div>
-
-               <div class="col-lg-12">
-                  <div class="services-two mb-30">
-                     <div class="services-two-bg"></div>
-                     <div class="services-two-icon">
-                        <img src="{{asset('assets/img/icon/services-icon-2.png')}}" alt="">
-                     </div>
-                     <div class="services-two-content">
-                        
-                        <h4 class="services-two-title">Complete Site Speed Optimization Service</h4>
-                        <span>SEO Optimization</span>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="col-lg-12">
-                  <div class="services-two mb-30">
-                     <div class="services-two-bg"></div>
-                     <div class="services-two-icon">
-                        <img src="{{asset('assets/img/icon/services-icon-3.png')}}" alt="">
-                     </div>
-                     <div class="services-two-content">
-                        
-                        <h4 class="services-two-title">Instantly Analyze Your SEO Issues</h4>
-                        <span>SEO Analysis</span>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="col-lg-12">
-                  <div class="services-two mb-30">
-                     <div class="services-two-bg"></div>
-                     <div class="services-two-icon">
-                        <img src="{{asset('assets/img/icon/services-icon-4.png')}}" alt="">
-                     </div>
-                     <div class="services-two-content">
-                        
-                        <h4 class="services-two-title">Enhanced Mobile & Desktop UX</h4>
-                        <span>Web & Mobile</span>
-                     </div>
-                  </div>
-               </div>
-
             </div>
+
+            <div class="col-lg-12">
+               <div class="services-two mb-30">
+                  <div class="services-two-bg"></div>
+                  <div class="services-two-icon">
+                     <img src="{{asset('assets/img/icon/services-icon-3.png')}}" alt="">
+                  </div>
+                  <div class="services-two-content">
+
+                     <h4 class="services-two-title">Instantly Analyze Your SEO Issues</h4>
+                     <span>SEO Analysis</span>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-12">
+               <div class="services-two mb-30">
+                  <div class="services-two-bg"></div>
+                  <div class="services-two-icon">
+                     <img src="{{asset('assets/img/icon/services-icon-4.png')}}" alt="">
+                  </div>
+                  <div class="services-two-content">
+
+                     <h4 class="services-two-title">Enhanced Mobile & Desktop UX</h4>
+                     <span>Web & Mobile</span>
+                  </div>
+               </div>
+            </div>
+
          </div>
-      </section>
-      <!-- services-area-end -->
+      </div>
+   </section>
+   <!-- services-area-end -->
 
 
 
-      <!-- pricing-area-start -->
-      <!-- <section class="pricing-area tp-price-parent tppricing-box-active pb-170 fix">
+   <!-- pricing-area-start -->
+   <!-- <section class="pricing-area tp-price-parent tppricing-box-active pb-170 fix">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -988,109 +1043,109 @@
             </div>
          </div>
       </section> -->
-     
-      
 
 
 
 
-      <div class="social-area social-inner-wrapper pb-85">
-         <div class="container">
-            <div class="row">
+
+
+   <div class="social-area social-inner-wrapper pb-85">
+      <div class="container">
+         <div class="row">
             <div class="col-lg-12">
-         <div class="portfolio-inner-2 text-center mb-50">
-            <h4 class="portfolio-inner-2-head">Follow us for more...</h4>
-         </div>
-         </div>
-               <div class="col-lg-6">
-                  <div class="tpsocial tpsocial-facebook mb-30">
-                     <div class="tpsocial-bg"></div>
-                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="https://www.facebook.com/ridgebenitsolution">
-                           <i class="fa-brands fa-facebook"></i>
-                           Follow us on Facebook for Business Updates
+               <div class="portfolio-inner-2 text-center mb-50">
+                  <h4 class="portfolio-inner-2-head">Follow us for more...</h4>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="tpsocial tpsocial-facebook mb-30">
+                  <div class="tpsocial-bg"></div>
+                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                     <a href="https://www.facebook.com/ridgebenitsolution">
+                        <i class="fa-brands fa-facebook"></i>
+                        Follow us on Facebook for Business Updates
+                     </a>
+                     <span>
+                        <a href="#">
+                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
                         </a>
-                        <span>
-                           <a href="#">
-                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </span>
-                     </div>
+                     </span>
                   </div>
                </div>
-               <div class="col-lg-6">
-                  <div class="tpsocial tpsocial-insta mb-30">
-                     <div class="tpsocial-bg"></div>
-                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="https://www.instagram.com/ridgebenit">
-                           <i class="fa-brands fa-instagram"></i>
-                           Follow us on Instagram for Business Inspiration
+            </div>
+            <div class="col-lg-6">
+               <div class="tpsocial tpsocial-insta mb-30">
+                  <div class="tpsocial-bg"></div>
+                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                     <a href="https://www.instagram.com/ridgebenit">
+                        <i class="fa-brands fa-instagram"></i>
+                        Follow us on Instagram for Business Inspiration
+                     </a>
+                     <span>
+                        <a href="#">
+                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
                         </a>
-                        <span>
-                           <a href="#">
-                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </span>
-                     </div>
+                     </span>
                   </div>
                </div>
-               <div class="col-lg-6">
-                  <div class="tpsocial tpsocial-facebook mb-30">
-                     <div class="tpsocial-bg"></div>
-                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="https://www.linkedin.com/company/ridgebenitsolution">
-                           <i class="fa-brands fa-linkedin"></i> Get our Newsletter for Business Tips & News
+            </div>
+            <div class="col-lg-6">
+               <div class="tpsocial tpsocial-facebook mb-30">
+                  <div class="tpsocial-bg"></div>
+                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                     <a href="https://www.linkedin.com/company/ridgebenitsolution">
+                        <i class="fa-brands fa-linkedin"></i> Get our Newsletter for Business Tips & News
+                     </a>
+                     <span>
+                        <a href="#">
+                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
                         </a>
-                        <span>
-                           <a href="#">
-                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </span>
-                     </div>
+                     </span>
                   </div>
                </div>
-               <div class="col-lg-6">
-                  <div class="tpsocial tpsocial-twitt mb-30">
-                     <div class="tpsocial-bg"></div>
-                     <div class="tpsocial-text d-flex align-items-center justify-content-between">
-                        <a href="https://x.com/Ridgeben_IT">
-                           <i class="fa-brands fa-twitter"></i> Follow us on Twitter for Business Updates
+            </div>
+            <div class="col-lg-6">
+               <div class="tpsocial tpsocial-twitt mb-30">
+                  <div class="tpsocial-bg"></div>
+                  <div class="tpsocial-text d-flex align-items-center justify-content-between">
+                     <a href="https://x.com/Ridgeben_IT">
+                        <i class="fa-brands fa-twitter"></i> Follow us on Twitter for Business Updates
+                     </a>
+                     <span>
+                        <a href="#">
+                           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                 stroke-linejoin="round" />
+                              <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" />
+                           </svg>
                         </a>
-                        <span>
-                           <a href="#">
-                              <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
-                                 xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M1 6H11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                 <path d="M6 1L11 6L6 11" stroke="currentColor" stroke-width="1.5"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                              </svg>
-                           </a>
-                        </span>
-                     </div>
+                     </span>
                   </div>
                </div>
             </div>
          </div>
-      </div> 
+      </div>
+   </div>
 
 
    @endsection

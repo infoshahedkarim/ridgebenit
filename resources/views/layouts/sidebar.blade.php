@@ -73,6 +73,30 @@
                         <span class="menu-item" data-key="t-filemanager">All Products</span>
                     </a>
                 </li>
+                <li>
+                    <a href="{{route('back.fcreate')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">Add Feature</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('back.fshow')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">All Feature</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('add.blog')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">Add Blog</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('show.blog')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">All Blogs</span>
+                    </a>
+                </li>
 
             </ul>
         </div>

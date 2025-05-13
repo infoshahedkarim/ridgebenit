@@ -466,8 +466,10 @@ public function services($slug)
 {
     
     $service = Service::where('slug', $slug)->firstOrFail();
-
-    return view('frontend.page1', compact('service'));
+    $features = AddFeatures::where('service_id', $service->id)->get();
+    $ft = AddFeatures::where('service_id', $service->id)->first();
+    return view('frontend.page1', compact('service', 'features', 'ft'));
+    
 }
 public function products($slug)
 {
