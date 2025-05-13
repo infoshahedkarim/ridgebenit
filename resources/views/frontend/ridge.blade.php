@@ -77,38 +77,17 @@ User List
       </div>
    </section>
 
-   <div class="slider123 col-xl-12" style="display: flex;">
-        <div class="card123">
-            <img src="{{asset('assets/partners/1.jpg')}}" alt="Product 1" style="width: 50%;">
-        </div>
-        <div class="card123">
-            <img src="{{asset('assets/partners/2.webp')}}" alt="Product 2" style="width: 50%;">
-        </div>
-        <div class="card123">
-            <img src="{{asset('assets/partners/3.webp')}}" alt="Product 3" style="width: 50%;">
-        </div>
-        <div class="card123">
-            <img src="{{asset('assets/partners/4.png')}}" alt="Product 4" style="width: 50%;">
-        </div>
-        <div class="card123">
-            <img src="{{asset('assets/partners/5.png')}}" alt="Product 5" style="width: 50%;">
-        </div>
-        <div class="card123">
-            <img src="{{asset('assets/partners/6.png')}}" alt="Product 6" style="width: 50%;">
-        </div>
-        <div class="card123">
-            <img src="{{asset('assets/partners/7.png')}}" alt="Product 6" style="width: 50%;">
-        </div>
-        <div class="card123">
-            <img src="{{asset('assets/partners/8.webp')}}" alt="Product 6" style="width: 50%;">
-        </div>
-        <div class="card123">
-            <img src="{{asset('assets/partners/9.webp')}}" alt="Product 6" style="width: 50%;">
-        </div>
-    </div>
-
-
-
+   <div class="slider123 col-xl-12 pb-40">
+    <div class="card123"><img src="{{asset('assets/partners/1.jpg')}}" alt="Product 1"></div>
+    <div class="card123"><img src="{{asset('assets/partners/2.webp')}}" alt="Product 2"></div>
+    <div class="card123"><img src="{{asset('assets/partners/3.webp')}}" alt="Product 3"></div>
+    <div class="card123"><img src="{{asset('assets/partners/4.png')}}" alt="Product 4"></div>
+    <div class="card123"><img src="{{asset('assets/partners/5.png')}}" alt="Product 5"></div>
+    <div class="card123"><img src="{{asset('assets/partners/6.png')}}" alt="Product 6"></div>
+    <div class="card123"><img src="{{asset('assets/partners/7.png')}}" alt="Product 7"></div>
+    <div class="card123"><img src="{{asset('assets/partners/8.webp')}}" alt="Product 8"></div>
+    <div class="card123"><img src="{{asset('assets/partners/9.webp')}}" alt="Product 9"></div>
+</div>
 
 
    <!-- <section class="about-area p-relative pb-40">

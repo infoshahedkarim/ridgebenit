@@ -167,4 +167,13 @@ Route::put('/products/{slug}/update', [RidgeController::class,'pupdate'])->name(
 Route::delete('/products/{products}/delete', [RidgeController::class,'pdelete'])->name('products.delete');
 
 
+Route::get('/add-feature',[RidgeController::class, 'fcreate'])->name('back.fcreate');
+Route::post('/page-feature',[RidgeController::class, 'fstore'])->name('back.fstore');
+Route::get('/show-feature',[RidgeController::class, 'fshow'])->name('back.fshow');
+Route::get('/feature/{slug}/edit', [RidgeController::class,'fedit'])->name('feature.edit');
+Route::put('/feature/{slug}/update', [RidgeController::class,'fupdate'])->name('feature.update');
+Route::delete('/feature/{feature}/delete', [RidgeController::class,'fdelete'])->name('feature.delete');
+
+
+
 Route::post('/send-mail',[RidgeController::class, 'getmsg'])->name('email.store');

@@ -112,7 +112,7 @@
                                                 </div>
                                             </div>
                                         </li>
-                                        <li class="header-services has-dropdown has-mega-menu">
+                                        <!-- <li class="header-services has-dropdown has-mega-menu">
                                             <a href="">Product</a>
                                             <div class="tp-mega-menu tp-submenu submenu">
                                                 <div class="row">
@@ -181,11 +181,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </li>
+                                        </li> -->
                                         <li><a href="{{route('blog')}}">Blog</a></li>
-                                        <li>
+                                        <!-- <li>
                                             <a href="{{route('casestudy')}}">Case Studies</a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                 </nav>
                             </div>

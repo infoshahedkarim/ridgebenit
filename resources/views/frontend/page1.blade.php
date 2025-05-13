@@ -304,6 +304,696 @@
          </div>
       </section> -->
 
+
+      <!-- feature-area-start -->
+      <section class="feature-area p-relative pb-95">
+         <div class="feature-bg-shape"></div>
+         <div class="container">
+            <div class="row">
+
+             <div class="section-3 text-center mb-70">
+                <p>Looking for a quick way to pull data for multiple keywords.</p>
+               <div class="section-3-title mb-15">All in one SEO toolset</div>
+             </div>
+
+               <div class="col-lg-4 col-md-6">
+                  <div class="feature-5-item mb-55">
+                     <div class="feature-5-icon p-relative mb-40">
+                        <img src="{{asset('assets/img/shape/feature-5-icon-1.png')}}" alt="">
+                        <div class="feature-5-icon-shape">
+                           <img src="{{asset('assets/img/shape/feature-5-shape-1.png')}}" alt="">
+                        </div>
+                        <span></span>
+                     </div>
+                     <div class="feature-5-content">
+                        <h4 class="feature-5-content-title mb-50">Backlink checking & Monitoring</h4>
+                        <p style="margin-top:-5%">Shahed Boss</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-4 col-md-6">
+                  <div class="feature-5-item feature-5-item-2 mb-55">
+                     <div class="feature-5-icon p-relative mb-40">
+                        <img src="{{asset('assets/img/shape/feature-5-icon-2.png')}}" alt="">
+                        <div class="feature-5-icon-shape">
+                           <img src="{{asset('assets/img/shape/feature-5-shape-2.png')}}" alt="">
+                        </div>
+                        <span></span>
+                     </div>
+                     <div class="feature-5-content">
+                        <h4 class="feature-5-content-title mb-50">Backlink checking & Monitoring</h4>
+                        <p style="margin-top:-5%">Shahed Boss</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-4 col-md-6">
+                  <div class="feature-5-item mb-55">
+                     <div class="feature-5-icon p-relative mb-40">
+                        <img src="{{asset('assets/img/shape/feature-5-icon-1.png')}}" alt="">
+                        <div class="feature-5-icon-shape">
+                           <img src="{{asset('assets/img/shape/feature-5-shape-1.png')}}" alt="">
+                        </div>
+                        <span></span>
+                     </div>
+                     <div class="feature-5-content">
+                        <h4 class="feature-5-content-title mb-50">Backlink checking & Monitoring</h4>
+                        <p style="margin-top:-5%">Shahed Boss</p>
+                     </div>
+                  </div>
+               </div>
+               
+               
+            </div>
+         </div>
+      </section>
+      <!-- feature-area-end -->
+
+
+      <!-- services-area-start -->
+      <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -7%;">
+         <div class="services-shape d-none d-xl-block">
+            <div class="services-shape-one">
+               <img src="assets/img/shape/services-2shape-1.png" alt="">
+            </div>
+            <div class="services-shape-two">
+               <img src="assets/img/shape/services-2shape-2.png" alt="">
+            </div>
+         </div>
+         <div class="container">
+            <div class="row">
+               <div class="row justify-content-center">
+                  <div class="col-lg-8">
+                     <div class="tpsection-wrapper text-center mb-60">
+                        <h2 class="tpsection-title-two">
+                           <span class="big-shape2">
+                              Choose Us
+                              <svg width="246" height="24" viewBox="0 0 246 24" fill="none"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M2.74431 14.6419C2.74431 14.6419 154.652 -4.65014 239.811 9.30024"
+                                    stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
+                                 <path d="M3.00783 11.4374C3.00783 11.4374 157.737 -0.672988 242.581 17.053"
+                                    stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
+                              </svg>
+                           </span>
+                        </h2>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="services-two mb-30">
+                     <div class="services-two-bg"></div>
+                     <div class="services-two-icon">
+                        <img src="{{asset('assets/img/icon/services-icon-1.png')}}" alt="">
+                     </div>
+                     <div class="services-two-content">
+                        <h4 class="services-two-title">The Easiest Way to Improve Your Site Speed</h4>
+                        <span>SEO Strategy</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-12">
+                  <div class="services-two mb-30">
+                     <div class="services-two-bg"></div>
+                     <div class="services-two-icon">
+                        <img src="{{asset('assets/img/icon/services-icon-2.png')}}" alt="">
+                     </div>
+                     <div class="services-two-content">
+                        
+                        <h4 class="services-two-title">Complete Site Speed Optimization Service</h4>
+                        <span>SEO Optimization</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-12">
+                  <div class="services-two mb-30">
+                     <div class="services-two-bg"></div>
+                     <div class="services-two-icon">
+                        <img src="{{asset('assets/img/icon/services-icon-3.png')}}" alt="">
+                     </div>
+                     <div class="services-two-content">
+                        
+                        <h4 class="services-two-title">Instantly Analyze Your SEO Issues</h4>
+                        <span>SEO Analysis</span>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-lg-12">
+                  <div class="services-two mb-30">
+                     <div class="services-two-bg"></div>
+                     <div class="services-two-icon">
+                        <img src="{{asset('assets/img/icon/services-icon-4.png')}}" alt="">
+                     </div>
+                     <div class="services-two-content">
+                        
+                        <h4 class="services-two-title">Enhanced Mobile & Desktop UX</h4>
+                        <span>Web & Mobile</span>
+                     </div>
+                  </div>
+               </div>
+
+            </div>
+         </div>
+      </section>
+      <!-- services-area-end -->
+
+
+
+      <!-- pricing-area-start -->
+      <!-- <section class="pricing-area tp-price-parent tppricing-box-active pb-170 fix">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-12">
+                  <div class="section-wrapper text-center mb-40">
+                     <span>Pricing Plans</span>
+                     <h5 class="section-title-4 section-title-4-2">Packages for everyone</h5>
+                  </div>
+               </div>
+            </div>
+            <div class="tpprice-4-switch-box  p-relative">
+               <div class="tpprice-4-switch p-relative">
+                  <div class="tpprice-switch-wrapper tpprice-4-position tppricing-switch-2">
+                     <div class="toggle">
+                        <input type="checkbox" id="switcher-price" class="tp-check">
+                        <b class="switch"></b>
+                     </div>
+                     <div class="label-text">
+                        <label class="toggler toggler-price-active" id="filt-monthly-price">Billed Yearly</label>
+                        <label class="toggler" id="filt-yearly-price">Billed Monthy</label>
+                     </div>
+                  </div>
+               </div>
+               <div class="tppricing-shape-4">
+                  <div class="tppricing-shape-1">
+                     <img src="assets/img/shape/pricing-4-shape-3.png" alt="">
+                  </div>
+                  <div class="tppricing-shape-3">
+                     <svg width="86" height="59" viewBox="0 0 86 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 39.5506C8 21.0506 23.7 -11.5494 30.5 6.05057C39 28.0506 33 68.5508 63 48.0508C71.5 44.0508 78 41.5508 85 58.0508" stroke="currentColor" stroke-linejoin="round" stroke-dasharray="4 4"/>
+                     </svg>
+                  </div>
+                  <div class="tppricing-shape-2">
+                     <img src="assets/img/shape/pricing-4-shape-2.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="price-scroll">
+               <div class="price-scroll-width">
+                  <div class="row gx-0">
+                     <div class="col-12">
+                        <div id="monthly-price" class="wrapper-full">
+                           
+
+
+
+
+                           <div class="tppriceing-top">
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-head text-center">
+                                             <span><h4 class="title">Essential</h4></span>
+                                             
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-head active text-center p-relative">
+                                             <div class="big-price-shape"></div>
+                                             <div class="sm-price-shape"></div>
+                                             <span><h4 class="title">Pro</h4></span>
+                                             
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-head text-center"> 
+                                             <span><h4 class="title">Business</h4></span>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           
+                           
+
+
+
+
+
+                           <div class="pricing-box-4">
+                            
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">keyword Research</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price tppricing-right text-center">
+                                             <p>100</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>200</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price tppricing-left text-center">
+                                             <p>250</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              
+
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">On-page and SERP analysis</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>10</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>20</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>30</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">Tools for Agencies</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>Limited</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>Limited</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>Limited</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                             
+
+
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">Сontent Marketing</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>15 articles</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>30 articles</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>20 articles</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">Additional Features</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>5</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>10</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>15</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                             
+                              
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1"></div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price tppricing-right tppricing-4-btn">
+                                             <p>
+                                                <a href="#">Join this Plan</a>
+                                             </p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active tppricing-4-btn">
+                                             <p>
+                                                <a href="#">Join this Plan</a>
+                                             </p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price tppricing-right tppricing-4-btn">
+                                             <p>
+                                                <a href="#">Join this Plan</a>
+                                             </p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                             
+                              
+                           </div>
+                           
+                           
+                        </div>
+                        <div id="hourly-price" class="wrapper-full price-is-hide">
+                           
+                        
+                           <div class="tppriceing-top">
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-head text-center">
+                                             <span><h4 class="title">Essential</h4></span>
+                                             
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-head active text-center p-relative">
+                                             <div class="big-price-shape"></div>
+                                             <div class="sm-price-shape"></div>
+                                             <span><h4 class="title">Pro</h4></span>
+                                             
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-head text-center"> 
+                                             <span><h4 class="title">Business</h4></span>
+                                             
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                          
+                           
+
+
+
+                           <div class="pricing-box-4">
+                             
+                           
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">keyword Research</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price tppricing-right text-center">
+                                             <p>50</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>150</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price tppricing-left text-center">
+                                             <p>200</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">On-page and SERP analysis</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>08</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>16</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>28</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                            
+                              
+
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">Tools for Agencies</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>Limited</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>Unlimited</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>Limited</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              
+
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">Сontent Marketing</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>15 articles</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>45 articles</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>18 articles</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              
+
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">Additional Features</h4>
+                                    </div>
+                                 </div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>4</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center">
+                                             <p>12</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>20</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              
+
+
+
+
+                              <div class="row gx-0">
+                                 <div class="price-custom-col-1"></div>
+                                 <div class="price-custom-col-2">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price tppricing-right tppricing-4-btn">
+                                             <p>
+                                                <a href="#">Join this Plan</a>
+                                             </p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active tppricing-4-btn">
+                                             <p>
+                                                <a href="#">Join this Plan</a>
+                                             </p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price tppricing-right tppricing-4-btn">
+                                             <p>
+                                                <a href="#">Join this Plan</a>
+                                             </p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              
+
+                           </div>
+                           
+                           
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section> -->
+     
+      
+
+
+
+
       <div class="social-area social-inner-wrapper pb-85">
          <div class="container">
             <div class="row">

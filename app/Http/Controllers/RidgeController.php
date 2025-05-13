@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Service;
 use App\Models\SendEmail;
 use App\Models\Product;
+use App\Models\AddFeatures;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Storage;
@@ -335,6 +336,130 @@ public function pdelete(Product $products){
     $products->delete();
     return redirect(route('back.show'))->with('success','Product deleted successfully');
 }
+
+
+
+
+
+
+
+
+
+
+
+public function fcreate(){
+        $services = Service::all();
+        return view('back.add-feature', compact('services'));
+    }
+public function fshow(){
+        $features = AddFeatures::all();
+        return view('back.show-feature', compact('features'));
+    }
+
+
+    public function fstore(Request $request)
+{
+    $request->validate([
+        'title' => 'required',
+        'subtitle' => 'required',
+        'icon' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
+        'des' => 'required',  
+        'service_id' => 'required|exists:services,id',
+    ]);
+
+    try {
+        // Handle file uploads
+        $iconName = null;
+
+        if ($request->hasFile('icon')) {
+            $icon = $request->file('icon');
+            $iconName = Str::slug($request->title) . '_icon_' . time() . '.' . $icon->getClientOriginalExtension();
+            $icon->move(public_path('storage'), $iconName);
+        }
+        else {
+            $iconName = null;
+        }
+
+        AddFeatures::create([
+            'title' => $request->title,
+            'subtitle' => $request->subtitle,
+            'icon' => $iconName,
+            'des' => $request->des,
+            'service_id' => $request->service_id,
+        ]);
+
+        return redirect()->back()->with('success', 'Feature added successfully!');
+    } catch (\Exception $e) {
+        return redirect()->back()->with('error', 'Error saving Feature: ' . $e->getMessage());
+    }
+}
+
+public function fedit($id){
+        
+        $feature = AddFeatures::where('id', $id)->firstOrFail();
+        $services = Service::all(); // Fetch product by slug
+        return view('back.edit-feature', compact('feature', 'services'));
+
+}
+
+public function fupdate(Request $request, $id)
+{
+    $feature = AddFeatures::where('id', $id)->firstOrFail();
+
+    $request->validate([
+        'title' => 'required',
+        'subtitle' => 'required',
+        'icon' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
+        'des' => 'required',  
+        'service_id' => 'required|exists:services,id',
+    ]);
+
+    if ($request->hasFile('icon')) {
+        $icon = $request->file('icon');
+        $iconName = Str::slug($request->title) . '_icon_' . time() . '.' . $icon->getClientOriginalExtension();
+        $icon->move(public_path('storage'), $iconName);
+        if ($feature->icon && file_exists(public_path('storage/' . $feature->icon))) {
+            unlink(public_path('storage/' . $feature->icon));
+        }
+    } else {
+        $iconName = $feature->icon;
+    }
+
+    try {
+        $feature->update([
+            'title' => $request->title,
+            'subtitle' => $request->subtitle,
+            'icon' => $iconName,
+            'des' => $request->des,
+            'service_id' => $request->service_id,
+        ]);
+
+        return redirect()->route('back.fshow')->with('success', 'Feature updated successfully!');
+    } catch (\Exception $e) {
+        return redirect()->back()->with('error', 'Error saving Product: ' . $e->getMessage());
+    }
+}
+
+
+public function fdelete(AddFeatures $feature){
+
+    $feature->delete();
+    return redirect(route('back.fshow'))->with('success','Feature deleted successfully');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 public function services($slug)
