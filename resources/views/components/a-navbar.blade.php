@@ -182,7 +182,7 @@
                                                 </div>
                                             </div>
                                         </li> -->
-                                        <li><a href="{{route('blog')}}">Blog</a></li>
+                                        <li><a href="{{route('show-home.blog')}}">Blog</a></li>
                                         <!-- <li>
                                             <a href="{{route('casestudy')}}">Case Studies</a>
                                         </li> -->
