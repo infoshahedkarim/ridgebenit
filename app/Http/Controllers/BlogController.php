@@ -22,6 +22,19 @@ class BlogController extends Controller
         }
     }
 
+    public function show_home()
+    {
+        $blogs = Blog::all();
+        $recents = Blog::latest()->take(5)->get();
+        return view('frontend.blog', compact('blogs','recents'));
+    }
+
+    public function details($slug)
+    {
+        $blog = Blog::where('slug', $slug)->firstOrFail();
+        return view('frontend.blog-details', compact('blog'));
+    }
+
     public function index()
     {
         return view('back.add-blog');

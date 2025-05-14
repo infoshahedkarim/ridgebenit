@@ -313,7 +313,7 @@ User List
 
             <div class="section-3 text-center mb-70">
                <p>Looking for a quick way to pull data for multiple keywords.</p>
-               <div class="section-3-title mb-15">{{$ft->title}}</div>
+               <div class="section-3-title mb-15">{{$ft->title ?? ''}}</div>
             </div>
          </div>
          @foreach($features as $feature)

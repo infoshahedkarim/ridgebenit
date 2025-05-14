@@ -176,9 +176,9 @@ Route::get('/back-blog',[BlogController::class, 'create'])->name('create.blog');
 Route::get('/add-blog',[BlogController::class, 'index'])->name('add.blog');
 Route::post('/added-blog',[BlogController::class, 'store'])->name('store.blog');
 Route::get('/show-blog',[BlogController::class, 'show'])->name('show.blog');
-Route::get('/blog',[BlogController::class, 'show-home'])->name('show-home.blog');
+Route::get('/blog',[BlogController::class, 'show_home'])->name('show-home.blog');
 Route::get('/blog/{slug}/edit', [BlogController::class,'edit'])->name('edit.blog');
-Route::get('/blog/{slug}', [BlogController::class,'edit'])->name('show-detail.blog');
+Route::get('/blog/{slug}', [BlogController::class,'details'])->name('show-detail.blog');
 Route::put('/blog/{slug}/update', [BlogController::class,'update'])->name('update.blog');
 Route::delete('/blog/{blog}/delete', [BlogController::class,'delete'])->name('delete.blog');
 

@@ -41,18 +41,22 @@
             <div class="row">
                <div class="col-xxl-8 col-xl-8 col-lg-8">
                   <div class="blog-list-wrap">
+
+
+                     @foreach ($blogs as $blog )
+                         
                      <div class="blog-list-item d-flex mb-30">
                         <div class="blog-list-thumb">
-                           <a href="blog-details.html"><img src="assets/img/blog/blog-list-1.jpg" alt=""></a>
+                           <a href="{{route('show-detail.blog', $blog->slug )}}"><img src="{{asset('storage/' . $blog->img)}}" alt=""></a>
                         </div>
                         <div class="blog-list-content">
                            <div class="blog-list-tag">
-                              <a href="blog-details.html">SEOMY SEO</a>
+                              <a href="">{{$blog->category}}</a>
                            </div>
                            <h4 class="blog-list-title">
-                              <a href="blog-details.html">Paid Ads vs. SEO: Which is Better?</a>
+                              <a href="{{route('show-detail.blog', $blog->slug )}}">{{$blog->title}}</a>
                            </h4>
-                           <p>No one rejects, dislikes, or avoids pleasure sit itself, because it is pleasure</p>
+                           <p>{{$blog->short_decs}}</p>
                            <div class="tpblog-meta-2 mb-35">
                               <span>
                                  <i>
@@ -68,10 +72,9 @@
                                           stroke-linejoin="round" />
                                     </svg>
                                  </i>
-                                 Jun 23, 2023
+                                 {{$blog->created_at->format('M d, Y')}}
                               </span>
                               <span>
-                                 <a href="#">
                                     <i>
                                        <svg width="14" height="16" viewBox="0 0 14 16" fill="none"
                                           xmlns="http://www.w3.org/2000/svg">
@@ -85,15 +88,20 @@
                                              stroke-linejoin="round" />
                                        </svg>
                                     </i>
-                                    Joss Sticks
+                                    {{$blog->author}}
                                  </a>
                               </span>
                            </div>
                            <div class="blog-list-btn">
-                              <a href="{{route('blog-detail')}}">Read More</a>
+                              <a href="{{route('show-detail.blog', $blog->slug )}}">Read More</a>
                            </div>
                         </div>
                      </div>
+
+                     @endforeach
+
+
+
                   </div>
                </div>
                <div class="col-xxl-4 col-xl-4 col-lg-4">
@@ -116,20 +124,25 @@
                         <h3 class="sidebar__widget-title">Recent Post</h3>
                         <div class="sidebar__widget-content">
                            <div class="sidebar__post rc__post">
+
+                              @foreach ($recents as $recent )
+                                  
+                              @endforeach
                               <div class="rc__post mb-10 d-flex align-items-center">
                                  <div class="rc__post-thumb mr-20">
-                                    <a href="blog-details.html"><img src="assets/img/blog/sidebar/blog-sm-1.jpg"
+                                    <a href="blog-details.html"><img src="{{asset('storage/' . $recent->img)}}"
                                           alt=""></a>
                                  </div>
                                  <div class="rc__post-content">
                                     <h3 class="rc__post-title">
-                                       <a href="blog-details.html">Unpacking SEO for <br> the Google Local Pack.</a>
+                                       <a href="blog-details.html">{{$recent->title}}</a>
                                     </h3>
                                     <div class="rc__meta">
-                                       <span>Jun 28,2023</span>
+                                       <span>{{$recent->created_at->format('M d, Y')}}</span>
                                     </div>
                                  </div>
                               </div>
+
                            </div>
                         </div>
                      </div>
