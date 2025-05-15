@@ -316,30 +316,30 @@ User List
                <p>{{$service->title}} Services</p>
                <div class="section-3-title mb-15">{{$ft->title ?? ''}}</div>
             </div>
-         
-          @foreach($features as $feature)
+
+            @foreach($features as $feature)
             <div class="col-lg-4 col-md-6">
-           
-            <div class="feature-5-item mb-55">
-               <div class="feature-5-icon p-relative mb-40">
-                  <img src="{{asset('storage/' . $feature->icon)}}" alt="" style="width:20%">
-                  <div class="feature-5-icon-shape">
-                     <img src="{{asset('assets/img/shape/feature-5-shape-1.png')}}" alt="">
+
+               <div class="feature-5-item mb-55">
+                  <div class="feature-5-icon p-relative mb-40">
+                     <img src="{{asset('storage/' . $feature->icon)}}" alt="" style="width:20%">
+                     <div class="feature-5-icon-shape">
+                        <img src="{{asset('assets/img/shape/feature-5-shape-1.png')}}" alt="">
+                     </div>
+                     <span></span>
                   </div>
-                  <span></span>
+                  <div class="feature-5-content">
+                     <h4 class="feature-5-content-title mb-50">{{$feature->subtitle}}</h4>
+                     <p style="margin-top:-5%">{!! $feature->des !!}</p>
+                  </div>
                </div>
-               <div class="feature-5-content">
-                  <h4 class="feature-5-content-title mb-50">{{$feature->subtitle}}</h4>
-                  <p style="margin-top:-5%">{!! $feature->des !!}</p>
-               </div>
+
             </div>
-           
+            @endforeach
          </div>
-          @endforeach
-      </div>
 
       </div>
-      
+
    </section>
    <!-- feature-area-end -->
 
@@ -357,7 +357,7 @@ User List
                   </div>
                   <div class="expertise-wrapper">
                      <div class="expertise-list">
-                     @foreach($expertises as $expertise)
+                        @foreach($expertises as $expertise)
                         <div class="expertise-item" style="background: linear-gradient(135deg, #f0faff, #e0f7ff); padding: 15px; border-radius: 10px; display: flex; align-items: center; gap: 15px; margin-bottom: 3%;">
                            <img src="{{asset('storage/' . $expertise->icon)}}" alt="" style="width:10%">
                            <div class="content">
@@ -365,7 +365,7 @@ User List
                               <p>{!! $expertise->des !!}</p>
                            </div>
                         </div>
-                     @endforeach
+                        @endforeach
 
                      </div>
                   </div>
@@ -448,53 +448,9 @@ User List
       </div>
       <div class="container">
          <div class="row grid">
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://ajwahtech.com/">Ajwah Tech</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">SEO</a>
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://crownbanquetingsuite.com/">Crown</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Digital Marketing</a>
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
 
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://www.fiberathome.net/">Fiber@home</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">SEO</a>
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
+
 
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
@@ -516,6 +472,22 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">ERP</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
@@ -529,30 +501,15 @@ User List
                </div>
             </div>
 
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/CTC.png')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
          </div>
       </div>
-       <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
+      <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
 
-                  <div class="tppricing-btn" style="text-align: center;">
-                     <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Know More Abour Us</a>
-                  </div>
+         <div class="tppricing-btn" style="text-align: center;">
+            <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Know More Abour Us</a>
+         </div>
 
-            </div>
+      </div>
    </section>
 
 
@@ -574,7 +531,7 @@ User List
                      <h2 class="tpsection-title-two">
                         <p>Customized Solutions</p>
                         <span class="big-shape2">
-                           Choose Us
+                           {{$st->title}}
                            <svg width="246" height="24" viewBox="0 0 246 24" fill="none"
                               xmlns="http://www.w3.org/2000/svg">
                               <path d="M2.74431 14.6419C2.74431 14.6419 154.652 -4.65014 239.811 9.30024"
@@ -589,20 +546,23 @@ User List
             </div>
          </div>
          <div class="row">
+            @foreach($solutions as $solution)
             <div class="col-lg-12">
-               <div class="services-two mb-30">
+               <div class="services-two mb-30 d-flex align-items-start">
                   <div class="services-two-bg"></div>
-                  <div class="services-two-icon">
-                     <img src="{{asset('assets/img/icon/services-icon-1.png')}}" alt="">
+                  <div class="services-two-icon me-3">
+                     <img src="{{ asset('storage/' . $solution->icon) }}" alt="" style="width: 80px;">
                   </div>
                   <div class="services-two-content">
-                     <h4 class="services-two-title">The Easiest Way to Improve Your Site Speed</h4>
-                     <span>SEO Strategy</span>
+                     <h4 class="services-two-title">{{ $solution->subtitle }}</h4>
+                     <span>{!! $solution->des !!}</span>
                   </div>
                </div>
             </div>
 
-            <div class="col-lg-12">
+            @endforeach
+
+            <!-- <div class="col-lg-12">
                <div class="services-two mb-30">
                   <div class="services-two-bg"></div>
                   <div class="services-two-icon">
@@ -642,7 +602,7 @@ User List
                      <span>Web & Mobile</span>
                   </div>
                </div>
-            </div>
+            </div> -->
 
          </div>
       </div>
@@ -1178,8 +1138,8 @@ User List
 
 
 
-  
-      <div class="social-area social-inner-wrapper pb-85">
+
+   <div class="social-area social-inner-wrapper pb-85">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
