@@ -130,12 +130,12 @@
                               @endforeach
                               <div class="rc__post mb-10 d-flex align-items-center">
                                  <div class="rc__post-thumb mr-20">
-                                    <a href="blog-details.html"><img src="{{asset('storage/' . $recent->img)}}"
+                                    <a href="{{route('show-detail.blog', $recent->slug )}}"><img src="{{asset('storage/' . $recent->img)}}"
                                           alt=""></a>
                                  </div>
                                  <div class="rc__post-content">
                                     <h3 class="rc__post-title">
-                                       <a href="blog-details.html">{{$recent->title}}</a>
+                                       <a href="{{route('show-detail.blog', $recent->slug )}}">{{$recent->title}}</a>
                                     </h3>
                                     <div class="rc__meta">
                                        <span>{{$recent->created_at->format('M d, Y')}}</span>
