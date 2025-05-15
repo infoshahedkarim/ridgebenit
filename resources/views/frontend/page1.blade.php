@@ -317,9 +317,9 @@ User List
                <div class="section-3-title mb-15">{{$ft->title ?? ''}}</div>
             </div>
          </div>
-         
+          @foreach($features as $feature)
          <div class="col-lg-4 col-md-6">
-            @foreach($features as $feature)
+           
             <div class="feature-5-item mb-55">
                <div class="feature-5-icon p-relative mb-40">
                   <img src="{{asset('storage/' . $feature->icon)}}" alt="" style="width:20%">
@@ -333,9 +333,9 @@ User List
                   <p style="margin-top:-5%">{!! $feature->des !!}</p>
                </div>
             </div>
-            @endforeach
+            
          </div>
-         
+         @endforeach
 
          <!-- <div class="col-lg-4 col-md-6">
                   <div class="feature-5-item feature-5-item-2 mb-55">
