@@ -316,9 +316,9 @@ User List
                <p>{{$service->title}} Services</p>
                <div class="section-3-title mb-15">{{$ft->title ?? ''}}</div>
             </div>
-         </div>
+         
           @foreach($features as $feature)
-         <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6">
            
             <div class="feature-5-item mb-55">
                <div class="feature-5-icon p-relative mb-40">
@@ -333,42 +333,10 @@ User List
                   <p style="margin-top:-5%">{!! $feature->des !!}</p>
                </div>
             </div>
-            
+           
          </div>
-         @endforeach
-
-         <!-- <div class="col-lg-4 col-md-6">
-                  <div class="feature-5-item feature-5-item-2 mb-55">
-                     <div class="feature-5-icon p-relative mb-40">
-                        <img src="{{asset('assets/img/shape/feature-5-icon-2.png')}}" alt="">
-                        <div class="feature-5-icon-shape">
-                           <img src="{{asset('assets/img/shape/feature-5-shape-2.png')}}" alt="">
-                        </div>
-                        <span></span>
-                     </div>
-                     <div class="feature-5-content">
-                        <h4 class="feature-5-content-title mb-50">Backlink checking & Monitoring</h4>
-                        <p style="margin-top:-5%">Shahed Boss</p>
-                     </div>
-                  </div>
-               </div>
-
-               <div class="col-lg-4 col-md-6">
-                  <div class="feature-5-item mb-55">
-                     <div class="feature-5-icon p-relative mb-40">
-                        <img src="{{asset('assets/img/shape/feature-5-icon-1.png')}}" alt="">
-                        <div class="feature-5-icon-shape">
-                           <img src="{{asset('assets/img/shape/feature-5-shape-1.png')}}" alt="">
-                        </div>
-                        <span></span>
-                     </div>
-                     <div class="feature-5-content">
-                        <h4 class="feature-5-content-title mb-50">Backlink checking & Monitoring</h4>
-                        <p style="margin-top:-5%">Shahed Boss</p>
-                     </div>
-                  </div>
-               </div> -->
-
+          @endforeach
+      </div>
 
       </div>
       
