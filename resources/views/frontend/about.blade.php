@@ -434,16 +434,16 @@
                      <div class="section-3-title mb-10">Meet our team of <br> expert</div>
                      <p>We're a 100% remote team spread all across the world!</p>
                   </div>
-                  <div class="team-inner-all  text-center mb-70">
+                  <!-- <div class="team-inner-all  text-center mb-70">
                      <a href="team.html" class="tp-btn">Join Our Team</a>
-                  </div>
+                  </div> -->
                </div>
             </div>
             <div class="row gx-9 pb-30">
                <div class="col-lg-3 col-md-6">
                   <div class="team-5-item text-center mb-40">
                      <div class="team-5-thumb mb-25">
-                        <img src="assets/img/team/team-5-1.png" alt="">
+                        <img src="assets/img/team/maruf.png" alt="">
                         <div class="team-5-social">
                            <span class="icon"></span>
                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -452,15 +452,15 @@
                         </div>
                      </div>
                      <div class="team-5-content">
-                        <h4 class="team-5-title"><a href="team-details.html">Danny Russell</a></h4>
-                        <p>Founder & CEO</p>
+                        <h4 class="team-5-title"><a href="">Md. Maruf Mamun</a></h4>
+                        <p>Managing Director</p>
                      </div>
                   </div>
                </div>
                <div class="col-lg-3 col-md-6">
                   <div class="team-5-item team-5-item-2 text-center mb-40">
                      <div class="team-5-thumb mb-25">
-                        <img src="assets/img/team/team-5-2.png" alt="">
+                        <img src="assets/img/team/faisal.png" alt="">
                         <div class="team-5-social">
                            <span class="icon"></span>
                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -469,15 +469,15 @@
                         </div>
                      </div>
                      <div class="team-5-content">
-                        <h4 class="team-5-title"><a href="team-details.html">Byron Conner</a></h4>
-                        <p>Founder & CEO</p>
+                        <h4 class="team-5-title"><a href="">Md Faisal Rahman</a></h4>
+                        <p>Product Specialist</p>
                      </div>
                   </div>
                </div>
                <div class="col-lg-3 col-md-6">
                   <div class="team-5-item team-5-item-3 text-center mb-40">
                      <div class="team-5-thumb mb-25">
-                        <img src="assets/img/team/team-5-3.png" alt="">
+                        <img src="assets/img/team/animesh.png" alt="">
                         <div class="team-5-social">
                            <span class="icon"></span>
                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -486,12 +486,12 @@
                         </div>
                      </div>
                      <div class="team-5-content">
-                        <h4 class="team-5-title"><a href="team-details.html">Annette Black</a></h4>
-                        <p>Founder & CEO</p>
+                        <h4 class="team-5-title"><a href="">Dipto Biswas</a></h4>
+                        <p>Junior Software Engineer</p>
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6">
+               <!-- <div class="col-lg-3 col-md-6">
                   <div class="team-5-item team-5-item-4 text-center mb-40">
                      <div class="team-5-thumb mb-25">
                         <img src="assets/img/team/team-5-4.png" alt="">
@@ -507,7 +507,7 @@
                         <p>Founder & CEO</p>
                      </div>
                   </div>
-               </div>
+               </div> -->
             </div>
          </div>
       </section>
