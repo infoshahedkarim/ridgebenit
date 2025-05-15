@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Blog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use Illuminate\Validation\Rule;
+
 
 class BlogController extends Controller
 {
@@ -94,48 +96,51 @@ class BlogController extends Controller
         $blog = Blog::where('slug', $slug)->firstOrFail(); // Fetch product by slug
         return view('back.edit-blog', compact('blog'));
     }
+
+
     public function update(Request $request, $slug)
-    {
-        $blogs = Blog::where('slug', $slug)->firstOrFail();
+{
+    $blogs = Blog::where('slug', $slug)->firstOrFail();
 
-        $request->validate([
-            'title' => 'required',
-            'slug' => 'required|unique:services,slug',
-            'short_decs' => 'nullable',
-            'img' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
-            'category' => 'required',
-            'author' => 'required',
-            'des' => 'required',
-        ]);
+    $request->validate([
+        'title' => 'required',
+        'slug' => ['required', Rule::unique('blogs', 'slug')->ignore($blogs->id)],
+        'short_decs' => 'nullable',
+        'img' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
+        'category' => 'required',
+        'author' => 'required',
+        'des' => 'required',
+    ]);
 
-        if ($request->hasFile('img')) {
-            $icon = $request->file('img');
-            $iconName = Str::slug($request->title) . 'img' . time() . '.' . $icon->getClientOriginalExtension();
-            $icon->move(public_path('storage'), $iconName);
-            if ($blogs->icon && file_exists(public_path('storage/' . $blogs->icon))) {
-                unlink(public_path('storage/' . $blogs->icon));
-            }
-        } else {
-            $iconName = $blogs->icon;
+    if ($request->hasFile('img')) {
+        $icon = $request->file('img');
+        $iconName = Str::slug($request->title) . '-img-' . time() . '.' . $icon->getClientOriginalExtension();
+        $icon->move(public_path('storage'), $iconName);
+
+        // Delete old image
+        if ($blogs->img && file_exists(public_path('storage/' . $blogs->img))) {
+            unlink(public_path('storage/' . $blogs->img));
         }
-
-        try {
-            $blogs->update([
-                'title' => $request->title,
-                'slug' => $request->slug,
-                'short_decs' => $request->short_decs,
-                'img' => $iconName,
-                'category' => $request->category,
-                'author' => $request->author,
-                'des' => $request->des,
-            ]);
-
-            return redirect()->route('back.show')->with('success', 'Blog updated successfully!');
-        } catch (\Exception $e) {
-            return redirect()->back()->with('error', 'Error saving Blog: ' . $e->getMessage());
-        }
+    } else {
+        $iconName = $blogs->img;
     }
 
+    try {
+        $blogs->update([
+            'title' => $request->title,
+            'slug' => $request->slug,
+            'short_decs' => $request->short_decs,
+            'img' => $iconName,
+            'category' => $request->category,
+            'author' => $request->author,
+            'des' => $request->des,
+        ]);
+
+        return redirect()->route('show.blog')->with('success', 'Blog updated successfully!');
+    } catch (\Exception $e) {
+        return redirect()->back()->with('error', 'Error saving Blog: ' . $e->getMessage());
+    }
+}
 
     public function delete(Blog $blogs)
     {

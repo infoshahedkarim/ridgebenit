@@ -35,7 +35,7 @@
 @endif
 
 
-        <form action="{{route('update.blog', $blog->slug)}}" method="POST" enctype="multipart/form-data">
+        <form action="{{ route('update.blog', $blog->slug) }}" method="POST" enctype="multipart/form-data">
             @csrf
             @method('PUT')
             <div>
@@ -44,16 +44,16 @@
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label">Meta Tag</label>
-                <input id="slug" name="slug" type="text" class="form-control" value="{{$blog->slug}}" placeholder="Add meta tag" readonly />
+                <input id="slug" name="slug" type="text" class="form-control" value="{{$blog->slug}}" placeholder="Add meta tag" />
             </div>
              <div>
                 <label>Short Description</label>
-                <input type="text" id="title" placeholder="Short Text" name="short_text" value="{{$blog->short_decs}}" required>
+                <input type="text" id="title" placeholder="Short Text" name="short_decs" value="{{$blog->short_decs}}" required>
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label" for="image">Add Icon</label>
-                <img src="{{ asset('storage/' . $blog->icon) }}" alt="{{$blog->title}}" width="100">
-                <input type="file" name="icon" id="image" accept="image/*" onchange="previewImage(event)">
+               <img src="{{ asset('storage/' . $blog->img) }}" alt="{{ $blog->title }}" width="100px">
+                <input type="file" name="img" id="image" accept="image/*" onchange="previewImage(event)">
                 <br>
                 <img id="imagePreview" src="" alt="Image Preview"
                     style="max-width: 200px; margin-top: 10px; display: none;">
@@ -64,7 +64,7 @@
             </div>
             <div>
                 <label>Authur Name</label>
-                <input type="text" id="title" placeholder="Author Name" name="author" value="{{$blog->category}}">
+                <input type="text" id="title" placeholder="Author Name" name="author" value="{{$blog->author}}">
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label">Add Description</label>
