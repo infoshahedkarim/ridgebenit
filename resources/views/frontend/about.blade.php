@@ -440,7 +440,7 @@
                </div>
             </div>
             <div class="row gx-9 pb-30">
-               <div class="col-lg-3 col-md-6">
+               <div class="col-lg-4 col-md-6">
                   <div class="team-5-item text-center mb-40">
                      <div class="team-5-thumb mb-25">
                         <img src="assets/img/team/maruf.png" alt="">
@@ -457,7 +457,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6">
+               <div class="col-lg-4 col-md-6">
                   <div class="team-5-item team-5-item-2 text-center mb-40">
                      <div class="team-5-thumb mb-25">
                         <img src="assets/img/team/faisal.png" alt="">
@@ -474,7 +474,7 @@
                      </div>
                   </div>
                </div>
-               <div class="col-lg-3 col-md-6">
+               <div class="col-lg-4 col-md-6">
                   <div class="team-5-item team-5-item-3 text-center mb-40">
                      <div class="team-5-thumb mb-25">
                         <img src="assets/img/team/animesh.png" alt="">
