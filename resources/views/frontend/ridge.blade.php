@@ -982,8 +982,8 @@ User List
                         greatly improved our Furniture business through dynamic website. Thanks Ridgeben for their professionalism and
                         adaptability to last-minute changes.</p>
                      <div class="tptestimonial-avatar-info">
-                        <h5 class="tptestimonial-avatar-title">Md. Humaiun Khan</h5>
-                        <span>Chairman Homeland Furniture</span>
+                        <h5 class="tptestimonial-avatar-title">Md. Pabel Ahmed</h5>
+                        <span>Manager, Homeland Furniture</span>
                      </div>
                   </div>
                </div>
