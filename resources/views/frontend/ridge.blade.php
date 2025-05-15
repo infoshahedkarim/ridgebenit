@@ -966,7 +966,7 @@ User List
             <div class="tptestimonial-wrapper tptestimonial-active">
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="{{asset('assets/img/team/humaiun.png')}}" alt="">
+                     <img src="{{asset('assets/img/banner/pabel.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
