@@ -25,8 +25,8 @@ class BlogController extends Controller
     public function show_home()
     {
         $blogs = Blog::all();
-        $recents = Blog::latest()->take(5)->get();
-        return view('frontend.blog', compact('blogs','recents'));
+        $tops = Blog::latest()->take(5)->get();
+        return view('frontend.blog', compact('blogs','tops'));
     }
 
     public function details($slug)
