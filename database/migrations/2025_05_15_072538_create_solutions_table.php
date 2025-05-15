@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('subtitle');
             $table->string('icon');
-            $table->string('des');
+            $table->longText('des');
             $table->unsignedBigInteger('service_id');
             $table->timestamps();
 
