@@ -360,7 +360,7 @@ class RidgeController extends Controller
         $request->validate([
             'title' => 'required',
             'subtitle' => 'required',
-            'icon' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
+            'icon' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
             'des' => 'required',
             'service_id' => 'required|exists:services,id',
         ]);
@@ -406,7 +406,7 @@ class RidgeController extends Controller
         $request->validate([
             'title' => 'required',
             'subtitle' => 'required',
-            'icon' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
+            'icon' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
             'des' => 'required',
             'service_id' => 'required|exists:services,id',
         ]);
@@ -514,7 +514,7 @@ class RidgeController extends Controller
         $request->validate([
             'title' => 'required',
             'subtitle' => 'required',
-            'icon' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
+            'icon' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
             'des' => 'required',
             'service_id' => 'required|exists:services,id',
         ]);
@@ -571,7 +571,7 @@ class RidgeController extends Controller
         $request->validate([
             'title' => 'required',
             'subtitle' => 'required',
-            'icon' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
+            'icon' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
             'des' => 'required',
             'service_id' => 'required|exists:services,id',
         ]);
@@ -617,7 +617,7 @@ class RidgeController extends Controller
         $request->validate([
             'title' => 'required',
             'subtitle' => 'required',
-            'icon' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
+            'icon' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
             'des' => 'required',
             'service_id' => 'required|exists:services,id',
         ]);
