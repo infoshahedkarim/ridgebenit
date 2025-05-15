@@ -127,7 +127,7 @@
 
                               @foreach ($tops as $top )
                                   
-                              @endforeach
+                              
                               <div class="rc__post mb-10 d-flex align-items-center">
                                  <div class="rc__post-thumb mr-20">
                                     <a href="{{route('show-detail.blog', $top->slug )}}"><img src="{{asset('storage/' . $top->img)}}"
@@ -142,6 +142,8 @@
                                     </div>
                                  </div>
                               </div>
+                              
+                              @endforeach
 
                            </div>
                         </div>
