@@ -28,7 +28,7 @@ User List
    <!-- breadcrumb-services-area-end -->
 
    <!-- service-details-area-start -->
-   <section class="services-details-area services-details mb-90" style="margin-top: -7%;">
+   <section class="services-details-area services-details mb-20" style="margin-top: -7%;">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
