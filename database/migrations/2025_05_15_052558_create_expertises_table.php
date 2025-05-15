@@ -11,13 +11,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('add_features', function (Blueprint $table) {
+        Schema::create('expertises', function (Blueprint $table) {
             $table->id();
             $table->string('title');
             $table->string('subtitle');
             $table->string('icon');
-            $table->string('des'); 
-            $table->unsignedBigInteger('service_id'); // foreign key column
+            $table->string('des');
+            $table->unsignedBigInteger('service_id');
             $table->timestamps();
 
             $table->foreign('service_id')->references('id')->on('services')->onDelete('cascade');
@@ -29,6 +29,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('add_features');
+        Schema::dropIfExists('expertises');
     }
 };

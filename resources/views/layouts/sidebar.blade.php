@@ -86,6 +86,30 @@
                     </a>
                 </li>
                 <li>
+                    <a href="{{route('back.ecreate')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">Add Expertise</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('back.eshow')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">All Expertise</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('back.screate')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">Add Solution</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="{{route('back.sshow')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">All Solution</span>
+                    </a>
+                </li>
+                <li>
                     <a href="{{route('add.blog')}}">
                         <i class="bx bx-file-find icon nav-icon"></i>
                         <span class="menu-item" data-key="t-filemanager">Add Blog</span>

@@ -101,8 +101,8 @@ class BlogController extends Controller
         $request->validate([
             'title' => 'required',
             'slug' => 'required|unique:services,slug',
-            'short_decs' => 'required',
-            'img' => 'required|image|mimes:jpg,jpeg,png,gif|max:2048',
+            'short_decs' => 'nullable',
+            'img' => 'nullable|image|mimes:jpg,jpeg,png,gif|max:2048',
             'category' => 'required',
             'author' => 'required',
             'des' => 'required',

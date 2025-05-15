@@ -99,10 +99,6 @@ Route::get('/web-hosting', function () {
 
 
 
-
-
-
-
 Route::get('/invoice', function () {
     return view('backend.invoices-detail');
 });
@@ -168,6 +164,23 @@ Route::get('/show-feature',[RidgeController::class, 'fshow'])->name('back.fshow'
 Route::get('/feature/{slug}/edit', [RidgeController::class,'fedit'])->name('feature.edit');
 Route::put('/feature/{slug}/update', [RidgeController::class,'fupdate'])->name('feature.update');
 Route::delete('/feature/{feature}/delete', [RidgeController::class,'fdelete'])->name('feature.delete');
+
+
+
+Route::get('/add-expertise',[RidgeController::class, 'ecreate'])->name('back.ecreate');
+Route::post('/page-expertise',[RidgeController::class, 'estore'])->name('back.estore');
+Route::get('/show-expertise',[RidgeController::class, 'eshow'])->name('back.eshow');
+Route::get('/expertise/{slug}/edit', [RidgeController::class,'eedit'])->name('expertise.edit');
+Route::put('/expertise/{slug}/update', [RidgeController::class,'eupdate'])->name('expertise.update');
+Route::delete('/expertise/{expertise}/delete', [RidgeController::class,'edelete'])->name('expertise.delete');
+
+
+Route::get('/add-solution',[RidgeController::class, 'screate'])->name('back.screate');
+Route::post('/page-solution',[RidgeController::class, 'sstore'])->name('back.sstore');
+Route::get('/show-solution',[RidgeController::class, 'sshow'])->name('back.sshow');
+Route::get('/solution/{slug}/edit', [RidgeController::class,'sedit'])->name('solution.edit');
+Route::put('/solution/{slug}/update', [RidgeController::class,'supdate'])->name('solution.update');
+Route::delete('/solution/{solution}/delete', [RidgeController::class,'sdelete'])->name('solution.delete');
 
 
 

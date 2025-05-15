@@ -123,6 +123,8 @@ User List
 
 
   <!-- choose-area-start -->
+
+
       <section class="choose-area tpchoose-bottom pb-40">
          <div class="container">
             <div class="row align-items-center">
@@ -204,7 +206,7 @@ User List
                      <ul>
                         @foreach($services as $service)
                         <li>
-                           <div class="tpservices-wrapper tpservices-item2">
+                           <div class="tpservices-wrapper tpservices-item3">
                               <div class="tpservices-img mb-35">
                                  <img src="{{ asset('storage/' . $service->icon) }}" alt="" style="width:35%">
                               </div>

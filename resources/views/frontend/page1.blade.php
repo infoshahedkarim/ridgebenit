@@ -306,13 +306,14 @@ User List
 
 
    <!-- feature-area-start -->
+
    <section class="feature-area p-relative pb-95">
       <div class="feature-bg-shape"></div>
       <div class="container">
          <div class="row">
 
             <div class="section-3 text-center mb-70">
-               <p>Looking for a quick way to pull data for multiple keywords.</p>
+               <p>{{$service->title}} Services</p>
                <div class="section-3-title mb-15">{{$ft->title ?? ''}}</div>
             </div>
          </div>
@@ -381,20 +382,20 @@ User List
             <div class="col-lg-6">
                <div class="optimize-wrapperp" style="padding-top: 0;"> <!-- removed pt-35 -->
                   <div class="section-wrapper mb-40">
-                     <span>Looking for best SEO results?</span>
-                     <h5 class="section-title-4 section-title-4-2">Organic Search <br> Engine Optimisation</h5>
+                     <span>Our Expertise</span>
+                     <h5 class="section-title-4 section-title-4-2">{{$et->title ?? ''}}</h5>
                   </div>
                   <div class="expertise-wrapper">
                      <div class="expertise-list">
-
+                     @foreach($expertises as $expertise)
                         <div class="expertise-item" style="background: linear-gradient(135deg, #f0faff, #e0f7ff); padding: 15px; border-radius: 10px; display: flex; align-items: center; gap: 15px; margin-bottom: 3%;">
-                           <div class="icon" style="font-size: 30px; flex-shrink: 0;">⚡</div>
+                           <img src="{{asset('storage/' . $expertise->icon)}}" alt="" style="width:10%">
                            <div class="content">
-                              <h4 style="margin: 0 0 5px 0;">Speed and Performance Optimization</h4>
-                              <p style="margin: 0;">We prioritize swift loading times and optimal website performance, crucial for enhancing
-                                 user experience and SEO rankings.</p>
+                              <h4>{{$expertise->subtitle}}</h4>
+                              <p>{!! $expertise->des !!}</p>
                            </div>
                         </div>
+                     @endforeach
 
                      </div>
                   </div>
@@ -425,9 +426,168 @@ User List
 
    </section>
 
+   <section class="case-area pb-60 fix">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6 col-md-8">
+               <div class="tpsection__wrapper mb-45">
+                  <div class="tpbanner__sub-title mb-15">
+                     <span>Have a look at</span>
+                     <i>
+                        <svg width="150" height="40" viewBox="0 0 150 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                           <rect width="150" height="40" fill="url(#pattern3)" fill-opacity="0.1" />
+                           <defs>
+                              <pattern id="pattern3" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                 <use xlink:href="#image0_859_3410" transform="translate(-0.0584971) scale(0.00611611 0.0203396)" />
+                              </pattern>
+                              <image id="image0_859_3410" width="180" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAyCAYAAAD1JPH3AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDcuMS1jMDAwIDc5LmVkYTJiM2ZhYywgMjAyMS8xMS8xNy0xNzoyMzoxOSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RUMyMzkwQTczMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RUMyMzkwQTYzMTM3MTFFRDg3NUZBOUZCRDk1MThFMTMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIDIzLjEgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjFBQkIwMjIzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjFBQkIwMjMzMTA2MTFFREEzRkNBQzVFOTRFRTVERTgiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz5lgZ3iAAAB2ElEQVR42uzd7U3CUBiA0Wr4DxvQDWQE4gS6gSO6ibhB2aBMoCG5ja83pVRaSSnnJE2/MII+t7386sPz21dxQ1ZpKdNSpPUynItL/nNd6rSc2t6n/Sot+TYTsJhgrJsU6TqLt7zS779EE3ad1vuwvwuDg5kF3QQao92E47fq3ICrQ/RN8LsQPBMPOob7lEV8j5o7z6Yj+Cbwzyx+U5orB32MdCvcwcFv0/ZLx5SmubrHAVCZ0lwW9CrEu07rcsC8k/GmNPk8vg7hx2P13K/4fYP+6LhdcjvR5wMgrmP0h5bXxdecmjadu1N0ffFuOxc/zzKcP65fhwQt5nkOgGJu08NH/1cEDYIGQYOgETQIGgQNggZBI2gQNAgaBA2CRtAgaBA0CBoEjaBB0CBoEDQIGkGDoEHQIGgQNIIGQYOgQdAgaAQNE7aY+Ptre7JSn6ct9VWe2UfQvx4XFuPbZ+fz1/5HsGPEHh831mw359bhWH6OCQf9Xvw8v67OQmyLcg6GfJ4Yd769Dvviv+yuXQ0N+tXf8aKpUtUz/rJlvWw5Pmf5RfIQ7vJV0fO55wvtTSL+3R+mQasTd4BlyzRpdeWBEKeL+aC+yt1d0PczDSpH/PJbjfi+RvUtwADssXzgKiX3gwAAAABJRU5ErkJggg==" />
+                           </defs>
+                        </svg>
+                     </i>
+                  </div>
+                  <h2 class="tpsection__title">Our Projects</h2>
+               </div>
+            </div>
+            <!-- <div class="col-lg-6 col-md-4">
+               <div class="tpcase-arrow text-end">
+                  <div class="tpcase-nav p-relative">
+                     <button class="prev-slide prev-slide-case">
+                        <span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none"
+                              viewBox="0 0 8 14">
+                              <path fill-rule="evenodd"
+                                 d="M7.707.293a1 1 0 0 1 0 1.414L2.414 7l5.293 5.293a1 1 0 0 1-1.414 1.414l-6-6a1 1 0 0 1 0-1.414l6-6a1 1 0 0 1 1.414 0z"
+                                 fill="#9f9fa9"></path>
+                           </svg>
+                        </span>
+                     </button>
+                     <button class="next-slide next-slide-case">
+                        <span>
+                           <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" fill="none"
+                              viewBox="0 0 8 14">
+                              <path fill-rule="evenodd"
+                                 d="M.293 13.707a1 1 0 0 1 0-1.414L5.586 7 .293 1.707A1 1 0 1 1 1.707.293l6 6a1 1 0 0 1 0 1.414l-6 6a1 1 0 0 1-1.414 0z"
+                                 fill="#9f9fa9"></path>
+                           </svg>
+                        </span>
+                     </button>
+                  </div>
+               </div>
+            </div> -->
+         </div>
+      </div>
+      <div class="container">
+         <div class="row grid">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://ajwahtech.com/">Ajwah Tech</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">SEO</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://crownbanquetingsuite.com/">Crown</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://www.fiberathome.net/">Fiber@home</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">SEO</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/homeland.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://homelandfurniturebd.com/">Homeland Furniture</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Website Design</a>
+                        <a href="#">AMS, HRM</a>
+
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://magpieholdingsltd.com/">Magpie Holdings Ltd.</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">AMS, HRM</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/CTC.png')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+       <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
+
+                  <div class="tppricing-btn" style="text-align: center;">
+                     <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Know More Abour Us</a>
+                  </div>
+
+            </div>
+   </section>
+
 
    <!-- services-area-start -->
-   <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -7%;">
+   <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -3%;">
       <div class="services-shape d-none d-xl-block">
          <div class="services-shape-one">
             <img src="assets/img/shape/services-2shape-1.png" alt="">
@@ -442,6 +602,7 @@ User List
                <div class="col-lg-8">
                   <div class="tpsection-wrapper text-center mb-60">
                      <h2 class="tpsection-title-two">
+                        <p>Customized Solutions</p>
                         <span class="big-shape2">
                            Choose Us
                            <svg width="246" height="24" viewBox="0 0 246 24" fill="none"
@@ -522,6 +683,7 @@ User List
 
    <!-- pricing-area-start -->
    <!-- <section class="pricing-area tp-price-parent tppricing-box-active pb-170 fix">
+
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -1046,10 +1208,8 @@ User List
 
 
 
-
-
-
-   <div class="social-area social-inner-wrapper pb-85">
+  
+      <div class="social-area social-inner-wrapper pb-85">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
