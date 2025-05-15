@@ -52,7 +52,7 @@
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label" for="image">Add Icon</label>
-               <img src="{{ asset('storage/' . $blog->img) }}" alt="{{ $blog->title }}" width="100px">
+               <img src="{{ asset('storage/' . $blog->img) }}" alt="{{ $blog->title }}" width="10%">
                 <input type="file" name="img" id="image" accept="image/*" onchange="previewImage(event)">
                 <br>
                 <img id="imagePreview" src="" alt="Image Preview"
