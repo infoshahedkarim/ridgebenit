@@ -531,7 +531,7 @@ User List
                      <h2 class="tpsection-title-two">
                         <p>Customized Solutions</p>
                         <span class="big-shape2">
-                           {{$st->title}}
+                           {{$st->title ?? ''}}
                            <svg width="246" height="24" viewBox="0 0 246 24" fill="none"
                               xmlns="http://www.w3.org/2000/svg">
                               <path d="M2.74431 14.6419C2.74431 14.6419 154.652 -4.65014 239.811 9.30024"
