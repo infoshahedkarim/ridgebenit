@@ -1,19 +1,19 @@
 @extends('layouts.master')
 @section('title')
-    Font Awesome 5
+Add Feature
 @endsection
 @section('page-title')
-    Font Awesome 5
+Add Feature
 @endsection
 @section('body')
 
-    <body>
+<body>
     @endsection
     @section('content')
 
 
-    
-   <div>
+
+    <div>
         <h1>Add Products</h1>
 
         @if(session('success'))
@@ -43,14 +43,14 @@
                 <input type="text" id="title" placeholder="Title" name="title" required>
             </div>
             <div>
-    <label for="service_id">Select Service</label>
-    <select name="service_id" id="service_id" required>
-        <option value="">-- Select a Service --</option>
-        @foreach($services as $service)
-            <option value="{{ $service->id }}">{{ $service->title }}</option>
-        @endforeach
-    </select>
-</div>
+                <label for="service_id">Select Service</label>
+                <select name="service_id" id="service_id" required>
+                    <option value="">-- Select a Service --</option>
+                    @foreach($services as $service)
+                    <option value="{{ $service->id }}">{{ $service->title }}</option>
+                    @endforeach
+                </select>
+            </div>
             <div>
                 <label>Sub Title</label>
                 <input type="text" id="title" placeholder="Short Text" name="subtitle" required>
@@ -101,9 +101,7 @@
                 reader.readAsDataURL(file);
             }
         }
-
     </script>
 
 
-@endsection
- 
+    @endsection

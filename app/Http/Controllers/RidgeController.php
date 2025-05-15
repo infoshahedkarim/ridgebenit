@@ -449,9 +449,6 @@ class RidgeController extends Controller
 
 
 
-
-
- 
     
 
     public function fcreate()
