@@ -8422,8 +8422,8 @@ blockquote cite::before {
 }
 .tpbanner-shape-five {
   position: absolute;
-  left: 260px;
-  bottom: 480px;
+  left: 240px;
+  bottom: 420px;
   width: 260px;
 }
 @media only screen and (min-width: 1600px) and (max-width: 1700px) {
