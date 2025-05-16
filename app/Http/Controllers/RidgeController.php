@@ -171,8 +171,8 @@ class RidgeController extends Controller
         $request->validate([
             'name' => 'required',
             'phone' => 'required',
-            'booking_date' => 'required|date|after_or_equal:today',
-            'booking_time' => 'required|in:11:00,12:00,01:00,02:00,03:00,04:00,05:00,06:00',
+            'booking_date' => 'nullable|date|after_or_equal:today',
+            'booking_time' => 'nullable|in:11:00,12:00,01:00,02:00,03:00,04:00,05:00,06:00',
             'email' => 'required|email',
             'msg' => 'required',
         ]);
@@ -197,8 +197,8 @@ class RidgeController extends Controller
         SendEmail::create([
             'name' => $request->name,
             'phone' => $request->phone,
-            'booking_date' => $request->booking_date,
-            'booking_time' => $request->booking_time,
+            'booking_date' => $request->booking_date ?? 0,
+            'booking_time' => $request->booking_time ?? 0,
             'email' => $request->email,
             'msg' => $request->msg,
         ]);

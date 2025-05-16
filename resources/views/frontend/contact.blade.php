@@ -145,14 +145,14 @@
                                     @enderror
                         </div>
 
-                        <div class="contact-form-input">
+                        {{-- <div class="contact-form-input">
                            <input type="date" name="booking_date" id="booking_date" min="{{ date('Y-m-d') }}" class="form-control" required>
                                     @error('booking_date')
                                     <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
                                     @enderror
-                        </div>
+                        </div> --}}
 
-                        <div class="contact-form-input" style="margin-bottom: 5%;">
+                        {{-- <div class="contact-form-input" style="margin-bottom: 5%;">
                            <select name="booking_time" id="booking_time" class="form-control" style="height: 53px; padding: 0 20px;" required>
                                        <option value="">Select Time Slot</option>
                                        <option value="11:00">11:00 AM</option>
@@ -167,7 +167,7 @@
                                     @error('booking_time')
                                     <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
                                     @enderror
-                        </div>
+                        </div> --}}
 
                         <div class="contact-form-input">
                             <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="Email Address">
