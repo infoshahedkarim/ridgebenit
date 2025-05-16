@@ -108,11 +108,11 @@
                         </a>
                      </div>
                      <div class="contact-social">
-                        <a href="https://www.facebook.com/ridgebenitsolution"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://x.com/Ridgeben_IT"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com/company/ridgebenitsolution"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://www.instagram.com/ridgebenit"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="https://wa.me/8801898878819"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.facebook.com/ridgebenitsolution"><i class="fa-brands fa-facebook-f" style="padding-inline:2.5px"></i></a>
+                        <a href="https://x.com/Ridgeben_IT"><i class="fa-brands fa-twitter" style="padding-inline:2.5px"></i></a>
+                        <a href="https://www.linkedin.com/company/ridgebenitsolution"><i class="fa-brands fa-linkedin-in" style="padding-inline:2.5px"></i></a>
+                        <a href="https://www.instagram.com/ridgebenit"><i class="fa-brands fa-instagram" style="padding-inline:2.5px"></i></a>
+                        <a href="https://wa.me/8801898878819"><i class="fa-brands fa-whatsapp" style="padding-inline:2.5px"></i></a>
                      </div>
                   </div>
                </div>
