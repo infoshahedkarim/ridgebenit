@@ -206,7 +206,7 @@ User List
                         <li>
                            <div class="tpservices-wrapper tpservices-item3">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{ asset('storage/' . $service->icon) }}" alt="" style="width:35%">
+                                <a href="{{route('page1', $service->slug)}}"> <img src="{{ asset('storage/' . $service->icon) }}" alt="" style="width:35%"></a>
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('page1', $service->slug)}}">{{$service->title}}</a></h4>
