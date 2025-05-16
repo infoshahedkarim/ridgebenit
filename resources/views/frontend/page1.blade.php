@@ -396,7 +396,7 @@ User List
 
    </section>
 
-   <section class="case-area pb-60 fix">
+   {{-- <section class="case-area pb-60 fix">
       <div class="container">
          <div class="row">
             <div class="col-lg-6 col-md-8">
@@ -418,7 +418,7 @@ User List
                   <h2 class="tpsection__title">Our Projects</h2>
                </div>
             </div>
-            <!-- <div class="col-lg-6 col-md-4">
+            <div class="col-lg-6 col-md-4">
                <div class="tpcase-arrow text-end">
                   <div class="tpcase-nav p-relative">
                      <button class="prev-slide prev-slide-case">
@@ -443,7 +443,7 @@ User List
                      </button>
                   </div>
                </div>
-            </div> -->
+            </div>
          </div>
       </div>
       <div class="container">
@@ -510,7 +510,7 @@ User List
          </div>
 
       </div>
-   </section>
+   </section> --}}
 
 
    <!-- services-area-start -->
@@ -610,9 +610,9 @@ User List
    <!-- services-area-end -->
 
 
-
+   @if($service->title === 'Website Development')
    <!-- pricing-area-start -->
-   <!-- <section class="pricing-area tp-price-parent tppricing-box-active pb-170 fix">
+   <section class="pricing-area tp-price-parent tppricing-box-active pb-170 fix">
 
          <div class="container">
             <div class="row">
@@ -1134,11 +1134,18 @@ User List
                </div>
             </div>
          </div>
-      </section> -->
+   </section> 
+   @endif
+
+  
 
 
 
 
+
+   
+   
+   
    <div class="social-area social-inner-wrapper pb-85">
       <div class="container">
          <div class="row">
@@ -1235,6 +1242,7 @@ User List
             </div>
          </div>
       </div>
+  
    </div>
 
 

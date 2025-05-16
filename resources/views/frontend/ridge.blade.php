@@ -79,14 +79,12 @@ User List
 
    <div class="slider123 col-xl-12 pb-40">
     <div class="card123"><img src="{{asset('assets/partners/1.jpg')}}" alt="Product 1"></div>
-    <div class="card123"><img src="{{asset('assets/partners/2.webp')}}" alt="Product 2"></div>
     <div class="card123"><img src="{{asset('assets/partners/3.webp')}}" alt="Product 3"></div>
     <div class="card123"><img src="{{asset('assets/partners/4.png')}}" alt="Product 4"></div>
     <div class="card123"><img src="{{asset('assets/partners/5.png')}}" alt="Product 5"></div>
     <div class="card123"><img src="{{asset('assets/partners/6.png')}}" alt="Product 6"></div>
     <div class="card123"><img src="{{asset('assets/partners/7.png')}}" alt="Product 7"></div>
     <div class="card123"><img src="{{asset('assets/partners/8.webp')}}" alt="Product 8"></div>
-    <div class="card123"><img src="{{asset('assets/partners/9.webp')}}" alt="Product 9"></div>
 </div>
 
 
@@ -449,7 +447,7 @@ User List
                </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+            {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
@@ -463,9 +461,9 @@ User List
                      </div>
                   </div>
                </div>
-            </div>
+            </div> --}}
 
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+            {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
@@ -479,7 +477,7 @@ User List
                      </div>
                   </div>
                </div>
-            </div>
+            </div> --}}
 
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
@@ -488,7 +486,7 @@ User List
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://homelandfurniturebd.com/">Homeland Furniture</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
+                     <p>Business Website with HRM, AMS System</p>
                      <div class="portfolio-inner-tag-2">
                         <a href="#">Website Design</a>
                         <a href="#">AMS, HRM</a>
@@ -505,7 +503,7 @@ User List
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://jj.c3bit.com/">Jibonjoyi</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
+                     <p>Blog Website</p>
                      <div class="portfolio-inner-tag-2">
                         <a href="#">Digital Marketing</a>
                         <a href="#">Website Design</a>
@@ -521,7 +519,7 @@ User List
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://magpieholdingsltd.com/">Magpie Holdings Ltd.</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
+                     <p>Real Estate Website with AMS Solution</p>
                      <div class="portfolio-inner-tag-2">
                         <a href="#">AMS, HRM</a>
                         <a href="#">Website Design</a>
@@ -530,7 +528,7 @@ User List
                </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+            {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
                      <img src="{{asset('assets/img/website/it.jpeg')}}" alt="">
@@ -544,7 +542,7 @@ User List
                      </div>
                   </div>
                </div>
-            </div>
+            </div> --}}
 
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
@@ -553,7 +551,7 @@ User List
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
+                     <p>Furniture Website</p>
                      <div class="portfolio-inner-tag-2">
                         <a href="#">ERP</a>
                         <a href="#">Website Design</a>
@@ -569,7 +567,7 @@ User List
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
+                     <p>Business Website</p>
                      <div class="portfolio-inner-tag-2">
                         <a href="#">Website Design</a>
                      </div>
