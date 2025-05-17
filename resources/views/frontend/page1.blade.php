@@ -307,7 +307,7 @@ User List
 
    <!-- feature-area-start -->
 
-   <section class="feature-area p-relative pb-95">
+   <section class="feature-area p-relative pb-20">
       <div class="feature-bg-shape"></div>
       <div class="container">
          <div class="row">
@@ -346,7 +346,7 @@ User List
 
 
    <!-- optimize-area-start -->
-   <section class="optimize-area optimize-wrapper pb-140">
+   <section class="optimize-area optimize-wrapper pb-40">
       <div class="container">
          <div class="row align-items-center"> <!-- Center both col-lg-6 vertically -->
             <div class="col-lg-6">
@@ -396,7 +396,14 @@ User List
 
    </section>
 
-   {{-- <section class="case-area pb-60 fix">
+  
+   @if($service->title === 'Website Development')
+
+
+
+
+    <!-- case-area-start -->
+   <section class="case-area pb-20 fix">
       <div class="container">
          <div class="row">
             <div class="col-lg-6 col-md-8">
@@ -418,7 +425,7 @@ User List
                   <h2 class="tpsection__title">Our Projects</h2>
                </div>
             </div>
-            <div class="col-lg-6 col-md-4">
+            <!-- <div class="col-lg-6 col-md-4">
                <div class="tpcase-arrow text-end">
                   <div class="tpcase-nav p-relative">
                      <button class="prev-slide prev-slide-case">
@@ -443,14 +450,58 @@ User List
                      </button>
                   </div>
                </div>
-            </div>
+            </div> -->
          </div>
       </div>
       <div class="container">
          <div class="row grid">
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://ajwahtech.com/">Ajwah Tech</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">SEO</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
 
+            {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://crownbanquetingsuite.com/">Crown</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div> --}}
 
-
+            {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://www.fiberathome.net/">Fiber@home</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">SEO</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div> --}}
 
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
@@ -459,7 +510,7 @@ User List
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://homelandfurniturebd.com/">Homeland Furniture</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
+                     <p>Business Website with HRM, AMS System</p>
                      <div class="portfolio-inner-tag-2">
                         <a href="#">Website Design</a>
                         <a href="#">AMS, HRM</a>
@@ -472,13 +523,13 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
+                     <img src="{{asset('assets/img/website/jibonjoyi.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-title-2"><a href="https://jj.c3bit.com/">Jibonjoyi</a></div>
+                     <p>Blog Website</p>
                      <div class="portfolio-inner-tag-2">
-                        <a href="#">ERP</a>
+                        <a href="#">Digital Marketing</a>
                         <a href="#">Website Design</a>
                      </div>
                   </div>
@@ -492,7 +543,7 @@ User List
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://magpieholdingsltd.com/">Magpie Holdings Ltd.</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
+                     <p>Real Estate Website with AMS Solution</p>
                      <div class="portfolio-inner-tag-2">
                         <a href="#">AMS, HRM</a>
                         <a href="#">Website Design</a>
@@ -501,20 +552,70 @@ User List
                </div>
             </div>
 
+            {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/it.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="http://ridgebenitinstitute.com/">Ridgeben IT Institute</a></div>
+                     <p>Fully Dynamic Ecommerces Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Digital Marketing</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div> --}}
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
+                     <p>Furniture Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">ERP</a>
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img src="{{asset('assets/img/website/CTC.png')}}" alt="">
+                  </div>
+                  <div class="portfolio-inner-content-2">
+                     <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
+                     <p>Business Website</p>
+                     <div class="portfolio-inner-tag-2">
+                        <a href="#">Website Design</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
          </div>
       </div>
-      <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
+       <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
 
-         <div class="tppricing-btn" style="text-align: center;">
-            <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Know More Abour Us</a>
-         </div>
+                  <div class="tppricing-btn" style="text-align: center;">
+                     <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Know More Abour Us</a>
+                  </div>
 
-      </div>
-   </section> --}}
+            </div>
+   </section>
+   <!-- case-area-end -->
+
+
+   @endif
 
 
    <!-- services-area-start -->
-   <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -3%;">
+   <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -2%;">
       <div class="services-shape d-none d-xl-block">
          <div class="services-shape-one">
             <img src="assets/img/shape/services-2shape-1.png" alt="">
@@ -612,7 +713,7 @@ User List
 
    @if($service->title === 'Website Development')
    <!-- pricing-area-start -->
-   <section class="pricing-area tp-price-parent tppricing-box-active pb-170 fix">
+   <section class="pricing-area tp-price-parent tppricing-box-active pb-40 fix">
 
          <div class="container">
             <div class="row">
@@ -837,7 +938,7 @@ User List
                                     <div class="row gx-0">
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>Wordpress, wix or shopify</p>
+                                             <p>Customized Solutions</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
@@ -847,7 +948,7 @@ User List
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>Wordpress, wix or shopify</p>
+                                             <p>Customized Solutions</p>
                                           </div>
                                        </div>
                                     </div>
@@ -871,7 +972,7 @@ User List
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
-                                             <p>Wordpress, wix or shopify</p>
+                                             <p>Customized Solutions</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
@@ -936,7 +1037,7 @@ User List
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>-</p>
+                                             <p>Free Domain and Hosting</p>
                                           </div>
                                        </div>
                                     </div>
@@ -1238,7 +1339,7 @@ User List
   
 
 
-   <section class="contact-area theme-bg-3 pt-120 pb-120" id="appointment-section"
+   <section class="contact-area theme-bg-3 pt-40 pb-120" id="appointment-section"
       style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.8); z-index: 9999; overflow-y: auto;">
       <div style="max-width: 600px; margin: 50px auto; background: white; padding: 20px; border-radius: 10px; position: relative;">
          <button id="close-appointment" style="position: absolute; top: 10px; right: 10px; background: red; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; font-size: 16px; cursor: pointer;">&times;</button>
