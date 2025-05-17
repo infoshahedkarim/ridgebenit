@@ -94,32 +94,15 @@
                   </div>
                </div>
                <div class="col-lg-5 col-md-8">
-                  <div class="brand-inner-wrapper tpbrand-inner-active">
-                     <div class="tpbrand-inner-item">
-                        <img src="assets/img/brand/inner-brand-1.png" alt="">
-                     </div>
-                     <div class="tpbrand-inner-item">
-                        <img src="assets/img/brand/inner-brand-2.png" alt="">
-                     </div>
-                     <div class="tpbrand-inner-item">
-                        <img src="assets/img/brand/inner-brand-3.png" alt="">
-                     </div>
-                     <div class="tpbrand-inner-item">
-                        <img src="assets/img/brand/inner-brand-4.png" alt="">
-                     </div>
-                     <div class="tpbrand-inner-item">
-                        <img src="assets/img/brand/inner-brand-5.png" alt="">
-                     </div>
-                     <div class="tpbrand-inner-item">
-                        <img src="assets/img/brand/inner-brand-6.png" alt="">
-                     </div>
-                     <div class="tpbrand-inner-item">
-                        <img src="assets/img/brand/inner-brand-1.png" alt="">
-                     </div>
-                     <div class="tpbrand-inner-item">
-                        <img src="assets/img/brand/inner-brand-2.png" alt="">
-                     </div>
-                  </div>
+                   <div class="slider123 col-xl-12 pb-40">
+    <div class="card123"><img src="{{asset('assets/partners/1.jpg')}}" alt="Product 1"></div>
+    <div class="card123"><img src="{{asset('assets/partners/3.webp')}}" alt="Product 3"></div>
+    <div class="card123"><img src="{{asset('assets/partners/4.png')}}" alt="Product 4"></div>
+    <div class="card123"><img src="{{asset('assets/partners/5.png')}}" alt="Product 5"></div>
+    <div class="card123"><img src="{{asset('assets/partners/6.png')}}" alt="Product 6"></div>
+    <div class="card123"><img src="{{asset('assets/partners/7.png')}}" alt="Product 7"></div>
+    <div class="card123"><img src="{{asset('assets/partners/8.webp')}}" alt="Product 8"></div>
+</div>
                </div>
             </div>
          </div>
@@ -194,7 +177,8 @@
       <section class="project-area project-inner-height">
          <div class="container">
             <div class="row">
-               <div class="col-lg-7">
+               <div class="row align-items-center">
+                  <div class="col-lg-7">
                   <div class="seo-5-thumb p-relative mb-40">
                      <div class="seo-5-main-bg">
                         <img src="assets/img/bg/seo-5-bg-1.png" alt="">
@@ -214,8 +198,8 @@
                         </div>
                      </div>
                   </div>
-               </div>
-               <div class="col-lg-5">
+                  </div>
+                  <div class="col-lg-5">
                   <div class="seo-5 mt-30 mb-40">
                      <div class="section-3 mb-40">
                         <span class="section-3-sub-title">Why we are the BEST?</span>
@@ -229,8 +213,8 @@
                               </div>
                               <div class="seo-5-list-text">
                                  <h4 class="title">Experienced Team</h4>
-                                 <p>You are in the hands of professional developers, designers, and SEO experts who work together to deliver results.
-                                 </p>
+                                 <span>You are in the hands of professional developers, designers, and SEO experts who work together to deliver results.
+                                 </span>
                               </div>
                            </div>
                         </li>
@@ -241,7 +225,8 @@
                               </div>
                               <div class="seo-5-list-text">
                                  <h4 class="title">Creative Design</h4>
-                                 <p>We create lasting impressions through thoughtful design. Our goal is to focus on what matters most and make the design appealing to clients.</p>
+                                 <span>We create lasting impressions through thoughtful design. Our goal is 
+                                    to focus on what matters most and make the design appealing to clients.</span>
                               </div>
                            </div>
                         </li>
@@ -252,7 +237,8 @@
                               </div>
                               <div class="seo-5-list-text">
                                  <h4 class="title">Data Protection</h4>
-                                 <p>We strongly protect your data with proper security measures and monitoring, keeping it safe and private while you focus on your business. </p>
+                                 <span>We strongly protect your data with proper security measures and
+                                     monitoring, keeping it safe and private while you focus on your business. </span>
                               </div>
                            </div>
                         </li>
@@ -263,8 +249,9 @@
                               </div>
                               <div class="seo-5-list-text">
                                  <h4 class="title">Business Growth</h4>
-                                 <p>Grow your business with a great website, app, and improved search rankings. We help you to enhance visitors, engagement, and sales.
-                                 </p>
+                                 <span>Grow your business with a great website, app, and improved search 
+                                    rankings. We help you to enhance visitors, engagement, and sales.
+                                 </span>
                               </div>
                            </div>
                         </li>
@@ -275,14 +262,15 @@
                               </div>
                               <div class="seo-5-list-text">
                                  <h4 class="title">Ongoing Support</h4>
-                                 <p>Our team is always here to provide professional support, assisting you with updates at every step of the process.</p>
+                                 <span>Our team is always here to provide professional support, assisting you with updates at every step of the process.</span>
                               </div>
                            </div>
                         </li>
                      </ul>
                      <div class="seo-5-btn">
-                        <a href="{{route('about')}}" class="light-blue-btn">Learn More</a>
+                        <a href="{{route('contact')}}" class="tp-btn-blue">Contact Us</a>
                      </div>
+                  </div>
                   </div>
                </div>
             </div>
@@ -440,76 +428,94 @@
                </div>
             </div>
             <div class="row gx-9 pb-30">
-               <div class="col-lg-4 col-md-6">
-                  <div class="team-5-item text-center mb-40">
-                     <div class="team-5-thumb mb-25">
-                        <img src="assets/img/team/maruf.png" alt="">
-                        <div class="team-5-social">
-                           <span class="icon"></span>
-                           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                           <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        </div>
-                     </div>
-                     <div class="team-5-content">
-                        <h4 class="team-5-title"><a href="">Md. Maruf Mamun</a></h4>
-                        <p>Managing Director</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="team-5-item team-5-item-2 text-center mb-40">
-                     <div class="team-5-thumb mb-25">
-                        <img src="assets/img/team/faisal.png" alt="">
-                        <div class="team-5-social">
-                           <span class="icon"></span>
-                           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                           <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        </div>
-                     </div>
-                     <div class="team-5-content">
-                        <h4 class="team-5-title"><a href="">Md Faisal Rahman</a></h4>
-                        <p>Product Specialist</p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-lg-4 col-md-6">
-                  <div class="team-5-item team-5-item-3 text-center mb-40">
-                     <div class="team-5-thumb mb-25">
-                        <img src="assets/img/team/animesh.png" alt="">
-                        <div class="team-5-social">
-                           <span class="icon"></span>
-                           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                           <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        </div>
-                     </div>
-                     <div class="team-5-content">
-                        <h4 class="team-5-title"><a href="">Dipto Biswas</a></h4>
-                        <p>Junior Software Engineer</p>
-                     </div>
-                  </div>
-               </div>
-               <!-- <div class="col-lg-3 col-md-6">
-                  <div class="team-5-item team-5-item-4 text-center mb-40">
-                     <div class="team-5-thumb mb-25">
-                        <img src="assets/img/team/team-5-4.png" alt="">
-                        <div class="team-5-social">
-                           <span class="icon"></span>
-                           <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                           <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                           <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                        </div>
-                     </div>
-                     <div class="team-5-content">
-                        <h4 class="team-5-title"><a href="team-details.html">Kathryn Murphy</a></h4>
-                        <p>Founder & CEO</p>
-                     </div>
-                  </div>
-               </div> -->
+   <div class="col-lg-4 col-md-6">
+      <div class="team-5-item text-center mb-40 mx-auto" style="max-width: 220px;">
+         <div class="team-5-thumb mb-25">
+            <img src="assets/img/team/maruf.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
+            <div class="team-5-social">
+               <span class="icon"></span>
+               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
+         </div>
+         <div class="team-5-content">
+            <h4 class="team-5-title"><a href="">Md. Maruf Mamun</a></h4>
+            <p>Managing Director</p>
+         </div>
+      </div>
+   </div>
+
+   <div class="col-lg-4 col-md-6">
+      <div class="team-5-item team-5-item-2 text-center mb-40 mx-auto" style="max-width: 220px;">
+         <div class="team-5-thumb mb-25">
+            <img src="assets/img/team/faisal.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
+            <div class="team-5-social">
+               <span class="icon"></span>
+               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+         <div class="team-5-content">
+            <h4 class="team-5-title"><a href="">Md Faisal Rahman</a></h4>
+            <p>Product Specialist</p>
+         </div>
+      </div>
+   </div>
+
+   <div class="col-lg-4 col-md-6">
+      <div class="team-5-item team-5-item-3 text-center mb-40 mx-auto" style="max-width: 220px;">
+         <div class="team-5-thumb mb-25">
+            <img src="assets/img/team/animesh.png" alt="" class="mx-auto" style="width: 160px; height: auto;">
+            <div class="team-5-social">
+               <span class="icon"></span>
+               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+         <div class="team-5-content">
+            <h4 class="team-5-title"><a href="">Dipto Biswas</a></h4>
+            <p>Junior Software Engineer</p>
+         </div>
+      </div>
+   </div>
+</div>
+
          </div>
       </section>
       <!-- team-area-end -->
+
+
+       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+     <script src="https://unpkg.com/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+    $('.slider123').slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: false,
+        arrows: false, // disabled arrows
+        autoplay: true,
+        autoplaySpeed: 1000,
+        variableWidth: false, 
+        responsive: [
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
+    });
+</script>
 @endsection

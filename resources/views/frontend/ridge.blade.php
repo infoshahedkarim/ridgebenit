@@ -953,7 +953,7 @@ User List
          <div class="row">
             <div class="col-lg-12">
                <div class="tpsection__content text-center mb-60">
-                  <h2 class="tpsection__title">Client love us & we love them</h2>
+                  <h2 class="tpsection__title">Clients love us & we love them</h2>
                   <p>Trusted by over 70+ clients worldwide</p>
                </div>
             </div>
