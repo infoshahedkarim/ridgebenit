@@ -28,13 +28,13 @@ User List
    <!-- breadcrumb-services-area-end -->
 
    <!-- service-details-area-start -->
-   <section class="services-details-area services-details mb-20" style="margin-top: -7%;">
+   <section class="services-details-area services-details mb-20" style="margin-top: -5%;">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
                <div class="services-details">
                   <div class="services-details-section ml-95">
-                     <span style="color:rgba(169, 215, 255, 0.8);">Our Services</span>
+                     <span style="color:rgba(92, 179, 255, 0.8);">Our Services</span>
                      <h4 class="services-details-title" style="color: #004a87;">{{ $service->title }}</h4>
                   </div>
                   <div class="services-details-thumb mb-50">
@@ -307,7 +307,7 @@ User List
 
    <!-- feature-area-start -->
 
-   <section class="feature-area p-relative pb-20">
+   <section class="feature-area p-relative pb-40 pt-40">
       <div class="feature-bg-shape"></div>
       <div class="container">
          <div class="row">
@@ -720,13 +720,9 @@ User List
 
 
 
-
-
-
-
    @if($service->title === 'Website Development')
    <!-- pricing-area-start -->
-   <section class="pricing-area tp-price-parent tppricing-box-active pb-40 fix">
+   <section class="pricing-area tp-price-parent tppricing-box-active pb-40 pt-120 fix">
 
          <div class="container">
             <div class="row">
