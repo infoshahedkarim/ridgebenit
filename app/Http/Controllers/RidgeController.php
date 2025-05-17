@@ -689,4 +689,12 @@ class RidgeController extends Controller
 
         return view('frontend.page5', compact('product'));
     }
+
+
+
+
+
+
+
+
 }

@@ -43,12 +43,9 @@
                             <h4 class="footer-widget-title mb-15">Services & Products</h4>
                             <div class="footer-widget-link">
                                 <ul>
-                                    <li><a href="{{route('softwaredev')}}">Software Development</a></li>
-                                    <li><a href="{{route('websitedev')}}">Website Development</a></li>
-                                    <li><a href="{{route('dm')}}">Digital Marketing</a></li>
-                                    <li><a href="{{route('erp')}}">ERP Solutions</a></li>
-                                    <li><a href="{{route('ams')}}">Account Management System</a></li>
-                                    <li><a href="{{route('crm')}}">CRM</a></li>
+                                    @foreach($services as $service)
+                                    <li><a href="{{route('page1', $service->slug)}}">{{$service->title}}</a></li>
+                                    @endforeach
                                 </ul>
                             </div>
                         </div>
