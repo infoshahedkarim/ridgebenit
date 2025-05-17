@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title')
-    Font Awesome 5
+    Add Solutions
 @endsection
 @section('page-title')
-    Font Awesome 5
+    Add Solutions
 @endsection
 @section('body')
 
@@ -14,7 +14,7 @@
 
     
    <div>
-        <h1>Add Products</h1>
+        <h1>Solutions</h1>
 
         @if(session('success'))
         <div class="alert alert-success alert-dismissible fade show" role="alert">

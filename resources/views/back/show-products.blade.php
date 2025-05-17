@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title')
-    Font Awesome 5
+    Products
 @endsection
 @section('page-title')
-    Font Awesome 5
+    Products
 @endsection
 @section('body')
 
@@ -15,7 +15,7 @@
 
 
     <div>
-        <h1>All the Products</h1>
+        <h1>Products List</h1>
     </div>
 
     

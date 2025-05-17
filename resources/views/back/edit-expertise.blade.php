@@ -3,7 +3,7 @@
     Edit Expertise
 @endsection
 @section('page-title')
-    Font Awesome 5
+    Edit Expertise
 @endsection
 @section('body')
 
@@ -13,7 +13,7 @@
 
 
     <div>
-        <h1>Edit expertise</h1>
+        <h1>Edit Expertise</h1>
 
         @if(session('success'))
         <div class="alert alert-success alert-dismissible fade show" role="alert">

@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title')
-    Font Awesome 5
+    Feature
 @endsection
 @section('page-title')
-    Font Awesome 5
+    Feature
 @endsection
 @section('body')
 
@@ -13,7 +13,7 @@
 
 
 <div class="container mt-4">
-    <h1 class="mb-4">All the Feature</h1>
+    <h1 class="mb-4">Feature List</h1>
 
     <table class="table table-bordered table-striped">
         <thead class="table-dark">

@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title')
-    Font Awesome 5
+    Edit Product
 @endsection
 @section('page-title')
-    Font Awesome 5
+    Edit Product
 @endsection
 @section('body')
 

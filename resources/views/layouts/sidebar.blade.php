@@ -32,35 +32,68 @@
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
-                <!-- <li class="menu-title" data-key="t-menu">Dashboard</li>
-
-               <li>
-                    <a href="javascript: void(0);">
-                        <i class="bx bx-home-alt icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-dashboard">Dashboard</span>
-                        <span class="badge rounded-pill bg-primary">2</span>
-                    </a>
-                    <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="index" data-key="t-ecommerce">Ecommerce</a></li>
-                        <li><a href="dashboard-sales" data-key="t-sales">Sales</a></li>
-                    </ul>
-                </li> -->
-
-
-
+                <li class="menu-title" data-key="t-menu">Service</li>
 
                 <li>
                     <a href="{{route('back.services')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">Add Service</span>
+                        <i class="bx bx-home-alt icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-dashboard">Add Service</span>
                     </a>
+                    <ul class="sub-menu" aria-expanded="false">
+
+
+                        <li>
+                            <a href="{{route('back.show')}}">
+                                <i class="bx bx-file-find icon nav-icon"></i>
+                                <span class="menu-item" data-key="t-filemanager">Service List</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="{{route('back.fcreate')}}">
+                                <i class="bx bx-file-find icon nav-icon"></i>
+                                <span class="menu-item" data-key="t-filemanager">Add Feature</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('back.fshow')}}">
+                                <i class="bx bx-file-find icon nav-icon"></i>
+                                <span class="menu-item" data-key="t-filemanager">Feature List</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('back.ecreate')}}">
+                                <i class="bx bx-file-find icon nav-icon"></i>
+                                <span class="menu-item" data-key="t-filemanager">Add Expertise</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('back.eshow')}}">
+                                <i class="bx bx-file-find icon nav-icon"></i>
+                                <span class="menu-item" data-key="t-filemanager">Expertise List</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('back.screate')}}">
+                                <i class="bx bx-file-find icon nav-icon"></i>
+                                <span class="menu-item" data-key="t-filemanager">Add Solution</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{route('back.sshow')}}">
+                                <i class="bx bx-file-find icon nav-icon"></i>
+                                <span class="menu-item" data-key="t-filemanager">Solution List</span>
+                            </a>
+                        </li>
+
+
+                    </ul>
                 </li>
-                <li>
-                    <a href="{{route('back.show')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">All Services</span>
-                    </a>
-                </li>
+
+
+
+
+
                 <li>
                     <a href="{{route('back.products')}}">
                         <i class="bx bx-file-find icon nav-icon"></i>
@@ -70,45 +103,10 @@
                 <li>
                     <a href="{{route('back.pshow')}}">
                         <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">All Products</span>
+                        <span class="menu-item" data-key="t-filemanager">Products List</span>
                     </a>
                 </li>
-                <li>
-                    <a href="{{route('back.fcreate')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">Add Feature</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('back.fshow')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">All Feature</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('back.ecreate')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">Add Expertise</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('back.eshow')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">All Expertise</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('back.screate')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">Add Solution</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="{{route('back.sshow')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">All Solution</span>
-                    </a>
-                </li>
+
                 <li>
                     <a href="{{route('add.blog')}}">
                         <i class="bx bx-file-find icon nav-icon"></i>
@@ -118,7 +116,7 @@
                 <li>
                     <a href="{{route('show.blog')}}">
                         <i class="bx bx-file-find icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-filemanager">All Blogs</span>
+                        <span class="menu-item" data-key="t-filemanager">Blogs List</span>
                     </a>
                 </li>
 

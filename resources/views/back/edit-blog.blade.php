@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title')
-    Font Awesome 5
+    Edit Blog
 @endsection
 @section('page-title')
-    Font Awesome 5
+    Edit Blog
 @endsection
 @section('body')
 
@@ -13,7 +13,7 @@
 
 
     <div>
-        <h1>Edit Product</h1>
+        <h1>Edit Blog</h1>
 
         @if(session('success'))
     <div class="alert alert-success alert-dismissible fade show" role="alert">

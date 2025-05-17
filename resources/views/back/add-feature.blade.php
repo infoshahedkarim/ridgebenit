@@ -14,7 +14,7 @@ Add Feature
 
 
     <div>
-        <h1>Add Products</h1>
+        <h1>Feature</h1>
 
         @if(session('success'))
         <div class="alert alert-success alert-dismissible fade show" role="alert">

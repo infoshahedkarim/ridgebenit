@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('title')
-Welcome | RITS | Admin Panel
+Welcome | RITS | {{Auth::user()->name}}
 @endsection
 @section('page-title')
 

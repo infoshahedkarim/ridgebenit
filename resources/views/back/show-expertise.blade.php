@@ -1,9 +1,9 @@
 @extends('layouts.master')
 @section('title')
-    All Expertise
+    Expertise
 @endsection
 @section('page-title')
-    Font Awesome 5
+    Expertise
 @endsection
 @section('body')
 
@@ -13,7 +13,7 @@
 
 
 <div class="container mt-4">
-    <h1 class="mb-4">All the Feature</h1>
+    <h1 class="mb-4">Expertise List</h1>
 
     <table class="table table-bordered table-striped">
         <thead class="table-dark">
