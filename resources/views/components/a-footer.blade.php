@@ -43,8 +43,8 @@
                             <h4 class="footer-widget-title mb-15">Services & Products</h4>
                             <div class="footer-widget-link">
                                 <ul>
-                                    @foreach($services as $service)
-                                    <li><a href="{{route('page1', $service->slug)}}">{{$service->title}}</a></li>
+                                    @foreach($services->sortByDesc('updated_at')->take(3) as $service)
+                                    <li><a href="{{ route('page1', $service->slug) }}">{{ $service->title }}</a></li>
                                     @endforeach
                                 </ul>
                             </div>
