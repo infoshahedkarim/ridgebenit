@@ -14,7 +14,7 @@
 
       <!-- breadcrumb-area-start -->
       <section class="breadcrumb-area breadcrumb-overlay p-relative pb-115 pt-195 jarallax"
-         data-background="assets/img/breadcrumb/breadcrumb-bg-1.jpg">
+         data-background="assets/img/breadcrumb/1.png">
          <div class="container">
             <div class="row">
                <div class="col-xxl-12">
