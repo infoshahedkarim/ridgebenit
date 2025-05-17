@@ -12053,13 +12053,13 @@ blockquote cite::before {
 }
 .pricing-box-4 .active.tppricing-4-btn a:hover {
   font-weight: 600;
-  background-color: var(--tp-theme-blue);
+  background-color: #004a87;
   border: 2px solid var(--tp-common-white);
   color: var(--tp-common-white);
   box-shadow: 0px 4px 6px rgba(1, 15, 28, 0.1);
 }
 .pricing-box-4 .active.tppricing-4-price::before {
-  background-color: #8E76FF;
+  background-color: rgb(255, 255, 255, 0.4); ;
 }
 
 .tppricing-4-head {
@@ -12155,8 +12155,8 @@ blockquote cite::before {
   background-color: transparent;
 }
 .tppricing-4-btn a:hover {
-  border: 2px solid var(--tp-theme-blue);
-  background-color: var(--tp-theme-blue);
+  border: 2px solid #004a87;
+  background-color: #004a87;
   color: var(--tp-common-white);
 }
 .tppricing-4-btn.tppricing-4-price::before {
@@ -12186,7 +12186,7 @@ blockquote cite::before {
   left: 0;
   height: 15px;
   width: 100%;
-  background-color: var(--tp-theme-blue);
+  background-color: #004A87;
 }
 .tppriceing-top .active.tppricing-4-head .title {
   color: var(--tp-common-white);

@@ -29,7 +29,7 @@ User List
                            </div>
 
                            <div class="tppricing-btn" style="text-align: center;">
-                              <a href="#free-consult" class="tp-btn-blue" style="display: inline-block; text-align: center;">Book a Free Consultant</a>
+                              <a href="#free-consult" class="tp-btn-blue" style="display: inline-block; text-align: center;">Book a Free Consultation</a>
                            </div>
 
                         </div>

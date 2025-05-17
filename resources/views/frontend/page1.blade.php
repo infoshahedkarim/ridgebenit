@@ -625,7 +625,7 @@ User List
             </div>
             <div class="tpprice-4-switch-box  p-relative">
                <div class="tpprice-4-switch p-relative">
-                  <div class="tpprice-switch-wrapper tpprice-4-position tppricing-switch-2">
+                  <!-- <div class="tpprice-switch-wrapper tpprice-4-position tppricing-switch-2">
                      <div class="toggle">
                         <input type="checkbox" id="switcher-price" class="tp-check">
                         <b class="switch"></b>
@@ -634,7 +634,7 @@ User List
                         <label class="toggler toggler-price-active" id="filt-monthly-price">Billed Yearly</label>
                         <label class="toggler" id="filt-yearly-price">Billed Monthy</label>
                      </div>
-                  </div>
+                  </div> -->
                </div>
                <div class="tppricing-shape-4">
                   <div class="tppricing-shape-1">
@@ -662,9 +662,9 @@ User List
 
                            <div class="tppriceing-top">
                               <div class="row gx-0">
-                                 <div class="price-custom-col-1">
-                                 </div>
-                                 <div class="price-custom-col-2">
+                                 <!-- <div class="price-custom-col-1">
+                                 </div> -->
+                                 <div class="price-custom-col-3">
                                     <div class="row gx-0">
                                        <div class="col-4">
                                           <div class="tppricing-4-head text-center">
@@ -673,7 +673,7 @@ User List
                                           </div>
                                        </div>
                                        <div class="col-4">
-                                          <div class="tppricing-4-head active text-center p-relative">
+                                          <div class="tppricing-4-head active text-center p-relative" style="background-color: #004A87;">
                                              <div class="big-price-shape"></div>
                                              <div class="sm-price-shape"></div>
                                              <span><h4 class="title">Pro</h4></span>
@@ -702,26 +702,26 @@ User List
 
 
                               <div class="row gx-0">
-                                 <div class="price-custom-col-1">
+                                 <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">keyword Research</h4>
                                     </div>
-                                 </div>
-                                 <div class="price-custom-col-2">
+                                 </div> -->
+                                 <div class="price-custom-col-3">
                                     <div class="row gx-0">
                                        <div class="col-4">
                                           <div class="tppricing-4-price tppricing-right text-center">
-                                             <p>100</p>
+                                             <p>Up to 3-page</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
-                                          <div class="tppricing-4-price active text-center">
-                                             <p>200</p>
+                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                             <p>Silver package</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price tppricing-left text-center">
-                                             <p>250</p>
+                                             <p>Gold package</p>
                                           </div>
                                        </div>
                                     </div>
@@ -734,26 +734,26 @@ User List
 
 
                               <div class="row gx-0">
-                                 <div class="price-custom-col-1">
+                                 <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">On-page and SERP analysis</h4>
                                     </div>
-                                 </div>
-                                 <div class="price-custom-col-2">
+                                 </div> -->
+                                 <div class="price-custom-col-3">
                                     <div class="row gx-0">
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>10</p>
+                                             <p>Blog included</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
-                                          <div class="tppricing-4-price active text-center">
-                                             <p>20</p>
+                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                             <p>Up to 10-page website</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>30</p>
+                                             <p>Up to 30-page website</p>
                                           </div>
                                        </div>
                                     </div>
@@ -765,26 +765,26 @@ User List
 
 
                               <div class="row gx-0">
-                                 <div class="price-custom-col-1">
+                                 <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">Tools for Agencies</h4>
                                     </div>
-                                 </div>
-                                 <div class="price-custom-col-2">
+                                 </div> -->
+                                 <div class="price-custom-col-3">
                                     <div class="row gx-0">
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>Limited</p>
+                                             <p>Free SSL - Security</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
-                                          <div class="tppricing-4-price active text-center">
-                                             <p>Limited</p>
+                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                             <p>Up to 3 revisions</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>Limited</p>
+                                             <p>Up to 5 revisions</p>
                                           </div>
                                        </div>
                                     </div>
@@ -797,26 +797,26 @@ User List
 
 
                               <div class="row gx-0">
-                                 <div class="price-custom-col-1">
+                                 <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">Сontent Marketing</h4>
                                     </div>
-                                 </div>
-                                 <div class="price-custom-col-2">
+                                 </div> -->
+                                 <div class="price-custom-col-3">
                                     <div class="row gx-0">
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>15 articles</p>
+                                             <p>SEO optimized</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
-                                          <div class="tppricing-4-price active text-center">
-                                             <p>30 articles</p>
+                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                             <p>SEO optimized</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>20 articles</p>
+                                             <p>SEO & Speed optimization</p>
                                           </div>
                                        </div>
                                     </div>
@@ -828,26 +828,115 @@ User List
 
 
                               <div class="row gx-0">
-                                 <div class="price-custom-col-1">
+                                 <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">Additional Features</h4>
                                     </div>
-                                 </div>
-                                 <div class="price-custom-col-2">
+                                 </div> -->
+                                 <div class="price-custom-col-3">
                                     <div class="row gx-0">
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>5</p>
+                                             <p>Wordpress, wix or shopify</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
-                                          <div class="tppricing-4-price active text-center">
-                                             <p>10</p>
+                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                             <p>Mobile friendly design</p>
                                           </div>
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price text-center">
-                                             <p>15</p>
+                                             <p>Wordpress, wix or shopify</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+
+
+                              <div class="row gx-0">
+                                 <!-- <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">Additional Features</h4>
+                                    </div>
+                                 </div> -->
+                                 <div class="price-custom-col-3">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>Optional monthly support *</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                             <p>Wordpress, wix or shopify</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>3 month support included</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+
+
+
+
+
+                              <div class="row gx-0">
+                                 <!-- <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">Additional Features</h4>
+                                    </div>
+                                 </div> -->
+                                 <div class="price-custom-col-3">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>Delivery time 2 weeks</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                             <p>1 month support included</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>Delivery time 12 weeks</p>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              
+                              
+                              
+                              <div class="row gx-0">
+                                 <!-- <div class="price-custom-col-1">
+                                    <div class="tppricing-4-title">
+                                       <h4 class="title">Additional Features</h4>
+                                    </div>
+                                 </div> -->
+                                 <div class="price-custom-col-3">
+                                    <div class="row gx-0">
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>-</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                             <p>Delivery time 6 weeks</p>
+                                          </div>
+                                       </div>
+                                       <div class="col-4">
+                                          <div class="tppricing-4-price text-center">
+                                             <p>-</p>
                                           </div>
                                        </div>
                                     </div>
@@ -858,41 +947,42 @@ User List
 
 
 
-                              <div class="row gx-0">
+                              <!-- <div class="row gx-0">
                                  <div class="price-custom-col-1"></div>
-                                 <div class="price-custom-col-2">
+                                 <div class="price-custom-col-3">
                                     <div class="row gx-0">
                                        <div class="col-4">
                                           <div class="tppricing-4-price tppricing-right tppricing-4-btn">
                                              <p>
-                                                <a href="#">Join this Plan</a>
+                                                <a href="javascript:void(0)" id="show-appointment">Get Started</a>
                                              </p>
                                           </div>
                                        </div>
                                        <div class="col-4">
-                                          <div class="tppricing-4-price active tppricing-4-btn">
+                                          <div class="tppricing-4-price active tppricing-4-btn" style="background-color: #004A87;">
                                              <p>
-                                                <a href="#">Join this Plan</a>
+                                                <a href="javascript:void(1)" id="show-appointment">Get Started</a>
                                              </p>
                                           </div>
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price tppricing-right tppricing-4-btn">
                                              <p>
-                                                <a href="#">Join this Plan</a>
+                                                <a href="javascript:void(2)" id="show-appointment">Get Started</a>
                                              </p>
                                           </div>
                                        </div>
                                     </div>
                                  </div>
-                              </div>
+                              </div> -->
                              
                               
                            </div>
                            
                            
                         </div>
-                        <div id="hourly-price" class="wrapper-full price-is-hide">
+
+                        <!-- <div id="hourly-price" class="wrapper-full price-is-hide">
                            
                         
                            <div class="tppriceing-top">
@@ -1101,21 +1191,21 @@ User List
                                        <div class="col-4">
                                           <div class="tppricing-4-price tppricing-right tppricing-4-btn">
                                              <p>
-                                                <a href="#">Join this Plan</a>
+                                                <a href="#">Get Started</a>
                                              </p>
                                           </div>
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price active tppricing-4-btn">
                                              <p>
-                                                <a href="#">Join this Plan</a>
+                                                <a href="#">Get Started</a>
                                              </p>
                                           </div>
                                        </div>
                                        <div class="col-4">
                                           <div class="tppricing-4-price tppricing-right tppricing-4-btn">
                                              <p>
-                                                <a href="#">Join this Plan</a>
+                                                <a href="#">Get Started</a>
                                              </p>
                                           </div>
                                        </div>
@@ -1128,18 +1218,216 @@ User List
                            </div>
                            
                            
-                        </div>
+                        </div> -->
+
                      </div>
                   </div>
                </div>
             </div>
          </div>
+                                       <div class="col-12">
+                                          <div class="tppricing-4-price tppricing-right tppricing-4-btn">
+                                             <p>
+                                                <a href="javascript:void(0)" id="show-appointment">Get Started</a>
+                                             </p>
+                                          </div>
+                                       </div>
    </section> 
    @endif
 
   
 
 
+   <section class="contact-area theme-bg-3 pt-120 pb-120" id="appointment-section"
+      style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0,0,0,0.8); z-index: 9999; overflow-y: auto;">
+      <div style="max-width: 600px; margin: 50px auto; background: white; padding: 20px; border-radius: 10px; position: relative;">
+         <button id="close-appointment" style="position: absolute; top: 10px; right: 10px; background: red; color: white; border: none; border-radius: 50%; width: 30px; height: 30px; font-size: 16px; cursor: pointer;">&times;</button>
+
+         <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+               <div class="p-relative">
+                  <div class="tpcontact-form p-relative ml-30">
+                     <!-- <h4 class="tpcontact-form-title mb-35">Book a Free Consultant</h4> -->
+                     <form id="contactForm" action="{{route('email.store')}}" method="POST">
+                        @csrf
+
+                        @if(session('success'))
+                        <div class="alert alert-success">
+                           {{session('success')}}
+                        </div>
+                        @endif
+
+                        <div id="form-response"></div>
+
+                        <div class="tpcontact-from-wrapper">
+                           <div class="row gx-6">
+                              <div class="col-lg-6">
+                                 <div class="tpcontact-form-input mb-20">
+                                    <input type="text" name="name" id="name" value="{{old('name')}}" placeholder="Full Name">
+                                    @error('name')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <div class="tpcontact-form-input mb-20">
+                                    <input type="text" name="phone" id="phone" value="{{old('phone')}}" placeholder="Phone No.">
+                                    @error('phone')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+                                 </div>
+                              </div>
+                              <div class="col-lg-6">
+                                 <div class="tpcontact-form-input mb-20">
+                                    <input type="date" name="booking_date" id="booking_date" min="{{ date('Y-m-d') }}" class="form-control" required>
+                                    @error('booking_date')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+                                 </div>
+                              </div>
+
+                              <div class="col-lg-6">
+                                 <div class="tpcontact-form-input mb-20">
+                                    <select name="booking_time" id="booking_time" class="form-control" style="height: 53px; padding: 0 20px;" required>
+                                       <option value="">Select Time Slot</option>
+                                       <option value="11:00">11:00 AM</option>
+                                       <option value="12:00">12:00 PM</option>
+                                       <option value="01:00">01:00 PM</option>
+                                       <option value="02:00">02:00 PM</option>
+                                       <option value="03:00">03:00 PM</option>
+                                       <option value="04:00">04:00 PM</option>
+                                       <option value="05:00">05:00 PM</option>
+                                       <option value="06:00">06:00 PM</option>
+                                    </select>
+                                    @error('booking_time')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+                                 </div>
+                              </div>
+
+
+                              <div class="col-lg-12">
+                                 <div class="tpcontact-form-input mb-20">
+                                    <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="Email Address">
+                                    @error('email')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+                                 </div>
+                              </div>
+                              <div class="col-lg-12">
+                                 <div class="tpcontact-form-textarea tpcontact-form-input mb-25">
+                                    <textarea id="msg" value="{{old('msg')}}" placeholder="Add Your Custom Message [with packages]" name="msg"></textarea>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="tpcontact-form-submit">
+                              <button type="submit">Book a Free Consultation</button>
+                           </div>
+                        </div>
+                     </form>
+                  </div>
+                  <div class="tpcontact-shape d-none d-md-block">
+                     <div class="tpcontact-shape-one" data-parallax='{"y": -100, "smoothness": 20}'>
+                        <img src="{{asset('assets/img/shape/form-shape-1.png')}}" alt="">
+                     </div>
+                     <div class="tpcontact-shape-two" data-parallax='{"y": -100, "smoothness": 20}'>
+                        <img src="{{asset('assets/img/shape/form-shape-2.png')}}" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+   <script>
+      document.getElementById("show-appointment").addEventListener("click", function() {
+         document.getElementById("appointment-section").style.display = "block";
+      });
+
+      document.getElementById("close-appointment").addEventListener("click", function() {
+         document.getElementById("appointment-section").style.display = "none";
+      });
+      document.getElementById("show-appointment").addEventListener("click", function() {
+         document.getElementById("appointment-section").style.display = "block";
+      });
+
+      document.getElementById("close-appointment").addEventListener("click", function() {
+         document.getElementById("appointment-section").style.display = "none";
+      });
+
+      
+      window.addEventListener("click", function(e) {
+         const modal = document.getElementById("appointment-section");
+         const content = modal.querySelector("div");
+         if (e.target === modal) {
+            modal.style.display = "none";
+         }
+      });
+      
+      document.getElementById('show-appointment').addEventListener('click', function() {
+         document.getElementById('appointment-section').style.display = 'block';
+      });
+
+      
+      document.getElementById('close-appointment').addEventListener('click', function() {
+         document.getElementById('appointment-section').style.display = 'none';
+      });
+
+      
+      document.addEventListener('click', function(e) {
+         var popup = document.getElementById('appointment-section');
+         var button = document.getElementById('show-appointment');
+         if (
+            popup.style.display === 'block' &&
+            !popup.contains(e.target) &&
+            e.target !== button
+         ) {
+            popup.style.display = 'none';
+         }
+      });
+   </script>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script>
+      $(document).ready(function() {
+         $('#contactForm').on('submit', function(e) {
+            e.preventDefault();
+
+            // Clear old messages
+            $('#form-response').html('');
+
+            $.ajax({
+               url: "{{ route('email.store') }}",
+               method: "POST",
+               data: $(this).serialize(),
+               headers: {
+                  'X-CSRF-TOKEN': $('input[name="_token"]').val()
+               },
+               success: function(res) {
+                  $('#form-response').html('<div class="alert alert-success">Thanks for contacting us!</div>');
+                  $('#contactForm')[0].reset();
+               },
+               error: function(xhr) {
+                  if (xhr.status === 422) {
+                     let errors = xhr.responseJSON.errors;
+                     let errorHtml = '<div class="alert alert-danger"><ul>';
+                     $.each(errors, function(key, value) {
+                        errorHtml += '<li>' + value[0] + '</li>';
+                     });
+                     errorHtml += '</ul></div>';
+                     $('#form-response').html(errorHtml);
+                  } else {
+                     $('#form-response').html('<div class="alert alert-danger">An error occurred. Please try again.</div>');
+                  }
+               }
+            });
+         });
+      });
+   </script>
 
 
 
