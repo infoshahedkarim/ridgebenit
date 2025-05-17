@@ -396,8 +396,8 @@ User List
 
    </section>
 
-  
-  
+
+
 
 
    <!-- services-area-start -->
@@ -502,10 +502,10 @@ User List
 
 
 
-    @if($service->title === 'Website Development')
+   @if($service->title === 'Website Development')
 
 
-    <!-- case-area-start -->
+   <!-- case-area-start -->
    <section class="case-area pb-60 fix">
       <div class="container">
          <div class="row">
@@ -578,138 +578,138 @@ User List
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
                      <img loading="lazy" src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://crownbanquetingsuite.com/">Crown</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Digital Marketing</a>
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div> --}}
+         </div>
+         <div class="portfolio-inner-content-2">
+            <div class="portfolio-inner-title-2"><a href="https://crownbanquetingsuite.com/">Crown</a></div>
+            <p>Fully Dynamic Ecommerces Website</p>
+            <div class="portfolio-inner-tag-2">
+               <a href="#">Digital Marketing</a>
+               <a href="#">Website Design</a>
+            </div>
+         </div>
+      </div>
+      </div> --}}
 
-            {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+      {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
                      <img loading="lazy" src="{{asset('assets/img/website/fiber.png')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://www.fiberathome.net/">Fiber@home</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">SEO</a>
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div> --}}
+      </div>
+      <div class="portfolio-inner-content-2">
+         <div class="portfolio-inner-title-2"><a href="https://www.fiberathome.net/">Fiber@home</a></div>
+         <p>Fully Dynamic Ecommerces Website</p>
+         <div class="portfolio-inner-tag-2">
+            <a href="#">SEO</a>
+            <a href="#">Website Design</a>
+         </div>
+      </div>
+      </div>
+      </div> --}}
 
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/homeland.png')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://homelandfurniturebd.com/">Homeland Furniture</a></div>
-                     <p>Business Website with HRM, AMS System</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Website Design</a>
-                        <a href="#">AMS, HRM</a>
-
-                     </div>
-                  </div>
-               </div>
+      <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+         <div class="portfolio-inner-item-2 mb-40">
+            <div class="portfolio-inner-thumb-2">
+               <img loading="lazy" src="{{asset('assets/img/website/homeland.png')}}" alt="">
             </div>
+            <div class="portfolio-inner-content-2">
+               <div class="portfolio-inner-title-2"><a href="https://homelandfurniturebd.com/">Homeland Furniture</a></div>
+               <p>Business Website with HRM, AMS System</p>
+               <div class="portfolio-inner-tag-2">
+                  <a href="#">Website Design</a>
+                  <a href="#">AMS, HRM</a>
 
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/jibonjoyi.png')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://jj.c3bit.com/">Jibonjoyi</a></div>
-                     <p>Blog Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Digital Marketing</a>
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/magpie.png')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://magpieholdingsltd.com/">Magpie Holdings Ltd.</a></div>
-                     <p>Real Estate Website with AMS Solution</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">AMS, HRM</a>
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/it.jpeg')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="http://ridgebenitinstitute.com/">Ridgeben IT Institute</a></div>
-                     <p>Fully Dynamic Ecommerces Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Digital Marketing</a>
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div> --}}
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/kinglet.png')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
-                     <p>Furniture Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">ERP</a>
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
-               <div class="portfolio-inner-item-2 mb-40">
-                  <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/CTC.png')}}" alt="">
-                  </div>
-                  <div class="portfolio-inner-content-2">
-                     <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
-                     <p>Business Website</p>
-                     <div class="portfolio-inner-tag-2">
-                        <a href="#">Website Design</a>
-                     </div>
-                  </div>
                </div>
             </div>
          </div>
       </div>
-       <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
 
-                  <div class="tppricing-btn" style="text-align: center;">
-                     <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Know More Abour Us</a>
-                  </div>
-
+      <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+         <div class="portfolio-inner-item-2 mb-40">
+            <div class="portfolio-inner-thumb-2">
+               <img loading="lazy" src="{{asset('assets/img/website/jibonjoyi.png')}}" alt="">
             </div>
+            <div class="portfolio-inner-content-2">
+               <div class="portfolio-inner-title-2"><a href="https://jj.c3bit.com/">Jibonjoyi</a></div>
+               <p>Blog Website</p>
+               <div class="portfolio-inner-tag-2">
+                  <a href="#">Digital Marketing</a>
+                  <a href="#">Website Design</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+         <div class="portfolio-inner-item-2 mb-40">
+            <div class="portfolio-inner-thumb-2">
+               <img loading="lazy" src="{{asset('assets/img/website/magpie.png')}}" alt="">
+            </div>
+            <div class="portfolio-inner-content-2">
+               <div class="portfolio-inner-title-2"><a href="https://magpieholdingsltd.com/">Magpie Holdings Ltd.</a></div>
+               <p>Real Estate Website with AMS Solution</p>
+               <div class="portfolio-inner-tag-2">
+                  <a href="#">AMS, HRM</a>
+                  <a href="#">Website Design</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+               <div class="portfolio-inner-item-2 mb-40">
+                  <div class="portfolio-inner-thumb-2">
+                     <img loading="lazy" src="{{asset('assets/img/website/it.jpeg')}}" alt="">
+      </div>
+      <div class="portfolio-inner-content-2">
+         <div class="portfolio-inner-title-2"><a href="http://ridgebenitinstitute.com/">Ridgeben IT Institute</a></div>
+         <p>Fully Dynamic Ecommerces Website</p>
+         <div class="portfolio-inner-tag-2">
+            <a href="#">Digital Marketing</a>
+            <a href="#">Website Design</a>
+         </div>
+      </div>
+      </div>
+      </div> --}}
+
+      <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+         <div class="portfolio-inner-item-2 mb-40">
+            <div class="portfolio-inner-thumb-2">
+               <img loading="lazy" src="{{asset('assets/img/website/kinglet.png')}}" alt="">
+            </div>
+            <div class="portfolio-inner-content-2">
+               <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
+               <p>Furniture Website</p>
+               <div class="portfolio-inner-tag-2">
+                  <a href="#">ERP</a>
+                  <a href="#">Website Design</a>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
+         <div class="portfolio-inner-item-2 mb-40">
+            <div class="portfolio-inner-thumb-2">
+               <img loading="lazy" src="{{asset('assets/img/website/CTC.png')}}" alt="">
+            </div>
+            <div class="portfolio-inner-content-2">
+               <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
+               <p>Business Website</p>
+               <div class="portfolio-inner-tag-2">
+                  <a href="#">Website Design</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      </div>
+      <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
+
+         <div class="tppricing-btn" style="text-align: center;">
+            <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Know More Abour Us</a>
+         </div>
+
+      </div>
    </section>
    <!-- case-area-end -->
 
@@ -724,18 +724,18 @@ User List
    <!-- pricing-area-start -->
    <section class="pricing-area tp-price-parent tppricing-box-active pb-40 pt-80 fix">
 
-         <div class="container">
-            <div class="row">
-               <div class="col-lg-12">
-                  <div class="section-wrapper text-center mb-40">
-                     <span>Pricing Plans</span>
-                     <h5 class="section-title-4 section-title-4-2">Packages for everyone</h5>
-                  </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="section-wrapper text-center mb-40">
+                  <span>Pricing Plans</span>
+                  <h5 class="section-title-4 section-title-4-2">Packages for everyone</h5>
                </div>
             </div>
-            <div class="tpprice-4-switch-box  p-relative">
-               <div class="tpprice-4-switch p-relative">
-                  <!-- <div class="tpprice-switch-wrapper tpprice-4-position tppricing-switch-2">
+         </div>
+         <div class="tpprice-4-switch-box  p-relative">
+            <div class="tpprice-4-switch p-relative">
+               <!-- <div class="tpprice-switch-wrapper tpprice-4-position tppricing-switch-2">
                      <div class="toggle">
                         <input type="checkbox" id="switcher-price" class="tp-check">
                         <b class="switch"></b>
@@ -745,319 +745,325 @@ User List
                         <label class="toggler" id="filt-yearly-price">Billed Monthy</label>
                      </div>
                   </div> -->
+            </div>
+            <div class="tppricing-shape-4">
+               <div class="tppricing-shape-1">
+                  <img loading="lazy" src="assets/img/shape/pricing-4-shape-3.png" alt="">
                </div>
-               <div class="tppricing-shape-4">
-                  <div class="tppricing-shape-1">
-                     <img loading="lazy" src="assets/img/shape/pricing-4-shape-3.png" alt="">
-                  </div>
-                  <div class="tppricing-shape-3">
-                     <svg width="86" height="59" viewBox="0 0 86 59" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 39.5506C8 21.0506 23.7 -11.5494 30.5 6.05057C39 28.0506 33 68.5508 63 48.0508C71.5 44.0508 78 41.5508 85 58.0508" stroke="currentColor" stroke-linejoin="round" stroke-dasharray="4 4"/>
-                     </svg>
-                  </div>
-                  <div class="tppricing-shape-2">
-                     <img loading="lazy" src="assets/img/shape/pricing-4-shape-2.png" alt="">
-                  </div>
+               <div class="tppricing-shape-3">
+                  <svg width="86" height="59" viewBox="0 0 86 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path d="M1 39.5506C8 21.0506 23.7 -11.5494 30.5 6.05057C39 28.0506 33 68.5508 63 48.0508C71.5 44.0508 78 41.5508 85 58.0508" stroke="currentColor" stroke-linejoin="round" stroke-dasharray="4 4" />
+                  </svg>
+               </div>
+               <div class="tppricing-shape-2">
+                  <img loading="lazy" src="assets/img/shape/pricing-4-shape-2.png" alt="">
                </div>
             </div>
-            <div class="price-scroll">
-               <div class="price-scroll-width">
-                  <div class="row gx-0">
-                     <div class="col-12">
-                        <div id="monthly-price" class="wrapper-full">
-                           
+         </div>
+         <div class="price-scroll">
+            <div class="price-scroll-width">
+               <div class="row gx-0">
+                  <div class="col-12">
+                     <div id="monthly-price" class="wrapper-full">
 
 
 
 
-                           <div class="tppriceing-top">
-                              <div class="row gx-0">
-                                 <!-- <div class="price-custom-col-1">
+
+                        <div class="tppriceing-top">
+                           <div class="row gx-0">
+                              <!-- <div class="price-custom-col-1">
                                  </div> -->
-                                 <div class="price-custom-col-3">
-                                    <div class="row gx-0">
-                                       <div class="col-4">
-                                          <div class="tppricing-4-head text-center">
-                                             <span><h4 class="title">Essential</h4></span>
-                                             
-                                          </div>
+                              <div class="price-custom-col-3">
+                                 <div class="row gx-0">
+                                    <div class="col-4">
+                                       <div class="tppricing-4-head text-center">
+                                          <span>
+                                             <h4 class="title">Essential</h4>
+                                          </span>
+
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-head active text-center p-relative" style="background-color: #004A87;">
-                                             <div class="big-price-shape"></div>
-                                             <div class="sm-price-shape"></div>
-                                             <span><h4 class="title">Pro</h4></span>
-                                             
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-head active text-center p-relative" style="background-color: #004A87;">
+                                          <div class="big-price-shape"></div>
+                                          <div class="sm-price-shape"></div>
+                                          <span>
+                                             <h4 class="title">Pro</h4>
+                                          </span>
+
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-head text-center"> 
-                                             <span><h4 class="title">Business</h4></span>
-                                             
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-head text-center">
+                                          <span>
+                                             <h4 class="title">Business</h4>
+                                          </span>
+
                                        </div>
                                     </div>
                                  </div>
                               </div>
                            </div>
-                           
-                           
+                        </div>
 
 
 
 
 
-                           <div class="pricing-box-4">
-                            
 
 
-                              <div class="row gx-0">
-                                 <!-- <div class="price-custom-col-1">
+                        <div class="pricing-box-4">
+
+
+
+                           <div class="row gx-0">
+                              <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">keyword Research</h4>
                                     </div>
                                  </div> -->
-                                 <div class="price-custom-col-3">
-                                    <div class="row gx-0">
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price tppricing-right text-center">
-                                             <p>Up to 3-page</p>
-                                          </div>
+                              <div class="price-custom-col-3">
+                                 <div class="row gx-0">
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price tppricing-right text-center">
+                                          <p>Up to 3-page</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
-                                             <p>Silver package</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                          <p>Silver package</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price tppricing-left text-center">
-                                             <p>Gold package</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price tppricing-left text-center">
+                                          <p>Gold package</p>
                                        </div>
                                     </div>
                                  </div>
                               </div>
-                            
-                              
+                           </div>
 
 
 
 
-                              <div class="row gx-0">
-                                 <!-- <div class="price-custom-col-1">
+
+
+                           <div class="row gx-0">
+                              <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">On-page and SERP analysis</h4>
                                     </div>
                                  </div> -->
-                                 <div class="price-custom-col-3">
-                                    <div class="row gx-0">
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Blog included</p>
-                                          </div>
+                              <div class="price-custom-col-3">
+                                 <div class="row gx-0">
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Blog included</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
-                                             <p>Up to 10-page website</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                          <p>Up to 10-page website</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Up to 30-page website</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Up to 30-page website</p>
                                        </div>
                                     </div>
                                  </div>
                               </div>
-                              
-                              
+                           </div>
 
 
 
-                              <div class="row gx-0">
-                                 <!-- <div class="price-custom-col-1">
+
+
+                           <div class="row gx-0">
+                              <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">Tools for Agencies</h4>
                                     </div>
                                  </div> -->
-                                 <div class="price-custom-col-3">
-                                    <div class="row gx-0">
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Free SSL - Security</p>
-                                          </div>
+                              <div class="price-custom-col-3">
+                                 <div class="row gx-0">
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Free SSL - Security</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
-                                             <p>Up to 3 revisions</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                          <p>Up to 3 revisions</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Up to 5 revisions</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Up to 5 revisions</p>
                                        </div>
                                     </div>
                                  </div>
                               </div>
-                             
+                           </div>
 
 
 
 
 
-                              <div class="row gx-0">
-                                 <!-- <div class="price-custom-col-1">
+
+                           <div class="row gx-0">
+                              <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">Сontent Marketing</h4>
                                     </div>
                                  </div> -->
-                                 <div class="price-custom-col-3">
-                                    <div class="row gx-0">
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>SEO optimized</p>
-                                          </div>
+                              <div class="price-custom-col-3">
+                                 <div class="row gx-0">
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>SEO optimized</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
-                                             <p>SEO optimized</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                          <p>SEO optimized</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>SEO & Speed optimization</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>SEO & Speed optimization</p>
                                        </div>
                                     </div>
                                  </div>
                               </div>
-                              
-                              
+                           </div>
 
 
 
-                              <div class="row gx-0">
-                                 <!-- <div class="price-custom-col-1">
+
+
+                           <div class="row gx-0">
+                              <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">Additional Features</h4>
                                     </div>
                                  </div> -->
-                                 <div class="price-custom-col-3">
-                                    <div class="row gx-0">
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Customized Solutions</p>
-                                          </div>
+                              <div class="price-custom-col-3">
+                                 <div class="row gx-0">
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Customized Solutions</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
-                                             <p>Mobile friendly design</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                          <p>Mobile friendly design</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Customized Solutions</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Customized Solutions</p>
                                        </div>
                                     </div>
                                  </div>
                               </div>
+                           </div>
 
 
 
-                              <div class="row gx-0">
-                                 <!-- <div class="price-custom-col-1">
+                           <div class="row gx-0">
+                              <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">Additional Features</h4>
                                     </div>
                                  </div> -->
-                                 <div class="price-custom-col-3">
-                                    <div class="row gx-0">
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Optional monthly support *</p>
-                                          </div>
+                              <div class="price-custom-col-3">
+                                 <div class="row gx-0">
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Optional monthly support *</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
-                                             <p>Customized Solutions</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                          <p>Customized Solutions</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>3 month support included</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>3 month support included</p>
                                        </div>
                                     </div>
                                  </div>
                               </div>
+                           </div>
 
 
 
 
 
-                              <div class="row gx-0">
-                                 <!-- <div class="price-custom-col-1">
+                           <div class="row gx-0">
+                              <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">Additional Features</h4>
                                     </div>
                                  </div> -->
-                                 <div class="price-custom-col-3">
-                                    <div class="row gx-0">
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Delivery time 2 weeks</p>
-                                          </div>
+                              <div class="price-custom-col-3">
+                                 <div class="row gx-0">
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Delivery time 2 weeks</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
-                                             <p>1 month support included</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                          <p>1 month support included</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Delivery time 12 weeks</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Delivery time 12 weeks</p>
                                        </div>
                                     </div>
                                  </div>
                               </div>
-                              
-                              
-                              
-                              <div class="row gx-0">
-                                 <!-- <div class="price-custom-col-1">
+                           </div>
+
+
+
+                           <div class="row gx-0">
+                              <!-- <div class="price-custom-col-1">
                                     <div class="tppricing-4-title">
                                        <h4 class="title">Additional Features</h4>
                                     </div>
                                  </div> -->
-                                 <div class="price-custom-col-3">
-                                    <div class="row gx-0">
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>-</p>
-                                          </div>
+                              <div class="price-custom-col-3">
+                                 <div class="row gx-0">
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>-</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
-                                             <p>Delivery time 6 weeks</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price active text-center" style="background-color: #004A87;">
+                                          <p>Delivery time 6 weeks</p>
                                        </div>
-                                       <div class="col-4">
-                                          <div class="tppricing-4-price text-center">
-                                             <p>Free Domain and Hosting</p>
-                                          </div>
+                                    </div>
+                                    <div class="col-4">
+                                       <div class="tppricing-4-price text-center">
+                                          <p>Free Domain and Hosting</p>
                                        </div>
                                     </div>
                                  </div>
                               </div>
-                             
-                              
+                           </div>
 
 
 
-                              <!-- <div class="row gx-0">
+
+
+                           <!-- <div class="row gx-0">
                                  <div class="price-custom-col-1"></div>
                                  <div class="price-custom-col-3">
                                     <div class="row gx-0">
@@ -1085,14 +1091,14 @@ User List
                                     </div>
                                  </div>
                               </div> -->
-                             
-                              
-                           </div>
-                           
-                           
+
+
                         </div>
 
-                        <!-- <div id="hourly-price" class="wrapper-full price-is-hide">
+
+                     </div>
+
+                     <!-- <div id="hourly-price" class="wrapper-full price-is-hide">
                            
                         
                            <div class="tppriceing-top">
@@ -1330,22 +1336,22 @@ User List
                            
                         </div> -->
 
-                     </div>
                   </div>
                </div>
             </div>
          </div>
-                                       <div class="col-12">
-                                          <div class="tppricing-4-price tppricing-right tppricing-4-btn">
-                                             <p>
-                                                <a href="javascript:void(0)" id="show-appointment">Get Started</a>
-                                             </p>
-                                          </div>
-                                       </div>
-   </section> 
+      </div>
+      <div class="col-12">
+         <div class="tppricing-4-price tppricing-right tppricing-4-btn">
+            <p>
+               <a href="javascript:void(0)" id="show-appointment">Get Started</a>
+            </p>
+         </div>
+      </div>
+   </section>
    @endif
 
-  
+
 
 
    <section class="contact-area theme-bg-3 pt-40 pb-120" id="appointment-section"
@@ -1355,98 +1361,98 @@ User List
 
          <div class="container">
             <div class="row">
-              <div class="col-lg-12">
-               <div class="p-relative">
-                  <div class="tpcontact-form p-relative ml-30">
-                     <!-- <h4 class="tpcontact-form-title mb-35">Book a Free Consultant</h4> -->
-                     <form id="contactForm" action="{{route('email.store')}}" method="POST">
-                        @csrf
+               <div class="col-lg-12">
+                  <div class="p-relative">
+                     <div class="tpcontact-form p-relative ml-30">
+                        <!-- <h4 class="tpcontact-form-title mb-35">Book a Free Consultant</h4> -->
+                        <form id="contactForm" action="{{route('email.store')}}" method="POST">
+                           @csrf
 
-                        @if(session('success'))
-                        <div class="alert alert-success">
-                           {{session('success')}}
-                        </div>
-                        @endif
+                           @if(session('success'))
+                           <div class="alert alert-success">
+                              {{session('success')}}
+                           </div>
+                           @endif
 
-                        <div id="form-response"></div>
+                           <div id="form-response"></div>
 
-                        <div class="tpcontact-from-wrapper">
-                           <div class="row gx-6">
-                              <div class="col-lg-6">
-                                 <div class="tpcontact-form-input mb-20">
-                                    <input type="text" name="name" id="name" value="{{old('name')}}" placeholder="Full Name">
-                                    @error('name')
-                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
-                                    @enderror
+                           <div class="tpcontact-from-wrapper">
+                              <div class="row gx-6">
+                                 <div class="col-lg-6">
+                                    <div class="tpcontact-form-input mb-20">
+                                       <input type="text" name="name" id="name" value="{{old('name')}}" placeholder="Full Name">
+                                       @error('name')
+                                       <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                       @enderror
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6">
+                                    <div class="tpcontact-form-input mb-20">
+                                       <input type="text" name="phone" id="phone" value="{{old('phone')}}" placeholder="Phone No.">
+                                       @error('phone')
+                                       <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                       @enderror
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-6">
+                                    <div class="tpcontact-form-input mb-20">
+                                       <input type="date" name="booking_date" id="booking_date" min="{{ date('Y-m-d') }}" class="form-control" required>
+                                       @error('booking_date')
+                                       <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                       @enderror
+                                    </div>
+                                 </div>
+
+                                 <div class="col-lg-6">
+                                    <div class="tpcontact-form-input mb-20">
+                                       <select name="booking_time" id="booking_time" class="form-control" style="height: 53px; padding: 0 20px;" required>
+                                          <option value="">Select Time Slot</option>
+                                          <option value="11:00">11:00 AM</option>
+                                          <option value="12:00">12:00 PM</option>
+                                          <option value="01:00">01:00 PM</option>
+                                          <option value="02:00">02:00 PM</option>
+                                          <option value="03:00">03:00 PM</option>
+                                          <option value="04:00">04:00 PM</option>
+                                          <option value="05:00">05:00 PM</option>
+                                          <option value="06:00">06:00 PM</option>
+                                       </select>
+                                       @error('booking_time')
+                                       <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                       @enderror
+                                    </div>
+                                 </div>
+
+
+                                 <div class="col-lg-12">
+                                    <div class="tpcontact-form-input mb-20">
+                                       <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="Email Address">
+                                       @error('email')
+                                       <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                       @enderror
+                                    </div>
+                                 </div>
+                                 <div class="col-lg-12">
+                                    <div class="tpcontact-form-textarea tpcontact-form-input mb-25">
+                                       <textarea id="msg" value="{{old('msg')}}" placeholder="Add Your Custom Message [with packages]" name="msg"></textarea>
+                                    </div>
                                  </div>
                               </div>
-                              <div class="col-lg-6">
-                                 <div class="tpcontact-form-input mb-20">
-                                    <input type="text" name="phone" id="phone" value="{{old('phone')}}" placeholder="Phone No.">
-                                    @error('phone')
-                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
-                                    @enderror
-                                 </div>
-                              </div>
-                              <div class="col-lg-6">
-                                 <div class="tpcontact-form-input mb-20">
-                                    <input type="date" name="booking_date" id="booking_date" min="{{ date('Y-m-d') }}" class="form-control" required>
-                                    @error('booking_date')
-                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
-                                    @enderror
-                                 </div>
-                              </div>
-
-                              <div class="col-lg-6">
-                                 <div class="tpcontact-form-input mb-20">
-                                    <select name="booking_time" id="booking_time" class="form-control" style="height: 53px; padding: 0 20px;" required>
-                                       <option value="">Select Time Slot</option>
-                                       <option value="11:00">11:00 AM</option>
-                                       <option value="12:00">12:00 PM</option>
-                                       <option value="01:00">01:00 PM</option>
-                                       <option value="02:00">02:00 PM</option>
-                                       <option value="03:00">03:00 PM</option>
-                                       <option value="04:00">04:00 PM</option>
-                                       <option value="05:00">05:00 PM</option>
-                                       <option value="06:00">06:00 PM</option>
-                                    </select>
-                                    @error('booking_time')
-                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
-                                    @enderror
-                                 </div>
-                              </div>
-
-
-                              <div class="col-lg-12">
-                                 <div class="tpcontact-form-input mb-20">
-                                    <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="Email Address">
-                                    @error('email')
-                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
-                                    @enderror
-                                 </div>
-                              </div>
-                              <div class="col-lg-12">
-                                 <div class="tpcontact-form-textarea tpcontact-form-input mb-25">
-                                    <textarea id="msg" value="{{old('msg')}}" placeholder="Add Your Custom Message [with packages]" name="msg"></textarea>
-                                 </div>
+                              <div class="tpcontact-form-submit">
+                                 <button type="submit">Book a Free Consultation</button>
                               </div>
                            </div>
-                           <div class="tpcontact-form-submit">
-                              <button type="submit">Book a Free Consultation</button>
-                           </div>
-                        </div>
-                     </form>
-                  </div>
-                  <div class="tpcontact-shape d-none d-md-block">
-                     <div class="tpcontact-shape-one" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img loading="lazy" src="{{asset('assets/img/shape/form-shape-1.png')}}" alt="">
+                        </form>
                      </div>
-                     <div class="tpcontact-shape-two" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img loading="lazy" src="{{asset('assets/img/shape/form-shape-2.png')}}" alt="">
+                     <div class="tpcontact-shape d-none d-md-block">
+                        <div class="tpcontact-shape-one" data-parallax='{"y": -100, "smoothness": 20}'>
+                           <img loading="lazy" src="{{asset('assets/img/shape/form-shape-1.png')}}" alt="">
+                        </div>
+                        <div class="tpcontact-shape-two" data-parallax='{"y": -100, "smoothness": 20}'>
+                           <img loading="lazy" src="{{asset('assets/img/shape/form-shape-2.png')}}" alt="">
+                        </div>
                      </div>
                   </div>
                </div>
-            </div>
             </div>
          </div>
       </div>
@@ -1469,7 +1475,7 @@ User List
          document.getElementById("appointment-section").style.display = "none";
       });
 
-      
+
       window.addEventListener("click", function(e) {
          const modal = document.getElementById("appointment-section");
          const content = modal.querySelector("div");
@@ -1477,17 +1483,17 @@ User List
             modal.style.display = "none";
          }
       });
-      
+
       document.getElementById('show-appointment').addEventListener('click', function() {
          document.getElementById('appointment-section').style.display = 'block';
       });
 
-      
+
       document.getElementById('close-appointment').addEventListener('click', function() {
          document.getElementById('appointment-section').style.display = 'none';
       });
 
-      
+
       document.addEventListener('click', function(e) {
          var popup = document.getElementById('appointment-section');
          var button = document.getElementById('show-appointment');
@@ -1541,10 +1547,9 @@ User List
 
 
 
-   
-   
-   
-   <div class="social-area social-inner-wrapper pb-85">
+
+
+   <div class="social-area social-inner-wrapper pb-40">
       <div class="container">
          <div class="row">
             <div class="col-lg-12">
@@ -1640,8 +1645,126 @@ User List
             </div>
          </div>
       </div>
-  
+
    </div>
+
+
+
+   <!-- faq-area-start -->
+   <section class="faq-area pt-115 pb-60">
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-6">
+               <div class="tp-faq-wrapper mb-80">
+                  <div class="tpsection-wrapper mb-25">
+                     <h2 class="tpsection-title-two mb-40">Frequently<br> Asked
+                        <span>
+                           Questions
+                           <svg width="306" height="31" viewBox="0 0 306 31" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M2.89242 18.9903C2.89242 18.9903 192.778 -5.15589 299.226 12.3064"
+                                 stroke="#FFCE5A" stroke-width="5" stroke-linecap="round"></path>
+                              <path d="M3.2201 14.9796C3.2201 14.9796 196.633 -0.186388 302.688 21.9968"
+                                 stroke="#FFCE5A" stroke-width="5" stroke-linecap="round"></path>
+                           </svg>
+                        </span>
+                     </h2>
+                     <p>Can’t find what you are looking for?</p>
+                     <b>We would like to chat with you.</b>
+                  </div>
+                  <div class="tp-faq-img p-relative">
+                     <a href="https://wa.me/8801898878819"><img src="{{asset('assets/icon/whatsapp.png')}}" alt="ridgeben_whatsapp_icon" style="width:10%" /></a>
+                     <!-- <img src="assets/img/shape/faq-shape-1.png" alt=""> -->
+                     <div class="tp-faq-shape">
+                        <img src="{{asset('assets/img/shape/faq-shape-2.png')}}" alt="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-6">
+               <div class="tp-accordion tp-green-accordion">
+                  <div class="accordion mb-35" id="accordionExample">
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                              What types of websites do you build?
+                           </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                           data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              We specialize in creating a variety of websites, including business sites, e-commerce platforms,
+                              portfolio showcases, engaging blogs, and custom content management systems.
+                              Each project is crafted with careful attention to your specific goals and the needs of your target audience.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              What kind of software solutions do you provide?
+                           </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                           data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Our offerings include tailored software development solutions such as customer relationship management (CRM) systems, enterprise resource planning (ERP) solutions, accounting systems, e-learning platforms, and mobile app development. We take the time to understand your business needs to deliver effective solutions.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                              How do you ensure the quality of your software?
+                           </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse"
+                           aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Quality is at the forefront of what we do. We adhere to industry-standard development practices,
+                              including thorough code reviews, rigorous quality assurance testing, and continuous feedback
+                              from our clients. This ensures that we deliver robust, secure, and scalable software solutions.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseThree">
+                              Do you offer ongoing support and maintenance?
+                           </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                           data-bs-parent="#accordionExample">
+                           <div class="accordion-body">
+                              Absolutely! We believe in building lasting relationships with our clients.
+                              That’s why we provide ongoing support that includes regular updates, bug fixes,
+                              and performance monitoring to ensure that your software continues to run smoothly
+                              and effectively. Your success is our priority.
+                           </div>
+                        </div>
+                     </div>
+                     <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                           <button class="collapsed" type="button">
+                              <a href="{{route('contact')}}" style="color:#004A87; font-size: 15px">
+                                 Feel Free to Contact Us! for more SPECIFIC Ques.?
+                              </a>
+                           </button>
+                        </h2>
+                     </div>
+
+
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- faq-area-end -->
 
 
    @endsection
