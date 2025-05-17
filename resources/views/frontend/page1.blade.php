@@ -397,9 +397,112 @@ User List
    </section>
 
   
-   @if($service->title === 'Website Development')
+  
 
 
+   <!-- services-area-start -->
+   <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -2%;">
+      <div class="services-shape d-none d-xl-block">
+         <div class="services-shape-one">
+            <img src="assets/img/shape/services-2shape-1.png" alt="">
+         </div>
+         <div class="services-shape-two">
+            <img src="assets/img/shape/services-2shape-2.png" alt="">
+         </div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="row justify-content-center">
+               <div class="col-lg-8">
+                  <div class="tpsection-wrapper text-center mb-60">
+                     <h2 class="tpsection-title-two">
+                        <p>Customized Solutions</p>
+                        <span class="big-shape2">
+                           {{$st->title ?? ''}}
+                           <svg width="246" height="24" viewBox="0 0 246 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M2.74431 14.6419C2.74431 14.6419 154.652 -4.65014 239.811 9.30024"
+                                 stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
+                              <path d="M3.00783 11.4374C3.00783 11.4374 157.737 -0.672988 242.581 17.053"
+                                 stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
+                           </svg>
+                        </span>
+                     </h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            @foreach($solutions as $solution)
+            <div class="col-lg-12">
+               <div class="services-two mb-30 d-flex align-items-start">
+                  <div class="services-two-bg"></div>
+                  <div class="services-two-icon me-3">
+                     <img src="{{ asset('storage/' . $solution->icon) }}" alt="" style="width: 80px;">
+                  </div>
+                  <div class="services-two-content">
+                     <h4 class="services-two-title">{{ $solution->subtitle }}</h4>
+                     <span>{!! $solution->des !!}</span>
+                  </div>
+               </div>
+            </div>
+
+            @endforeach
+
+            <!-- <div class="col-lg-12">
+               <div class="services-two mb-30">
+                  <div class="services-two-bg"></div>
+                  <div class="services-two-icon">
+                     <img src="{{asset('assets/img/icon/services-icon-2.png')}}" alt="">
+                  </div>
+                  <div class="services-two-content">
+
+                     <h4 class="services-two-title">Complete Site Speed Optimization Service</h4>
+                     <span>SEO Optimization</span>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-12">
+               <div class="services-two mb-30">
+                  <div class="services-two-bg"></div>
+                  <div class="services-two-icon">
+                     <img src="{{asset('assets/img/icon/services-icon-3.png')}}" alt="">
+                  </div>
+                  <div class="services-two-content">
+
+                     <h4 class="services-two-title">Instantly Analyze Your SEO Issues</h4>
+                     <span>SEO Analysis</span>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-lg-12">
+               <div class="services-two mb-30">
+                  <div class="services-two-bg"></div>
+                  <div class="services-two-icon">
+                     <img src="{{asset('assets/img/icon/services-icon-4.png')}}" alt="">
+                  </div>
+                  <div class="services-two-content">
+
+                     <h4 class="services-two-title">Enhanced Mobile & Desktop UX</h4>
+                     <span>Web & Mobile</span>
+                  </div>
+               </div>
+            </div> -->
+
+         </div>
+      </div>
+   </section>
+   <!-- services-area-end -->
+
+
+
+
+
+
+
+    @if($service->title === 'Website Development')
 
 
     <!-- case-area-start -->
@@ -614,101 +717,11 @@ User List
    @endif
 
 
-   <!-- services-area-start -->
-   <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -2%;">
-      <div class="services-shape d-none d-xl-block">
-         <div class="services-shape-one">
-            <img src="assets/img/shape/services-2shape-1.png" alt="">
-         </div>
-         <div class="services-shape-two">
-            <img src="assets/img/shape/services-2shape-2.png" alt="">
-         </div>
-      </div>
-      <div class="container">
-         <div class="row">
-            <div class="row justify-content-center">
-               <div class="col-lg-8">
-                  <div class="tpsection-wrapper text-center mb-60">
-                     <h2 class="tpsection-title-two">
-                        <p>Customized Solutions</p>
-                        <span class="big-shape2">
-                           {{$st->title ?? ''}}
-                           <svg width="246" height="24" viewBox="0 0 246 24" fill="none"
-                              xmlns="http://www.w3.org/2000/svg">
-                              <path d="M2.74431 14.6419C2.74431 14.6419 154.652 -4.65014 239.811 9.30024"
-                                 stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
-                              <path d="M3.00783 11.4374C3.00783 11.4374 157.737 -0.672988 242.581 17.053"
-                                 stroke="#FFCE5A" stroke-width="5" stroke-linecap="round" />
-                           </svg>
-                        </span>
-                     </h2>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="row">
-            @foreach($solutions as $solution)
-            <div class="col-lg-12">
-               <div class="services-two mb-30 d-flex align-items-start">
-                  <div class="services-two-bg"></div>
-                  <div class="services-two-icon me-3">
-                     <img src="{{ asset('storage/' . $solution->icon) }}" alt="" style="width: 80px;">
-                  </div>
-                  <div class="services-two-content">
-                     <h4 class="services-two-title">{{ $solution->subtitle }}</h4>
-                     <span>{!! $solution->des !!}</span>
-                  </div>
-               </div>
-            </div>
 
-            @endforeach
 
-            <!-- <div class="col-lg-12">
-               <div class="services-two mb-30">
-                  <div class="services-two-bg"></div>
-                  <div class="services-two-icon">
-                     <img src="{{asset('assets/img/icon/services-icon-2.png')}}" alt="">
-                  </div>
-                  <div class="services-two-content">
 
-                     <h4 class="services-two-title">Complete Site Speed Optimization Service</h4>
-                     <span>SEO Optimization</span>
-                  </div>
-               </div>
-            </div>
 
-            <div class="col-lg-12">
-               <div class="services-two mb-30">
-                  <div class="services-two-bg"></div>
-                  <div class="services-two-icon">
-                     <img src="{{asset('assets/img/icon/services-icon-3.png')}}" alt="">
-                  </div>
-                  <div class="services-two-content">
 
-                     <h4 class="services-two-title">Instantly Analyze Your SEO Issues</h4>
-                     <span>SEO Analysis</span>
-                  </div>
-               </div>
-            </div>
-
-            <div class="col-lg-12">
-               <div class="services-two mb-30">
-                  <div class="services-two-bg"></div>
-                  <div class="services-two-icon">
-                     <img src="{{asset('assets/img/icon/services-icon-4.png')}}" alt="">
-                  </div>
-                  <div class="services-two-content">
-
-                     <h4 class="services-two-title">Enhanced Mobile & Desktop UX</h4>
-                     <span>Web & Mobile</span>
-                  </div>
-               </div>
-            </div> -->
-
-         </div>
-      </div>
-   </section>
-   <!-- services-area-end -->
 
 
    @if($service->title === 'Website Development')
