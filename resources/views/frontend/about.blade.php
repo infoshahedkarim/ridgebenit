@@ -15,15 +15,15 @@
       <div class="breadcrumb-about-area scene p-relative breadcrumb-bg">
          <div class="about-inner-shape">
             <div class="about-inner-shape-2 d-none d-md-block">
-               <img class="layer" data-depth="0.5" src="assets/img/shape/about-inner-shape-1.png" alt="">
+               <img loading="lazy" class="layer" data-depth="0.5" src="assets/img/shape/about-inner-shape-1.png" alt="">
             </div>
             <div class="about-inner-shape-3 d-none d-md-block">
-               <img class="layer" data-depth="0.5" src="assets/img/shape/about-inner-shape-2.png" alt="">
+               <img loading="lazy" class="layer" data-depth="0.5" src="assets/img/shape/about-inner-shape-2.png" alt="">
             </div>
          </div>
          <div class="tpbanner-shape-y scene-y">
             <div class="about-inner-shape-4 d-none d-md-block">
-               <img class="layer" data-depth="0.6" src="assets/img/shape/inner-hand-1.png" alt="">
+               <img loading="lazy" class="layer" data-depth="0.6" src="assets/img/shape/inner-hand-1.png" alt="">
             </div>
          </div>
          <!-- breadcrumb-area-start -->
@@ -51,7 +51,7 @@
                   <div class="col-lg-6">
                      <div class="about-inner-thumb">
                         <div class="about-inner-shape-1">
-                           <img src="assets/img/banner/girls.png" alt="">
+                           <img loading="lazy" src="assets/img/banner/girls.png" alt="">
                         </div>
                      </div>
                   </div>
@@ -95,13 +95,13 @@
                </div>
                <div class="col-lg-5 col-md-8">
                    <div class="slider123 col-xl-12 pb-40">
-    <div class="card123"><img src="{{asset('assets/partners/1.jpg')}}" alt="Product 1"></div>
-    <div class="card123"><img src="{{asset('assets/partners/3.webp')}}" alt="Product 3"></div>
-    <div class="card123"><img src="{{asset('assets/partners/4.png')}}" alt="Product 4"></div>
-    <div class="card123"><img src="{{asset('assets/partners/5.png')}}" alt="Product 5"></div>
-    <div class="card123"><img src="{{asset('assets/partners/6.png')}}" alt="Product 6"></div>
-    <div class="card123"><img src="{{asset('assets/partners/7.png')}}" alt="Product 7"></div>
-    <div class="card123"><img src="{{asset('assets/partners/8.webp')}}" alt="Product 8"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/1.jpg')}}" alt="Product 1"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/3.webp')}}" alt="Product 3"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/4.png')}}" alt="Product 4"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/5.png')}}" alt="Product 5"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/6.png')}}" alt="Product 6"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/7.png')}}" alt="Product 7"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/8.webp')}}" alt="Product 8"></div>
 </div>
                </div>
             </div>
@@ -118,7 +118,7 @@
                   <div class="col-lg-4 col-md-6">
                      <div class="inner-counter">
                         <div class="inner-counter-shape">
-                           <img src="assets/img/shape/counter-shape-1.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/counter-shape-1.png" alt="">
                         </div>
                         <div class="inner-counter-count d-flex align-items-center ml-45">
                            <div class="inner-counter-list">
@@ -136,7 +136,7 @@
                   <div class="col-lg-4 col-md-6">
                      <div class="inner-counter ml-70">
                         <div class="inner-counter-shape inner-counter-shape-2">
-                           <img src="assets/img/shape/counter-shape-2.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/counter-shape-2.png" alt="">
                         </div>
                         <div class="inner-counter-count d-flex align-items-center">
                            <div class="inner-counter-list">
@@ -152,7 +152,7 @@
                   <div class="col-lg-4 col-md-6">
                      <div class="inner-counter d-flex justify-content-end">
                         <div class="inner-counter-shape inner-counter-shape-3">
-                           <img src="assets/img/shape/counter-shape-3.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/counter-shape-3.png" alt="">
                         </div>
                         <div class="inner-counter-count d-flex align-items-center">
                            <div class="inner-counter-list">
@@ -181,20 +181,20 @@
                   <div class="col-lg-7">
                   <div class="seo-5-thumb p-relative mb-40">
                      <div class="seo-5-main-bg">
-                        <img src="assets/img/bg/seo-5-bg-1.png" alt="">
+                        <img loading="lazy" src="assets/img/bg/seo-5-bg-1.png" alt="">
                      </div>
                      <div class="seo-5-shape d-none d-md-block">
                         <div class="seo-5-shape-one">
-                           <img src="assets/img/shape/seo-5-shape-1.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/seo-5-shape-1.png" alt="">
                         </div>
                         <div class="seo-5-shape-two">
-                           <img src="assets/img/shape/seo-5-shape-2.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/seo-5-shape-2.png" alt="">
                         </div>
                         <div class="seo-5-shape-three">
-                           <img src="assets/img/shape/seo-5-shape-3.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/seo-5-shape-3.png" alt="">
                         </div>
                         <div class="seo-5-shape-four">
-                           <img src="assets/img/shape/seo-5-shape-4.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/seo-5-shape-4.png" alt="">
                         </div>
                      </div>
                   </div>
@@ -295,7 +295,7 @@
                <div class="col-lg-6">
                   <div class="mission-shape p-relative d-none d-lg-block">
                      <div class="mission-shape-1">
-                        <img src="assets/img/shape/smill.png" alt="triangle">
+                        <img loading="lazy" src="assets/img/shape/smill.png" alt="triangle">
                      </div>
                   </div>
                </div>
@@ -349,7 +349,7 @@
             </div>
             <div class="tpprocess__border-bottom p-relative pb-45">
                <div class="tpprocess-shape-four d-none d-md-block">
-                  <img src="assets/img/shape/process-rocket.png" alt="">
+                  <img loading="lazy" src="assets/img/shape/process-rocket.png" alt="">
                </div>
                <div class="row">
                   <div class="col-lg-3 col-md-6">
@@ -431,7 +431,7 @@
    <div class="col-lg-4 col-md-6">
       <div class="team-5-item text-center mb-40 mx-auto" style="max-width: 220px;">
          <div class="team-5-thumb mb-25">
-            <img src="assets/img/team/maruf.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
+            <img loading="lazy" src="assets/img/team/maruf.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
             <div class="team-5-social">
                <span class="icon"></span>
                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -449,7 +449,7 @@
    <div class="col-lg-4 col-md-6">
       <div class="team-5-item team-5-item-2 text-center mb-40 mx-auto" style="max-width: 220px;">
          <div class="team-5-thumb mb-25">
-            <img src="assets/img/team/faisal.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
+            <img loading="lazy" src="assets/img/team/faisal.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
             <div class="team-5-social">
                <span class="icon"></span>
                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -467,7 +467,7 @@
    <div class="col-lg-4 col-md-6">
       <div class="team-5-item team-5-item-3 text-center mb-40 mx-auto" style="max-width: 220px;">
          <div class="team-5-thumb mb-25">
-            <img src="assets/img/team/animesh.png" alt="" class="mx-auto" style="width: 160px; height: auto;">
+            <img loading="lazy" src="assets/img/team/animesh.png" alt="" class="mx-auto" style="width: 160px; height: auto;">
             <div class="team-5-social">
                <span class="icon"></span>
                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>

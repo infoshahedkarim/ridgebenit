@@ -14,14 +14,14 @@ User List
    <!-- breadcrumb-area-start -->
    <div class="breadcrumb-services-area services-details-bg scene breadcrumb-bg p-relative markiting-area markiting-wrap">
       <div class="markiting-shape services-inner-banner-shape-wrap">
-         <img src="assets/img/services/social-media/services-social-media-bg.png" alt="">
+         <img loading="lazy" src="assets/img/services/social-media/services-social-media-bg.png" alt="">
          <div class="services-inner-banner-shape">
-            <img class="services-inner-banner-shape-1" src="{{asset('assets/img/cta/cta-inner-shape-1.png')}}" alt="">
-            <img class="services-inner-banner-shape-2" src="{{asset('assets/img/cta/cta-inner-shape-2.png')}}" alt="">
-            <img class="services-inner-banner-shape-3" src="{{asset('assets/img/cta/cta-inner-shape-3.png')}}" alt="">
-            <img class="services-inner-banner-shape-4" src="{{asset('assets/img/cta/cta-inner-shape-4.png')}}" alt="">
-            <img class="services-inner-banner-shape-5" src="{{asset('assets/img/cta/cta-inner-shape-5.png')}}" alt="">
-            <img class="services-inner-banner-shape-6" src="{{asset('assets/img/cta/cta-inner-shape-6.png')}}" alt="">
+            <img loading="lazy" class="services-inner-banner-shape-1" src="{{asset('assets/img/cta/cta-inner-shape-1.png')}}" alt="">
+            <img loading="lazy" class="services-inner-banner-shape-2" src="{{asset('assets/img/cta/cta-inner-shape-2.png')}}" alt="">
+            <img loading="lazy" class="services-inner-banner-shape-3" src="{{asset('assets/img/cta/cta-inner-shape-3.png')}}" alt="">
+            <img loading="lazy" class="services-inner-banner-shape-4" src="{{asset('assets/img/cta/cta-inner-shape-4.png')}}" alt="">
+            <img loading="lazy" class="services-inner-banner-shape-5" src="{{asset('assets/img/cta/cta-inner-shape-5.png')}}" alt="">
+            <img loading="lazy" class="services-inner-banner-shape-6" src="{{asset('assets/img/cta/cta-inner-shape-6.png')}}" alt="">
          </div>
       </div>
    </div>
@@ -38,7 +38,7 @@ User List
                      <h4 class="services-details-title" style="color: #004a87;">{{ $service->title }}</h4>
                   </div>
                   <div class="services-details-thumb mb-50">
-                     <img src="{{ asset('storage/' . $service->banner) }}" alt="">
+                     <img loading="lazy" src="{{ asset('storage/' . $service->banner) }}" alt="">
                   </div>
                   <div class="services-details-wrap">
                      <div class="row">
@@ -225,7 +225,7 @@ User List
                            aria-labelledby="v-pills-home-tab" tabindex="0">
                            <div class="services-quality-wrapper">
                               <div class="services-quality-thumb">
-                                 <img src="assets/img/bg/services-tab/value-tab-1.svg" alt="">
+                                 <img loading="lazy" src="assets/img/bg/services-tab/value-tab-1.svg" alt="">
                               </div>
                               <div class="services-quality-content">
                                  <h4 class="services-quality-title">Find powerful backlinks</h4>
@@ -244,7 +244,7 @@ User List
                            aria-labelledby="v-pills-profile-tab" tabindex="0">
                            <div class="services-quality-wrapper">
                               <div class="services-quality-thumb">
-                                 <img src="assets/img/bg/services-tab/value-tab-2.svg" alt="">
+                                 <img loading="lazy" src="assets/img/bg/services-tab/value-tab-2.svg" alt="">
                               </div>
                               <div class="services-quality-content">
                                  <h4 class="services-quality-title">Find powerful backlinks</h4>
@@ -263,7 +263,7 @@ User List
                            aria-labelledby="v-pills-messages-tab" tabindex="0">
                            <div class="services-quality-wrapper">
                               <div class="services-quality-thumb">
-                                 <img src="assets/img/bg/services-tab/value-tab-3.svg" alt="">
+                                 <img loading="lazy" src="assets/img/bg/services-tab/value-tab-3.svg" alt="">
                               </div>
                               <div class="services-quality-content">
                                  <h4 class="services-quality-title">Find powerful backlinks</h4>
@@ -282,7 +282,7 @@ User List
                            aria-labelledby="v-pills-settings-tab" tabindex="0">
                            <div class="services-quality-wrapper">
                               <div class="services-quality-thumb">
-                                 <img src="assets/img/bg/services-tab/value-tab-4.svg" alt="">
+                                 <img loading="lazy" src="assets/img/bg/services-tab/value-tab-4.svg" alt="">
                               </div>
                               <div class="services-quality-content">
                                  <h4 class="services-quality-title">Find powerful backlinks</h4>
@@ -322,9 +322,9 @@ User List
 
                <div class="feature-5-item mb-55">
                   <div class="feature-5-icon p-relative mb-40">
-                     <img src="{{asset('storage/' . $feature->icon)}}" alt="" style="width:20%">
+                     <img loading="lazy" src="{{asset('storage/' . $feature->icon)}}" alt="" style="width:20%">
                      <div class="feature-5-icon-shape">
-                        <img src="{{asset('assets/img/shape/feature-5-shape-1.png')}}" alt="">
+                        <img loading="lazy" src="{{asset('assets/img/shape/feature-5-shape-1.png')}}" alt="">
                      </div>
                      <span></span>
                   </div>
@@ -359,7 +359,7 @@ User List
                      <div class="expertise-list">
                         @foreach($expertises as $expertise)
                         <div class="expertise-item" style="background: linear-gradient(135deg, #f0faff, #e0f7ff); padding: 15px; border-radius: 10px; display: flex; align-items: center; gap: 15px; margin-bottom: 3%;">
-                           <img src="{{asset('storage/' . $expertise->icon)}}" alt="" style="width:10%">
+                           <img loading="lazy" src="{{asset('storage/' . $expertise->icon)}}" alt="" style="width:10%">
                            <div class="content">
                               <h4>{{$expertise->subtitle}}</h4>
                               <p>{!! $expertise->des !!}</p>
@@ -374,12 +374,12 @@ User List
             <div class="col-lg-6">
                <div class="optimize-thumb text-end p-relative" style="padding-top: 0;"> <!-- removed pt-35 -->
                   <div class="optimize-thumb-img">
-                     <img src="{{asset('assets/img/bg/optimize-bg.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/bg/optimize-bg.png')}}" alt="">
                   </div>
                   <div class="optimize-shape">
-                     <img src="{{asset('assets/img/bg/optimize-bg-2.png')}}" alt="" class="optimize-shape-1">
-                     <img src="{{asset('assets/img/shape/optimize-shape-2.png')}}" alt="" class="optimize-shape-2 d-none d-md-block" data-parallax='{"y": 50, "smoothness": 20}'>
-                     <img src="{{asset('assets/img/shape/optimize-shape-1.png')}}" alt="" class="optimize-shape-3 d-none d-md-block" data-parallax='{"y": 50, "smoothness": 20}'>
+                     <img loading="lazy" src="{{asset('assets/img/bg/optimize-bg-2.png')}}" alt="" class="optimize-shape-1">
+                     <img loading="lazy" src="{{asset('assets/img/shape/optimize-shape-2.png')}}" alt="" class="optimize-shape-2 d-none d-md-block" data-parallax='{"y": 50, "smoothness": 20}'>
+                     <img loading="lazy" src="{{asset('assets/img/shape/optimize-shape-1.png')}}" alt="" class="optimize-shape-3 d-none d-md-block" data-parallax='{"y": 50, "smoothness": 20}'>
                   </div>
                </div>
             </div>
@@ -404,10 +404,10 @@ User List
    <section class="services-area tp-large-box services-bg-two p-relative fix" style="margin-top: -2%;">
       <div class="services-shape d-none d-xl-block">
          <div class="services-shape-one">
-            <img src="assets/img/shape/services-2shape-1.png" alt="">
+            <img loading="lazy" src="assets/img/shape/services-2shape-1.png" alt="">
          </div>
          <div class="services-shape-two">
-            <img src="assets/img/shape/services-2shape-2.png" alt="">
+            <img loading="lazy" src="assets/img/shape/services-2shape-2.png" alt="">
          </div>
       </div>
       <div class="container">
@@ -438,7 +438,7 @@ User List
                <div class="services-two mb-30 d-flex align-items-start">
                   <div class="services-two-bg"></div>
                   <div class="services-two-icon me-3">
-                     <img src="{{ asset('storage/' . $solution->icon) }}" alt="" style="width: 80px;">
+                     <img loading="lazy" src="{{ asset('storage/' . $solution->icon) }}" alt="" style="width: 80px;">
                   </div>
                   <div class="services-two-content">
                      <h4 class="services-two-title">{{ $solution->subtitle }}</h4>
@@ -453,7 +453,7 @@ User List
                <div class="services-two mb-30">
                   <div class="services-two-bg"></div>
                   <div class="services-two-icon">
-                     <img src="{{asset('assets/img/icon/services-icon-2.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/icon/services-icon-2.png')}}" alt="">
                   </div>
                   <div class="services-two-content">
 
@@ -467,7 +467,7 @@ User List
                <div class="services-two mb-30">
                   <div class="services-two-bg"></div>
                   <div class="services-two-icon">
-                     <img src="{{asset('assets/img/icon/services-icon-3.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/icon/services-icon-3.png')}}" alt="">
                   </div>
                   <div class="services-two-content">
 
@@ -481,7 +481,7 @@ User List
                <div class="services-two mb-30">
                   <div class="services-two-bg"></div>
                   <div class="services-two-icon">
-                     <img src="{{asset('assets/img/icon/services-icon-4.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/icon/services-icon-4.png')}}" alt="">
                   </div>
                   <div class="services-two-content">
 
@@ -561,7 +561,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
+                     <img loading="lazy" src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://ajwahtech.com/">Ajwah Tech</a></div>
@@ -577,7 +577,7 @@ User List
             {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://crownbanquetingsuite.com/">Crown</a></div>
@@ -593,7 +593,7 @@ User List
             {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/fiber.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://www.fiberathome.net/">Fiber@home</a></div>
@@ -609,7 +609,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/homeland.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/homeland.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://homelandfurniturebd.com/">Homeland Furniture</a></div>
@@ -626,7 +626,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/jibonjoyi.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/jibonjoyi.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://jj.c3bit.com/">Jibonjoyi</a></div>
@@ -642,7 +642,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://magpieholdingsltd.com/">Magpie Holdings Ltd.</a></div>
@@ -658,7 +658,7 @@ User List
             {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/it.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/it.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="http://ridgebenitinstitute.com/">Ridgeben IT Institute</a></div>
@@ -674,7 +674,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
@@ -690,7 +690,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/CTC.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/CTC.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
@@ -748,7 +748,7 @@ User List
                </div>
                <div class="tppricing-shape-4">
                   <div class="tppricing-shape-1">
-                     <img src="assets/img/shape/pricing-4-shape-3.png" alt="">
+                     <img loading="lazy" src="assets/img/shape/pricing-4-shape-3.png" alt="">
                   </div>
                   <div class="tppricing-shape-3">
                      <svg width="86" height="59" viewBox="0 0 86 59" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -756,7 +756,7 @@ User List
                      </svg>
                   </div>
                   <div class="tppricing-shape-2">
-                     <img src="assets/img/shape/pricing-4-shape-2.png" alt="">
+                     <img loading="lazy" src="assets/img/shape/pricing-4-shape-2.png" alt="">
                   </div>
                </div>
             </div>
@@ -1439,10 +1439,10 @@ User List
                   </div>
                   <div class="tpcontact-shape d-none d-md-block">
                      <div class="tpcontact-shape-one" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img src="{{asset('assets/img/shape/form-shape-1.png')}}" alt="">
+                        <img loading="lazy" src="{{asset('assets/img/shape/form-shape-1.png')}}" alt="">
                      </div>
                      <div class="tpcontact-shape-two" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img src="{{asset('assets/img/shape/form-shape-2.png')}}" alt="">
+                        <img loading="lazy" src="{{asset('assets/img/shape/form-shape-2.png')}}" alt="">
                      </div>
                   </div>
                </div>

@@ -41,26 +41,26 @@ User List
          </div>
          <div class="tpbanner-shape  d-none d-lg-block">
             <div class="tpbanner-shape-one">
-               <img class="layer" data-depth="0.3" src="{{asset('assets/img/shape/banner-plus.png')}}" alt="">
+               <img loading="lazy" class="layer" data-depth="0.3" src="{{asset('assets/img/shape/banner-plus.png')}}" alt="">
             </div>
             <div class="tpbanner-shape-three">
-               <img class="layer" data-depth="0.4" src="{{asset('assets/img/shape/banner-dots.png')}}" alt="">
+               <img loading="lazy" class="layer" data-depth="0.4" src="{{asset('assets/img/shape/banner-dots.png')}}" alt="">
             </div>
             <div class="tpbanner-shape-four">
-               <img src="{{asset('assets/img/shape/banner-archer.png')}}" alt="">
+               <img loading="lazy" src="{{asset('assets/img/shape/banner-archer.png')}}" alt="">
             </div>
             <div class="tpbanner-shape-five">
-               <img class="layer" data-depth="0.2" src="{{asset('assets/img/shape/hero01.png')}}" alt="">
+               <img loading="lazy" class="layer" data-depth="0.2" src="{{asset('assets/img/shape/hero01.png')}}" alt="">
             </div>
             <div class="tpbanner-shape-six">
-               <img class="layer" data-depth="0.3" src="{{asset('assets/img/shape/reactor.png')}}" alt="">
+               <img loading="lazy" class="layer" data-depth="0.3" src="{{asset('assets/img/shape/reactor.png')}}" alt="">
             </div>
          </div>
       </div>
       <div class="tpbanner-shape-wrappers tpbanner-shape-y scene-y">
          <div class="tpbanner-shape  d-none d-lg-block">
             <div class="tpbanner-shape-two">
-               <img class="layer" data-depth="0.6" src="{{asset('assets/img/shape/hand.png')}}" alt="">
+               <img loading="lazy" class="layer" data-depth="0.6" src="{{asset('assets/img/shape/hand.png')}}" alt="">
             </div>
          </div>
       </div>
@@ -78,13 +78,13 @@ User List
    </section>
 
    <div class="slider123 col-xl-12 pb-40">
-    <div class="card123"><img src="{{asset('assets/partners/1.jpg')}}" alt="Product 1"></div>
-    <div class="card123"><img src="{{asset('assets/partners/3.webp')}}" alt="Product 3"></div>
-    <div class="card123"><img src="{{asset('assets/partners/4.png')}}" alt="Product 4"></div>
-    <div class="card123"><img src="{{asset('assets/partners/5.png')}}" alt="Product 5"></div>
-    <div class="card123"><img src="{{asset('assets/partners/6.png')}}" alt="Product 6"></div>
-    <div class="card123"><img src="{{asset('assets/partners/7.png')}}" alt="Product 7"></div>
-    <div class="card123"><img src="{{asset('assets/partners/8.webp')}}" alt="Product 8"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/1.jpg')}}" alt="Product 1"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/3.webp')}}" alt="Product 3"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/4.png')}}" alt="Product 4"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/5.png')}}" alt="Product 5"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/6.png')}}" alt="Product 6"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/7.png')}}" alt="Product 7"></div>
+    <div class="card123"><img loading="lazy" src="{{asset('assets/partners/8.webp')}}" alt="Product 8"></div>
 </div>
 
 
@@ -95,22 +95,22 @@ User List
                   <div class="col-lg-12">
                      <div class="about-inner-slide tpabout-inner-active" style="display: flex; gap: 5px;">
                         <div class="about-inner-item">
-                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%;"> 
+                           <img loading="lazy" src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%;"> 
                         </div>
                         <div class="about-inner-item">
-                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
+                           <img loading="lazy" src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
                         </div>
                         <div class="about-inner-item">
-                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
+                           <img loading="lazy" src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
                         </div>
                         <div class="about-inner-item">
-                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
+                           <img loading="lazy" src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
                         </div>
                         <div class="about-inner-item">
-                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
+                           <img loading="lazy" src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
                         </div>
                         <div class="about-inner-item">
-                           <img src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
+                           <img loading="lazy" src="{{asset('assets/icon/1.png')}}" alt="" style="width:25%">
                         </div>
                      </div>
                   </div>
@@ -128,16 +128,16 @@ User List
             <div class="row align-items-center">
                <div class="col-xl-6 col-lg-5">
                   <div class="tpchoose-thumb mt-30 p-relative mb-50">
-                     <img class="tpchoose-border-anim" src="assets/img/banner/front.png" alt="">
+                     <img loading="lazy" class="tpchoose-border-anim" src="assets/img/banner/front.png" alt="">
                      <div class="tpchoose-shape">
                         <div class="tpchoose-shape-one d-none d-md-block">
-                           <img src="assets/img/shape/choose-shape-1.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/choose-shape-1.png" alt="">
                         </div>
                         <div class="tpchoose-shape-two">
-                           <img src="assets/img/shape/choose-shape-2.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/choose-shape-2.png" alt="">
                         </div>
                         <div class="tpchoose-shape-three">
-                           <img src="assets/img/shape/choose-shape-3.png" alt="">
+                           <img loading="lazy" src="assets/img/shape/choose-shape-3.png" alt="">
                         </div>
                      </div>
                   </div>
@@ -206,7 +206,7 @@ User List
                         <li>
                            <div class="tpservices-wrapper tpservices-item3">
                               <div class="tpservices-img mb-35">
-                                <a href="{{route('page1', $service->slug)}}"> <img src="{{ asset('storage/' . $service->icon) }}" alt="" style="width:35%"></a>
+                                <a href="{{route('page1', $service->slug)}}"> <img loading="lazy" src="{{ asset('storage/' . $service->icon) }}" alt="" style="width:35%"></a>
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('page1', $service->slug)}}">{{$service->title}}</a></h4>
@@ -217,7 +217,7 @@ User List
                         <!-- <li>
                            <div class="tpservices-wrapper tpservices-item2">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{asset('assets/icon/2.png')}}" alt="" style="width:35%">
+                                 <img loading="lazy" src="{{asset('assets/icon/2.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('websitedev')}}">Website Development</a></h4>
@@ -228,7 +228,7 @@ User List
                         <li>
                            <div class="tpservices-wrapper tpservices-item3">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{asset('assets/icon/3.png')}}" alt="" style="width:35%">
+                                 <img loading="lazy" src="{{asset('assets/icon/3.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('dm')}}">Digital Marketing</a></h4>
@@ -239,7 +239,7 @@ User List
                         <li>
                            <div class="tpservices-wrapper tpservices-item4">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{asset('assets/icon/4.png')}}" alt="" style="width:35%">
+                                 <img loading="lazy" src="{{asset('assets/icon/4.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('cloudsol')}}">Cloud Solutions</a></h4>
@@ -250,7 +250,7 @@ User List
                         <li>
                            <div class="tpservices-wrapper tpservices-item5">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{asset('assets/icon/5.png')}}" alt="" style="width:35%">
+                                 <img loading="lazy" src="{{asset('assets/icon/5.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('pa')}}">Productivity App</a></h4>
@@ -261,7 +261,7 @@ User List
                         <li>
                            <div class="tpservices-wrapper tpservices-item6">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{asset('assets/icon/6.png')}}" alt="" style="width:35%">
+                                 <img loading="lazy" src="{{asset('assets/icon/6.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('email')}}">Email and Collaboration</a></h4>
@@ -272,7 +272,7 @@ User List
                         <li>
                            <div class="tpservices-wrapper tpservices-item3">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{asset('assets/icon/7.png')}}" alt="" style="width:35%">
+                                 <img loading="lazy" src="{{asset('assets/icon/7.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('cs')}}">Security Solutions</a></h4>
@@ -283,7 +283,7 @@ User List
                         <li>
                            <div class="tpservices-wrapper tpservices-item2">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{asset('assets/icon/8.png')}}" alt="" style="width:35%">
+                                 <img loading="lazy" src="{{asset('assets/icon/8.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('webhost')}}">Web Hosting</a></h4>
@@ -294,7 +294,7 @@ User List
                         <li>
                            <div class="tpservices-wrapper">
                               <div class="tpservices-img mb-35">
-                                 <img src="{{asset('assets/icon/9.png')}}" alt="" style="width:35%">
+                                 <img loading="lazy" src="{{asset('assets/icon/9.png')}}" alt="" style="width:35%">
                               </div>
                               <div class="tpservices-content">
                                  <h4 class="tpservices-title"><a href="{{route('manageservices')}}">Manage Services</a></h4>
@@ -344,8 +344,8 @@ User List
                   </div>
                </div>
                <div class="tpfunfact-shape d-none d-md-block">
-                  <div class="tpfunfact-shape-one"><img src="{{asset('assets/img/shape/funfact-2.png')}}" alt=""></div>
-                  <div class="tpfunfact-shape-two"><img src="{{asset('assets/img/shape/funfact-3.png')}}" alt=""></div>
+                  <div class="tpfunfact-shape-one"><img loading="lazy" src="{{asset('assets/img/shape/funfact-2.png')}}" alt=""></div>
+                  <div class="tpfunfact-shape-two"><img loading="lazy" src="{{asset('assets/img/shape/funfact-3.png')}}" alt=""></div>
                </div>
             </div>
             <div class="tpfunfact-box">
@@ -355,8 +355,8 @@ User List
                         <span class="tpfunfact-title">Duration</span>
                         <h5 class="tpfunfact-count mb-15">Fastest<span> Delivery</span></h5>
                         <div class="tpfunfact-tag">
-                           <span><i><img src="{{asset('assets/img/shape/funfact-icon-1.png')}}" alt=""></i>7Days Challenges</span>
-                           <span><i><img src="{{asset('assets/img/shape/funfact-icon-2.png')}}" alt=""></i>10+ Frameworks</span>
+                           <span><i><img loading="lazy" src="{{asset('assets/img/shape/funfact-icon-1.png')}}" alt=""></i>7Days Challenges</span>
+                           <span><i><img loading="lazy" src="{{asset('assets/img/shape/funfact-icon-2.png')}}" alt=""></i>10+ Frameworks</span>
                         </div>
                      </div>
                   </div>
@@ -365,8 +365,8 @@ User List
                         <span class="tpfunfact-title">Success Volume</span>
                         <h5 class="tpfunfact-count mb-15">150+<span> Projects</span></h5>
                         <div class="tpfunfact-tag">
-                           <span><i><img src="{{asset('assets/img/shape/funfact-icon-3.png')}}" alt=""></i>13+ Countries Served</span>
-                           <span><i><img src="{{asset('assets/img/shape/funfact-icon-4.png')}}" alt=""></i>36TB Data</span>
+                           <span><i><img loading="lazy" src="{{asset('assets/img/shape/funfact-icon-3.png')}}" alt=""></i>13+ Countries Served</span>
+                           <span><i><img loading="lazy" src="{{asset('assets/img/shape/funfact-icon-4.png')}}" alt=""></i>36TB Data</span>
                         </div>
                      </div>
                   </div>
@@ -434,7 +434,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
+                     <img loading="lazy" src="{{asset('assets/img/website/ajwah.png')}}" alt="" style="width: 150%">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://ajwahtech.com/">Ajwah Tech</a></div>
@@ -450,7 +450,7 @@ User List
             {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/crown.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://crownbanquetingsuite.com/">Crown</a></div>
@@ -466,7 +466,7 @@ User List
             {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/fiber.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/fiber.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://www.fiberathome.net/">Fiber@home</a></div>
@@ -482,7 +482,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/homeland.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/homeland.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://homelandfurniturebd.com/">Homeland Furniture</a></div>
@@ -499,7 +499,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/jibonjoyi.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/jibonjoyi.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://jj.c3bit.com/">Jibonjoyi</a></div>
@@ -515,7 +515,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/magpie.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://magpieholdingsltd.com/">Magpie Holdings Ltd.</a></div>
@@ -531,7 +531,7 @@ User List
             {{-- <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/it.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/it.jpeg')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="http://ridgebenitinstitute.com/">Ridgeben IT Institute</a></div>
@@ -547,7 +547,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/kinglet.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
@@ -563,7 +563,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img src="{{asset('assets/img/website/CTC.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/CTC.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://ctcenergysolution.com/">CTC Energy Sol.</a></div>
@@ -590,13 +590,13 @@ User List
    <!-- pricing-area-start -->
    <!-- <section class="pricing-area tp-price-parent pricing-shape-relative p-relative pt-40 pb-90">
       <div class="tpprice-shape-one d-none d-xl-block">
-         <img src="{{asset('assets/img/shape/hand-shape.png')}}" alt="triangle">
+         <img loading="lazy" src="{{asset('assets/img/shape/hand-shape.png')}}" alt="triangle">
       </div>
       <div class="container">
          <div class="tppricing-wrapper">
             <div class="tppricing-shape">
                <div class="tppricing-shape-one d-none d-md-block">
-                  <img src="{{asset('assets/img/shape/pricing-1-shape-1.png')}}" alt="">
+                  <img loading="lazy" src="{{asset('assets/img/shape/pricing-1-shape-1.png')}}" alt="">
                </div>
             </div>
             <div class="row">
@@ -629,7 +629,7 @@ User List
                      </div>
                      <div class="tpprice-shape">
                         <div class="tpprice-shape-two d-none d-lg-block">
-                           <img src="{{asset('assets/img/shape/save.png')}}" alt="triangle">
+                           <img loading="lazy" src="{{asset('assets/img/shape/save.png')}}" alt="triangle">
                         </div>
                      </div>
                   </div>
@@ -643,7 +643,7 @@ User List
                                  <div class="tppricing mb-30">
                                     <div class="tppricing-head">
                                        <div class="tppricing-icon mb-30">
-                                          <i><img src="{{asset('assets/img/icon/pricing-icon-1.png')}}" alt=""></i>
+                                          <i><img loading="lazy" src="{{asset('assets/img/icon/pricing-icon-1.png')}}" alt=""></i>
                                        </div>
                                        <h3 class="tppricing-title mb-50">Diamond Pack</h3>
                                     </div>
@@ -671,7 +671,7 @@ User List
                                  <div class="tppricing mb-30">
                                     <div class="tppricing-head">
                                        <div class="tppricing-icon mb-30">
-                                          <i><img src="{{asset('assets/img/icon/pricing-icon-2.png')}}" alt=""></i>
+                                          <i><img loading="lazy" src="{{asset('assets/img/icon/pricing-icon-2.png')}}" alt=""></i>
                                        </div>
                                        <h3 class="tppricing-title mb-50">Gold Plan</h3>
                                     </div>
@@ -698,10 +698,10 @@ User List
                            </div>
                            <div class="tpprice-shape d-none d-lg-block">
                               <div class="tpprice-shape-two">
-                                 <img src="{{asset('assets/img/shape/triangle.png')}}" alt="triangle">
+                                 <img loading="lazy" src="{{asset('assets/img/shape/triangle.png')}}" alt="triangle">
                               </div>
                               <div class="tpprice-shape-three">
-                                 <img src="{{asset('assets/img/shape/smill.png')}}" alt="triangle">
+                                 <img loading="lazy" src="{{asset('assets/img/shape/smill.png')}}" alt="triangle">
                               </div>
                            </div>
                         </div>
@@ -713,7 +713,7 @@ User List
                                  <div class="tppricing mb-30">
                                     <div class="tppricing-head">
                                        <div class="tppricing-icon mb-30">
-                                          <i><img src="{{asset('assets/img/icon/pricing-icon-1.png')}}" alt=""></i>
+                                          <i><img loading="lazy" src="{{asset('assets/img/icon/pricing-icon-1.png')}}" alt=""></i>
                                        </div>
                                        <h3 class="tppricing-title mb-50">Diamond Pack</h3>
                                     </div>
@@ -741,7 +741,7 @@ User List
                                  <div class="tppricing mb-30">
                                     <div class="tppricing-head">
                                        <div class="tppricing-icon mb-30">
-                                          <i><img src="{{asset('assets/img/icon/pricing-icon-2.png')}}" alt=""></i>
+                                          <i><img loading="lazy" src="{{asset('assets/img/icon/pricing-icon-2.png')}}" alt=""></i>
                                        </div>
                                        <h3 class="tppricing-title mb-50">Gold Plan</h3>
                                     </div>
@@ -768,10 +768,10 @@ User List
                            </div>
                            <div class="tpprice-shape d-none d-lg-block">
                               <div class="tpprice-shape-two">
-                                 <img src="{{asset('assets/img/shape/triangle.png')}}" alt="triangle">
+                                 <img loading="lazy" src="{{asset('assets/img/shape/triangle.png')}}" alt="triangle">
                               </div>
                               <div class="tpprice-shape-three">
-                                 <img src="{{asset('assets/img/shape/smill.png')}}" alt="triangle">
+                                 <img loading="lazy" src="{{asset('assets/img/shape/smill.png')}}" alt="triangle">
                               </div>
                            </div>
                         </div>
@@ -813,7 +813,7 @@ User List
                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                         <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/1.png')}}" alt="" style="width: 15%;"></span>
+                              <span><img loading="lazy" src="{{asset('assets/img/icon/1.png')}}" alt="" style="width: 15%;"></span>
                            </div>
                            <div class="tpchoose-text">
                               <span class="tpchoose-title">Performance-Driven Results</span>
@@ -834,7 +834,7 @@ User List
                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                         <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/2.png')}}" alt="" style="width: 15%;"></span>
+                              <span><img loading="lazy" src="{{asset('assets/img/icon/2.png')}}" alt="" style="width: 15%;"></span>
                            </div>
                            <div class="tpchoose-text">
                               <span class="tpchoose-title">Device-Ready Design</span>
@@ -855,7 +855,7 @@ User List
                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                         <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/3.png')}}" alt="" style="width: 15%;"></span>
+                              <span><img loading="lazy" src="{{asset('assets/img/icon/3.png')}}" alt="" style="width: 15%;"></span>
                            </div>
                            <div class="tpchoose-text">
                               <span class="tpchoose-title">Ironclad Data Security</span>
@@ -877,7 +877,7 @@ User List
                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                         <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/4.png')}}" alt="" style="width: 15%;"></span>
+                              <span><img loading="lazy" src="{{asset('assets/img/icon/4.png')}}" alt="" style="width: 15%;"></span>
                            </div>
                            <div class="tpchoose-text">
                               <span class="tpchoose-title">Search-Optimized Visibility</span>
@@ -899,7 +899,7 @@ User List
                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                         <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/5.png')}}" alt="" style="width: 15%;"></span>
+                              <span><img loading="lazy" src="{{asset('assets/img/icon/5.png')}}" alt="" style="width: 15%;"></span>
                            </div>
                            <div class="tpchoose-text">
                               <span class="tpchoose-title">Future-Ready Solutions</span>
@@ -921,7 +921,7 @@ User List
                      <div class="col-lg-4 col-md-4 col-sm-6 col-6">
                         <a href="{{route('about')}}" class="tpchoose mb-30">
                            <div class="tpchoose-icon mb-25">
-                              <span><img src="{{asset('assets/img/icon/6.png')}}" alt="" style="width: 15%;"></span>
+                              <span><img loading="lazy" src="{{asset('assets/img/icon/6.png')}}" alt="" style="width: 15%;"></span>
                            </div>
                            <div class="tpchoose-text">
                               <span class="tpchoose-title">Reliable Long-Term Support</span>
@@ -964,7 +964,7 @@ User List
             <div class="tptestimonial-wrapper tptestimonial-active">
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="{{asset('assets/img/banner/pabel.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/banner/pabel.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -987,7 +987,7 @@ User List
                </div>
               <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="{{asset('assets/img/team/diran.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/team/diran.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -1009,7 +1009,7 @@ User List
                </div>
                 <!-- <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="{{asset('assets/img/team/testimonial-1.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/team/testimonial-1.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -1031,7 +1031,7 @@ User List
                </div>
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="{{asset('assets/img/team/testimonial-2.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/team/testimonial-2.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -1053,7 +1053,7 @@ User List
                </div>
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="{{asset('assets/img/team/testimonial-1.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/team/testimonial-1.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -1075,7 +1075,7 @@ User List
                </div>
                <div class="tptestimonial p-relative d-flex align-items-center">
                   <div class="tptestimonial-thumb mr-40">
-                     <img src="{{asset('assets/img/team/testimonial-2.png')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/team/testimonial-2.png')}}" alt="">
                   </div>
                   <div class="tptestimonial-content">
                      <div class="tptestimonial-shape mb-20">
@@ -1168,7 +1168,7 @@ User List
             <div class="col-lg-4 col-md-6 col-sm-6">
                <div class="tpblog mb-30">
                   <div class="tpblog-thumb mb-25 fix">
-                     <a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-1-bg-1.jpg')}}')}}" alt=""></a>
+                     <a href="blog-details.html"><img loading="lazy" src="{{asset('assets/img/blog/blog-1-bg-1.jpg')}}')}}" alt=""></a>
                   </div>
                   <div class="tpblog-content">
                      <div class="tpblog-tag">
@@ -1178,7 +1178,7 @@ User List
                      <h3 class="tpblog-title"><a href="blog-details.html">Simple ways to Optimize your Website For SEO</a></h3>
                      <div class="tpblog-avatar d-flex align-items-center">
                         <div class="tpblog-avatar-thub mr-10">
-                           <img src="{{asset('assets/img/blog/comments/blog-avatar-1.png')}}" alt="">
+                           <img loading="lazy" src="{{asset('assets/img/blog/comments/blog-avatar-1.png')}}" alt="">
                         </div>
                         <div class="tpblog-avatar-info">
                            <h5 class="tpblog-avatar-title">Nathalie Grossman</h5>
@@ -1191,7 +1191,7 @@ User List
             <div class="col-lg-4 col-md-6 col-sm-6">
                <div class="tpblog mb-30">
                   <div class="tpblog-thumb mb-25 fix">
-                     <a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-1-bg-2.jpg')}}" alt=""></a>
+                     <a href="blog-details.html"><img loading="lazy" src="{{asset('assets/img/blog/blog-1-bg-2.jpg')}}" alt=""></a>
                   </div>
                   <div class="tpblog-content">
                      <div class="tpblog-tag">
@@ -1201,7 +1201,7 @@ User List
                      <h3 class="tpblog-title"><a href="blog-details.html">The Trend of Marketing With <br> Tiktok, Should or not?</a></h3>
                      <div class="tpblog-avatar d-flex align-items-center">
                         <div class="tpblog-avatar-thub mr-10">
-                           <img src="{{asset('assets/img/blog/comments/blog-avatar-2.png')}}" alt="">
+                           <img loading="lazy" src="{{asset('assets/img/blog/comments/blog-avatar-2.png')}}" alt="">
                         </div>
                         <div class="tpblog-avatar-info">
                            <h5 class="tpblog-avatar-title">Jason Responsen</h5>
@@ -1214,7 +1214,7 @@ User List
             <div class="col-lg-4 col-md-6 col-sm-6">
                <div class="tpblog mb-30">
                   <div class="tpblog-thumb mb-25 fix">
-                     <a href="blog-details.html"><img src="{{asset('assets/img/blog/blog-1-bg-3.jpg')}}" alt=""></a>
+                     <a href="blog-details.html"><img loading="lazy" src="{{asset('assets/img/blog/blog-1-bg-3.jpg')}}" alt=""></a>
                   </div>
                   <div class="tpblog-content">
                      <div class="tpblog-tag">
@@ -1224,7 +1224,7 @@ User List
                      <h3 class="tpblog-title"><a href="blog-details.html">How to Increase Your ROI Through scientific SEM?</a></h3>
                      <div class="tpblog-avatar d-flex align-items-center">
                         <div class="tpblog-avatar-thub mr-10">
-                           <img src="{{asset('assets/img/blog/comments/blog-avatar-3.png')}}" alt="">
+                           <img loading="lazy" src="{{asset('assets/img/blog/comments/blog-avatar-3.png')}}" alt="">
                         </div>
                         <div class="tpblog-avatar-info">
                            <h5 class="tpblog-avatar-title">Eleanor Fant</h5>
@@ -1405,10 +1405,10 @@ User List
                   </div>
                   <div class="tpcontact-shape d-none d-md-block">
                      <div class="tpcontact-shape-one" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img src="{{asset('assets/img/shape/form-shape-1.png')}}" alt="">
+                        <img loading="lazy" src="{{asset('assets/img/shape/form-shape-1.png')}}" alt="">
                      </div>
                      <div class="tpcontact-shape-two" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img src="{{asset('assets/img/shape/form-shape-2.png')}}" alt="">
+                        <img loading="lazy" src="{{asset('assets/img/shape/form-shape-2.png')}}" alt="">
                      </div>
                   </div>
                </div>
