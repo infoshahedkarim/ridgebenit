@@ -722,7 +722,7 @@ User List
 
    @if($service->title === 'Website Development')
    <!-- pricing-area-start -->
-   <section class="pricing-area tp-price-parent tppricing-box-active pb-40 pt-120 fix">
+   <section class="pricing-area tp-price-parent tppricing-box-active pb-40 pt-80 fix">
 
          <div class="container">
             <div class="row">
