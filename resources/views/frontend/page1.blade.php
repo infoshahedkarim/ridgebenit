@@ -506,7 +506,7 @@ User List
 
 
     <!-- case-area-start -->
-   <section class="case-area pb-20 fix">
+   <section class="case-area pb-60 fix">
       <div class="container">
          <div class="row">
             <div class="col-lg-6 col-md-8">
@@ -561,7 +561,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/ajwah.jpeg')}}" alt="" style="width: 150%">
+                     <img loading="lazy" src="{{asset('assets/img/website/ajwah.png')}}" alt="" style="width: 150%">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://ajwahtech.com/">Ajwah Tech</a></div>
@@ -609,7 +609,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/homeland.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/homeland.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://homelandfurniturebd.com/">Homeland Furniture</a></div>
@@ -626,7 +626,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/jibonjoyi.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/jibonjoyi.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://jj.c3bit.com/">Jibonjoyi</a></div>
@@ -642,7 +642,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/magpie.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/magpie.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://magpieholdingsltd.com/">Magpie Holdings Ltd.</a></div>
@@ -674,7 +674,7 @@ User List
             <div class="col-lg-4 col-md-6 grid-item port-details3  port-details5">
                <div class="portfolio-inner-item-2 mb-40">
                   <div class="portfolio-inner-thumb-2">
-                     <img loading="lazy" src="{{asset('assets/img/website/kinglet.jpeg')}}" alt="">
+                     <img loading="lazy" src="{{asset('assets/img/website/kinglet.png')}}" alt="">
                   </div>
                   <div class="portfolio-inner-content-2">
                      <div class="portfolio-inner-title-2"><a href="https://kingletbd.com/">Kinglet Furniture</a></div>
