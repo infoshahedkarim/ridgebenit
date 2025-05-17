@@ -35,12 +35,16 @@
                 <li class="menu-title" data-key="t-menu">Service</li>
 
                 <li>
-                    <a href="{{route('back.services')}}">
-                        <i class="bx bx-home-alt icon nav-icon"></i>
-                        <span class="menu-item" data-key="t-dashboard">Add Service</span>
-                    </a>
+                    
                     <ul class="sub-menu" aria-expanded="false">
 
+
+                        <li>
+                            <a href="{{route('back.services')}}">
+                                <i class="bx bx-file-find icon nav-icon"></i>
+                                <span class="menu-item" data-key="t-filemanager">Add Service</span>
+                            </a>
+                        </li>
 
                         <li>
                             <a href="{{route('back.show')}}">
