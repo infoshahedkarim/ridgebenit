@@ -467,7 +467,7 @@
    <div class="col-lg-3 col-md-6">
       <div class="team-5-item team-5-item-4 text-center mb-40 mx-auto" style="max-width: 220px;">
          <div class="team-5-thumb mb-25">
-            <img loading="lazy" src="assets/img/team/kerl.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
+            <img loading="lazy" src="assets/img/team/Kerl.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
             <div class="team-5-social">
                <span class="icon"></span>
                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
