@@ -32,6 +32,22 @@
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metismenu list-unstyled" id="side-menu">
+
+
+                 <li>
+                    <a href="{{route('add.meta')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">Add New Meta-Tag</span>
+                    </a>
+                </li>
+
+                 <li>
+                    <a href="{{route('show.meta')}}">
+                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">Meta-Tag List</span>
+                    </a>
+                </li>
+
                 <li class="menu-title" data-key="t-menu">Service</li>
 
                 <li>

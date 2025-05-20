@@ -1,7 +1,21 @@
 @extends('layouts.frontend')
+
 @section('title')
-    Home
+    @php
+        $meta = $metas->firstWhere('title', 'About');
+    @endphp
+
+{{ $meta?->title ?? 'About Us' }}
 @endsection
+
+@section('description')
+{{ $meta?->des ?? 'About Us' }}
+@endsection
+
+@section('keywords')
+{{ $meta?->keywords ?? 'About Us, Ridgeben IT, ridgebenit' }}
+@endsection
+
 @section('page-title')
     User List
 @endsection
@@ -551,7 +565,7 @@
          </div>
          <div class="team-5-content">
             <h4 class="team-5-title"><a href="">Kamrul Hasan</a></h4>
-            <p>Software Engineer</p>
+            <p>UI & UX Designer</p>
          </div>
       </div>
    </div>
@@ -570,7 +584,7 @@
          </div>
          <div class="team-5-content">
             <h4 class="team-5-title"><a href="">Dipta Biswas</a></h4>
-            <p>UI & UX Designer</p>
+            <p>Software Engineer</p>
          </div>
       </div>
    </div>

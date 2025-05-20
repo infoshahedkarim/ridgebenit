@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\RidgeController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\MetaController;
 
 
 
@@ -195,10 +196,19 @@ Route::get('/blog/{slug}', [BlogController::class,'details'])->name('show-detail
 Route::put('/blog/{slug}/update', [BlogController::class,'update'])->name('update.blog');
 Route::delete('/blog/{blog}/delete', [BlogController::class,'delete'])->name('delete.blog');
 
-
 Route::get('/blog-detail', function () {
     return view('frontend.blog-details');
 })->name('blog-detail');
+
+
+Route::get('/back-meta',[MetaController::class, 'create'])->name('create.meta');
+Route::get('/add-meta',[MetaController::class, 'index'])->name('add.meta');
+Route::post('/added-meta',[MetaController::class, 'store'])->name('store.meta');
+Route::get('/show-meta',[MetaController::class, 'show'])->name('show.meta');
+Route::get('/meta/{id}/edit', [MetaController::class,'edit'])->name('edit.meta');
+Route::get('/meta/{id}', [MetaController::class,'details'])->name('show-detail.meta');
+Route::put('/meta/{id}/update', [MetaController::class,'update'])->name('update.meta');
+Route::delete('/meta/{meta}/delete', [MetaController::class,'delete'])->name('delete.meta');
 
 
 

@@ -1,6 +1,18 @@
 @extends('layouts.frontend')
 @section('title')
-Home
+    @php
+        $meta = $metas->firstWhere('title', 'Home');
+    @endphp
+
+{{ $meta?->title ?? 'Home' }}
+@endsection
+
+@section('description')
+{{ $meta?->des ?? 'RidgebenIT' }}
+@endsection
+
+@section('keywords')
+{{ $meta?->keywords ?? 'Home, Ridgeben IT, ridgebenit' }}
 @endsection
 @section('page-title')
 User List

@@ -7,6 +7,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\View;
 use App\Models\Service; 
 use App\Models\Product; 
+use App\Models\Meta; 
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -30,6 +31,10 @@ class AppServiceProvider extends ServiceProvider
          View::composer('*', function ($view) {
             $products = Product::all(); 
             $view->with('products', $products);
+        });
+         View::composer('*', function ($view) {
+            $metas = Meta::all(); 
+            $view->with('metas', $metas);
         });
     }
 }
