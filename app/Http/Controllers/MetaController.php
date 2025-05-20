@@ -55,7 +55,7 @@ class MetaController extends Controller
     public function edit($id)
     {
         $meta = Meta::where('id', $id)->firstOrFail(); // Fetch product by slug
-        return view('back.edit-Meta', compact('meta'));
+        return view('back.edit-meta', compact('meta'));
     }
 
 
