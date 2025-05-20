@@ -44,7 +44,7 @@
             </div>
             <div>
                 <label>Meta Keywords</label>
-                <input type="text" id="title" placeholder="Meta Keywords" name="keywords" value="{{$meta->keywords}}">
+                <textarea type="text" id="title" placeholder="Meta Keywords" name="keywords" value="{{$meta->keywords}}"></textarea>
             </div>
             <div class="row mb-4" style="align-items: center;">
                 <label for="horizontal-firstname-input" class="col-form-label">Meta Description</label>
