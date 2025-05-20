@@ -428,7 +428,7 @@
                </div>
             </div>
             <div class="row gx-9 pb-30">
-   <div class="col-lg-4 col-md-6">
+   <div class="col-lg-3 col-md-6">
       <div class="team-5-item text-center mb-40 mx-auto" style="max-width: 220px;">
          <div class="team-5-thumb mb-25">
             <img loading="lazy" src="assets/img/team/maruf.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
@@ -446,7 +446,7 @@
       </div>
    </div>
 
-   <div class="col-lg-4 col-md-6">
+   <div class="col-lg-3 col-md-6">
       <div class="team-5-item team-5-item-2 text-center mb-40 mx-auto" style="max-width: 220px;">
          <div class="team-5-thumb mb-25">
             <img loading="lazy" src="assets/img/team/faisal.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
@@ -463,9 +463,102 @@
          </div>
       </div>
    </div>
+   
+   <div class="col-lg-3 col-md-6">
+      <div class="team-5-item team-5-item-4 text-center mb-40 mx-auto" style="max-width: 220px;">
+         <div class="team-5-thumb mb-25">
+            <img loading="lazy" src="assets/img/team/kerl.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
+            <div class="team-5-social">
+               <span class="icon"></span>
+               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+         <div class="team-5-content">
+            <h4 class="team-5-title"><a href="">Kerl Milar</a></h4>
+            <p>Senior Consultant</p>
+         </div>
+      </div>
+   </div>
 
-   <div class="col-lg-4 col-md-6">
+   <div class="col-lg-3 col-md-6">
       <div class="team-5-item team-5-item-3 text-center mb-40 mx-auto" style="max-width: 220px;">
+         <div class="team-5-thumb mb-25">
+            <img loading="lazy" src="assets/img/team/junayed.png" alt="" class="mx-auto" style="width: 160px; height: auto;">
+            <div class="team-5-social">
+               <span class="icon"></span>
+               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+         <div class="team-5-content">
+            <h4 class="team-5-title"><a href="">Junayed Ahmed</a></h4>
+            <p>Executive, Business Development</p>
+         </div>
+      </div>
+   </div>
+   
+   <div class="col-lg-3 col-md-6">
+      <div class="team-5-item team-5-item-3 text-center mb-40 mx-auto" style="max-width: 220px;">
+         <div class="team-5-thumb mb-25">
+            <img loading="lazy" src="assets/img/team/zahid.png" alt="" class="mx-auto" style="width: 160px; height: auto;">
+            <div class="team-5-social">
+               <span class="icon"></span>
+               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+         <div class="team-5-content">
+            <h4 class="team-5-title"><a href="">Zahid Khan</a></h4>
+            <p>Senior Devops Engineer</p>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="col-lg-3 col-md-6">
+      <div class="team-5-item team-5-item-2 text-center mb-40 mx-auto" style="max-width: 220px;">
+         <div class="team-5-thumb mb-25">
+            <img loading="lazy" src="assets/img/team/amena.png" alt="" class="mx-auto" style="width: 160px; height: auto;">
+            <div class="team-5-social">
+               <span class="icon"></span>
+               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+         <div class="team-5-content">
+            <h4 class="team-5-title"><a href="">Amena Kariam</a></h4>
+            <p>Head of PR & Communication</p>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="col-lg-3 col-md-6">
+      <div class="team-5-item team-5-item-1 text-center mb-40 mx-auto" style="max-width: 220px;">
+         <div class="team-5-thumb mb-25">
+            <img loading="lazy" src="assets/img/team/kamrul.png" alt="" class="mx-auto" style="width: 160px; height: auto;">
+            <div class="team-5-social">
+               <span class="icon"></span>
+               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+               <a href="#"><i class="fa-brands fa-twitter"></i></a>
+               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+         </div>
+         <div class="team-5-content">
+            <h4 class="team-5-title"><a href="">Kamrul Hasan</a></h4>
+            <p>Software Engineer</p>
+         </div>
+      </div>
+   </div>
+   
+   
+   <div class="col-lg-3 col-md-6">
+      <div class="team-5-item team-5-item-4 text-center mb-40 mx-auto" style="max-width: 220px;">
          <div class="team-5-thumb mb-25">
             <img loading="lazy" src="assets/img/team/animesh.png" alt="" class="mx-auto" style="width: 160px; height: auto;">
             <div class="team-5-social">
@@ -476,11 +569,13 @@
             </div>
          </div>
          <div class="team-5-content">
-            <h4 class="team-5-title"><a href="">Dipto Biswas</a></h4>
-            <p>Junior Software Engineer</p>
+            <h4 class="team-5-title"><a href="">Dipta Biswas</a></h4>
+            <p>UI & UX Designer</p>
          </div>
       </div>
    </div>
+
+
 </div>
 
          </div>

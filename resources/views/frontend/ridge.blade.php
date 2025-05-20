@@ -981,7 +981,7 @@ User List
                         adaptability to last-minute changes.</p>
                      <div class="tptestimonial-avatar-info">
                         <h5 class="tptestimonial-avatar-title">Md. Rubel Ahmed</h5>
-                        <span>Manager, Homeland Furniture</span>
+                        <span>General Manager, Homeland Furniture</span>
                      </div>
                   </div>
                </div>
