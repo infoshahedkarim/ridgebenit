@@ -40,7 +40,32 @@
          <div class="container">
             <div class="row">
                <div class="col-xxl-8 col-xl-8 col-lg-8">
-                  <div class="blog-list-wrap">
+
+                     @foreach ($blogs as $blog )
+                    <article class="tp-postbox-item format-video mb-50 transition-3">
+                           <div class="tp-postbox-thumb tp-postbox-video w-img p-relative">
+                              <a href="{{route('show-detail.blog', $blog->slug )}}"><img src="{{asset('storage/' . $blog->img)}}" alt=""></a>
+                           </div>
+                           <div class="tp-postbox-content">
+                              <div class="tp-postbox-meta">
+                                 <span><i class="far fa-calendar-check"></i>{{$blog->created_at->format('M d, Y')}}</span>
+                                 <span><a href="#"><i class="far fa-user"></i>{{$blog->author}}</a></span>
+                              </div>
+                              <h3 class="tp-postbox-title">
+                                 <a href="{{route('show-detail.blog', $blog->slug )}}">{{$blog->title}}</a>
+                              </h3>
+                              <div class="tp-postbox-text">
+                                 <p>{{$blog->short_decs}}</p>
+                              </div>
+                              <div class="tp-postbox-read-more">
+                                 <a href="{{route('show-detail.blog', $blog->slug )}}" class="tp-btn">Read More</a>
+                              </div>
+                           </div>
+                        </article>
+                        @endforeach
+
+
+                  <!-- <div class="blog-list-wrap">
 
 
                      @foreach ($blogs as $blog )
@@ -102,7 +127,7 @@
 
 
 
-                  </div>
+                  </div> -->
                </div>
                <div class="col-xxl-4 col-xl-4 col-lg-4">
                   <div class="sidebar__wrapper ml-30">
@@ -130,8 +155,7 @@
                               
                               <div class="rc__post mb-10 d-flex align-items-center">
                                  <div class="rc__post-thumb mr-20">
-                                    <a href="{{route('show-detail.blog', $top->slug )}}"><img src="{{asset('storage/' . $top->img)}}"
-                                          alt=""></a>
+                                    <a href="{{route('show-detail.blog', $top->slug )}}"><img src="{{asset('storage/' . $top->img)}}" alt="" style="width:98%;"></a>
                                  </div>
                                  <div class="rc__post-content">
                                     <h3 class="rc__post-title">
