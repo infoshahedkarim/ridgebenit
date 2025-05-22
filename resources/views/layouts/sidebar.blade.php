@@ -35,6 +35,22 @@
 
 
                  <li>
+                    <a href="{{route('add.project')}}">
+                        <i class="fa-thin fa-diagram-project icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">Add Project</span>
+                    </a>
+                </li>
+
+
+                 <li>
+                    <a href="{{route('show.project')}}">
+                        <i class="fa-thin fa-pen-to-square icon nav-icon"></i>
+                        <span class="menu-item" data-key="t-filemanager">Project Lists</span>
+                    </a>
+                </li>
+
+
+                 <li>
                     <a href="{{route('add.meta')}}">
                         <i class="bx bx-file-find icon nav-icon"></i>
                         <span class="menu-item" data-key="t-filemanager">Add New Meta-Tag</span>
@@ -129,13 +145,13 @@
 
                 <li>
                     <a href="{{route('add.blog')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <i class="fa-thin fa-book icon nav-icon"></i>
                         <span class="menu-item" data-key="t-filemanager">Add Blog</span>
                     </a>
                 </li>
                 <li>
                     <a href="{{route('show.blog')}}">
-                        <i class="bx bx-file-find icon nav-icon"></i>
+                        <i class="fa-thin fa-book-open icon nav-icon"></i>
                         <span class="menu-item" data-key="t-filemanager">Blogs List</span>
                     </a>
                 </li>

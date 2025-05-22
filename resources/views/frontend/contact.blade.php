@@ -1,7 +1,21 @@
 @extends('layouts.frontend')
+
 @section('title')
-    Contact Us
+    @php
+        $meta = $metas->firstWhere('title', 'Contact');
+    @endphp
+
+{{ $meta?->title ?? 'Contact Us' }}
 @endsection
+
+@section('description')
+{{ $meta?->des ?? 'Contact us for more information about Digital Solutions' }}
+@endsection
+
+@section('keywords')
+{{ $meta?->keywords ?? 'Contact Us, Ridgeben IT, ridgebenit' }}
+@endsection
+
 @section('page-title')
     User List
 @endsection

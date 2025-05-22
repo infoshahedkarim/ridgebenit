@@ -12,6 +12,8 @@
     <meta name="author" content="@ridgebenitsolutions">
     <!-- App favicon -->
     <link rel="shortcut icon" href="{{ URL::asset('build/images/favicon.ico') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 
     <!-- include head css -->
     @include('layouts.head-css')

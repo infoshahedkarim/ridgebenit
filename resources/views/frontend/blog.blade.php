@@ -44,7 +44,7 @@
                      @foreach ($blogs as $blog )
                     <article class="tp-postbox-item format-video mb-50 transition-3">
                            <div class="tp-postbox-thumb tp-postbox-video w-img p-relative">
-                              <a href="{{route('show-detail.blog', $blog->slug )}}"><img src="{{asset('storage/' . $blog->img)}}" alt=""></a>
+                              <a href="{{route('show-detail.blog', $blog->slug )}}"><img loading="lazy" src="{{asset('storage/' . $blog->img)}}" alt=""></a>
                            </div>
                            <div class="tp-postbox-content">
                               <div class="tp-postbox-meta">

@@ -5,6 +5,7 @@ use App\Http\Controllers\AdminController;
 use App\Http\Controllers\RidgeController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\MetaController;
+use App\Http\Controllers\ProjectController;
 
 
 
@@ -146,6 +147,7 @@ Route::get('/products/{slug}', [RidgeController::class, 'products'])->name('page
 Route::get('/check-slug/{slug}', [RidgeController::class, 'checkSlug']);
 Route::get('/slug-check/{slug}', [RidgeController::class, 'slugCheck']);
 Route::get('/blog-slug-check/{slug}', [BlogController::class, 'BlogSlug']);
+Route::get('/project-slug-check/{slug}', [ProjectController::class, 'ProjectSlug']);
 
 
 
@@ -209,6 +211,16 @@ Route::get('/meta/{id}/edit', [MetaController::class,'edit'])->name('edit.meta')
 Route::get('/meta/{id}', [MetaController::class,'details'])->name('show-detail.meta');
 Route::put('/meta/{id}/update', [MetaController::class,'update'])->name('update.meta');
 Route::delete('/meta/{meta}/delete', [MetaController::class,'delete'])->name('delete.meta');
+
+
+Route::get('/back-project',[ProjectController::class, 'create'])->name('create.project');
+Route::get('/add-project',[ProjectController::class, 'index'])->name('add.project');
+Route::post('/added-project',[ProjectController::class, 'store'])->name('store.project');
+Route::get('/show-project',[ProjectController::class, 'show'])->name('show.project');
+Route::get('/project/{slug}/edit', [ProjectController::class,'edit'])->name('edit.project');
+Route::get('/project/{slug}', [ProjectController::class,'details'])->name('show-detail.project');
+Route::put('/project/{slug}/update', [ProjectController::class,'update'])->name('update.project');
+Route::delete('/project/{project}/delete', [ProjectController::class,'delete'])->name('delete.project');
 
 
 
