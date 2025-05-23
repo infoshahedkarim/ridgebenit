@@ -491,7 +491,7 @@
          </div>
          <div class="team-5-content">
             <h4 class="team-5-title"><a href="">Kerl Milar</a></h4>
-            <p>Senior Consultant</p>
+            <p>Consultant, Internation Business</p>
          </div>
       </div>
    </div>
@@ -509,7 +509,7 @@
          </div>
          <div class="team-5-content">
             <h4 class="team-5-title"><a href="">Junayed Ahmed</a></h4>
-            <p>Executive, Business Development</p>
+            <p>Business Development</p>
          </div>
       </div>
    </div>
@@ -527,7 +527,7 @@
          </div>
          <div class="team-5-content">
             <h4 class="team-5-title"><a href="">Zahid Khan</a></h4>
-            <p>Senior Devops Engineer</p>
+            <p>Team Lead, Devops</p>
          </div>
       </div>
    </div>
@@ -565,7 +565,7 @@
          </div>
          <div class="team-5-content">
             <h4 class="team-5-title"><a href="">Kamrul Hasan</a></h4>
-            <p>UI & UX Designer</p>
+            <p>Team Lead, UI & UX</p>
          </div>
       </div>
    </div>
