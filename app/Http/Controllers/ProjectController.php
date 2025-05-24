@@ -162,4 +162,14 @@ class ProjectController extends Controller
         $project->delete();
         return redirect(route('show.project'))->with('success', 'Project deleted successfully');
     }
+
+    public function casestudy(){
+        $projects = Project::all();
+        return view('frontend.case-study', compact('projects'));
+    }
+    
+    public function casestudy_details($slug){
+         $project = Project::where('slug', $slug)->firstOrFail();
+        return view('frontend.casestudy-details', compact('project'));
+    }
 }

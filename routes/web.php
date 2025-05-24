@@ -27,14 +27,6 @@ Route::get('/servicess', function () {
 })->name('services');
 
 
-Route::get('/casestudy', function () {
-    return view('frontend.casestudy');
-})->name('casestudy');
-
-Route::get('/casestudy-detail', function () {
-    return view('frontend.casestudy-details');
-})->name('casestudy-detail');
-
 Route::get('/ridgeben', function () {
     return view('frontend.pricing');
 })->name('pricing');
@@ -221,6 +213,9 @@ Route::get('/project/{slug}/edit', [ProjectController::class,'edit'])->name('edi
 Route::get('/project/{slug}', [ProjectController::class,'details'])->name('show-detail.project');
 Route::put('/project/{slug}/update', [ProjectController::class,'update'])->name('update.project');
 Route::delete('/project/{project}/delete', [ProjectController::class,'delete'])->name('delete.project');
+
+Route::get('/case-study', [ProjectController::class,'casestudy'])->name('case.study');
+Route::get('/case-study/{slug}', [ProjectController::class,'casestudy_details'])->name('case.study.details');
 
 
 

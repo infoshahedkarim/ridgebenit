@@ -183,9 +183,9 @@
                                             </div>
                                         </li> -->
                                         <li><a href="{{route('show-home.blog')}}">Blog</a></li>
-                                        <!-- <li>
-                                            <a href="{{route('casestudy')}}">Case Studies</a>
-                                        </li> -->
+                                        <li>
+                                            <a href="{{route('case.study')}}">Case Studies</a>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
