@@ -25,7 +25,8 @@ User List
 
    <!-- banner-area-start -->
    <section class="banner__area tpbanner-space scene tpbanner-shape-wrapper fix"
-      data-background="{{asset('assets/img/banner/banner-1.png')}}">
+      data-background="{{asset('assets/img/banner/banner-1.png')}}"
+      >
       <div class="tpbanner-shape-wrappers">
          <div class="container">
             <div class="row justify-content-center">
@@ -53,26 +54,26 @@ User List
          </div>
          <div class="tpbanner-shape  d-none d-lg-block">
             <div class="tpbanner-shape-one">
-               <img loading="lazy" class="layer" data-depth="0.3" src="{{asset('assets/img/shape/banner-plus.png')}}" alt="">
+               {{-- <img loading="lazy" class="layer" data-depth="0.3" src="{{asset('assets/img/shape/banner-plus.png')}}" alt=""> --}}
             </div>
             <div class="tpbanner-shape-three">
-               <img loading="lazy" class="layer" data-depth="0.4" src="{{asset('assets/img/shape/banner-dots.png')}}" alt="">
+               {{-- <img loading="lazy" class="layer" data-depth="0.4" src="{{asset('assets/img/shape/banner-dots.png')}}" alt=""> --}}
             </div>
             <div class="tpbanner-shape-four">
                <img loading="lazy" src="{{asset('assets/img/shape/banner-archer.png')}}" alt="">
             </div>
             <div class="tpbanner-shape-five">
-               <img loading="lazy" class="layer" data-depth="0.2" src="{{asset('assets/img/shape/hero01.png')}}" alt="">
+               {{-- <img loading="lazy" class="layer" data-depth="0.2" src="{{asset('assets/img/shape/hero01.png')}}" alt=""> --}}
             </div>
             <div class="tpbanner-shape-six">
-               <img loading="lazy" class="layer" data-depth="0.3" src="{{asset('assets/img/shape/reactor.png')}}" alt="">
+               {{-- <img loading="lazy" class="layer" data-depth="0.3" src="{{asset('assets/img/shape/reactor.png')}}" alt=""> --}}
             </div>
          </div>
       </div>
       <div class="tpbanner-shape-wrappers tpbanner-shape-y scene-y">
          <div class="tpbanner-shape  d-none d-lg-block">
             <div class="tpbanner-shape-two">
-               <img loading="lazy" class="layer" data-depth="0.6" src="{{asset('assets/img/shape/hand.png')}}" alt="">
+               {{-- <img loading="lazy" class="layer" data-depth="0.6" src="{{asset('assets/img/shape/hand.png')}}" alt=""> --}}
             </div>
          </div>
       </div>
@@ -591,14 +592,14 @@ User List
        <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
 
                   <div class="tppricing-btn" style="text-align: center;">
-                     <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Know More Abour Us</a>
+                     <a href="{{route('about')}}" class="tp-btn-blue" style="display: inline-block; text-align: center;">Show more Projects</a>
                   </div>
 
             </div>
    </section>
    <!-- case-area-end -->
 
-
+ 
    <!-- pricing-area-start -->
    <!-- <section class="pricing-area tp-price-parent pricing-shape-relative p-relative pt-40 pb-90">
       <div class="tpprice-shape-one d-none d-xl-block">
@@ -1417,10 +1418,10 @@ User List
                   </div>
                   <div class="tpcontact-shape d-none d-md-block">
                      <div class="tpcontact-shape-one" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img loading="lazy" src="{{asset('assets/img/shape/form-shape-1.png')}}" alt="">
+                        {{-- <img loading="lazy" src="{{asset('assets/img/shape/form-shape-1.png')}}" alt=""> --}}
                      </div>
                      <div class="tpcontact-shape-two" data-parallax='{"y": -100, "smoothness": 20}'>
-                        <img loading="lazy" src="{{asset('assets/img/shape/form-shape-2.png')}}" alt="">
+                        {{-- <img loading="lazy" src="{{asset('assets/img/shape/form-shape-2.png')}}" alt=""> --}}
                      </div>
                   </div>
                </div>
