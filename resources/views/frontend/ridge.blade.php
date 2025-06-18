@@ -1252,7 +1252,7 @@ User List
    <!-- blog-area-end -->
 
    <!-- contact-area-start -->
-   <section class="contact-area theme-bg-3 pt-120 pb-120" id="free-consult">
+   <!-- <section class="contact-area theme-bg-3 pt-120 pb-120" id="free-consult">
       <div class="container">
          <div class="row">
             <div class="col-lg-5">
@@ -1427,7 +1427,7 @@ User List
             </div>
          </div>
       </div>
-   </section>
+   </section> -->
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
    <script>
       $(document).ready(function() {
