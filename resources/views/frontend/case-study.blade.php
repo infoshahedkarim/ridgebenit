@@ -45,13 +45,14 @@
                <div class="col-xl-3 col-lg-4 col-md-6 blog-masonry-item-active">
                   <div class="tpblog-item-2 mb-30">
                      <div class="tpblog-thumb-2">
-                        <a href="{{route('case.study.details', $project->slug )}}"><img src="{{asset('storage/' . $project->img)}}" alt=""></a>
+                        <a href="#"><img src="{{asset('storage/' . $project->img)}}" alt=""></a>
+                        <!-- {{route('case.study.details', $project->slug )}} -->
                      </div>
                      <div class="tpblog-wrap">
                         <div class="tpblog-content-2">
                            <span><a href="">{{$project->service_1}}</a></span>
                            <span><a href="">{{$project->service_2}}</a></span>
-                           <h4 class="tpblog-title-2"><a href="{{route('case.study.details', $project->slug )}}">{{$project->name}}</a></h4>
+                           <h4 class="tpblog-title-2"><a href="#">{{$project->name}}</a></h4>
                         </div>
                         <div class="tpblog-meta-2">
                            <p>{{$project->short_des}}</p>
