@@ -186,6 +186,9 @@
                                         <li>
                                             <a href="{{route('case.study')}}">Case Studies</a>
                                         </li>
+                                        <li>
+                                            <a href="{{route('contact')}}">Contact Us</a>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
@@ -193,7 +196,9 @@
                         <div class="col-xxl-2 col-xl-3 col-lg-6 col-6">
                             <div class="tpheader__right d-flex align-items-center justify-content-end">
                                 <div class="tpheader__btn ml-25 d-none d-sm-block">
-                                    <a href="{{route('contact')}}" class="tp-header-btn">Contact Us</a>
+                                    <!-- <a href="{{route('contact')}}" class="tp-header-btn">Free Consultation</a> -->
+                                     <a href="javascript:void(0);" id="freeConsultationBtn" class="tp-header-btn">Free Consultation</a>
+
                                 </div>
                                 <div class="offcanvas-btn d-xl-none ml-20">
                                     <button class="offcanvas-open-btn"><i class="fa-solid fa-bars"></i></button>

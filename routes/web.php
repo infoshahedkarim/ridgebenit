@@ -220,3 +220,15 @@ Route::get('/case-study/{slug}', [ProjectController::class,'casestudy_details'])
 
 
 Route::post('/send-mail',[RidgeController::class, 'getmsg'])->name('email.store');
+
+
+
+
+//testing route
+Route::get('/test-popup', function () {
+    return view('test-popup');
+});
+Route::get('/test-popup2', function () {
+    return view('test-popup2');
+});
+
