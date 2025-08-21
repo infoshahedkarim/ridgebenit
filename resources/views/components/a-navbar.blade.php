@@ -23,6 +23,8 @@
                                             <a href="">Services</a>
                                             <div class="tp-mega-menu tp-submenu submenu">
                                                 <div class="row">
+                                                    <!-- eta backend theke ashtese apatoto eta ami static kore rakhtesi pore automation korbo eta submenu  -->
+                                                     {{-- 
                                                     <div class="col-xl-6">
                                                         <div class="tp-menu-banner">
                                                             <h5 class="tp-menu-banner-title">Services Overview</h5>
@@ -87,6 +89,113 @@
                                                             @endforeach
                                                         </div>
                                                     </div>
+                                                     --}}
+                                                     <!-- eta static er jonne -->
+                                                  <div class="col-xl-6">
+  <div class="tp-menu-banner">
+    <h5 class="tp-menu-banner-title">Services Overview</h5>
+
+    <ul class="tp-menu-services">
+
+      <!-- Service 1: Software Development & Engineering -->
+      <li class="service-item">
+        <a class="service-link" href="https://www.ridgebenit.com/services/software-development-engineering">
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="menu-svg"><use xlink:href="#icon-software"></use></svg> <!-- Software Icon -->
+          </span>
+          <span class="menu-label">Software Dev & Engineering</span>
+        </a>
+      </li>
+
+      <!-- Service 2: Digital & Online Services -->
+      <li class="service-item">
+        <a class="service-link" href="https://www.ridgebenit.com/services/digital-online-services">
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="menu-svg"><use xlink:href="#icon-marketing"></use></svg> <!-- Digital Marketing Icon -->
+          </span>
+          <span class="menu-label">Digital & Online Services</span>
+        </a>
+      </li>
+      
+      <!-- Service 3: Cloud Computing Services -->
+      <li class="service-item">
+        <a class="service-link" href="https://www.ridgebenit.com/services/cloud-computing-services">
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="menu-svg"><use xlink:href="#icon-cloud"></use></svg> <!-- Cloud Icon -->
+          </span>
+          <span class="menu-label">Cloud Computing Services</span>
+        </a>
+      </li>
+
+      <!-- Service 4: DevOps & IT Operations -->
+      <li class="service-item">
+        <a class="service-link" href="https://www.ridgebenit.com/services/devops-it-operations">
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="menu-svg"><use xlink:href="#icon-devops"></use></svg> <!-- DevOps Icon -->
+          </span>
+          <span class="menu-label">DevOps & IT Operations</span>
+        </a>
+      </li>
+
+      <!-- Service 5: Cybersecurity Services -->
+      <li class="service-item">
+        <a class="service-link" href="https://www.ridgebenit.com/services/cybersecurity-services">
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="menu-svg"><use xlink:href="#icon-cybersecurity"></use></svg> <!-- Cybersecurity Icon -->
+          </span>
+          <span class="menu-label">Cybersecurity Services</span>
+        </a>
+      </li>
+    
+      <!-- Service 6: Data & Analytics Services -->
+      <li class="service-item">
+        <a class="service-link" href="https://www.ridgebenit.com/services/data-analytics-services">
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="menu-svg"><use xlink:href="#icon-data-analytics"></use></svg> <!-- Data & Analytics Icon -->
+          </span>
+          <span class="menu-label">Data & Analytics Services</span>
+        </a>
+      </li>
+
+      <!-- Service 7: IT Infrastructure & Networking -->
+      <li class="service-item">
+        <a class="service-link" href="https://www.ridgebenit.com/services/it-infrastructure-networking">
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="menu-svg"><use xlink:href="#icon-web"></use></svg> <!-- Networking Icon -->
+          </span>
+          <span class="menu-label">IT Infrastructure & Networking</span>
+        </a>
+      </li>
+
+      <!-- Service 8: AI & Automation Services -->
+      <li class="service-item">
+        <a class="service-link" href="https://www.ridgebenit.com/services/ai-automation-services">
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="menu-svg"><use xlink:href="#icon-ai"></use></svg> <!-- AI & Automation Icon -->
+          </span>
+          <span class="menu-label">AI & Automation Services</span>
+        </a>
+      </li>
+
+      
+
+      
+
+      <!-- Service 9: Business Process Outsourcing (BPO) -->
+      <li class="service-item">
+        <a class="service-link" href="https://www.ridgebenit.com/services/business-process-outsourcing-bpo">
+          <span class="menu-icon" aria-hidden="true">
+            <svg class="menu-svg"><use xlink:href="#icon-ecommerce"></use></svg> <!-- BPO Icon -->
+          </span>
+          <span class="menu-label">Business Process Outsourcing (BPO)</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+</div>
+
+
                                                     <div class="col-xl-6">
                                                         <div class="tp-menu-banner-wrap">
                                                             <div class="tp-menu-banner-content">
@@ -197,7 +306,7 @@
                             <div class="tpheader__right d-flex align-items-center justify-content-end">
                                 <div class="tpheader__btn ml-25 d-none d-sm-block">
                                     <!-- <a href="{{route('contact')}}" class="tp-header-btn">Free Consultation</a> -->
-                                     <a href="javascript:void(0);" id="freeConsultationBtn" class="tp-header-btn">Free Consultation</a>
+                                     <a href="javascript:void(0);" id="freeConsultationBtn" class="tp-header-btn" style="font-size: 14px;">Free Consultation</a>
 
                                 </div>
                                 <div class="offcanvas-btn d-xl-none ml-20">
@@ -256,3 +365,171 @@
     </div>
 </div>
 <div class="body-overlay"></div>
+
+
+<!-- Free Consultation Modal -->
+<div id="consultationModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModalBtn" class="close">&times;</span>
+        <h2 class="modal-title">Free Project Consultation</h2>
+
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="phone" placeholder="Phone Number" required>
+
+            <div class="form-row">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <select name="service" required>
+                        <option value="">Select Service</option>
+                        <option value="Software Development">Web Development</option>
+                        <option value="Web Development">Software Development</option>
+                        <option value="E-commerce Service">E-commerce Service</option>
+                        <option value="Cloud Service">Cloud Service</option>
+                        <option value="Mobile Development">Mobile Development</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                    </select>
+                </div>
+
+            <textarea name="message" placeholder="Tell us briefly about your project" rows="4" required></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </div>
+</div>
+<!--start css and js for floating for free consultation -->
+<style>
+.modal {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 500px;
+    position: relative;
+    box-shadow: 0 0 30px rgba(0,0,0,0.1);
+    transform: translateY(30px);
+    opacity: 0;
+    animation: slideFadeIn 0.4s ease-out forwards;
+}
+.modal-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.modal-content input,
+.modal-content select,
+.modal-content textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.form-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.modal-content .submit-btn {
+    width: 100%;
+    background: #002C6A;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.modal-content .close {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    font-size: 24px;
+    color: #888;
+    cursor: pointer;
+}
+@keyframes slideFadeIn {
+    from { transform: translateY(30px); opacity: 0; }
+    to   { transform: translateY(0px); opacity: 1; }
+}
+@keyframes slideFadeOut {
+    from { transform: translateY(0px); opacity: 1; }
+    to   { transform: translateY(30px); opacity: 0; }
+}
+</style>
+<script>
+    const openBtn = document.getElementById('freeConsultationBtn');
+    const modal = document.getElementById('consultationModal');
+    const closeBtn = document.getElementById('closeModalBtn');
+    const modalContent = modal.querySelector('.modal-content');
+
+    openBtn.addEventListener('click', function () {
+        modal.style.display = 'flex';
+        modalContent.style.animation = 'slideFadeIn 0.4s ease-out forwards';
+    });
+
+    function closeModalWithAnimation() {
+        modalContent.style.animation = 'slideFadeOut 0.3s ease-in forwards';
+        setTimeout(() => {
+            modal.style.display = 'none';
+        }, 300);
+    }
+
+    closeBtn.addEventListener('click', closeModalWithAnimation);
+
+    window.addEventListener('click', function (e) {
+        if (e.target === modal) {
+            closeModalWithAnimation();
+        }
+    });
+</script>
+<!--start css and js for floating for free consultation -->
+
+<!-- ekhane sub menu er css jeta static -->
+<style>
+            /* Submenu list reset */
+        .tp-menu-banner .tp-menu-services{margin:0; padding:0; list-style:none;}
+        .tp-menu-banner .tp-menu-services li + li{margin-top:6px;}
+
+        /* Row look with icon + label */
+        .tp-menu-banner .tp-menu-services a{
+        display:flex; align-items:center; gap:10px;
+        padding:8px 10px; border-radius:8px; text-decoration:none;
+        color:inherit; /* inherit theme link color */
+        }
+
+        /* Subtle hover that matches a royal theme */
+        .tp-menu-banner .tp-menu-services a:hover{
+        background: rgba(76,95,213,.08);
+        }
+
+        /* Icon sizes; inherits color via currentColor */
+        .tp-menu-banner .menu-icon{width:26px; height:26px; display:inline-grid; place-items:center;}
+        .tp-menu-banner .menu-svg{width:22px; height:22px; color: currentColor;}
+
+        /* Label */
+        .tp-menu-banner .menu-label{line-height:1.2; font-weight:600;}
+ 
+
+  .tp-menu-banner .menu-svg {
+  color: #2f0672ff; /* example: royal purple */
+}
+
+
+
+
+</style>

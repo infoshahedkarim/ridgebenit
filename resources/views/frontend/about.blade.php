@@ -85,6 +85,8 @@
       </div>
       <!-- breadcrumb-about-area-end -->
 
+
+
       <!-- brand-area-start -->
       <section class="brand-area pb-120">
          <div class="container-fluid">
@@ -293,7 +295,7 @@
       <!-- project-seo-area-end -->
 
 
-
+{{--  
       <!-- mission-area-start -->
       <div class="mission-area pb-60 pt-60" id="our-misson">
          <div class="container">
@@ -301,9 +303,11 @@
                <div class="col-lg-12">
                   <div class="mission-content ">
                      <h4 class="about-inner-title">Our Mission</h4>
-                     <p style="color: #fff;">Empower businesses through our expertise.
+                     <!-- <p style="color: #fff;">Empower businesses through our expertise.
                      Our mission at Ridgeben IT is to empower businesses through our expertise. Our solutions are based on unique research. 
-                     We understand the importance of having a strong online presence in today's digital world, and we are committed to helping our clients achieve this goal.</p>
+                     We understand the importance of having a strong online presence in today's digital world, and we are committed to helping our clients achieve this goal.</p> -->
+                     <p style="color: #fff;">To become a global leader in delivering transformative technology solutions that empower businesses to excel in the digital age, 
+                        fostering innovation, sustainability, and long-term growth for our clients, partners, and communities.</p>
                   </div>
                </div>
                <div class="col-lg-6">
@@ -319,9 +323,19 @@
                   <div class="col-lg-12">
                      <div class="mission-content">
                         <h4 class="about-inner-title">Our Vision</h4>
-                        <p style="color: #000;">Taking our services to the top—because the world deserves the best!
+                        <!-- <p style="color: #000;">Taking our services to the top—because the world deserves the best!
                         We offer solutions according to your specific needs. Our vision is to turn our client's visions into reality with hard work and dedication. 
-                        Our expertise lies in having a specialized team dedicated to your project.</p>
+                        Our expertise lies in having a specialized team dedicated to your project.</p> -->
+                        <p style="color: #000;">We are committed to delivering exceptional IT solutions and services that drive measurable success for our clients. 
+                           By leveraging cutting-edge technology, fostering a culture of innovation, and maintaining the highest standards of quality and integrity, we aim to create value and build lasting relationships. 
+
+                             Empowering Businesses with Technology:
+                           Deliver innovative IT and ITES solutions that streamline processes, enhance productivity, and drive sustainable growth for our clients.
+                             Customer-Centric Excellence:
+                           Provide exceptional customer service through personalized solutions, timely delivery, and unwavering commitment to quality and satisfaction.
+                             Driving Digital Transformation:
+                           Enable businesses to embrace digital transformation by leveraging cutting-edge technologies, automation, and data-driven strategies to achieve operational efficiency and competitive advantage.
+                           </p>
                      </div>
                   </div>
                </div>
@@ -329,18 +343,231 @@
          </div>
       </div>
       <!-- mission-area-end -->
-
+--}}
    
+      <!-- company-background-start -->
+<!-- ===== Company Background | Ridgeben (collision-safe) ===== -->
+<section class="rb-about bg-gradient pt-70 pb-90">
+  <div class="container">
+    <!-- Header -->
+    <div class="rb-about-head text-center mb-40">
+      <span class="rb-about-kicker">About Ridgeben IT Solutions Limited</span>
+      <h2 class="rb-about-title">Company Background</h2>
+      <p class="rb-about-lead">
+        At the forefront of digital transformation since 2014—delivering secure, scalable, high‑performance solutions
+        for organizations worldwide.
+      </p>
+    </div>
 
-  
+    <!-- Intro + Journey Cards -->
+    <div class="row g-4">
+      <div class="col-lg-6">
+        <article class="rb-about-card">
+          <div class="rb-about-card-head">
+            <svg class="rb-about-ico" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 6h16v12H4z" fill="none" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M8 10l-2 2 2 2M16 10l2 2-2 2M11 15h2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <h3>Introduction</h3>
+          </div>
+          <p>
+            Established in 2014, Ridgeben began with a simple, ambitious goal: build powerful, user‑friendly software and provide
+            best‑in‑class IT‑enabled services that help businesses thrive in the digital age. Today we’re a trusted technology
+            partner to clients across the globe—backed by <strong>BACCO</strong> and <strong>BASIS</strong> memberships that reflect
+            our credibility, trust, and excellence.
+          </p>
+          <p class="mb-0">
+            Our expertise spans custom software, web & mobile apps, digital marketing, data services, business automation, and IT
+            consulting—delivered with innovation, quality, and measurable outcomes.
+          </p>
+        </article>
+      </div>
 
-        <!-- process-area-start -->
-      <section class="process__area">
+      <div class="col-lg-6">
+        <article class="rb-about-card">
+          <div class="rb-about-card-head">
+            <svg class="rb-about-ico" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2l2.5 6H21l-5 3.5L18.5 18 12 14.5 5.5 18 8 11.5 3 8h6.5L12 2z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+            </svg>
+            <h3>Our Journey Since 2014</h3>
+          </div>
+          <p>
+            Starting in Dhaka with a small, passionate team, we helped local businesses shift from traditional operations to
+            modern digital platforms. As demand grew, we expanded into e‑commerce, ERP, mobile, and custom ITES solutions—earning
+            a reputation for reliability and client success.
+          </p>
+          <p class="mb-0">
+            By 2018 we were serving the US, UK, Europe, the Middle East, and Southeast Asia—evolving from a local studio into a
+            global service provider and long‑term growth partner.
+          </p>
+        </article>
+      </div>
+    </div>
+
+    <!-- Milestones / Timeline -->
+    <div class="rb-about-timeline mt-40">
+      <div class="rb-about-line" aria-hidden="true"></div>
+      <div class="rb-about-tick">
+        <div class="rb-about-dot"></div>
+        <div class="rb-about-year">2014</div>
+        <p class="rb-about-note">Founded in Dhaka; web app delivery for SMEs begins.</p>
+      </div>
+      <div class="rb-about-tick">
+        <div class="rb-about-dot"></div>
+        <div class="rb-about-year">2016–2017</div>
+        <p class="rb-about-note">Expansion into mobile, ERP, and ITES; quality & reliability shape our brand.</p>
+      </div>
+      <div class="rb-about-tick">
+        <div class="rb-about-dot"></div>
+        <div class="rb-about-year">2018</div>
+        <p class="rb-about-note">International delivery (US, UK, EU, ME, SEA) accelerates.</p>
+      </div>
+      <div class="rb-about-tick">
+        <div class="rb-about-dot"></div>
+        <div class="rb-about-year">Today</div>
+        <p class="rb-about-note">End‑to‑end partner for software, cloud, data, security & growth.</p>
+      </div>
+    </div>
+
+    <!-- Badges / Memberships -->
+    <!-- <div class="rb-about-badges text-center mt-50">
+      <div class="rb-about-badge">
+        <img src="assets/img/badges/bacco.png" alt="BACCO Member" loading="lazy">
+        <span>BACCO Member</span>
+      </div>
+      <div class="rb-about-badge">
+        <img src="assets/img/badges/basis.png" alt="BASIS Member" loading="lazy">
+        <span>BASIS Member</span>
+      </div>
+    </div> -->
+
+    <!-- Closing CTA -->
+    <!-- <div class="text-center mt-40">
+      <a href="/contact-us" class="rb-about-btn">Talk to Our Team</a>
+    </div> -->
+  </div>
+</section>
+
+
+      <!-- company-background-end -->
+<!-- mission-area-start -->
+<div class="mission-area pb-60 pt-60" id="our-mission">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <!-- <div class="mission-content">
+          <h4 class="custom-section-title">Our Mission</h4>
+          <p class="custom-section-text" style="font-">
+            We are committed to delivering exceptional IT solutions and services that drive measurable success for our clients. 
+            By leveraging cutting-edge technology, fostering a culture of innovation, and maintaining the highest standards of quality and integrity, we aim to create value and build lasting relationships.
+          </p>
+        </div> -->
+        <div class="mission-content">
+            <h4 class="custom-section-title" style="font-size: 28px; font-weight: 700; color: #4a5fc1;">Our Mission</h4> <!-- Title Style -->
+            <p class="custom-section-text" style="font-size: 16px; color: #fdfdfdff; line-height: 1.6; text-align: justify;">
+               We are committed to delivering exceptional IT solutions and services that drive measurable success for our clients. 
+               By leveraging cutting-edge technology, fostering a culture of innovation, and maintaining the highest standards of quality and integrity, we aim to create value and build lasting relationships.
+            </p>
+
+      </div>
+      <div class="col-lg-6">
+        <div class="mission-shape p-relative d-none d-lg-block">
+          <div class="mission-shape-1">
+            <img loading="lazy" src="assets/img/shape/smill.png" alt="triangle" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mission-two">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="mission-content">
+            <h4 class="custom-section-title">Our Vision</h4>
+            <p class="custom-section-text">
+              To become a global leader in delivering transformative technology solutions that empower businesses to excel in the digital age, 
+              fostering innovation, sustainability, and long-term growth for our clients, partners, and communities.
+            </p>
+            <div class="mission-vision-details">
+              <ul class="mission-vision-points">
+                <li><strong>Empowering Businesses with Technology:</strong> Deliver innovative IT and ITES solutions that streamline processes, enhance productivity, and drive sustainable growth for our clients.</li>
+                <li><strong>Customer-Centric Excellence:</strong> Provide exceptional customer service through personalized solutions, timely delivery, and unwavering commitment to quality and satisfaction.</li>
+                <li><strong>Driving Digital Transformation:</strong> Enable businesses to embrace digital transformation by leveraging cutting-edge technologies, automation, and data-driven strategies to achieve operational efficiency and competitive advantage.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- mission-area-end -->
+
+
+<!-- Certifications Section -->
+<section class="certifications-section py-70" style="background-color: #f9f9f9; padding-top: 20px;">
+  <div class="container">
+    <div class="text-center mb-40">
+      <h2 class="certifications-title" style="font-size: 28px; font-weight: 700; color: #1e1e2d;">Certifications & Memberships</h2>
+      <p class="certifications-subtitle" style="font-size: 14px; color: #7f8fa6;">Proudly Holding Industry-Leading Certifications</p>
+    </div>
+    <div class="row">
+      <!-- BACCO -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="certifications-card text-center p-4" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);">
+          <!-- BACCO Icon -->
+          <i class="fas fa-building mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+          <h4 style="font-size: 18px; font-weight: 600; color: #4a5fc1;">BACCO</h4>
+          <p style="font-size: 14px; color: #7f8fa6;">Recognized for our leadership in delivering top-tier BPO and ITES services.</p>
+        </div>
+      </div>
+
+      <!-- BASIS -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="certifications-card text-center p-4" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);">
+          <!-- BASIS Icon -->
+          <i class="fas fa-code mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+          <h4 style="font-size: 18px; font-weight: 600; color: #4a5fc1;">BASIS</h4>
+          <p style="font-size: 14px; color: #7f8fa6;">Recognized for our contributions to the software industry and IT ecosystem in Bangladesh.</p>
+        </div>
+      </div>
+
+      <!-- ISO 9001:2015 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="certifications-card text-center p-4" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);">
+          <!-- ISO Icon -->
+          <i class="fas fa-cogs mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+          <h4 style="font-size: 18px; font-weight: 600; color: #4a5fc1;">ISO 9001:2015</h4>
+          <p style="font-size: 14px; color: #7f8fa6;">Certified for adhering to international quality management standards.</p>
+        </div>
+      </div>
+
+      <!-- Awards & Partnerships -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="certifications-card text-center p-4" style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);">
+          <!-- Awards Icon -->
+          <i class="fas fa-trophy mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+          <h4 style="font-size: 18px; font-weight: 600; color: #4a5fc1;">Awards & Partnerships</h4>
+          <p style="font-size: 14px; color: #7f8fa6;">Honored with industry accolades and strategic partnerships for excellence.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Certifications Section End -->
+
+
+
+
+
+
+   <!-- process-area-start -->
+      <section class="process__area" >
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
-                  <div class="tpsection__wrapper text-center mb-70">
-                     <div class="tpbanner__sub-title mb-15">
+                  <div class="tpsection__wrapper text-center mb-70"style="padding-top: 20px;">
+                     <div class="tpbanner__sub-title mb-15" >
                         <span>Ridgeben IT</span>
                         <i>
                            <svg width="124" height="38" viewBox="0 0 124 38" fill="none"
@@ -357,7 +584,7 @@
                            </svg>
                         </i>
                      </div>
-                     <h2 class="tpsection__title">The Uniqueness that make us different</h2>
+                     <h2 class="tpsection__title"style="margin-top: 20px;">The Uniqueness that make us different</h2>
                   </div>
                </div>
             </div>
@@ -442,25 +669,25 @@
                </div>
             </div>
             <div class="row gx-9 pb-30">
-   <div class="col-lg-3 col-md-6">
-      <div class="team-5-item text-center mb-40 mx-auto" style="max-width: 220px;">
-         <div class="team-5-thumb mb-25">
-            <img loading="lazy" src="assets/img/team/maruf.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
-            <!-- <div class="team-5-social">
-               <span class="icon"></span>
-               <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-               <a href="#"><i class="fa-brands fa-twitter"></i></a>
-               <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> 
-            </div> -->
+         <div class="col-lg-3 col-md-6">
+            <div class="team-5-item text-center mb-40 mx-auto" style="max-width: 220px;">
+               <div class="team-5-thumb mb-25">
+                  <img loading="lazy" src="assets/img/team/maruf.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
+                  <!-- <div class="team-5-social">
+                     <span class="icon"></span>
+                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a> 
+                  </div> -->
+               </div>
+               <div class="team-5-content">
+                  <h4 class="team-5-title"><a href="">Md. Maruf Mamun</a></h4>
+                  <p>Managing Director</p>
+               </div>
+            </div>
          </div>
-         <div class="team-5-content">
-            <h4 class="team-5-title"><a href="">Md. Maruf Mamun</a></h4>
-            <p>Managing Director</p>
-         </div>
-      </div>
-   </div>
 
-   <div class="col-lg-3 col-md-6">
+         <div class="col-lg-3 col-md-6">
       <div class="team-5-item team-5-item-2 text-center mb-40 mx-auto" style="max-width: 220px;">
          <div class="team-5-thumb mb-25">
             <img loading="lazy" src="assets/img/team/faisal.png" alt="" class="mx-auto" style="width: 180px; height: auto;">
@@ -627,4 +854,128 @@
         ]
     });
 </script>
+
+  <!-- mission area start with css -->
+<style>
+  /* Custom Section Title */
+  .custom-section-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000ff;
+    margin-bottom: 20px;
+  }
+  
+  /* Custom Text Styling */
+  .custom-section-text {
+    font-size: 16px;
+    color: #fff9f9ff; !important;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    text-align: center;
+  }
+
+  /* Vision & Mission Point Styling */
+  .mission-vision-points {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: #000000ff;
+  }
+
+  .mission-vision-points li {
+    margin-bottom: 10px;
+  }
+
+  .mission-vision-points li strong {
+    color: #001c9bff;
+  }
+
+  /* Mission Section Shape */
+  .mission-shape-1 img {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+  }
+
+  /* Styling for Mission-Vision Content */
+  .mission-vision-details {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+</style>
+
+  <!-- mission area end with css -->
+<!-- CSS company Background Start -->
+  <style>
+   /* ===== Ridgeben | Company Background (collision-safe) ===== */
+.rb-about{ --ink:#0f172a; --muted:#475569; --primary:#4C5FD5; --accent:#6D28D9; --surface:#ffffff; }
+.rb-about.bg-gradient{ background:linear-gradient(180deg,#F7F9FC 0%,#ffffff 100%); }
+.pt-70{padding-top:70px}.pb-90{padding-bottom:90px}
+
+.rb-about-head .rb-about-kicker{
+  display:inline-block; padding:6px 12px; border-radius:999px;
+  background:rgba(76,95,213,.08); color:var(--primary); font-weight:600; font-size:13px;
+}
+.rb-about-head .rb-about-title{ font-weight:800; color:var(--ink); margin:10px 0 8px; }
+.rb-about-head .rb-about-lead{
+  max-width:820px; margin:0 auto; color:var(--muted); font-size:16px;
+}
+
+.rb-about-card{
+  background:linear-gradient(#fff,#fff) padding-box,
+             linear-gradient(135deg, rgba(109,40,217,.45), rgba(76,95,213,.45)) border-box;
+  border:1px solid transparent; border-radius:18px;
+  padding:28px 26px; height:100%;
+  box-shadow:0 10px 24px rgba(15,23,42,.08);
+}
+.rb-about-card-head{ display:flex; align-items:center; gap:12px; margin-bottom:12px; }
+.rb-about-ico{ width:26px; height:26px; color:var(--primary); flex:0 0 26px; }
+.rb-about-card h3{ margin:0; font-size:20px; font-weight:700; color:var(--ink); }
+.rb-about-card p{ color:var(--muted); margin-bottom:14px; }
+
+.rb-about-timeline{ position:relative; display:grid; grid-template-columns:repeat(4,1fr); gap:18px; }
+.rb-about-line{
+  position:absolute; left:0; right:0; top:24px; height:2px;
+  background:linear-gradient(90deg, var(--primary), var(--accent)); opacity:.25;
+}
+.rb-about-tick{ text-align:center; padding-top:36px; }
+.rb-about-dot{
+  width:14px; height:14px; border-radius:999px; margin:0 auto 8px;
+  background:linear-gradient(135deg,var(--accent),var(--primary));
+  box-shadow:0 0 0 6px rgba(76,95,213,.12);
+}
+.rb-about-year{ font-weight:700; color:var(--ink); }
+.rb-about-note{ color:var(--muted); font-size:14px; margin:6px auto 0; max-width:260px; }
+
+.rb-about-badges{ display:flex; align-items:center; justify-content:center; gap:26px; flex-wrap:wrap; }
+.rb-about-badge{
+  display:flex; flex-direction:column; align-items:center; gap:8px;
+  background:#fff; border-radius:14px; padding:12px 16px;
+  box-shadow:0 8px 18px rgba(15,23,42,.06);
+}
+.rb-about-badge img{ height:36px; width:auto; object-fit:contain; }
+.rb-about-badge span{ font-size:13px; color:var(--muted); }
+
+.rb-about-btn{
+  display:inline-block; padding:12px 18px; border-radius:12px; color:#fff; text-decoration:none;
+  background:linear-gradient(135deg, var(--accent), var(--primary));
+  box-shadow:0 12px 24px rgba(76,95,213,.25); font-weight:600;
+}
+.rb-about-btn:hover{ filter:brightness(1.06); }
+
+/* Responsive */
+@media (max-width:991px){
+  .rb-about-timeline{ grid-template-columns:1fr 1fr; row-gap:26px; }
+}
+@media (max-width:575px){
+  .rb-about-timeline{ grid-template-columns:1fr; }
+  .rb-about-head .rb-about-title{ font-size:26px; }
+}
+
+  </style>
+<!-- CSS company Background End -->
+
 @endsection
