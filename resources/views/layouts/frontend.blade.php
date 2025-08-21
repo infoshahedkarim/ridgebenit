@@ -43,6 +43,12 @@
         })(window, document, 'script', 'dataLayer', 'GTM-KXW3HM3X');
     </script>
     <!-- End Google Tag Manager -->
+     <!-- for js swipper in the comments textimonial area -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+     <!-- for projects show slide -->
+      
+
+
 </head>
 
 <body>
