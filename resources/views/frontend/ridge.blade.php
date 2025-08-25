@@ -554,6 +554,7 @@ User List
  --}}
 
    <!-- services-area-start STATIC For Now -->
+    {{-- 
 <section class="services-section pb-110">
   <div class="container">
     <div class="row">
@@ -691,12 +692,54 @@ User List
     </div>
   </div>
 </section>
-
+ --}}
 
    
    <!-- services-area-end -->
 
+<!-- abc -->
+<section class="services-section pb-110">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="services-header text-center mb-70">
+          <div class="services-subtitle mb-15"><span>Our Services</span></div>
+          <h2 class="services-title mb-15">ROI-Oriented, Innovative and Sustainable</h2>
+          <h2 class="services-title mb-15">Digital Solutions</h2>
+        </div>
 
+        <div class="services-list">
+          <ul class="services-grid">
+
+            @foreach($services as $service)
+            <li class="service-item">
+              <a class="service-box" href="{{ route('page1', $service->slug) }}">
+                <div class="service-icon" aria-hidden="true">
+                  {{-- SVG icon or uploaded icon --}}
+                  @if($service->icon_type === 'svg')
+                      <svg class="service-svg"><use xlink:href="#{{ $service->icon }}"></use></svg>
+                  @else
+                      <img src="{{ asset('storage/' . $service->icon) }}" alt="{{ $service->title }}" style="width:40px; height:40px;">
+                  @endif
+                </div>
+                <div class="service-content">
+                  <h4 class="service-title">{{ $service->title }}</h4>
+                  <p>{{ $service->short_text }}</p>
+                </div>
+              </a>
+            </li>
+            @endforeach
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- xyz -->
 
 
 

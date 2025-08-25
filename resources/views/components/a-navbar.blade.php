@@ -23,8 +23,9 @@
                                             <a href="">Services</a>
                                             <div class="tp-mega-menu tp-submenu submenu">
                                                 <div class="row">
+                                                    
                                                     <!-- eta backend theke ashtese apatoto eta ami static kore rakhtesi pore automation korbo eta submenu  -->
-                                                     {{-- 
+                                                     
                                                     <div class="col-xl-6">
                                                         <div class="tp-menu-banner">
                                                             <h5 class="tp-menu-banner-title">Services Overview</h5>
@@ -89,8 +90,9 @@
                                                             @endforeach
                                                         </div>
                                                     </div>
-                                                     --}}
+                                                     
                                                      <!-- eta static er jonne -->
+                                                      {{-- 
                                                   <div class="col-xl-6">
   <div class="tp-menu-banner">
     <h5 class="tp-menu-banner-title">Services Overview</h5>
@@ -194,7 +196,7 @@
     </ul>
   </div>
 </div>
-
+ --}}
 
                                                     <div class="col-xl-6">
                                                         <div class="tp-menu-banner-wrap">
