@@ -25,7 +25,16 @@ User List
 
    <!-- banner-area-start -->
    <section class="banner__area tpbanner-space scene tpbanner-shape-wrapper fix"
+   
       data-background="{{asset('assets/img/banner/banner-1.png')}}">
+      <div class="video-background">
+         <video autoplay loop muted>
+            <source src="{{ asset('assets/video/bg.mp4') }}" type="video/mp4">
+         </video>
+      </div>
+
+
+
       <div class="tpbanner-shape-wrappers">
          <div class="container">
             <div class="row justify-content-center">
@@ -80,6 +89,23 @@ User List
          </div>
       </div>
    </section>
+   <style>
+   .video-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: -1;
+   }
+   
+   .video-background video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   }
+</style>
    <!-- banner-area-end -->
 
    <!-- home-page-area-start -->

@@ -22,10 +22,7 @@
                                         <li class="header-services has-dropdown has-mega-menu">
                                             <a href="">Services</a>
                                             <div class="tp-mega-menu tp-submenu submenu">
-                                                <div class="row">
-                                                    
-                                                    <!-- eta backend theke ashtese apatoto eta ami static kore rakhtesi pore automation korbo eta submenu  -->
-                                                     
+                                                <div class="row">                                                     
                                                     <div class="col-xl-6">
                                                         <div class="tp-menu-banner">
                                                             <h5 class="tp-menu-banner-title">Services Overview</h5>
@@ -91,113 +88,6 @@
                                                         </div>
                                                     </div>
                                                      
-                                                     <!-- eta static er jonne -->
-                                                      {{-- 
-                                                  <div class="col-xl-6">
-  <div class="tp-menu-banner">
-    <h5 class="tp-menu-banner-title">Services Overview</h5>
-
-    <ul class="tp-menu-services">
-
-      <!-- Service 1: Software Development & Engineering -->
-      <li class="service-item">
-        <a class="service-link" href="https://www.ridgebenit.com/services/software-development-engineering">
-          <span class="menu-icon" aria-hidden="true">
-            <svg class="menu-svg"><use xlink:href="#icon-software"></use></svg> <!-- Software Icon -->
-          </span>
-          <span class="menu-label">Software Dev & Engineering</span>
-        </a>
-      </li>
-
-      <!-- Service 2: Digital & Online Services -->
-      <li class="service-item">
-        <a class="service-link" href="https://www.ridgebenit.com/services/digital-online-services">
-          <span class="menu-icon" aria-hidden="true">
-            <svg class="menu-svg"><use xlink:href="#icon-marketing"></use></svg> <!-- Digital Marketing Icon -->
-          </span>
-          <span class="menu-label">Digital & Online Services</span>
-        </a>
-      </li>
-      
-      <!-- Service 3: Cloud Computing Services -->
-      <li class="service-item">
-        <a class="service-link" href="https://www.ridgebenit.com/services/cloud-computing-services">
-          <span class="menu-icon" aria-hidden="true">
-            <svg class="menu-svg"><use xlink:href="#icon-cloud"></use></svg> <!-- Cloud Icon -->
-          </span>
-          <span class="menu-label">Cloud Computing Services</span>
-        </a>
-      </li>
-
-      <!-- Service 4: DevOps & IT Operations -->
-      <li class="service-item">
-        <a class="service-link" href="https://www.ridgebenit.com/services/devops-it-operations">
-          <span class="menu-icon" aria-hidden="true">
-            <svg class="menu-svg"><use xlink:href="#icon-devops"></use></svg> <!-- DevOps Icon -->
-          </span>
-          <span class="menu-label">DevOps & IT Operations</span>
-        </a>
-      </li>
-
-      <!-- Service 5: Cybersecurity Services -->
-      <li class="service-item">
-        <a class="service-link" href="https://www.ridgebenit.com/services/cybersecurity-services">
-          <span class="menu-icon" aria-hidden="true">
-            <svg class="menu-svg"><use xlink:href="#icon-cybersecurity"></use></svg> <!-- Cybersecurity Icon -->
-          </span>
-          <span class="menu-label">Cybersecurity Services</span>
-        </a>
-      </li>
-    
-      <!-- Service 6: Data & Analytics Services -->
-      <li class="service-item">
-        <a class="service-link" href="https://www.ridgebenit.com/services/data-analytics-services">
-          <span class="menu-icon" aria-hidden="true">
-            <svg class="menu-svg"><use xlink:href="#icon-data-analytics"></use></svg> <!-- Data & Analytics Icon -->
-          </span>
-          <span class="menu-label">Data & Analytics Services</span>
-        </a>
-      </li>
-
-      <!-- Service 7: IT Infrastructure & Networking -->
-      <li class="service-item">
-        <a class="service-link" href="https://www.ridgebenit.com/services/it-infrastructure-networking">
-          <span class="menu-icon" aria-hidden="true">
-            <svg class="menu-svg"><use xlink:href="#icon-web"></use></svg> <!-- Networking Icon -->
-          </span>
-          <span class="menu-label">IT Infrastructure & Networking</span>
-        </a>
-      </li>
-
-      <!-- Service 8: AI & Automation Services -->
-      <li class="service-item">
-        <a class="service-link" href="https://www.ridgebenit.com/services/ai-automation-services">
-          <span class="menu-icon" aria-hidden="true">
-            <svg class="menu-svg"><use xlink:href="#icon-ai"></use></svg> <!-- AI & Automation Icon -->
-          </span>
-          <span class="menu-label">AI & Automation Services</span>
-        </a>
-      </li>
-
-      
-
-      
-
-      <!-- Service 9: Business Process Outsourcing (BPO) -->
-      <li class="service-item">
-        <a class="service-link" href="https://www.ridgebenit.com/services/business-process-outsourcing-bpo">
-          <span class="menu-icon" aria-hidden="true">
-            <svg class="menu-svg"><use xlink:href="#icon-ecommerce"></use></svg> <!-- BPO Icon -->
-          </span>
-          <span class="menu-label">Business Process Outsourcing (BPO)</span>
-        </a>
-      </li>
-
-    </ul>
-  </div>
-</div>
- --}}
-
                                                     <div class="col-xl-6">
                                                         <div class="tp-menu-banner-wrap">
                                                             <div class="tp-menu-banner-content">
@@ -324,7 +214,24 @@
     </div>
 </header>
 
+<style>
+/* Transparent header with background */
+.tptransparent__header {
+    background: rgba(255, 255, 255, 0.6); /* White with 60% opacity */
+    position: sticky;  /* Keeps it fixed at the top when scrolling */
+    top: 0;  /* Ensure it stays at the top */
+    width: 100%;
+    z-index: 10;  /* Keeps the header above other content */
+    backdrop-filter: blur(6px); /* Optional frosted glass effect */
+}
 
+/* Ensure the text in the header is visible */
+.tptransparent__header a {
+    color: #ffffffff;  /* Dark color for the menu items to contrast with the background */
+}
+
+
+</style>
 
 
 <div class="offcanvas__area">
