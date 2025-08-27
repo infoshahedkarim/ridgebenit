@@ -198,7 +198,7 @@
                             <div class="tpheader__right d-flex align-items-center justify-content-end">
                                 <div class="tpheader__btn ml-25 d-none d-sm-block">
                                     <!-- <a href="{{route('contact')}}" class="tp-header-btn">Free Consultation</a> -->
-                                     <a href="javascript:void(0);" id="freeConsultationBtn" class="tp-header-btn" style="font-size: 14px;">Free Consultation</a>
+                                     <a href="javascript:void(0);" id="freeConsultationBtn" class="tp-header-btn" style="font-size: 14px; width: 180px">Free Consultation</a>
 
                                 </div>
                                 <div class="offcanvas-btn d-xl-none ml-20">
@@ -282,12 +282,29 @@
         <span id="closeModalBtn" class="close">&times;</span>
         <h2 class="modal-title">Free Project Consultation</h2>
 
-        <form action="#" method="POST">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="text" name="phone" placeholder="Phone Number" required>
+         @csrf
+
+                        @if(session('success'))
+                        <div class="alert alert-success">
+                           {{session('success')}}
+                        </div>
+                        @endif
+
+        <form id="contactForm" action="{{route('email.store')}}" method="POST">
+            <input name="name" id="name" value="{{old('name')}}" placeholder="Full Name" required>
+            @error('name')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
+            <input type="text" name="phone" id="phone" value="{{old('phone')}}" placeholder="Phone No." required>
+            @error('phone')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror
 
             <div class="form-row">
-                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="email" name="email" id="email" value="{{old('email')}}" placeholder="Email Address" required>
+                                    @error('email')
+                                    <div class="text-red-500 text-xs mt-1">{{ $message }}</div>
+                                    @enderror 
                     <select name="service" required>
                         <option value="">Select Service</option>
                         <option value="Software Development">Web Development</option>
@@ -299,7 +316,7 @@
                     </select>
                 </div>
 
-            <textarea name="message" placeholder="Tell us briefly about your project" rows="4" required></textarea>
+            <textarea name="msg" value="{{old('msg')}}" placeholder="Tell us briefly about your project" rows="4" required></textarea>
 
             <button type="submit" class="submit-btn">Send Message</button>
         </form>
@@ -406,7 +423,42 @@
         }
     });
 </script>
-<!--start css and js for floating for free consultation -->
+   <script>
+      $(document).ready(function() {
+         $('#contactForm').on('submit', function(e) {
+            e.preventDefault();
+
+            // Clear old messages
+            $('#form-response').html('');
+
+            $.ajax({
+               url: "{{ route('email.store') }}",
+               method: "POST",
+               data: $(this).serialize(),
+               headers: {
+                  'X-CSRF-TOKEN': $('input[name="_token"]').val()
+               },
+               success: function(res) {
+                  $('#form-response').html('<div class="alert alert-success">Thanks for contacting us!</div>');
+                  $('#contactForm')[0].reset();
+               },
+               error: function(xhr) {
+                  if (xhr.status === 422) {
+                     let errors = xhr.responseJSON.errors;
+                     let errorHtml = '<div class="alert alert-danger"><ul>';
+                     $.each(errors, function(key, value) {
+                        errorHtml += '<li>' + value[0] + '</li>';
+                     });
+                     errorHtml += '</ul></div>';
+                     $('#form-response').html(errorHtml);
+                  } else {
+                     $('#form-response').html('<div class="alert alert-danger">An error occurred. Please try again.</div>');
+                  }
+               }
+            });
+         });
+      });
+   </script>
 
 <!-- ekhane sub menu er css jeta static -->
 <style>
