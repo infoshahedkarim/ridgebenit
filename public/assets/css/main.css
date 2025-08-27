@@ -8480,11 +8480,11 @@ blockquote cite::before {
   background-clip: text;
   text-fill-color: transparent;
   line-height: 1;
-  background-image: -webkit-linear-gradient(291.09deg, #004a87 27.31%, #5800f0 73.17%);
-  background-image: -moz-linear-gradient(291.09deg, #004a87 27.31%, #5800f0 73.17%);
-  background-image: -ms-linear-gradient(291.09deg, #004a87 27.31%, #5800f0 73.17%);
-  background-image: -o-linear-gradient(291.09deg, #004a87 27.31%, #5800f0 73.17%);
-  background-image: linear-gradient(291.09deg, #004a87 27.31%, #5800f0 73.17%);
+  background-image: -webkit-linear-gradient(291.09deg, #ffffff 27.31%, #ffffff 73.17%);
+  background-image: -moz-linear-gradient(291.09deg, #fdfdfd 27.31%, #fffeff 73.17%);
+  background-image: -ms-linear-gradient(291.09deg, #ffffff 27.31%, #ffffff 73.17%);
+  background-image: -o-linear-gradient(291.09deg, #ffffff 27.31%, #ffffff 73.17%);
+  background-image: linear-gradient(291.09deg, #ffffff 27.31%, #ffffff 73.17%);
   -moz-animation: sliderTitle3 2s ease-in-out 1s forwards infinite alternate;
   -webkit-animation: sliderTitle3 2s ease-in-out 1s forwards infinite alternate;
   animation: sliderTitle3 3s ease-in-out 1s forwards infinite alternate;

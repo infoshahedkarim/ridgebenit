@@ -40,8 +40,9 @@ User List
             <div class="row justify-content-center">
                <div class="col-lg-8">
                   <div class="tpbanner__content text-center">
-                     <h1 class="tpbanner__title mb-25 pb-10">Empowering Business with Digital Solutions!</h1>
-                     <p>We specialize in custom digital solutions that delegate your business, <br> ensuring development and success in the digital landscape.</p>
+                           <h1 class="tpbanner__title mb-25 pb-10">Empowering Business with Digital Solutions!</h1>
+
+                           <p style="color: white;">We specialize in custom digital solutions that delegate your business, <br> ensuring development and success in the digital landscape.</p>
                      <div class="tpbanner__search">
                         <div class="d-flex justify-content-center flex-wrap gap-sm-3 gap-2 mt-40">
 
@@ -90,6 +91,8 @@ User List
       </div>
    </section>
    <style>
+
+
    .video-background {
       position: absolute;
       top: 0;
