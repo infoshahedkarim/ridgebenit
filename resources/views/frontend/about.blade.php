@@ -503,6 +503,78 @@
 </div>
 <!-- mission-area-end -->
 
+  <!-- Core Values Section -->
+          
+         <section class="core-values-section py-70" style="background-color: #f9f9f9; margin-top: 0px; padding-top: 20px;">
+            <div class="container">
+               <div class="text-center mb-40">
+                  <h2 class="core-values-title" style="font-size: 28px; font-weight: 700; color: #1e1e2d;">Our Core Values
+                  </h2>
+                  <p class="core-values-subtitle" style="font-size: 14px; color: #7f8fa6;">What Drives Us Forward</p>
+               </div>
+               <div class="row">
+                  <!-- Innovation -->
+                  <div class="col-lg-4 col-md-6 mb-4">
+                     <div class="core-values-card text-center p-4"
+                        style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);">
+                        <i class="fas fa-lightbulb mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <h4 style="font-size: 18px; font-weight: 600; color: #4a5fc1;">Innovation</h4>
+                        <p style="font-size: 14px; color: #7f8fa6;">Essential for staying competitive and relevant in the
+                           rapidly evolving tech industry, highlighting our creativity and forward-thinking solutions.</p>
+                     </div>
+                  </div>
+
+                  <!-- Customer-Centricity -->
+                  <div class="col-lg-4 col-md-6 mb-4">
+                     <div class="core-values-card text-center p-4"
+                        style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);">
+                        <i class="fas fa-users mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <h4 style="font-size: 18px; font-weight: 600; color: #4a5fc1;">Customer-Centricity</h4>
+                        <p style="font-size: 14px; color: #7f8fa6;">Keeping the customer at the heart of our operations
+                           ensures satisfaction, loyalty, and long-term partnerships.</p>
+                     </div>
+                  </div>
+
+                  <!-- Excellence -->
+                  <div class="col-lg-4 col-md-6 mb-4">
+                     <div class="core-values-card text-center p-4"
+                        style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);">
+                        <i class="fas fa-trophy mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <h4 style="font-size: 18px; font-weight: 600; color: #4a5fc1;">Excellence</h4>
+                        <p style="font-size: 14px; color: #7f8fa6;">A commitment to quality in every aspect of our business
+                           builds trust and positions us as a reliable service provider.</p>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="row justify-content-center">
+                  <!-- Integrity (Second Row) -->
+                  <div class="col-lg-4 col-md-6 mb-4">
+                     <div class="core-values-card text-center p-4"
+                        style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);">
+                        <i class="fas fa-gavel mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <h4 style="font-size: 18px; font-weight: 600; color: #4a5fc1;">Integrity</h4>
+                        <p style="font-size: 14px; color: #7f8fa6;">Upholding ethical practices and transparency strengthens
+                           trust and credibility with clients and stakeholders.</p>
+                     </div>
+                  </div>
+
+                  <!-- Adaptability (Second Row) -->
+                  <div class="col-lg-4 col-md-6 mb-4">
+                     <div class="core-values-card text-center p-4"
+                        style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);">
+                        <i class="fas fa-sync-alt mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <h4 style="font-size: 18px; font-weight: 600; color: #4a5fc1;">Adaptability</h4>
+                        <p style="font-size: 14px; color: #7f8fa6;">In the fast-changing tech world, agility is key to seizing
+                           new opportunities and overcoming challenges effectively.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!-- Core Values Section End -->
+
 
 <!-- Certifications Section -->
 <section class="certifications-section py-70" style="background-color: #f9f9f9; padding-top: 20px;">
