@@ -41,8 +41,8 @@
                         <div class="tpbanner__content text-start">
                            <h1 class="tpbanner__title mb-25 pb-10">Empowering Business <br>with Digital Solutions!</h1>
 
-                           <p style="color: white;">We specialize in custom digital solutions that delegate your business,
-                              <br> ensuring development and success in the digital landscape.</p>
+                           <p style="color: white; font-size: 22px;">We specialize in custom digital solutions that delegate your business,
+                               ensuring development and success in the digital landscape.</p>
                            <div class="tpbanner__search">
                               <div class="d-flex justify-content-start flex-wrap gap-sm-3 gap-2 mt-40">
 
@@ -258,7 +258,7 @@
          <section class="choose-area tpchoose-bottom pt-80" style="background-color: #ffffffff;">
             <div class="container">
                <div class="portfolio-inner-2 text-center mb-50">
-                  <h2 class="portfolio-inner-2-head" style="color: #004a87; font-size: 36px; font-weight: 700;">12+ Years of
+                  <h2 class="portfolio-inner-2-head" style="color: #004a87; font-size: 60px; font-weight: 700; padding-top: 20px;">12+ Years of
                      Experience</h2>
                   <p class="portfolio-inner-2-desc"
                      style="font-size: 18px; color: #6c757d; margin-top: 15px; max-width: 600px; margin-left: auto; margin-right: auto;">
@@ -268,15 +268,15 @@
                </div>
             </div>
          </section>
-         <!-- project showcase sliding -->
+         <!-- partners showcase sliding -->
          <div class="slider123 col-xl-12 pb-40">
-            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/1.jpg')}}" alt="Product 1"></div>
-            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/3.webp')}}" alt="Product 3"></div>
-            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/4.png')}}" alt="Product 4"></div>
-            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/5.png')}}" alt="Product 5"></div>
-            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/6.png')}}" alt="Product 6"></div>
-            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/7.png')}}" alt="Product 7"></div>
-            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/8.webp')}}" alt="Product 8"></div>
+            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/11.png')}}" alt="Product 1"></div>
+            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/33.png')}}" alt="Product 3"></div>
+            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/44.png')}}" alt="Product 4"></div>
+            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/55.png')}}" alt="Product 5"></div>
+            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/66.png')}}" alt="Product 6"></div>
+            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/77.png')}}" alt="Product 7"></div>
+            <div class="card123"><img loading="lazy" src="{{asset('assets/partners/88.png')}}" alt="Product 8"></div>
          </div>
 
 
@@ -1090,7 +1090,7 @@
 
 .custom-service-title{
   color:var(--text);
-  font-size: clamp(1rem, 1vw + .6rem, 1.15rem);
+  font-size: clamp(1rem, 1vw + .6rem, 1.5rem);
   font-weight:600;
   line-height:1.25;
   margin:6px 0 4px;
@@ -1256,7 +1256,7 @@
 
 
          <!-- case-area-start -->
-
+         {{-- 
          <section class="homepage-projects pt-60 pb-60">
 
             <div class="container">
@@ -1266,7 +1266,7 @@
                </div>
 
                <div class="row">
-                  {{-- Project: Ajwah Tech --}}
+                   <!-- Project: Ajwah Tech  -->
                   <div class="col-lg-4 col-md-6 mb-4">
                      <div class="project-card">
                         <div class="project-image-wrapper">
@@ -1286,7 +1286,7 @@
                      </div>
                   </div>
 
-                  {{-- Project: Homeland Furniture --}}
+                  <!-- Project: Homeland Furniture  -->
                   <div class="col-lg-4 col-md-6 mb-4">
                      <div class="project-card">
                         <div class="project-image-wrapper">
@@ -1306,7 +1306,7 @@
                      </div>
                   </div>
 
-                  {{-- Project: EasternIT --}}
+                  <!--  Project: EasternIT  -->
                   <div class="col-lg-4 col-md-6 mb-4">
                      <div class="project-card">
                         <div class="project-image-wrapper">
@@ -1326,7 +1326,7 @@
                      </div>
                   </div>
 
-                  {{-- Project: Magnus Holdings Ltd. --}}
+                  <!--  Project: Magnus Holdings Ltd.  -->
                   <div class="col-lg-4 col-md-6 mb-4">
                      <div class="project-card">
                         <div class="project-image-wrapper">
@@ -1346,7 +1346,7 @@
                      </div>
                   </div>
 
-                  {{-- Project: DCON --}}
+                  <!--  Project: DCON  -->
                   <!-- <div class="col-lg-4 col-md-6 mb-4">
               <div class="project-card">
                 <div class="project-image-wrapper">
@@ -1384,7 +1384,7 @@
                   </div>
 
 
-                  {{-- Project: CTC Energy Sol. --}}
+                  <!--  Project: CTC Energy Sol.  -->
                   <div class="col-lg-4 col-md-6 mb-4">
                      <div class="project-card">
                         <div class="project-image-wrapper">
@@ -1404,13 +1404,13 @@
                   </div>
                </div>
 
-               {{-- CTA Button --}}
+               <!-- CTA Button -->
                <div class="text-center mt-5">
                   <a href="{{ route('about') }}" class="tp-btn-blue">Know More About Us</a>
                </div>
             </div>
          </section>
-
+          --}}
 
 
          <!-- nicher the update korechilam but scrolling chilona upore new update korlam -->
@@ -1808,88 +1808,7 @@
         </div>
       </section> -->
 
-         <!-- Technologies Area Start -->
-         <section class="tech-section py-5" style="background-color: #f5f9ff;">
-            <div class="container text-center">
-               <h2 class="tech-title mb-4" style="font-size: 28px; font-weight: 700; color: #1e1e2d;">Technologies We Work
-                  With</h2>
-               <p class="tech-subtitle mb-5" style="font-size: 14px; color: #7f8fa6;">Technologies We Specialize In</p>
-
-               <div class="row justify-content-center g-4">
-
-                  {{-- Frontend Development --}}
-                  <div class="col-12">
-                     <h4 class="tech-category-title"
-                        style="font-size: 20px; font-weight: 600; color: #4a5fc1; margin-top: 10px; margin-bottom: 5px;">
-                        Frontend Development</h4>
-                  </div>
-                  @foreach (['react', 'angular', 'vuejs', 'bootstrap'] as $tech)
-                     <div class="col-4 col-sm-3 col-md-2">
-                        <div class="tech-card text-center p-4"
-                           style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                           <i class="fab fa-{{ $tech }} tech-icon-img mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
-                           <p class="tech-name small fw-semibold mb-0" style="font-size: 14px;">{{ ucfirst($tech) }}</p>
-                        </div>
-                     </div>
-                  @endforeach
-
-                  {{-- Backend Development --}}
-                  <div class="col-12 mt-5">
-                     <h4 class="tech-category-title"
-                        style="font-size: 20px; font-weight: 600; color: #4a5fc1; margin-top: 20px; margin-bottom: 5px;">
-                        Backend Development</h4>
-                  </div>
-                  @foreach (['node', 'php', 'python', 'java', 'laravel'] as $tech)
-                     <div class="col-4 col-sm-3 col-md-2">
-                        <div class="tech-card text-center p-4"
-                           style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                           <i class="fab fa-{{ $tech }} tech-icon-img mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
-                           <p class="tech-name small fw-semibold mb-0" style="font-size: 14px;">{{ ucfirst($tech) }}</p>
-                        </div>
-                     </div>
-                  @endforeach
-
-
-
-                  {{-- Mobile App Development --}}
-                  <div class="col-12 mt-5">
-                     <h4 class="tech-category-title"
-                        style="font-size: 20px; font-weight: 600; color: #4a5fc1; margin-top: 20px; margin-bottom: 5px;">
-                        Mobile App Development</h4>
-                  </div>
-                  @foreach (['react', 'android', 'apple'] as $tech)
-                     <div class="col-4 col-sm-3 col-md-2">
-                        <div class="tech-card text-center p-4"
-                           style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                           <i class="fab fa-{{ $tech }} tech-icon-img mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
-                           <p class="tech-name small fw-semibold mb-0" style="font-size: 14px;">{{ ucfirst($tech) }}</p>
-                        </div>
-                     </div>
-                  @endforeach
-
-
-                  {{-- E-commerce --}}
-                  <div class="col-12 mt-5">
-                     <h4 class="tech-category-title"
-                        style="font-size: 20px; font-weight: 600; color: #4a5fc1; margin-top: 20px; margin-bottom: 5px;">
-                        E-commerce</h4>
-                  </div>
-                  @foreach (['shopify', 'magento'] as $tech)
-                     <div class="col-4 col-sm-3 col-md-2">
-                        <div class="tech-card text-center p-4"
-                           style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                           <i class="fab fa-{{ $tech }} tech-icon-img mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
-                           <p class="tech-name small fw-semibold mb-0" style="font-size: 14px;">{{ ucfirst($tech) }}</p>
-                        </div>
-                     </div>
-                  @endforeach
-
-               </div>
-            </div>
-         </section>
-
-
-         <!-- Technologies Area End -->
+        
 
          <!-- pricing-area-start -->
          <!-- <section class="pricing-area tp-price-parent pricing-shape-relative p-relative pt-40 pb-90">
@@ -2255,10 +2174,10 @@
 
          <!-- Industry Expertise Section Start -->
          <section class="industry-expertise py-70"
-            style="background-color: #f8f8f8; margin-bottom: 0px; padding-bottom: 20px;">
+            style="background-color: #f8f8f8; margin-bottom: 0px; padding-bottom: 60px; padding-top: 60px;">
             <div class="container text-center">
-               <h2 class="section-title" style="font-size: 30px; font-weight: 700; color: #1e1e2d;">Industry Expertise</h2>
-               <p class="section-subtitle" style="font-size: 16px; color: #7f8fa6; margin-bottom: 40px;">Ridgeben’s expertise
+               <h2 class="section-title" style="font-size: 40px; font-weight: 700; color: #1e1e2d;">Industry Expertise</h2>
+               <p class="section-subtitle" style="font-size: 18px; color: #7f8fa6; margin-bottom: 40px;">Ridgeben’s expertise
                   spans across industries, helping businesses thrive through innovative digital solutions.</p>
 
                <div class="row justify-content-center g-4">
@@ -2266,9 +2185,9 @@
                   <div class="col-lg-3 col-md-4 mb-4">
                      <div class="industry-card p-4 text-center"
                         style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                        <i class="fas fa-shopping-cart" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <i class="fas fa-shopping-cart" style="font-size: 40px; color: #004A87;"></i>
                         <h4 class="industry-title"
-                           style="font-size: 18px; font-weight: 600; color: #4a5fc1; margin-top: 20px;">E-commerce and Retail
+                           style="font-size: 20px; font-weight: 600; color: #004A87; margin-top: 20px;">E-commerce and Retail
                         </h4>
                      </div>
                   </div>
@@ -2277,9 +2196,9 @@
                   <div class="col-lg-3 col-md-4 mb-4">
                      <div class="industry-card p-4 text-center"
                         style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                        <i class="fas fa-book-open" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <i class="fas fa-book-open" style="font-size: 40px; color: #004A87;"></i>
                         <h4 class="industry-title"
-                           style="font-size: 18px; font-weight: 600; color: #4a5fc1; margin-top: 20px;">Education and
+                           style="font-size: 20px; font-weight: 600; color: #004A87; margin-top: 20px;">Education and
                            E-learning</h4>
                      </div>
                   </div>
@@ -2289,9 +2208,9 @@
                   <div class="col-lg-3 col-md-4 mb-4">
                      <div class="industry-card p-4 text-center"
                         style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                        <i class="fas fa-piggy-bank" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <i class="fas fa-piggy-bank" style="font-size: 40px; color: #004A87;"></i>
                         <h4 class="industry-title"
-                           style="font-size: 18px; font-weight: 600; color: #4a5fc1; margin-top: 20px;">Finance and Banking
+                           style="font-size: 20px; font-weight: 600; color: #004A87; margin-top: 20px;">Finance and Banking
                         </h4>
                      </div>
                   </div>
@@ -2302,9 +2221,9 @@
                   <div class="col-lg-3 col-md-4 mb-4">
                      <div class="industry-card p-4 text-center"
                         style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                        <i class="fas fa-suitcase-rolling" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <i class="fas fa-suitcase-rolling" style="font-size: 40px; color: #004A87;"></i>
                         <h4 class="industry-title"
-                           style="font-size: 18px; font-weight: 600; color: #4a5fc1; margin-top: 20px;">Travel and Hospitality
+                           style="font-size: 20px; font-weight: 600; color: #004A87; margin-top: 20px;">Travel and Hospitality
                         </h4>
                      </div>
                   </div>
@@ -2313,9 +2232,9 @@
                   <div class="col-lg-3 col-md-4 mb-4">
                      <div class="industry-card p-4 text-center"
                         style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                        <i class="fas fa-cogs" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <i class="fas fa-cogs" style="font-size: 40px; color: #004A87;"></i>
                         <h4 class="industry-title"
-                           style="font-size: 18px; font-weight: 600; color: #4a5fc1; margin-top: 20px;">Manufacturing and
+                           style="font-size: 20px; font-weight: 600; color: #004A87; margin-top: 20px;">Manufacturing and
                            Logistics</h4>
                      </div>
                   </div>
@@ -2323,9 +2242,9 @@
                   <div class="col-lg-3 col-md-4 mb-4">
                      <div class="industry-card p-4 text-center"
                         style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                        <i class="fas fa-heartbeat" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <i class="fas fa-heartbeat" style="font-size: 40px; color: #004A87;"></i>
                         <h4 class="industry-title"
-                           style="font-size: 18px; font-weight: 600; color: #4a5fc1; margin-top: 20px;">Healthcare and
+                           style="font-size: 20px; font-weight: 600; color: #004A87; margin-top: 20px;">Healthcare and
                            Pharmaceuticals</h4>
                      </div>
                   </div>
@@ -2333,16 +2252,16 @@
                   <div class="col-lg-3 col-md-4 mb-4">
                      <div class="industry-card p-4 text-center"
                         style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
-                        <i class="fas fa-building" style="font-size: 40px; color: #4a5fc1;"></i>
+                        <i class="fas fa-building" style="font-size: 40px; color: #004A87;"></i>
                         <h4 class="industry-title"
-                           style="font-size: 18px; font-weight: 600; color: #4a5fc1; margin-top: 20px;">Real Estate and
+                           style="font-size: 20px; font-weight: 600; color: #004A87; margin-top: 20px;">Real Estate and
                            Construction</h4>
                      </div>
                   </div>
 
                </div>
 
-               <p class="section-description" style="font-size: 16px; color: #000000; margin-top: 30px;">
+               <p class="section-description" style="font-size: 18px; color: #000000; margin-top: 30px;">
                   Despite our international reach, we remain deeply committed to contributing to the local economy. We
                   regularly collaborate with Bangladeshi entrepreneurs and startups to accelerate their growth through digital
                   empowerment.
@@ -2358,15 +2277,15 @@
  
 
          <!--  "Why Choose Us" Section  -->
-         <section class="whychoose-section pt-80 pb-60">
+         <section class="whychoose-section pt-60 pb-60">
             <div class="container">
                <div class="row align-items-center">
                   <div class="col-xl-12 col-lg-12">
                      <div class="whychoose-wrapper mb-30">
                         <div class="whychoose-header text-center mb-50">
                            <div class="whychoose-subtitle mb-15">
-                              <span style="font-size: 16px;
-                                  font-weight: 500;
+                              <span style="font-size: 40px;
+                                  font-weight: 700;
                                   color: #004a87;
                                   background-color: rgba(0, 74, 135, 0.08);
                                   padding: 6px 16px;
@@ -2460,6 +2379,88 @@
             </div>
          </section>
 
+ <!-- Technologies Area Start -->
+         <section class="tech-section py-5" style="background-color: #f5f9ff;">
+            <div class="container text-center">
+               <h2 class="tech-title mb-4" style="font-size: 40px; font-weight: 700; color: #1e1e2d;">Technologies We Work
+                  With</h2>
+               <!-- <p class="tech-subtitle mb-5" style="font-size: 30px; color: #7f8fa6;">Technologies We Specialize In</p> -->
+
+               <div class="row justify-content-center g-4">
+
+                  {{-- Frontend Development --}}
+                  <div class="col-12">
+                     <h4 class="tech-category-title"
+                        style="font-size: 24px; font-weight: 600; color: #004A87; margin-top: 10px; margin-bottom: 5px;">
+                        Frontend Development</h4>
+                  </div>
+                  @foreach (['react', 'angular', 'vuejs', 'bootstrap'] as $tech)
+                     <div class="col-4 col-sm-3 col-md-2">
+                        <div class="tech-card text-center p-4"
+                           style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
+                           <i class="fab fa-{{ $tech }} tech-icon-img mb-3" style="font-size: 40px; color: #004A87;"></i>
+                           <p class="tech-name small fw-semibold mb-0" style="font-size: 16px;">{{ ucfirst($tech) }}</p>
+                        </div>
+                     </div>
+                  @endforeach
+
+                  {{-- Backend Development --}}
+                  <div class="col-12 mt-5">
+                     <h4 class="tech-category-title"
+                        style="font-size: 24px; font-weight: 600; color: #004A87; margin-top: 20px; margin-bottom: 5px;">
+                        Backend Development</h4>
+                  </div>
+                  @foreach (['node', 'php', 'python', 'java', 'laravel'] as $tech)
+                     <div class="col-4 col-sm-3 col-md-2">
+                        <div class="tech-card text-center p-4"
+                           style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
+                           <i class="fab fa-{{ $tech }} tech-icon-img mb-3" style="font-size: 40px; color: #004A87;"></i>
+                           <p class="tech-name small fw-semibold mb-0" style="font-size: 16px;">{{ ucfirst($tech) }}</p>
+                        </div>
+                     </div>
+                  @endforeach
+
+
+
+                  {{-- Mobile App Development --}}
+                  <div class="col-12 mt-5">
+                     <h4 class="tech-category-title"
+                        style="font-size: 24px; font-weight: 600; color: #004A87; margin-top: 20px; margin-bottom: 5px;">
+                        Mobile App Development</h4>
+                  </div>
+                  @foreach (['react', 'android', 'apple'] as $tech)
+                     <div class="col-4 col-sm-3 col-md-2">
+                        <div class="tech-card text-center p-4"
+                           style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
+                           <i class="fab fa-{{ $tech }} tech-icon-img mb-3" style="font-size: 40px; color: #004A87;"></i>
+                           <p class="tech-name small fw-semibold mb-0" style="font-size: 16px;">{{ ucfirst($tech) }}</p>
+                        </div>
+                     </div>
+                  @endforeach
+
+
+                  {{-- E-commerce --}}
+                  <!-- <div class="col-12 mt-5">
+                     <h4 class="tech-category-title"
+                        style="font-size: 20px; font-weight: 600; color: #4a5fc1; margin-top: 20px; margin-bottom: 5px;">
+                        E-commerce</h4>
+                  </div>
+                  @foreach (['shopify', 'magento'] as $tech)
+                     <div class="col-4 col-sm-3 col-md-2">
+                        <div class="tech-card text-center p-4"
+                           style="background-color: #fff; border-radius: 15px; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); transition: all 0.3s;">
+                           <i class="fab fa-{{ $tech }} tech-icon-img mb-3" style="font-size: 40px; color: #4a5fc1;"></i>
+                           <p class="tech-name small fw-semibold mb-0" style="font-size: 14px;">{{ ucfirst($tech) }}</p>
+                        </div>
+                     </div> -->
+                  @endforeach
+
+               </div>
+            </div>
+         </section>
+
+
+         <!-- Technologies Area End -->
 
          <!-- testimonial-area-start -->
 
@@ -3214,13 +3215,13 @@
          <style>
             /* Scoped for .modern-testimonials */
             .modern-testimonials .section-title {
-               font-size: 28px;
+               font-size: 30px;
                font-weight: 700;
                color: #1e1e2d;
             }
 
             .modern-testimonials .section-subtitle {
-               font-size: 16px;
+               font-size: 20px;
                color: #6f6f87;
                margin-top: 8px;
             }
@@ -3255,7 +3256,7 @@
             }
 
             .testimonial-text {
-               font-size: 15px;
+               font-size: 20px;
                color: #555;
                line-height: 1.6;
             }
@@ -3265,8 +3266,8 @@
             }
 
             .testimonial-avatar {
-               width: 60px;
-               height: 60px;
+               width: 80px;
+               height: 80px;
                border-radius: 50%;
                object-fit: cover;
                border: 2px solid #f0f0f0;
@@ -3393,14 +3394,14 @@
             }
 
             .project-title {
-               font-size: 18px;
+               font-size: 22px;
                color: rgba(0, 0, 0, 1);
                font-weight: 1000;
                margin: 0;
             }
 
             .project-desc {
-               font-size: 14px;
+               font-size: 16px;
                margin-top: 5px;
             }
 
@@ -3414,7 +3415,7 @@
                padding: 5px 10px;
                margin-right: 10px;
                border-radius: 5px;
-               font-size: 12px;
+               font-size: 16px;
             }
 
             /* Disable scrolling effect for specific projects (like Dcon) */
@@ -3771,7 +3772,7 @@
          <!-- funfact-area-start -->
          <style>
             .rb-subtitle span {
-               font-size: 14px;
+               font-size: 16px;
                font-weight: 600;
                color: #bbb;
                text-transform: uppercase;
@@ -3779,7 +3780,7 @@
             }
 
             .rb-title {
-               font-size: 36px;
+               font-size: 40px;
                font-weight: 700;
                color: #fff;
             }
@@ -3794,14 +3795,14 @@
             }
 
             .rb-funfact-label {
-               font-size: 18px;
+               font-size: 20px;
                font-weight: 600;
                color: #001f3f;
                display: block;
             }
 
             .rb-funfact-count {
-               font-size: 28px;
+               font-size: 32px;
                font-weight: 700;
                color: #001f3f;
             }
@@ -4011,7 +4012,7 @@
 
             /* Titles and text */
             .service-title {
-               font-size: 18px;
+               font-size: 26px;
                font-weight: 700;
                color: var(--rb-ink);
                margin: 0;
@@ -4020,7 +4021,7 @@
 
             .service-content p {
                color: var(--rb-muted);
-               font-size: 14px;
+               font-size: 20px;
                margin: 6px 0 0;
             }
 
@@ -4053,7 +4054,9 @@
          </style>
 
          <!-- CSS of services-area-end -->
-
+            <style>
+               
+            </style>
 
 
    @endsection

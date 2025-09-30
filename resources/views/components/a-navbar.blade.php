@@ -7,7 +7,7 @@
                         <div class="col-xxl-2 col-xl-2 col-lg-6 col-6">
                             <div class="tplogo__area">
                                 <a href="{{route('home')}}" class="logo">
-                                    <img src="{{asset('assets/img/logo/rits.png')}}" alt="logo">
+                                    <img src="{{asset('assets/img/logo/rits.png')}}" alt="logo" >
                                 </a>
                             </div>
                         </div>
@@ -198,7 +198,7 @@
                             <div class="tpheader__right d-flex align-items-center justify-content-end">
                                 <div class="tpheader__btn ml-25 d-none d-sm-block">
                                     <!-- <a href="{{route('contact')}}" class="tp-header-btn">Free Consultation</a> -->
-                                     <a href="javascript:void(0);" id="freeConsultationBtn" class="tp-header-btn" style="font-size: 14px; width: 180px">Free Consultation</a>
+                                     <a href="javascript:void(0);" id="freeConsultationBtn" class="tp-header-btn" style="font-size: 16px; width: 180px">Free Consultation</a>
 
                                 </div>
                                 <div class="offcanvas-btn d-xl-none ml-20">

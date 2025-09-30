@@ -102,19 +102,19 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 32px;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 h5 {
-  font-size: 16px;
+  font-size: 24px;
 }
 
 h6 {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 ul {
@@ -124,7 +124,7 @@ ul {
 
 p {
   font-family: var(--tp-ff-p);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--tp-text-body);
   margin-bottom: 15px;
@@ -826,7 +826,7 @@ div.test img {
 .menu-btn,
 .tp-btn {
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 600;
   color: var(--tp-common-white);
   background: var(--tp-theme-primary);
@@ -2442,7 +2442,7 @@ div.test img {
 .tpsection__content p {
   color: var(--tp-grey-3);
   font-weight: 500;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 26px;
 }
 @media (max-width: 767px) {
@@ -2452,7 +2452,7 @@ div.test img {
 }
 .tpsection__title {
   font-weight: 700;
-  font-size: 54px;
+  font-size: 60px;
   line-height: 1.15;
   letter-spacing: -0.02em;
 }
@@ -2781,7 +2781,7 @@ div.test img {
 /*  3.1 Header Style 1
 /*----------------------------------------*/
 .tplogo__area a img {
-  max-width: 105px;
+  max-width: 150px;
 }
 
 .tpmenu__area ul li {
@@ -3024,7 +3024,7 @@ div.test img {
   color: var(--tp-theme-primary);
 }
 .tpmenu__area ul li > a {
-  font-size: 16px;
+  font-size: 20px;
   color: var(--tp-text-1);
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -7232,7 +7232,7 @@ blockquote cite::before {
 }
 .footer-widget-text {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
   color: var(--tp-text-body);
   margin-bottom: 30px;
@@ -7281,7 +7281,7 @@ blockquote cite::before {
 }
 .footer-widget-link ul li a {
   font-weight: 500;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 34px;
   letter-spacing: 0.02em;
   color: var(--tp-text-body);
@@ -11758,7 +11758,7 @@ blockquote cite::before {
 }
 .tpchoose:hover {
   box-shadow: 0px 20px 40px rgba(8, 10, 55, 0.12);
-  border-radius: 14px;
+  border-radius: 20px;
 }
 .tpchoose:hover .tpchoose-text i {
   color: var(--tp-theme-primary);
@@ -23014,7 +23014,7 @@ div.price-open {
 
 .card123 img {
     width: 150px; /* Fixed width */
-    height: 60px; /* Fixed height */
+    height: auto; /* Fixed height */
     object-fit: contain; /* Keeps aspect ratio within fixed box */
     margin: 0 auto;
     display: block;
