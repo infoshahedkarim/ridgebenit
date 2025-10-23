@@ -1372,7 +1372,7 @@
       <!-- Make sure you have this in your <head> -->
       <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
-
+{{-- 
 <section class="services-showcase ridgeben-services">
   <div class="container">
     <header class="section-header text-center">
@@ -1474,14 +1474,14 @@
 }
 
 </style>
-
+ --}}
 
 
 
 
       <!-- Services Start -->
 
-      <!-- <section class="services-section pb-110">
+       <section class="services-section pb-110">
          <div class="container">
             <div class="row">
                <div class="col-lg-12">
@@ -1664,8 +1664,8 @@
                transform: none;
             }
          }
-      </style>  -->
-      <!-- ervices End -->
+      </style>  
+      <!-- Services End -->
 
 
 
