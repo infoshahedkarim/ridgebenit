@@ -63,6 +63,10 @@
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--tp-ff-body);
   font-size: 16px;
@@ -872,6 +876,7 @@ div.test img {
 }
 
 .tp-header-btn {
+   white-space: nowrap;
   display: inline-block;
   font-weight: 600;
   font-size: 15px;
@@ -879,7 +884,8 @@ div.test img {
   background-color: var(--tp-theme-primary);
   color: var(--tp-common-white);
   border-radius: 6px;
-  padding: 7px 24.3px 7px;
+  /* padding: 7px 24.3px 7px; */
+  padding: 7px 28px;
 }
 .tp-header-btn:hover {
   color: var(--tp-common-white);
@@ -3185,6 +3191,7 @@ div.test img {
 }
 
 .tptransparent__header.header-sticky {
+  
   position: fixed !important;
   left: 0;
   margin: auto;
@@ -8509,7 +8516,7 @@ blockquote cite::before {
   position: relative;
   display: inline-block;
 }
-.tpbanner__sub-title span {
+/* .tpbanner__sub-title span {
   position: absolute;
   left: 0;
   right: 0;
@@ -8521,7 +8528,7 @@ blockquote cite::before {
   font-size: 16px;
   color: var(--tp-theme-primary);
   display: inline-block;
-}
+} */
 .tpbanner__content p {
   color: var(--tp-grey-1);
   font-size: 16px;
@@ -23002,6 +23009,7 @@ div.price-open {
 }
 
 
+
   .slider123 {
     width: 100%;
     margin: 0 auto;
@@ -23013,9 +23021,9 @@ div.price-open {
 }
 
 .card123 img {
-    width: 150px; /* Fixed width */
-    height: auto; /* Fixed height */
-    object-fit: contain; /* Keeps aspect ratio within fixed box */
+    width: 200px; 
+    height: auto;
+    object-fit: contain;
     margin: 0 auto;
     display: block;
 }

@@ -6,7 +6,8 @@
 
 (function ($) {
 	"use strict";
-
+	// smoth scroll
+	
 
 	// 01. nav-tabs
 	function tabtable_active() {
