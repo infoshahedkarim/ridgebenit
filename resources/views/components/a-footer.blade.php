@@ -98,7 +98,7 @@
         <div class="col-lg-4 col-md-6">
           <div class="ridge-footer-about">
             <a href="{{ route('home') }}" class="ridge-footer-logo">
-              <img src="{{ asset('assets/img/logo/rits.png') }}" alt="Ridgeben IT Solutions" />
+              <img src="{{ asset('assets/img/logo/rits2.png') }}" alt="Ridgeben IT Solutions" />
             </a>
             <p>
               Our proficient team specializes in creating customized & innovative digital solutions

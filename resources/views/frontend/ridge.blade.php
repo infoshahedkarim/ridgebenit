@@ -1376,7 +1376,11 @@
 <section class="services-showcase ridgeben-services">
   <div class="container">
     <header class="section-header text-center">
-      <span class="tagline">Our Services</span>
+      <!-- <span class="tagline">Our Services</span> -->
+      <span
+               style="display: inline-block;font-size: 16px;font-weight: 600; color:#4c5fd5;background:linear-gradient(135deg,rgba(0,74,135,0.08),rgba(0,74,135,0.03));padding: 10px 28px; border-radius: 50px; box-shadow: 0 3px 8px rgba(0,74,135,0.08); margin-bottom: 20px;">
+               Our Services
+            </span>
       <h2 class="heading-main">ROI-Oriented, Innovative & Sustainable</h2>
       <h3 class="heading-accent">Digital Solutions</h3>
     </header>
@@ -2907,7 +2911,7 @@
   <div class="rbx-slides">
     <!-- 1) ERP -->
     <article class="rbx-slide active"
-             data-bg="https://images.unsplash.com/photo-1551281044-8c5f2a7b2f67?q=80&w=1600&auto=format&fit=crop"
+             data-bg="{{ asset('assets/img/products/erp.jpg') }}"
              data-label="ERP">
       <div class="rbx-overlay">
         <div class="rbx-topbar"><span class="rbx-progress"></span></div>
@@ -2926,7 +2930,7 @@
 
     <!-- 2) HR & Payroll -->
     <article class="rbx-slide"
-             data-bg="https://images.unsplash.com/photo-1524666041070-9d87656c25bb?q=80&w=1600&auto=format&fit=crop"
+             data-bg="{{ asset('assets/img/products/hr.jpg') }}"
              data-label="HR & Payroll">
       <div class="rbx-overlay">
         <div class="rbx-topbar"><span class="rbx-progress"></span></div>
@@ -2964,7 +2968,7 @@
 
     <!-- 4) POS -->
     <article class="rbx-slide"
-             data-bg="https://images.unsplash.com/photo-1605901309584-818e25960a8b?q=80&w=1600&auto=format&fit=crop"
+             data-bg="{{ asset('assets/img/products/pos.jpg') }}"
              data-label="POS">
       <div class="rbx-overlay">
         <div class="rbx-topbar"><span class="rbx-progress"></span></div>
@@ -2983,7 +2987,7 @@
 
     <!-- 5) E-Commerce -->
     <article class="rbx-slide"
-             data-bg="https://images.unsplash.com/photo-1542831371-d531d36971e6?q=80&w=1600&auto=format&fit=crop"
+             data-bg="{{ asset('assets/img/products/ecom.jpg') }}"
              data-label="E-Commerce">
       <div class="rbx-overlay">
         <div class="rbx-topbar"><span class="rbx-progress"></span></div>
@@ -4509,7 +4513,7 @@
                @endforeach
 
                <!-- Mobile App Development  -->
-               <div class="col-12 mt-5">
+               <!-- <div class="col-12 mt-5">
                   <h4 class="tech-category-title mb-3"
                      style="font-size: 24px; font-weight: 600; color: #004A87; margin-top: 40px;">
                      Mobile App Development
@@ -4524,7 +4528,7 @@
                         <p class="tech-name">{{ ucfirst($tech) }}</p>
                      </div>
                   </div>
-               @endforeach
+               @endforeach -->
             </div>
          </div>
       </section>
@@ -4643,6 +4647,10 @@
                     ========================= -->
       <section id="partners" class="partners-section">
          <div class="partners-container">
+            <span
+               style="display: inline-block;font-size: 16px;font-weight: 600; color:#4c5fd5;background:linear-gradient(135deg,rgba(0,74,135,0.08),rgba(0,74,135,0.03));padding: 10px 28px; border-radius: 50px; box-shadow: 0 3px 8px rgba(0,74,135,0.08); margin-bottom: 20px;">
+               Alliances
+            </span>
             <div class="partners-header">
                <h2>Powering Progress Through <span>Strategic Alliances</span></h2>
                <p>
@@ -4675,7 +4683,7 @@
          /* --- Section Base --- */
          .partners-section {
             background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
-            padding: 90px 20px;
+            padding: 40px 20px;
          }
 
          .partners-container {
@@ -4693,12 +4701,14 @@
          }
 
          .partners-header h2 span {
-            color: #0ea5e9;
+            /* color: #0ea5e9; */
+            color: #004a87
+
          }
 
          .partners-header p {
             color: #4b5563;
-            font-size: 1.05rem;
+            font-size: 18px;
             max-width: 700px;
             margin: 0 auto 60px;
             line-height: 1.6;
